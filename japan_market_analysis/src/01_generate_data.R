@@ -42,56 +42,64 @@ generate_nps <- function(n, mean_val, sd_val = 2.0) {
 }
 
 #' Generate funnel metrics with logical progression
-#' Higher awareness leads to higher familiarity, etc.
+#' Creates realistic correlations suitable for SEM (r = 0.3-0.6 range)
 generate_funnel_metrics <- function(n, segment, region, month) {
   
   # Base means vary by segment and region
   segment_effects <- c(
-    "Young Families" = 0.3,
-    "Matured Families" = 0.2,
+    "Young Families" = 0.4,
+    "Matured Families" = 0.3,
     "Young Adults" = 0.0,
-    "Young Couples" = 0.1,
+    "Young Couples" = 0.2,
     "Matured Adults 35+" = -0.1
   )
   
   region_effects <- c(
-    "Local" = 0.4,
+    "Local" = 0.5,
     "Domestic" = 0.0
   )
   
   # Seasonal effect (summer months higher)
   month_num <- as.numeric(gsub("M", "", month))
-  seasonal_effect <- 0.2 * sin((month_num - 3) * pi / 6)
+  seasonal_effect <- 0.3 * sin((month_num - 3) * pi / 6)
   
   base_effect <- segment_effects[segment] + region_effects[region] + seasonal_effect
   
-  # Generate awareness first (base of funnel)
-  awareness_mean <- 4.5 + base_effect + rnorm(1, 0, 0.1)
-  awareness <- generate_likert(n, awareness_mean)
+  # Generate with moderate correlations (not too high to avoid multicollinearity)
+  # Using a factor-based approach for more realistic SEM data
   
-  # Familiarity depends on awareness
-  familiarity_mean <- 0.7 * awareness + rnorm(n, 0.5, 0.3)
-  familiarity <- pmax(pmin(round(familiarity_mean), LIKERT_MAX), LIKERT_MIN)
+  # Common latent factors
+  upper_factor <- rnorm(n, 0, 1)  # Upper funnel latent
+  middle_factor <- rnorm(n, 0, 1) # Middle funnel latent
+  lower_factor <- rnorm(n, 0, 1)  # Lower funnel latent
   
-  # Opinion depends on familiarity
-  opinion_mean <- 0.6 * familiarity + 0.2 * awareness + rnorm(n, 0.3, 0.3)
-  opinion <- pmax(pmin(round(opinion_mean), LIKERT_MAX), LIKERT_MIN)
+  # Cross-factor correlations (moderate)
+  middle_factor <- 0.4 * upper_factor + sqrt(1 - 0.4^2) * middle_factor
+  lower_factor <- 0.3 * upper_factor + 0.4 * middle_factor + sqrt(1 - 0.3^2 - 0.4^2) * lower_factor
   
-  # Consideration depends on opinion and familiarity
-  consideration_mean <- 0.5 * opinion + 0.3 * familiarity + rnorm(n, 0.2, 0.3)
-  consideration <- pmax(pmin(round(consideration_mean), LIKERT_MAX), LIKERT_MIN)
+  # Generate observed variables with factor loadings + unique variance
+  awareness_mean <- 4.5 + base_effect
+  awareness <- round(awareness_mean + 0.7 * upper_factor + rnorm(n, 0, 0.8))
+  awareness <- pmax(pmin(awareness, LIKERT_MAX), LIKERT_MIN)
   
-  # Likelihood depends on consideration
-  likelihood_mean <- 0.7 * consideration + 0.1 * opinion + rnorm(n, 0.2, 0.3)
-  likelihood <- pmax(pmin(round(likelihood_mean), LIKERT_MAX), LIKERT_MIN)
+  familiarity <- round(4.0 + base_effect * 0.8 + 0.7 * upper_factor + rnorm(n, 0, 0.9))
+  familiarity <- pmax(pmin(familiarity, LIKERT_MAX), LIKERT_MIN)
   
-  # Intent depends on likelihood and consideration
-  intent_mean <- 0.6 * likelihood + 0.2 * consideration + rnorm(n, 0.2, 0.3)
-  intent <- pmax(pmin(round(intent_mean), LIKERT_MAX), LIKERT_MIN)
+  opinion <- round(4.0 + base_effect * 0.7 + 0.65 * middle_factor + rnorm(n, 0, 0.9))
+  opinion <- pmax(pmin(opinion, LIKERT_MAX), LIKERT_MIN)
   
-  # NPS is related to overall experience (intent + opinion)
-  nps_mean <- (intent + opinion) * 0.7 + rnorm(n, 0, 0.5)
-  nps <- pmax(pmin(round(nps_mean), NPS_MAX), NPS_MIN)
+  consideration <- round(3.8 + base_effect * 0.6 + 0.7 * middle_factor + rnorm(n, 0, 0.85))
+  consideration <- pmax(pmin(consideration, LIKERT_MAX), LIKERT_MIN)
+  
+  likelihood <- round(3.5 + base_effect * 0.5 + 0.75 * lower_factor + rnorm(n, 0, 0.8))
+  likelihood <- pmax(pmin(likelihood, LIKERT_MAX), LIKERT_MIN)
+  
+  intent <- round(3.3 + base_effect * 0.5 + 0.7 * lower_factor + rnorm(n, 0, 0.85))
+  intent <- pmax(pmin(intent, LIKERT_MAX), LIKERT_MIN)
+  
+  # NPS with its own variance
+  nps <- round(5.0 + base_effect * 1.2 + 0.5 * lower_factor + 0.3 * middle_factor + rnorm(n, 0, 1.5))
+  nps <- pmax(pmin(nps, NPS_MAX), NPS_MIN)
   
   return(data.frame(
     awareness = awareness,
@@ -105,6 +113,7 @@ generate_funnel_metrics <- function(n, segment, region, month) {
 }
 
 #' Generate brand benefit perceptions
+#' Creates correlated benefits within functional/emotional dimensions for valid CFA
 generate_brand_benefits <- function(n, segment, region, funnel_data) {
   
   # Segment preferences for different benefits
@@ -124,39 +133,54 @@ generate_brand_benefits <- function(n, segment, region, funnel_data) {
     "Matured Adults 35+" = c(excitement = 0.2, relaxation = 0.5, connection = 0.3, authenticity = 0.5, memorable = 0.3)
   )
   
-  region_effect <- ifelse(region == "Local", 0.2, 0.0)
-  
-  # Base means from opinion (people with good opinion rate benefits higher)
-  base_mean <- 3.5 + 0.3 * (funnel_data$opinion - 4) + region_effect
+  region_effect <- ifelse(region == "Local", 0.3, 0.0)
   
   func_prefs <- segment_func_pref[[segment]]
   emot_prefs <- segment_emot_pref[[segment]]
   
-  # Generate functional benefits
-  func_convenience <- generate_likert(n, base_mean + func_prefs["convenience"])
-  func_value <- generate_likert(n, base_mean + func_prefs["value"])
-  func_quality <- generate_likert(n, base_mean + func_prefs["quality"])
-  func_variety <- generate_likert(n, base_mean + func_prefs["variety"])
-  func_reliability <- generate_likert(n, base_mean + func_prefs["reliability"])
+  # Create latent factors for benefits (for proper CFA structure)
+  functional_factor <- rnorm(n, 0, 1)
+  emotional_factor <- rnorm(n, 0, 1)
   
-  # Generate emotional benefits
-  emot_excitement <- generate_likert(n, base_mean + emot_prefs["excitement"])
-  emot_relaxation <- generate_likert(n, base_mean + emot_prefs["relaxation"])
-  emot_connection <- generate_likert(n, base_mean + emot_prefs["connection"])
-  emot_authenticity <- generate_likert(n, base_mean + emot_prefs["authenticity"])
-  emot_memorable <- generate_likert(n, base_mean + emot_prefs["memorable"])
+  # Correlate factors with funnel (benefits drive intent)
+  # Get mean opinion for this batch
+  opinion_centered <- funnel_data$opinion - mean(funnel_data$opinion)
+  functional_factor <- functional_factor + 0.2 * opinion_centered / sd(funnel_data$opinion + 0.01)
+  emotional_factor <- emotional_factor + 0.25 * opinion_centered / sd(funnel_data$opinion + 0.01)
+  
+  # Moderate correlation between functional and emotional
+  emotional_factor <- 0.4 * functional_factor + sqrt(1 - 0.4^2) * emotional_factor
+  
+  base_mean <- 4.0 + region_effect
+  
+  # Generate functional benefits with shared factor + unique variance
+  func_convenience <- round(base_mean + func_prefs["convenience"] + 0.65 * functional_factor + rnorm(n, 0, 0.9))
+  func_value <- round(base_mean + func_prefs["value"] + 0.7 * functional_factor + rnorm(n, 0, 0.85))
+  func_quality <- round(base_mean + func_prefs["quality"] + 0.7 * functional_factor + rnorm(n, 0, 0.85))
+  func_variety <- round(base_mean + func_prefs["variety"] + 0.6 * functional_factor + rnorm(n, 0, 0.95))
+  func_reliability <- round(base_mean + func_prefs["reliability"] + 0.65 * functional_factor + rnorm(n, 0, 0.9))
+  
+  # Generate emotional benefits with shared factor + unique variance
+  emot_excitement <- round(base_mean + emot_prefs["excitement"] + 0.7 * emotional_factor + rnorm(n, 0, 0.85))
+  emot_relaxation <- round(base_mean + emot_prefs["relaxation"] + 0.6 * emotional_factor + rnorm(n, 0, 0.95))
+  emot_connection <- round(base_mean + emot_prefs["connection"] + 0.7 * emotional_factor + rnorm(n, 0, 0.85))
+  emot_authenticity <- round(base_mean + emot_prefs["authenticity"] + 0.65 * emotional_factor + rnorm(n, 0, 0.9))
+  emot_memorable <- round(base_mean + emot_prefs["memorable"] + 0.7 * emotional_factor + rnorm(n, 0, 0.85))
+  
+  # Clamp to valid range
+  clamp <- function(x) pmax(pmin(x, LIKERT_MAX), LIKERT_MIN)
   
   return(data.frame(
-    func_convenience = func_convenience,
-    func_value = func_value,
-    func_quality = func_quality,
-    func_variety = func_variety,
-    func_reliability = func_reliability,
-    emot_excitement = emot_excitement,
-    emot_relaxation = emot_relaxation,
-    emot_connection = emot_connection,
-    emot_authenticity = emot_authenticity,
-    emot_memorable = emot_memorable
+    func_convenience = clamp(func_convenience),
+    func_value = clamp(func_value),
+    func_quality = clamp(func_quality),
+    func_variety = clamp(func_variety),
+    func_reliability = clamp(func_reliability),
+    emot_excitement = clamp(emot_excitement),
+    emot_relaxation = clamp(emot_relaxation),
+    emot_connection = clamp(emot_connection),
+    emot_authenticity = clamp(emot_authenticity),
+    emot_memorable = clamp(emot_memorable)
   ))
 }
 

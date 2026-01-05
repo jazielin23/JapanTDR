@@ -108,8 +108,7 @@ get_full_sem_model <- function() {
   middle_funnel ~ a1*upper_funnel
   lower_funnel ~ b1*middle_funnel + b2*upper_funnel
   
-  # Benefits influence on funnel
-  middle_funnel ~ c1*functional + c2*emotional
+  # Benefits influence on lower funnel (intent)
   lower_funnel ~ d1*functional + d2*emotional
   
   # === INDIRECT EFFECTS ===
@@ -119,12 +118,29 @@ get_full_sem_model <- function() {
   
   # Total effect of upper funnel on lower funnel
   total_upper := b2 + (a1 * b1)
+  '
+}
+
+#' Define a simpler SEM model for robust estimation
+get_simple_sem_model <- function() {
+  '
+  # === MEASUREMENT MODEL ===
   
-  # Indirect effect of functional on lower via middle
-  indirect_func := c1 * b1
+  # Brand Benefits Constructs only
+  functional =~ func_convenience + func_value + func_quality + 
+                func_variety + func_reliability
+  emotional =~ emot_excitement + emot_relaxation + emot_connection + 
+               emot_authenticity + emot_memorable
   
-  # Indirect effect of emotional on lower via middle
-  indirect_emot := c2 * b1
+  # === STRUCTURAL MODEL ===
+  
+  # Direct effects on intent (observed variable)
+  intent ~ awareness + familiarity + consideration + functional + emotional
+  
+  # Covariances
+  awareness ~~ familiarity
+  awareness ~~ consideration
+  familiarity ~~ consideration
   '
 }
 
@@ -431,15 +447,34 @@ compare_invariance <- function(mg_fits) {
   
   message("\n--- Measurement Invariance Tests ---")
   
+  # Check if all models converged
+  if (!lavInspect(mg_fits$configural, "converged") ||
+      !lavInspect(mg_fits$metric, "converged") ||
+      !lavInspect(mg_fits$scalar, "converged")) {
+    message("Warning: Not all models converged. Invariance tests may be unreliable.")
+  }
+  
   # Configural vs Metric
   message("\nConfigural vs Metric (Equal Loadings):")
-  comp1 <- anova(mg_fits$configural, mg_fits$metric)
-  print(comp1)
+  comp1 <- tryCatch({
+    result <- anova(mg_fits$configural, mg_fits$metric)
+    print(result)
+    result
+  }, error = function(e) {
+    message("Could not compare models: ", e$message)
+    NULL
+  })
   
   # Metric vs Scalar
   message("\nMetric vs Scalar (Equal Loadings + Intercepts):")
-  comp2 <- anova(mg_fits$metric, mg_fits$scalar)
-  print(comp2)
+  comp2 <- tryCatch({
+    result <- anova(mg_fits$metric, mg_fits$scalar)
+    print(result)
+    result
+  }, error = function(e) {
+    message("Could not compare models: ", e$message)
+    NULL
+  })
   
   return(list(
     config_vs_metric = comp1,
@@ -609,36 +644,70 @@ run_sem_analysis <- function(data) {
 #' Run multi-group analysis by region
 run_region_comparison <- function(data) {
   
-  message("\n" %>% paste0(rep("=", 70), collapse = ""))
+  message(paste(rep("=", 70), collapse = ""))
   message("MULTI-GROUP ANALYSIS BY REGION")
-  message("=" %>% rep(70) %>% paste(collapse = ""))
+  message(paste(rep("=", 70), collapse = ""))
   
-  # Fit multi-group models
-  mg_fits <- fit_multigroup_sem(
-    data, 
-    get_full_sem_model(), 
-    "region",
-    "Region Comparison"
-  )
+  # Try multi-group analysis with error handling
+  result <- tryCatch({
+    # Fit multi-group models
+    mg_fits <- fit_multigroup_sem(
+      data, 
+      get_full_sem_model(), 
+      "region",
+      "Region Comparison"
+    )
+    
+    # Test invariance with error handling
+    invariance_tests <- tryCatch({
+      compare_invariance(mg_fits)
+    }, error = function(e) {
+      message("Warning: Invariance tests failed - ", e$message)
+      NULL
+    })
+    
+    # Get group-specific parameters
+    message("\n--- Local Region Parameters ---")
+    local_params <- parameterEstimates(mg_fits$configural) %>%
+      filter(group == 1, op %in% c("~", ":="))
+    print(head(local_params, 20))
+    
+    message("\n--- Domestic Region Parameters ---")
+    domestic_params <- parameterEstimates(mg_fits$configural) %>%
+      filter(group == 2, op %in% c("~", ":="))
+    print(head(domestic_params, 20))
+    
+    list(
+      fits = mg_fits,
+      invariance = invariance_tests
+    )
+  }, error = function(e) {
+    message("\nMulti-group analysis failed: ", e$message)
+    message("This can happen when the model is too complex for the data.")
+    message("Proceeding with single-group analysis instead.\n")
+    
+    # Fall back to comparing separate models
+    message("--- Separate Group Analysis ---")
+    local_data <- data %>% filter(region == "Local")
+    domestic_data <- data %>% filter(region == "Domestic")
+    
+    local_fit <- tryCatch(
+      fit_sem(local_data, get_funnel_sem_model(), "Local SEM"),
+      error = function(e) NULL
+    )
+    domestic_fit <- tryCatch(
+      fit_sem(domestic_data, get_funnel_sem_model(), "Domestic SEM"),
+      error = function(e) NULL
+    )
+    
+    list(
+      fits = list(local = local_fit, domestic = domestic_fit),
+      invariance = NULL,
+      note = "Multi-group failed; separate models fitted instead"
+    )
+  })
   
-  # Test invariance
-  invariance_tests <- compare_invariance(mg_fits)
-  
-  # Get group-specific parameters
-  message("\n--- Local Region Parameters ---")
-  local_params <- parameterEstimates(mg_fits$configural) %>%
-    filter(group == 1, op %in% c("~", ":="))
-  print(head(local_params, 20))
-  
-  message("\n--- Domestic Region Parameters ---")
-  domestic_params <- parameterEstimates(mg_fits$configural) %>%
-    filter(group == 2, op %in% c("~", ":="))
-  print(head(domestic_params, 20))
-  
-  return(list(
-    fits = mg_fits,
-    invariance = invariance_tests
-  ))
+  return(result)
 }
 
 #' Run segment-specific analysis
