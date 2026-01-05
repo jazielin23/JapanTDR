@@ -85,18 +85,65 @@ Lower Funnel ~ Middle Funnel + Upper Funnel   # Both direct and indirect paths t
 
 #### 4. Direct vs. Indirect Effects
 
-| Effect Type | Description | Example |
-|-------------|-------------|---------|
-| **Direct** | X directly influences Y | Awareness → Intent (β = 0.14) |
-| **Indirect** | X influences Y through a mediator M | Awareness → Consideration → Intent |
-| **Total** | Direct + Indirect effects combined | Total effect of awareness on intent |
+**Concept Overview:**
 
-**Interpreting Indirect Effects:**
-> *"Awareness had a significant indirect effect on intent via consideration (indirect β = 0.18, p < 0.01), suggesting that building awareness is most effective when it translates into active consideration."*
+| Effect Type | Description | How to Calculate |
+|-------------|-------------|------------------|
+| **Direct** | X directly influences Y (controlling for mediator) | Path coefficient X → Y |
+| **Indirect** | X influences Y through mediator M | Product of paths: (X → M) × (M → Y) |
+| **Total** | Complete effect of X on Y | Direct + Indirect |
 
-**Mediation Analysis:**
-- If direct effect becomes non-significant when mediator is added → **Full mediation**
-- If direct effect remains significant but reduced → **Partial mediation**
+**Actual Mediation Results: Does Consideration Mediate the Effect of Funnel Stages on Intent?**
+
+We tested whether consideration mediates the relationship between earlier funnel stages and intent. Here are the actual results:
+
+**Direct Effects on Intent (controlling for consideration):**
+
+| Predictor | Direct β | SE | p-value | Significance |
+|-----------|----------|-----|---------|--------------|
+| Likelihood | 0.377 | 0.009 | < 0.001 | *** |
+| Awareness | 0.077 | 0.010 | < 0.001 | *** |
+| Opinion | 0.068 | 0.010 | < 0.001 | *** |
+| Familiarity | 0.059 | 0.010 | < 0.001 | *** |
+
+**Indirect Effects via Consideration:**
+
+| Predictor | Indirect β | SE | p-value | % Mediated |
+|-----------|------------|-----|---------|------------|
+| Opinion → Consideration → Intent | 0.030 | 0.003 | < 0.001 | **30.6%** |
+| Awareness → Consideration → Intent | 0.010 | 0.001 | < 0.001 | 11.6% |
+| Familiarity → Consideration → Intent | 0.006 | 0.001 | < 0.001 | 9.9% |
+
+**Total Effects on Intent:**
+
+| Predictor | Total β | Interpretation |
+|-----------|---------|----------------|
+| Opinion | 0.098 | Strongest upper-funnel predictor |
+| Awareness | 0.087 | Second strongest |
+| Familiarity | 0.065 | Moderate effect |
+
+![Mediation Analysis](output/figures/readme_mediation.png)
+
+**Key Findings:**
+
+1. **Partial Mediation Confirmed**: All direct effects remain significant after adding consideration, indicating **partial mediation** (not full mediation).
+
+2. **Opinion Shows Strongest Mediation**: 30.6% of opinion's effect on intent is mediated through consideration. 
+   > *"Favorable opinion significantly influences intent both directly (β = 0.068, p < 0.001) and indirectly through consideration (indirect β = 0.030, p < 0.001), with consideration mediating 31% of the total effect."*
+
+3. **Likelihood is the Strongest Direct Driver**: With β = 0.377, likelihood has the strongest direct effect on intent, which makes sense as these are adjacent funnel stages.
+
+4. **Model Fit**: 
+   - Intent R² = 0.222 (22% of variance explained)
+   - Consideration R² = 0.166 (17% of variance explained)
+
+**Mediation Interpretation Guide:**
+- **Full mediation**: Direct effect becomes non-significant when mediator is added
+- **Partial mediation**: Direct effect remains significant but is reduced (✓ our case)
+- **No mediation**: Indirect effect is not significant
+
+**Strategic Implication:**
+> Building favorable **opinion** is the most effective upper-funnel strategy because it has both strong direct effects on intent AND substantial indirect effects through consideration. Marketing efforts should focus on shaping positive brand perceptions, which will naturally drive consumers into the consideration set.
 
 #### 5. Model Fit Indices
 
