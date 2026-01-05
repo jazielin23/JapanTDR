@@ -1,20 +1,20 @@
 # ============================================================================
 # Data Generation Script for Japan Market Analysis
-# Generates simulated survey data for 10 months (n=500/month, n=6000 total)
+# Generates simulated survey data for 10 months (n=1000/month, n=10000 total)
 # ============================================================================
 
 # Set library path for user-installed packages FIRST
-.libPaths(c("~/R/library", .libPaths()))
+user_lib <- path.expand("~/R/library")
+if (dir.exists(user_lib)) .libPaths(c(user_lib, .libPaths()))
 
 # Load individual tidyverse packages
 library(dplyr)
 library(tidyr)
 library(readr)
 library(purrr)
-library(here)
 
-# Load configuration
-source(here("src", "00_config.R"))
+# Load configuration (relative to working directory)
+source("src/00_config.R")
 
 set.seed(RANDOM_SEED)
 

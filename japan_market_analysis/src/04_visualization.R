@@ -4,7 +4,8 @@
 # ============================================================================
 
 # Set library path FIRST
-.libPaths(c("~/R/library", .libPaths()))
+user_lib <- path.expand("~/R/library")
+if (dir.exists(user_lib)) .libPaths(c(user_lib, .libPaths()))
 
 # Load individual tidyverse packages
 library(dplyr)
@@ -15,7 +16,6 @@ library(ggplot2)
 library(scales)
 library(corrplot)
 library(lavaan)
-library(here)
 
 # Try to load optional packages
 has_semPlot <- requireNamespace("semPlot", quietly = TRUE)
@@ -23,8 +23,8 @@ if (has_semPlot) library(semPlot)
 has_patchwork <- requireNamespace("patchwork", quietly = TRUE)
 if (has_patchwork) library(patchwork)
 
-# Load configuration
-source(here("src", "00_config.R"))
+# Load configuration (relative to working directory)
+source("src/00_config.R")
 
 # ============================================================================
 # Theme Setup

@@ -79,9 +79,17 @@ japan_market_analysis/
 
 ### Running the Analysis
 
+**Important:** Before running any scripts, set your working directory to the project folder:
+```r
+setwd("C:/path/to/japan_market_analysis")  # Windows
+# or
+setwd("/path/to/japan_market_analysis")    # Mac/Linux
+```
+
 #### Option 1: Complete Workflow
 Run the entire analysis pipeline:
 ```r
+setwd("C:/path/to/japan_market_analysis")
 source("src/05_main_analysis.R")
 ```
 

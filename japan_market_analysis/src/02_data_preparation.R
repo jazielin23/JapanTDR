@@ -4,18 +4,18 @@
 # ============================================================================
 
 # Set library path FIRST
-.libPaths(c("~/R/library", .libPaths()))
+user_lib <- path.expand("~/R/library")
+if (dir.exists(user_lib)) .libPaths(c(user_lib, .libPaths()))
 
 # Load individual tidyverse packages
 library(dplyr)
 library(tidyr)
 library(readr)
 library(purrr)
-library(here)
 library(psych)
 
-# Load configuration
-source(here("src", "00_config.R"))
+# Load configuration (relative to working directory)
+source("src/00_config.R")
 
 # ============================================================================
 # Data Loading Functions

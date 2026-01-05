@@ -2,11 +2,47 @@
 # Configuration File for Japan Market Analysis
 # ============================================================================
 
-# Set library path for user-installed packages
-.libPaths(c("~/R/library", .libPaths()))
+# Set library path for user-installed packages (if exists)
+user_lib <- path.expand("~/R/library")
+if (dir.exists(user_lib)) {
+  .libPaths(c(user_lib, .libPaths()))
+}
 
 # --- Project Paths ---
-PROJECT_ROOT <- here::here()
+# Use the directory where THIS config file is located to find project root
+# This ensures consistent paths regardless of working directory
+get_project_root <- function() {
+  # First try: if we're sourced from a known location
+  if (exists("PROJECT_ROOT") && !is.null(PROJECT_ROOT)) {
+    return(PROJECT_ROOT)
+  }
+  
+  # Second try: use current working directory
+  wd <- getwd()
+  
+  # Check if we're in the project root (has src/ and data/ folders)
+  if (dir.exists(file.path(wd, "src")) && dir.exists(file.path(wd, "data"))) {
+    return(wd)
+  }
+  
+  # Third try: check if we're in src/ folder
+  if (basename(wd) == "src" && dir.exists(file.path(dirname(wd), "data"))) {
+    return(dirname(wd))
+  }
+  
+  # Fourth try: use here package if available
+  if (requireNamespace("here", quietly = TRUE)) {
+    here_root <- here::here()
+    if (dir.exists(file.path(here_root, "src"))) {
+      return(here_root)
+    }
+  }
+  
+  # Fallback: use current working directory
+  return(wd)
+}
+
+PROJECT_ROOT <- get_project_root()
 DATA_RAW_DIR <- file.path(PROJECT_ROOT, "data", "raw")
 DATA_PROCESSED_DIR <- file.path(PROJECT_ROOT, "data", "processed")
 OUTPUT_DIR <- file.path(PROJECT_ROOT, "output")

@@ -4,7 +4,8 @@
 # ============================================================================
 
 # Set library path FIRST
-.libPaths(c("~/R/library", .libPaths()))
+user_lib <- path.expand("~/R/library")
+if (dir.exists(user_lib)) .libPaths(c(user_lib, .libPaths()))
 
 # Load individual tidyverse packages
 library(dplyr)
@@ -13,14 +14,13 @@ library(readr)
 library(purrr)
 library(lavaan)
 library(psych)
-library(here)
 
 # Try to load semPlot if available
 has_semPlot <- requireNamespace("semPlot", quietly = TRUE)
 if (has_semPlot) library(semPlot)
 
-# Load configuration
-source(here("src", "00_config.R"))
+# Load configuration (relative to working directory)
+source("src/00_config.R")
 
 # ============================================================================
 # Model Specifications
@@ -704,7 +704,7 @@ if (sys.nframe() == 0) {
   
   if (!file.exists(data_file)) {
     message("Processed data not found. Running data preparation...")
-    source(here("src", "02_data_preparation.R"))
+    source("src/02_data_preparation.R")
     prep_result <- prepare_data()
     data <- prep_result$data
   } else {

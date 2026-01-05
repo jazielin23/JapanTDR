@@ -10,7 +10,8 @@
 # Load required packages
 suppressPackageStartupMessages({
   # Set library path
-  .libPaths(c("~/R/library", .libPaths()))
+  user_lib <- path.expand("~/R/library")
+  if (dir.exists(user_lib)) .libPaths(c(user_lib, .libPaths()))
   
   # Individual tidyverse packages
   library(dplyr)
@@ -22,17 +23,16 @@ suppressPackageStartupMessages({
   # SEM packages
   library(lavaan)
   library(psych)
-  library(here)
   
   # Optional
   if (requireNamespace("semPlot", quietly = TRUE)) library(semPlot)
 })
 
-# Set working directory to project root
-setwd(here())
+# NOTE: Make sure your working directory is set to the project root folder
+# before running this script. Use: setwd("path/to/japan_market_analysis")
 
-# Load configuration
-source(here("src", "00_config.R"))
+# Load configuration (relative to working directory)
+source("src/00_config.R")
 
 message("\n")
 message("=" %>% rep(70) %>% paste(collapse = ""))
@@ -51,7 +51,7 @@ data_file <- file.path(DATA_RAW_DIR, "japan_market_survey_complete.csv")
 
 if (!file.exists(data_file)) {
   message("Generating simulated survey data...")
-  source(here("src", "01_generate_data.R"))
+  source("src/01_generate_data.R")
   survey_data <- generate_all_data()
   save_data(survey_data)
 } else {
@@ -66,7 +66,7 @@ message("\n")
 message("STEP 2: Data Preparation")
 message("-" %>% rep(50) %>% paste(collapse = ""))
 
-source(here("src", "02_data_preparation.R"))
+source("src/02_data_preparation.R")
 
 prep_result <- prepare_data()
 data <- prep_result$data
@@ -84,7 +84,7 @@ message("\n")
 message("STEP 3: Confirmatory Factor Analysis")
 message("-" %>% rep(50) %>% paste(collapse = ""))
 
-source(here("src", "03_sem_analysis.R"))
+source("src/03_sem_analysis.R")
 
 # Run CFA for measurement model validation
 cfa_results <- run_cfa_analysis(data)
@@ -173,7 +173,7 @@ message("\n")
 message("STEP 7: Generating Visualizations")
 message("-" %>% rep(50) %>% paste(collapse = ""))
 
-source(here("src", "04_visualization.R"))
+source("src/04_visualization.R")
 
 # Save all plots
 save_all_plots(data, sem_results$full)
