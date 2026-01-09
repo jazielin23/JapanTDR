@@ -1,10 +1,33 @@
 # Japan Market Analysis - SEM and Marketing Funnel Study
 
-A comprehensive R-based analytical framework for analyzing Japan market survey data using **Structural Equation Modeling (SEM)**. This project includes simulated data generation, data preparation, SEM/CFA analysis, and publication-ready visualizations.
+A comprehensive analytical framework for analyzing Japan theme park market survey data using **Structural Equation Modeling (SEM)** and marketing funnel analysis.
 
 ---
 
-## 📊 Project Overview
+## 🆕 Real Data Analysis (TDL Focus)
+
+**For the latest analysis using actual survey data, see: [`README_TDL_ANALYSIS.md`](README_TDL_ANALYSIS.md)**
+
+This analysis uses the validated **Relabeled Raw Data.csv** with correct Likert scale mappings:
+- **Sample:** 541 respondents  
+- **Focus:** Tokyo Disneyland (TDL)
+- **Scale Validation:** All scales confirmed (5=High/Positive, 1=Low/Negative)
+
+**Key Findings:**
+- Overall Likelihood to Visit: **3.90** (scale 1-5)
+- Top Segment: **Couples 18-34** (Likelihood: 4.22)
+- Biggest Weaknesses: **Not Crowded (2.01)**, **Affordable (2.12)**
+- Top Emotional Driver: **Land of Dreams (4.41)**
+
+Run the analysis:
+```bash
+cd japan_market_analysis
+python3 src/analyze_tdl_data.py
+```
+
+---
+
+## 📊 Project Overview (Framework)
 
 ### Research Objectives
 
