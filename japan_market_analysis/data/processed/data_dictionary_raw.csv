@@ -1,0 +1,29 @@
+variable,description,type
+respondent_id,Unique respondent identifier,object
+month,Survey month (M01-M12),object
+segment,Demographic segment,object
+region,Region: Local or Domestic,object
+prefecture,Prefecture code,object
+gender,Gender,object
+age,Age in years,int64
+household_size,Number of people in household,int64
+has_children,Has children (TRUE/FALSE),bool
+relationship_status,Relationship status,object
+income_bracket,Annual household income bracket,object
+awareness,Brand awareness (1-7 scale),float64
+familiarity,Brand familiarity (1-7 scale),float64
+opinion,Favorable opinion (1-7 scale),float64
+consideration,Consideration for visit (1-7 scale),float64
+likelihood,Likelihood to visit (1-7 scale),float64
+intent,Intent to visit/return (1-7 scale),float64
+nps,Net Promoter Score (0-10 scale),float64
+func_convenience,Convenience perception (1-7 scale),float64
+func_value,Value for money perception (1-7 scale),float64
+func_quality,Quality experience perception (1-7 scale),float64
+func_variety,Variety of options perception (1-7 scale),float64
+func_reliability,Reliability perception (1-7 scale),float64
+emot_excitement,Excitement perception (1-7 scale),float64
+emot_relaxation,Relaxation perception (1-7 scale),float64
+emot_connection,Connection perception (1-7 scale),float64
+emot_authenticity,Authenticity perception (1-7 scale),float64
+emot_memorable,Memorable experience perception (1-7 scale),float64

@@ -1,0 +1,30 @@
+variable,description,type
+respondent_id,Unique respondent identifier,character
+month,Survey month (M01-M10),character
+region,Region: Local (Greater Tokyo + 7 prefectures) or Domestic,character
+segment,Demographic segment,character
+prefecture,Prefecture of residence,character
+age,Age in years,integer
+gender,Gender,character
+household_size,Number of people in household,integer
+has_children,Has children (TRUE/FALSE),logical
+youngest_child_age,Age of youngest child (if applicable),integer
+relationship_status,Relationship status,character
+income_bracket,Annual household income bracket (JPY millions),character
+awareness,Brand awareness (1-7 scale),integer
+familiarity,Brand familiarity (1-7 scale),integer
+opinion,Favorable opinion (1-7 scale),integer
+consideration,Consideration for visit (1-7 scale),integer
+likelihood,Likelihood to visit (1-7 scale),integer
+intent,Intent to visit/return (1-7 scale),integer
+nps,Net Promoter Score (0-10 scale),integer
+func_convenience,Convenience perception (1-7 scale),integer
+func_value,Value for money perception (1-7 scale),integer
+func_quality,Quality experience perception (1-7 scale),integer
+func_variety,Variety of options perception (1-7 scale),integer
+func_reliability,Reliability perception (1-7 scale),integer
+emot_excitement,Excitement perception (1-7 scale),integer
+emot_relaxation,Relaxation perception (1-7 scale),integer
+emot_connection,Connection perception (1-7 scale),integer
+emot_authenticity,Authenticity perception (1-7 scale),integer
+emot_memorable,Memorable experience perception (1-7 scale),integer
