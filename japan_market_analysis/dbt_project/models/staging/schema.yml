@@ -1,0 +1,64 @@
+version: 2
+
+models:
+  - name: stg_survey_responses
+    description: |
+      Staging layer for TDL brand tracking survey responses.
+      
+      **IMPORTANT SCALE NOTES:**
+      - All Likert scales are oriented so that HIGHER = BETTER
+      - 5-point scales: 5=Positive, 4=Agree, 3=Neutral, 2=Disagree, 1=Negative
+      - Bipolar scales (TDR vs USJ): 1=TDR, 4=Neutral, 7=USJ
+      
+      Source: Relabeled Raw Data.csv (official variable definitions from survey)
+      
+    columns:
+      - name: respondent_id
+        description: Unique identifier for each survey respondent
+        tests:
+          - unique
+          - not_null
+          
+      - name: segment_name
+        description: |
+          Respondent segment classification:
+          - A. Young Families
+          - B. Older Families
+          - C. Young Singles/Couples
+          - D. Older Singles/Couples
+          - E. Seniors
+          
+      - name: familiarity_tdl
+        description: |
+          How familiar respondent is with TDL (5-point scale)
+          5=Very familiar, 4=Familiar, 3=Neutral, 2=Not familiar, 1=Not at all familiar
+          
+      - name: opinion_tdl
+        description: |
+          Overall opinion of TDL (5-point scale)
+          5=Excellent, 4=Good, 3=Neutral, 2=Bad, 1=Very bad
+          
+      - name: consideration_tdl
+        description: |
+          Would consider visiting TDL (5-point scale)
+          5=Definitely consider, 4=Consider, 3=Maybe, 2=Would not, 1=Definitely not
+          
+      - name: likelihood_visit_tdl
+        description: |
+          Likelihood to visit TDL (5-point scale)
+          5=Definitely likely, 4=Likely, 3=Uncertain, 2=Unlikely, 1=Definitely unlikely
+          
+      - name: nps_tdl
+        description: |
+          Net Promoter Score for TDL (0-10 scale)
+          9-10=Promoter, 7-8=Passive, 0-6=Detractor
+
+seeds:
+  - name: survey_responses_tdl
+    description: |
+      Raw survey response data extracted for TDL-focused analysis.
+      Contains demographics, visit behavior, funnel metrics, attribute ratings, and bipolar comparisons.
+      
+  - name: data_dictionary
+    description: |
+      Metadata for all columns including original column positions, categories, and scale definitions.

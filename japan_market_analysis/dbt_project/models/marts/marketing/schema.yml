@@ -1,0 +1,103 @@
+version: 2
+
+models:
+  - name: fct_tdl_brand_funnel
+    description: |
+      TDL Brand Marketing Funnel Metrics
+      
+      Captures the customer journey through the marketing funnel:
+      Awareness → Familiarity → Opinion → Consideration → Likelihood → Intent
+      
+      **Scale Orientation:** All metrics oriented so HIGHER = BETTER
+      
+      Use Cases:
+      - Funnel conversion analysis by segment
+      - Competitive gap analysis (TDL vs USJ)
+      - Segment targeting prioritization
+      
+    columns:
+      - name: respondent_id
+        tests:
+          - unique
+          - not_null
+          
+      - name: familiarity_tdl_tier
+        description: "High (4-5), Medium (3), Low (1-2)"
+        
+      - name: opinion_tdl_tier
+        description: "Positive (4-5), Neutral (3), Negative (1-2)"
+        
+      - name: consideration_tdl_tier
+        description: "Strong (4-5), Maybe (3), Weak (1-2)"
+        
+      - name: likelihood_tdl_tier
+        description: "Likely (4-5), Uncertain (3), Unlikely (1-2)"
+        
+      - name: nps_tdl_category
+        description: "Promoter (9-10), Passive (7-8), Detractor (0-6)"
+        
+      - name: familiarity_tdl_vs_usj
+        description: "Difference in familiarity (TDL minus USJ). Positive = TDL stronger."
+        
+      - name: opinion_tdl_vs_usj
+        description: "Difference in opinion (TDL minus USJ). Positive = TDL stronger."
+
+  - name: fct_tdl_attribute_perceptions
+    description: |
+      TDL Attribute Perception Ratings
+      
+      Contains ratings for 36 brand attributes:
+      - 26 Functional attributes (experience, family, innovation, value)
+      - 10 Emotional attributes (dreams, fantasy, warmth)
+      
+      **Scale:** 5-point Likert (5=Strongly agree/High, 1=Strongly disagree/Low)
+      
+      Includes composite scores:
+      - experience_quality_score
+      - family_suitability_score
+      - innovation_score
+      - excitement_score
+      - value_perception_score
+      - emotional_score
+      
+    columns:
+      - name: respondent_id
+        tests:
+          - unique
+          - not_null
+          
+      - name: experience_quality_score
+        description: "Average of relaxing, enjoy_myself, lifelong_memories, bond_family_friends"
+        
+      - name: family_suitability_score
+        description: "Average of 6 family-related attributes"
+        
+      - name: value_perception_score
+        description: "Average of worth_price, affordable, ticket_options"
+
+  - name: fct_tdr_vs_usj_comparison
+    description: |
+      TDR vs USJ Head-to-Head Comparison Analysis
+      
+      **Scale:** 7-point bipolar (1=Definitely TDR, 4=Neutral, 7=Definitely USJ)
+      
+      For TDR/TDL analysis: LOWER scores = BETTER for Disney
+      
+      Includes:
+      - 19 bipolar comparison dimensions
+      - Categorized preferences (Strong TDR, Lean TDR, Neutral, Lean USJ, Strong USJ)
+      - Aggregate scores and win counts
+      - Overall preference classification (TDR Loyalist, Switcher, USJ Loyalist)
+      
+    columns:
+      - name: avg_bipolar_score
+        description: "Average across all 19 bipolar items. <3.5 = TDR preference, >4.5 = USJ preference"
+        
+      - name: tdr_wins_count
+        description: "Number of dimensions where TDR preferred (score 1-3)"
+        
+      - name: usj_wins_count
+        description: "Number of dimensions where USJ preferred (score 5-7)"
+        
+      - name: overall_preference
+        description: "TDR Loyalist, Switcher, or USJ Loyalist based on aggregate scores"
