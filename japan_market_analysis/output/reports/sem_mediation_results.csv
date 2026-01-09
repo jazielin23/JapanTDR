@@ -1,0 +1,3 @@
+Mediation,Indirect_Effect,Sobel_Z,p_value,Significant
+Opinion → Consideration → Likelihood,0.39396750415085613,7.430752048462043,1.0791367799356522e-13,True
+Familiarity → Opinion → Likelihood,0.3011887075362674,5.522950362171551,3.3335393556654935e-08,True

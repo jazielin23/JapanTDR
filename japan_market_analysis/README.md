@@ -4,25 +4,31 @@ A comprehensive analytical framework for analyzing Japan theme park market surve
 
 ---
 
-## 🆕 Real Data Analysis (TDL Focus)
+## 🆕 Real Data SEM Analysis (TDL Focus)
 
-**For the latest analysis using actual survey data, see: [`README_TDL_ANALYSIS.md`](README_TDL_ANALYSIS.md)**
+**For complete SEM results using actual survey data, see: [`README_TDL_ANALYSIS.md`](README_TDL_ANALYSIS.md)**
 
-This analysis uses the validated **Relabeled Raw Data.csv** with correct Likert scale mappings:
-- **Sample:** 541 respondents  
-- **Focus:** Tokyo Disneyland (TDL)
-- **Scale Validation:** All scales confirmed (5=High/Positive, 1=Low/Negative)
+### Quick Summary of SEM Findings
 
-**Key Findings:**
-- Overall Likelihood to Visit: **3.90** (scale 1-5)
-- Top Segment: **Couples 18-34** (Likelihood: 4.22)
-- Biggest Weaknesses: **Not Crowded (2.01)**, **Affordable (2.12)**
-- Top Emotional Driver: **Land of Dreams (4.41)**
+| Objective | Key Finding |
+|-----------|-------------|
+| **1. Funnel Analysis** | Consideration → Likelihood is strongest path (β = 0.573, R² = 62.7%) |
+| **2. Brand Benefits** | Functional benefits drive intent (β = 0.305**); Emotional ns |
+| **3. Segment Comparison** | Young Families highest conversion (β = 0.869); Older Families lowest (β = 0.559) |
+| **4. Mediation** | 60.3% of Opinion→Likelihood is mediated through Consideration |
 
-Run the analysis:
+### Key Path Coefficients
+```
+Familiarity ──(0.66***)──► Opinion ──(0.38***)──► Consideration ──(0.57***)──► Likelihood
+                                                        ▲
+                            Functional Benefits ──(0.31**)──┘
+```
+
+### Run the Analysis
 ```bash
 cd japan_market_analysis
-python3 src/analyze_tdl_data.py
+python3 src/sem_analysis_real_data.py   # Full SEM with mediation
+python3 src/analyze_tdl_data.py         # Descriptive statistics
 ```
 
 ---
