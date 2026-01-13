@@ -1,0 +1,1001 @@
+respondent_id,month,region,segment,prefecture,age,gender,household_size,has_children,youngest_child_age,relationship_status,income_bracket,awareness,familiarity,opinion,consideration,likelihood,intent,nps,func_convenience,func_value,func_quality,func_variety,func_reliability,emot_excitement,emot_relaxation,emot_connection,emot_authenticity,emot_memorable
+M10_0001,M10,Local,Young Families,Tokyo,32,Other/Prefer not to say,4,TRUE,3,Married,5-7M,6,6,4,3,4,3,8,6,7,6,7,6,6,6,6,6,7
+M10_0002,M10,Local,Young Families,Tokyo,33,Female,3,TRUE,3,Married,Over 10M,5,6,5,3,5,4,7,4,3,3,3,3,5,3,2,3,3
+M10_0003,M10,Local,Young Families,Aichi,45,Male,4,TRUE,3,Partnered,3-5M,6,4,5,6,2,4,5,2,3,1,3,2,6,4,6,5,5
+M10_0004,M10,Local,Young Families,Tokyo,44,Female,3,TRUE,0,Married,Over 10M,5,5,4,5,4,5,6,4,4,4,4,5,3,2,4,3,4
+M10_0005,M10,Local,Young Families,Tokyo,29,Male,3,TRUE,2,Partnered,5-7M,5,4,3,3,4,4,5,6,5,4,3,5,5,4,5,2,5
+M10_0006,M10,Local,Young Families,Chiba,36,Female,3,TRUE,3,Married,Under 3M,5,5,6,5,5,5,4,3,6,5,6,4,6,5,6,5,5
+M10_0007,M10,Local,Young Families,Fukuoka,40,Female,5,TRUE,5,Married,5-7M,5,4,6,5,4,3,4,5,4,5,5,3,4,4,4,3,5
+M10_0008,M10,Local,Young Families,Fukuoka,30,Male,5,TRUE,4,Married,3-5M,7,5,5,6,6,5,7,6,6,4,4,5,4,4,4,4,4
+M10_0009,M10,Local,Young Families,Osaka,42,Female,5,TRUE,5,Married,Over 10M,6,4,1,2,3,3,7,5,6,4,4,4,5,4,4,4,4
+M10_0010,M10,Local,Young Families,Kanagawa,33,Male,4,TRUE,4,Married,7-10M,5,5,5,3,3,3,5,6,5,6,6,6,5,5,6,4,6
+M10_0011,M10,Local,Young Families,Osaka,33,Male,3,TRUE,0,Partnered,5-7M,6,5,6,4,5,5,7,5,5,3,4,4,5,4,4,4,3
+M10_0012,M10,Local,Young Families,Saitama,37,Other/Prefer not to say,3,TRUE,4,Partnered,5-7M,5,4,5,4,5,4,8,5,6,4,3,6,5,7,6,7,5
+M10_0013,M10,Local,Young Families,Saitama,31,Female,5,TRUE,0,Partnered,7-10M,7,3,6,5,5,6,5,4,3,6,3,6,5,5,5,5,4
+M10_0014,M10,Local,Young Families,Kanagawa,36,Female,3,TRUE,4,Married,7-10M,5,4,4,2,3,3,4,4,4,4,4,6,5,5,7,5,6
+M10_0015,M10,Local,Young Families,Hokkaido,38,Male,4,TRUE,5,Married,5-7M,5,5,5,4,3,3,5,4,4,5,3,4,2,4,4,4,4
+M10_0016,M10,Local,Young Families,Aichi,37,Female,3,TRUE,5,Married,7-10M,7,4,7,5,5,3,7,4,7,3,4,5,6,5,4,4,4
+M10_0017,M10,Local,Young Families,Kanagawa,32,Other/Prefer not to say,4,TRUE,1,Married,3-5M,4,5,2,3,3,4,6,5,2,3,4,4,4,5,3,3,4
+M10_0018,M10,Local,Young Families,Chiba,27,Female,3,TRUE,1,Married,Over 10M,5,6,5,5,5,3,5,5,4,5,3,4,4,4,5,3,5
+M10_0019,M10,Local,Young Families,Chiba,42,Male,3,TRUE,3,Married,3-5M,5,4,5,5,4,5,6,5,5,5,3,5,5,2,5,4,5
+M10_0020,M10,Local,Young Families,Kanagawa,27,Male,4,TRUE,5,Partnered,Under 3M,6,6,4,3,5,5,7,5,3,4,3,5,2,5,4,3,3
+M10_0021,M10,Local,Young Families,Tokyo,25,Female,3,TRUE,3,Married,Over 10M,5,3,5,3,4,3,3,6,5,5,5,6,6,4,5,6,4
+M10_0022,M10,Local,Young Families,Chiba,32,Female,4,TRUE,0,Partnered,5-7M,5,4,6,4,5,5,8,7,7,6,6,7,6,4,5,5,6
+M10_0023,M10,Local,Young Families,Osaka,42,Female,3,TRUE,1,Married,Over 10M,7,6,6,5,4,4,7,5,4,4,4,6,5,3,5,4,4
+M10_0024,M10,Local,Young Families,Aichi,44,Female,3,TRUE,5,Married,3-5M,5,7,6,6,5,3,8,3,6,4,5,2,4,5,5,4,3
+M10_0025,M10,Local,Young Families,Osaka,42,Male,3,TRUE,3,Married,7-10M,7,5,5,5,2,3,5,5,4,4,3,5,6,5,5,5,5
+M10_0026,M10,Local,Young Families,Fukuoka,26,Male,3,TRUE,5,Married,3-5M,6,4,4,4,3,3,4,3,4,2,3,2,4,4,3,4,2
+M10_0027,M10,Local,Young Families,Kanagawa,27,Female,3,TRUE,1,Partnered,7-10M,6,5,4,3,4,3,7,4,4,4,4,4,4,4,4,4,6
+M10_0028,M10,Local,Young Families,Kanagawa,39,Female,3,TRUE,5,Married,3-5M,4,4,3,3,2,3,2,3,4,4,5,4,5,4,4,3,5
+M10_0029,M10,Local,Young Families,Kanagawa,31,Female,5,TRUE,5,Married,Under 3M,4,4,4,2,3,5,5,4,3,4,2,5,3,3,2,3,2
+M10_0030,M10,Local,Young Families,Fukuoka,40,Male,4,TRUE,2,Married,5-7M,7,7,4,3,2,4,6,6,4,6,6,7,6,4,6,6,5
+M10_0031,M10,Local,Young Families,Aichi,28,Male,3,TRUE,0,Married,5-7M,5,4,4,5,5,5,6,3,4,4,2,5,5,5,6,3,5
+M10_0032,M10,Local,Young Families,Kanagawa,34,Male,3,TRUE,2,Partnered,Under 3M,6,5,5,5,4,4,10,4,5,5,5,5,3,4,4,5,4
+M10_0033,M10,Local,Young Families,Tokyo,38,Male,4,TRUE,4,Married,5-7M,6,4,5,6,4,5,2,5,4,7,4,5,5,6,5,3,5
+M10_0034,M10,Local,Young Families,Fukuoka,33,Other/Prefer not to say,3,TRUE,5,Partnered,3-5M,5,2,3,4,5,3,7,5,4,3,2,2,4,5,4,4,3
+M10_0035,M10,Local,Young Families,Chiba,29,Female,4,TRUE,3,Married,3-5M,7,5,6,5,5,2,6,7,5,5,5,4,5,6,6,6,6
+M10_0036,M10,Local,Young Families,Hokkaido,28,Female,3,TRUE,3,Married,7-10M,4,3,5,4,3,4,5,4,4,3,4,4,3,6,4,4,4
+M10_0037,M10,Local,Young Families,Fukuoka,43,Female,3,TRUE,0,Married,7-10M,4,5,5,3,4,7,7,5,5,6,3,4,5,5,7,6,5
+M10_0038,M10,Local,Young Families,Tokyo,41,Other/Prefer not to say,5,TRUE,2,Married,3-5M,6,7,4,3,3,3,6,4,4,4,5,4,2,6,5,4,5
+M10_0039,M10,Local,Young Families,Kanagawa,30,Male,4,TRUE,3,Partnered,3-5M,7,5,5,4,3,1,4,5,4,4,5,4,5,6,5,4,4
+M10_0040,M10,Local,Young Families,Tokyo,44,Female,4,TRUE,2,Partnered,5-7M,6,3,5,4,4,5,7,4,5,7,5,5,4,4,5,5,6
+M10_0041,M10,Local,Young Families,Fukuoka,38,Male,3,TRUE,0,Partnered,7-10M,4,6,4,5,4,6,5,4,3,5,3,3,3,6,5,4,5
+M10_0042,M10,Local,Young Families,Chiba,43,Male,3,TRUE,3,Married,Over 10M,5,5,7,4,5,6,5,3,5,6,5,4,6,3,5,5,5
+M10_0043,M10,Local,Young Families,Fukuoka,35,Male,3,TRUE,1,Partnered,Over 10M,6,4,4,5,4,4,7,3,3,4,3,2,5,3,4,5,6
+M10_0044,M10,Local,Young Families,Osaka,34,Male,3,TRUE,0,Married,3-5M,4,4,4,4,5,5,7,7,6,6,5,7,6,6,7,3,7
+M10_0045,M10,Local,Young Families,Aichi,27,Male,3,TRUE,5,Married,Under 3M,5,4,5,4,5,4,6,6,6,6,5,7,6,5,6,6,7
+M10_0046,M10,Local,Young Families,Saitama,45,Male,5,TRUE,2,Married,7-10M,4,4,3,4,3,4,6,5,7,4,6,6,5,4,6,4,6
+M10_0047,M10,Local,Young Families,Saitama,36,Male,5,TRUE,3,Married,3-5M,6,3,7,6,5,5,6,4,5,5,4,5,5,5,5,4,4
+M10_0048,M10,Local,Young Families,Osaka,42,Female,3,TRUE,2,Married,3-5M,5,4,4,5,4,3,5,3,6,5,3,5,5,7,5,3,4
+M10_0049,M10,Local,Young Families,Aichi,39,Female,3,TRUE,4,Married,3-5M,4,4,5,4,2,2,7,5,5,5,5,2,6,5,6,3,5
+M10_0050,M10,Local,Young Families,Hokkaido,29,Male,4,TRUE,4,Married,7-10M,5,4,5,5,4,4,4,3,3,3,4,3,3,5,3,5,4
+M10_0051,M10,Local,Young Families,Saitama,38,Male,5,TRUE,5,Married,5-7M,4,3,5,4,2,4,7,4,5,4,5,6,6,6,4,5,5
+M10_0052,M10,Local,Young Families,Kanagawa,41,Female,3,TRUE,5,Married,Over 10M,5,6,4,4,2,3,6,3,4,4,2,5,7,6,4,5,6
+M10_0053,M10,Local,Young Families,Tokyo,28,Female,3,TRUE,2,Married,Under 3M,6,4,5,5,3,5,8,4,5,2,3,4,6,4,7,5,6
+M10_0054,M10,Local,Young Families,Tokyo,37,Female,4,TRUE,3,Married,3-5M,5,4,5,4,5,7,7,6,4,3,4,5,3,6,6,5,6
+M10_0055,M10,Local,Young Families,Saitama,26,Male,3,TRUE,5,Married,5-7M,5,5,4,3,4,3,5,3,4,4,3,6,5,4,4,3,6
+M10_0056,M10,Local,Young Families,Kanagawa,45,Male,4,TRUE,3,Married,3-5M,3,3,4,4,5,3,3,6,7,6,5,7,5,5,5,4,6
+M10_0057,M10,Local,Young Families,Fukuoka,26,Male,5,TRUE,3,Married,Over 10M,4,4,4,3,4,5,7,6,7,6,6,6,4,4,4,5,5
+M10_0058,M10,Local,Young Families,Hokkaido,40,Male,3,TRUE,5,Married,Over 10M,5,4,4,4,2,1,4,5,3,4,3,5,5,6,7,4,4
+M10_0059,M10,Local,Young Families,Chiba,27,Male,4,TRUE,3,Married,Under 3M,5,5,5,4,4,2,6,5,4,4,4,4,5,4,3,5,4
+M10_0060,M10,Local,Young Families,Kanagawa,36,Other/Prefer not to say,4,TRUE,3,Married,7-10M,6,4,7,6,6,5,9,5,5,4,7,5,6,6,7,5,6
+M10_0061,M10,Local,Young Families,Hokkaido,45,Male,4,TRUE,3,Married,3-5M,5,6,5,4,4,3,4,4,7,5,7,6,5,6,5,6,4
+M10_0062,M10,Local,Young Families,Hokkaido,35,Female,4,TRUE,5,Married,7-10M,5,5,6,4,4,4,6,4,5,6,5,6,6,6,4,5,5
+M10_0063,M10,Local,Young Families,Osaka,37,Male,3,TRUE,0,Married,5-7M,4,5,6,5,2,1,3,5,6,5,6,5,4,6,6,4,5
+M10_0064,M10,Local,Young Families,Fukuoka,44,Female,3,TRUE,3,Married,7-10M,6,5,5,5,3,3,8,5,1,2,2,3,3,2,4,6,4
+M10_0065,M10,Local,Young Families,Chiba,37,Male,3,TRUE,5,Partnered,5-7M,6,5,4,6,4,6,3,4,3,4,5,5,3,3,2,4,4
+M10_0066,M10,Local,Young Families,Saitama,35,Female,3,TRUE,2,Married,7-10M,4,3,4,2,3,3,4,5,4,6,5,5,3,6,4,4,3
+M10_0067,M10,Local,Young Families,Fukuoka,37,Female,3,TRUE,0,Married,3-5M,7,5,4,5,4,4,7,6,5,4,5,5,4,4,4,4,3
+M10_0068,M10,Local,Young Families,Fukuoka,33,Male,3,TRUE,5,Married,5-7M,7,5,5,7,6,5,9,7,4,4,5,5,4,4,5,5,5
+M10_0069,M10,Local,Young Families,Tokyo,32,Female,5,TRUE,1,Married,Under 3M,5,3,6,5,3,3,7,4,3,4,6,4,6,5,4,5,4
+M10_0070,M10,Local,Young Families,Aichi,43,Male,5,TRUE,5,Married,7-10M,6,6,4,4,6,5,9,5,5,3,4,4,4,2,4,6,5
+M10_0071,M10,Local,Young Families,Fukuoka,43,Male,5,TRUE,1,Married,3-5M,5,4,4,4,3,2,5,5,5,7,7,7,4,5,4,5,4
+M10_0072,M10,Local,Young Families,Hokkaido,35,Male,5,TRUE,3,Married,3-5M,4,5,4,4,2,2,4,5,3,5,4,3,4,4,3,6,2
+M10_0073,M10,Local,Young Families,Tokyo,42,Male,4,TRUE,5,Married,7-10M,6,4,6,5,4,3,4,6,5,6,6,5,4,6,5,6,5
+M10_0074,M10,Local,Young Families,Aichi,32,Female,3,TRUE,5,Married,7-10M,5,5,3,4,4,3,5,4,3,4,4,4,6,5,5,5,5
+M10_0075,M10,Local,Young Families,Saitama,33,Female,3,TRUE,1,Married,7-10M,6,6,5,4,4,4,6,6,4,5,6,4,4,5,3,5,4
+M10_0076,M10,Local,Young Families,Hokkaido,39,Male,4,TRUE,5,Married,7-10M,5,5,5,4,4,5,5,4,2,3,2,3,4,5,5,4,3
+M10_0077,M10,Local,Young Families,Saitama,43,Female,4,TRUE,4,Married,7-10M,4,5,5,3,5,5,7,5,6,5,4,4,6,4,4,4,4
+M10_0078,M10,Local,Young Families,Chiba,31,Female,4,TRUE,4,Married,7-10M,5,4,7,6,4,3,4,4,5,5,6,4,4,6,6,3,3
+M10_0079,M10,Local,Young Families,Hokkaido,36,Male,5,TRUE,5,Married,5-7M,6,7,6,5,4,2,3,7,4,6,5,5,4,5,4,5,6
+M10_0080,M10,Local,Young Families,Kanagawa,33,Male,5,TRUE,5,Partnered,5-7M,4,4,3,4,4,3,6,5,4,4,4,4,4,4,4,4,3
+M10_0081,M10,Local,Young Families,Kanagawa,40,Female,4,TRUE,0,Married,5-7M,3,2,4,4,4,3,8,6,4,2,4,6,5,5,4,3,5
+M10_0082,M10,Local,Young Families,Aichi,33,Female,4,TRUE,3,Married,5-7M,4,6,5,3,4,4,7,5,5,5,6,5,6,4,3,3,5
+M10_0083,M10,Local,Young Families,Kanagawa,30,Female,5,TRUE,2,Married,5-7M,5,5,4,4,3,3,5,5,5,5,6,6,5,5,5,3,3
+M10_0084,M10,Local,Young Families,Kanagawa,38,Female,5,TRUE,1,Married,7-10M,7,7,5,3,4,3,5,5,5,6,5,5,6,4,4,5,4
+M10_0085,M10,Local,Young Families,Saitama,31,Other/Prefer not to say,4,TRUE,5,Married,7-10M,5,4,4,5,6,5,5,5,5,6,7,6,5,5,5,4,4
+M10_0086,M10,Local,Young Families,Aichi,39,Male,4,TRUE,4,Married,3-5M,6,5,5,4,4,3,5,7,4,3,4,4,4,5,5,3,5
+M10_0087,M10,Local,Young Families,Chiba,39,Male,3,TRUE,2,Married,Over 10M,5,6,5,5,4,4,9,7,6,5,6,6,3,4,4,3,2
+M10_0088,M10,Local,Young Families,Chiba,32,Female,3,TRUE,5,Married,Over 10M,6,3,3,3,2,4,6,5,5,5,2,4,4,2,4,3,3
+M10_0089,M10,Local,Young Families,Aichi,34,Female,3,TRUE,4,Partnered,3-5M,6,5,4,3,4,6,6,5,6,4,5,5,6,4,5,7,7
+M10_0090,M10,Local,Young Families,Osaka,45,Male,4,TRUE,0,Married,3-5M,5,4,4,5,4,4,6,3,5,5,3,5,3,4,3,3,3
+M10_0091,M10,Local,Young Families,Hokkaido,38,Female,3,TRUE,2,Married,7-10M,6,3,4,6,3,5,5,2,4,4,4,4,4,6,5,6,5
+M10_0092,M10,Local,Young Families,Tokyo,35,Female,3,TRUE,2,Married,3-5M,7,7,5,5,6,5,6,6,6,6,6,6,5,6,5,5,5
+M10_0093,M10,Local,Young Families,Aichi,35,Male,3,TRUE,2,Married,7-10M,5,4,3,3,3,3,7,3,3,1,1,1,4,5,3,5,4
+M10_0094,M10,Local,Young Families,Chiba,37,Male,3,TRUE,1,Married,5-7M,6,5,3,3,3,5,9,3,4,4,3,5,3,3,3,4,3
+M10_0095,M10,Local,Young Families,Osaka,41,Male,3,TRUE,3,Partnered,3-5M,4,6,3,3,4,4,6,7,4,4,6,5,7,5,6,4,3
+M10_0096,M10,Local,Young Families,Tokyo,37,Other/Prefer not to say,4,TRUE,2,Married,5-7M,5,2,3,1,4,2,4,7,5,4,4,5,4,4,4,5,4
+M10_0097,M10,Local,Young Families,Aichi,37,Male,4,TRUE,1,Married,3-5M,3,3,1,3,3,1,3,4,3,3,4,3,6,5,4,5,5
+M10_0098,M10,Local,Young Families,Fukuoka,32,Female,4,TRUE,0,Married,5-7M,4,5,4,3,2,3,4,5,7,7,7,6,6,6,6,4,7
+M10_0099,M10,Local,Young Families,Osaka,45,Male,3,TRUE,1,Married,5-7M,7,6,4,4,5,4,7,6,5,4,5,5,5,7,6,5,6
+M10_0100,M10,Local,Young Families,Chiba,42,Male,3,TRUE,4,Married,7-10M,4,3,4,4,4,3,6,6,6,5,3,4,5,6,6,5,4
+M10_0101,M10,Local,Matured Families,Saitama,47,Female,3,TRUE,17,Single,5-7M,5,5,4,4,4,3,7,4,4,2,6,5,4,4,4,5,5
+M10_0102,M10,Local,Matured Families,Hokkaido,38,Male,3,TRUE,8,Married,7-10M,7,6,5,5,3,4,7,3,5,4,3,3,5,6,5,4,5
+M10_0103,M10,Local,Matured Families,Chiba,39,Male,4,TRUE,12,Married,7-10M,4,3,3,3,3,3,3,6,4,7,5,4,4,5,5,5,4
+M10_0104,M10,Local,Matured Families,Tokyo,35,Female,3,TRUE,11,Married,7-10M,5,3,4,3,3,2,6,7,5,6,3,5,5,5,5,6,4
+M10_0105,M10,Local,Matured Families,Aichi,49,Male,4,TRUE,10,Partnered,3-5M,5,7,7,4,2,4,9,6,6,7,6,6,5,7,7,7,4
+M10_0106,M10,Local,Matured Families,Kanagawa,55,Female,4,TRUE,10,Partnered,5-7M,6,3,4,5,5,4,6,3,3,3,3,4,7,7,7,5,5
+M10_0107,M10,Local,Matured Families,Hokkaido,35,Male,3,TRUE,9,Married,3-5M,6,6,6,4,3,4,8,4,6,5,4,6,6,5,5,4,6
+M10_0108,M10,Local,Matured Families,Hokkaido,49,Female,5,TRUE,8,Married,7-10M,4,5,6,5,4,4,8,3,3,3,4,5,2,5,4,3,3
+M10_0109,M10,Local,Matured Families,Tokyo,49,Female,4,TRUE,17,Married,5-7M,6,3,4,5,2,1,4,4,5,6,3,5,5,2,4,4,4
+M10_0110,M10,Local,Matured Families,Chiba,48,Female,3,TRUE,17,Married,3-5M,4,6,3,4,4,5,5,5,6,3,6,4,4,4,4,3,5
+M10_0111,M10,Local,Matured Families,Kanagawa,44,Female,3,TRUE,9,Married,7-10M,5,6,3,4,2,5,5,4,5,6,5,4,4,4,5,4,3
+M10_0112,M10,Local,Matured Families,Hokkaido,50,Male,3,TRUE,14,Married,7-10M,5,5,5,7,6,5,7,4,4,5,5,5,5,4,4,5,5
+M10_0113,M10,Local,Matured Families,Saitama,48,Female,4,TRUE,8,Married,5-7M,6,7,5,3,4,3,4,5,5,6,5,5,4,4,5,4,6
+M10_0114,M10,Local,Matured Families,Tokyo,47,Female,5,TRUE,14,Married,3-5M,4,4,5,3,5,4,4,6,6,4,7,5,5,4,5,6,5
+M10_0115,M10,Local,Matured Families,Saitama,39,Female,5,TRUE,11,Married,Under 3M,4,4,5,5,6,6,6,3,3,4,4,4,5,5,5,5,6
+M10_0116,M10,Local,Matured Families,Hokkaido,50,Female,4,TRUE,17,Partnered,7-10M,4,5,4,4,4,4,4,6,4,4,5,4,3,5,3,6,5
+M10_0117,M10,Local,Matured Families,Aichi,53,Female,5,TRUE,11,Married,Under 3M,4,5,4,4,2,3,4,5,4,5,3,6,7,6,7,4,4
+M10_0118,M10,Local,Matured Families,Hokkaido,38,Female,4,TRUE,12,Married,3-5M,5,2,3,4,5,3,9,4,7,6,7,4,7,4,5,7,7
+M10_0119,M10,Local,Matured Families,Kanagawa,44,Male,4,TRUE,11,Married,Under 3M,5,5,6,5,3,4,6,6,6,6,5,5,4,5,6,6,5
+M10_0120,M10,Local,Matured Families,Osaka,39,Female,3,TRUE,12,Married,5-7M,3,5,3,3,1,2,5,5,3,4,3,5,4,3,5,4,4
+M10_0121,M10,Local,Matured Families,Fukuoka,41,Male,3,TRUE,15,Married,7-10M,5,3,4,4,4,4,8,7,5,5,5,6,5,5,5,6,5
+M10_0122,M10,Local,Matured Families,Aichi,38,Female,3,TRUE,7,Married,5-7M,4,5,4,4,5,4,7,5,5,5,4,5,6,4,7,5,6
+M10_0123,M10,Local,Matured Families,Chiba,43,Male,3,TRUE,8,Married,Under 3M,6,5,5,6,4,3,7,4,4,4,5,4,4,5,3,2,4
+M10_0124,M10,Local,Matured Families,Osaka,40,Male,4,TRUE,16,Married,3-5M,6,6,5,5,5,4,6,3,4,3,3,3,5,4,3,3,4
+M10_0125,M10,Local,Matured Families,Aichi,44,Male,3,TRUE,8,Married,5-7M,7,4,4,3,3,5,6,4,5,6,5,5,6,5,5,7,5
+M10_0126,M10,Local,Matured Families,Saitama,40,Male,4,TRUE,17,Married,7-10M,4,3,5,4,4,6,8,3,2,3,4,3,3,5,4,6,5
+M10_0127,M10,Local,Matured Families,Hokkaido,41,Male,4,TRUE,12,Married,3-5M,5,4,4,4,3,3,8,5,4,4,5,4,4,4,5,5,4
+M10_0128,M10,Local,Matured Families,Osaka,49,Male,4,TRUE,13,Married,5-7M,5,4,4,5,3,2,5,5,3,5,5,3,5,5,5,4,5
+M10_0129,M10,Local,Matured Families,Tokyo,46,Male,4,TRUE,17,Married,3-5M,7,5,6,6,5,5,5,5,4,5,4,5,5,4,5,4,3
+M10_0130,M10,Local,Matured Families,Hokkaido,44,Female,3,TRUE,12,Married,3-5M,6,4,4,4,2,4,9,3,5,6,4,5,5,6,3,3,4
+M10_0131,M10,Local,Matured Families,Chiba,41,Male,3,TRUE,10,Married,5-7M,4,5,5,5,5,3,3,3,4,4,5,4,3,5,2,2,3
+M10_0132,M10,Local,Matured Families,Fukuoka,47,Male,3,TRUE,17,Married,7-10M,5,3,4,4,4,4,7,6,3,5,4,4,5,4,4,5,4
+M10_0133,M10,Local,Matured Families,Fukuoka,42,Female,5,TRUE,11,Married,5-7M,4,4,6,3,5,5,5,5,7,5,5,4,4,4,5,5,4
+M10_0134,M10,Local,Matured Families,Kanagawa,47,Female,3,TRUE,16,Single,Under 3M,5,4,4,2,6,5,6,4,4,4,6,5,4,3,5,4,4
+M10_0135,M10,Local,Matured Families,Saitama,48,Female,3,TRUE,17,Married,5-7M,7,3,4,3,3,5,9,3,6,3,5,5,6,6,6,5,6
+M10_0136,M10,Local,Matured Families,Hokkaido,36,Male,3,TRUE,16,Married,7-10M,4,3,5,4,3,4,4,7,6,4,4,4,6,5,5,6,6
+M10_0137,M10,Local,Matured Families,Chiba,36,Female,3,TRUE,15,Married,Under 3M,5,4,5,3,2,3,5,4,4,6,6,4,4,4,5,5,5
+M10_0138,M10,Local,Matured Families,Osaka,51,Male,3,TRUE,12,Single,3-5M,5,4,5,3,3,4,6,4,5,5,4,4,5,6,6,6,3
+M10_0139,M10,Local,Matured Families,Hokkaido,42,Other/Prefer not to say,4,TRUE,12,Partnered,7-10M,5,3,6,6,4,4,5,5,5,5,4,6,5,3,4,4,3
+M10_0140,M10,Local,Matured Families,Tokyo,46,Male,3,TRUE,16,Married,5-7M,4,3,5,5,5,5,9,5,7,6,5,5,4,4,3,5,4
+M10_0141,M10,Local,Matured Families,Aichi,39,Male,5,TRUE,16,Married,7-10M,5,5,3,4,4,4,9,4,3,5,3,4,2,4,4,3,2
+M10_0142,M10,Local,Matured Families,Chiba,53,Other/Prefer not to say,5,TRUE,17,Single,Over 10M,5,4,7,6,2,4,7,3,5,4,5,4,6,7,5,5,5
+M10_0143,M10,Local,Matured Families,Hokkaido,47,Female,4,TRUE,14,Partnered,5-7M,7,4,6,5,5,6,3,5,6,5,5,5,5,4,5,5,7
+M10_0144,M10,Local,Matured Families,Saitama,46,Female,4,TRUE,17,Married,5-7M,7,5,4,5,6,4,7,5,6,5,6,6,3,3,4,4,4
+M10_0145,M10,Local,Matured Families,Chiba,55,Male,3,TRUE,10,Married,7-10M,4,4,3,2,3,1,5,3,4,4,5,4,4,4,6,5,6
+M10_0146,M10,Local,Matured Families,Tokyo,40,Male,5,TRUE,8,Married,7-10M,7,6,5,7,4,4,5,4,3,5,4,4,5,6,6,4,5
+M10_0147,M10,Local,Matured Families,Aichi,46,Female,5,TRUE,11,Married,5-7M,6,4,2,4,4,5,6,4,4,6,4,6,5,3,4,4,4
+M10_0148,M10,Local,Matured Families,Fukuoka,50,Male,5,TRUE,13,Partnered,5-7M,4,7,5,5,3,3,6,6,6,4,6,5,5,5,4,5,4
+M10_0149,M10,Local,Matured Families,Fukuoka,42,Female,4,TRUE,7,Partnered,3-5M,6,6,4,4,4,5,4,5,3,6,5,4,4,4,3,5,4
+M10_0150,M10,Local,Matured Families,Osaka,40,Other/Prefer not to say,4,TRUE,10,Married,5-7M,6,6,5,4,5,3,4,6,5,5,4,6,4,3,4,4,4
+M10_0151,M10,Local,Matured Families,Hokkaido,53,Female,3,TRUE,12,Married,7-10M,6,6,7,6,5,4,6,5,5,7,5,5,5,4,5,4,5
+M10_0152,M10,Local,Matured Families,Aichi,46,Male,3,TRUE,13,Single,3-5M,5,5,5,5,5,3,6,4,5,4,5,4,5,5,5,5,5
+M10_0153,M10,Local,Matured Families,Osaka,53,Female,3,TRUE,16,Married,7-10M,7,5,6,4,5,5,8,5,7,5,7,7,6,5,6,4,6
+M10_0154,M10,Local,Matured Families,Hokkaido,46,Female,3,TRUE,8,Married,3-5M,3,4,3,3,3,3,1,4,5,6,7,4,5,5,6,6,6
+M10_0155,M10,Local,Matured Families,Osaka,50,Male,3,TRUE,11,Single,5-7M,5,4,5,4,4,3,6,4,5,5,6,6,5,6,4,6,5
+M10_0156,M10,Local,Matured Families,Fukuoka,45,Male,5,TRUE,10,Single,Under 3M,7,7,4,2,4,5,7,4,4,6,5,6,6,5,6,4,4
+M10_0157,M10,Local,Matured Families,Saitama,51,Female,3,TRUE,7,Married,5-7M,7,4,6,4,4,5,2,4,4,4,6,4,6,7,4,7,7
+M10_0158,M10,Local,Matured Families,Tokyo,51,Male,4,TRUE,14,Partnered,Under 3M,5,4,5,5,4,2,6,4,5,5,4,4,5,6,5,4,4
+M10_0159,M10,Local,Matured Families,Kanagawa,45,Male,3,TRUE,13,Married,5-7M,7,4,5,4,4,4,5,6,6,6,6,6,7,5,5,7,7
+M10_0160,M10,Local,Matured Families,Saitama,39,Female,3,TRUE,17,Single,3-5M,5,6,5,4,4,3,5,3,3,5,4,4,1,4,2,4,5
+M10_0161,M10,Local,Matured Families,Aichi,37,Male,3,TRUE,11,Married,7-10M,3,4,5,3,2,2,3,6,4,5,4,5,5,6,5,5,4
+M10_0162,M10,Local,Matured Families,Hokkaido,41,Female,4,TRUE,14,Married,7-10M,6,6,5,5,4,4,7,5,4,3,4,4,6,6,5,5,5
+M10_0163,M10,Local,Matured Families,Chiba,55,Male,5,TRUE,10,Married,Under 3M,4,5,3,2,3,3,6,7,5,6,5,5,6,5,5,5,7
+M10_0164,M10,Local,Matured Families,Saitama,51,Female,3,TRUE,16,Married,5-7M,5,5,5,5,5,7,10,6,4,5,5,5,4,6,5,4,6
+M10_0165,M10,Local,Matured Families,Fukuoka,41,Male,5,TRUE,7,Married,5-7M,6,6,4,5,4,4,4,4,4,4,3,5,4,3,4,4,5
+M10_0166,M10,Local,Matured Families,Saitama,37,Male,4,TRUE,11,Married,7-10M,5,6,6,4,6,5,7,5,4,5,4,4,5,6,5,5,5
+M10_0167,M10,Local,Matured Families,Osaka,35,Male,5,TRUE,7,Married,5-7M,4,4,6,6,2,4,5,4,5,4,7,4,5,4,6,4,7
+M10_0168,M10,Local,Matured Families,Osaka,47,Female,4,TRUE,7,Single,Over 10M,5,4,3,6,5,3,5,6,5,4,5,4,4,7,5,5,4
+M10_0169,M10,Local,Matured Families,Fukuoka,43,Male,3,TRUE,13,Married,5-7M,5,4,5,2,5,4,4,5,4,4,3,4,4,4,5,3,4
+M10_0170,M10,Local,Matured Families,Aichi,52,Female,4,TRUE,17,Married,7-10M,5,5,3,4,2,1,5,5,4,4,3,4,4,4,4,4,6
+M10_0171,M10,Local,Matured Families,Aichi,39,Other/Prefer not to say,4,TRUE,17,Married,Under 3M,5,5,4,4,5,5,9,6,4,3,5,5,3,3,3,4,2
+M10_0172,M10,Local,Matured Families,Chiba,48,Female,3,TRUE,11,Married,5-7M,5,3,2,5,3,3,4,4,3,4,3,5,4,3,6,5,4
+M10_0173,M10,Local,Matured Families,Osaka,39,Female,4,TRUE,15,Partnered,5-7M,5,6,5,5,6,6,9,2,3,5,3,4,3,3,4,4,3
+M10_0174,M10,Local,Matured Families,Kanagawa,44,Female,3,TRUE,17,Married,Under 3M,6,5,3,4,6,3,6,4,3,5,5,4,4,4,5,5,3
+M10_0175,M10,Local,Matured Families,Kanagawa,54,Female,3,TRUE,11,Married,3-5M,4,4,4,3,4,3,7,4,6,4,6,3,5,3,3,5,4
+M10_0176,M10,Local,Matured Families,Chiba,52,Female,5,TRUE,7,Single,Under 3M,7,7,4,4,4,3,5,3,5,6,5,5,5,4,5,5,5
+M10_0177,M10,Local,Matured Families,Tokyo,43,Female,4,TRUE,12,Married,3-5M,4,3,5,5,3,2,6,5,4,5,5,4,5,6,5,6,5
+M10_0178,M10,Local,Matured Families,Tokyo,46,Female,5,TRUE,11,Married,7-10M,4,5,4,3,4,3,5,5,4,5,7,7,5,6,4,5,5
+M10_0179,M10,Local,Matured Families,Hokkaido,39,Male,3,TRUE,7,Single,5-7M,5,5,2,3,4,3,4,4,3,4,4,5,4,6,3,5,4
+M10_0180,M10,Local,Matured Families,Osaka,42,Female,4,TRUE,15,Married,5-7M,7,7,7,6,4,5,7,5,6,4,5,5,5,6,6,5,6
+M10_0181,M10,Local,Matured Families,Aichi,44,Female,3,TRUE,17,Married,5-7M,5,4,4,4,4,3,7,3,4,6,5,5,5,5,3,5,5
+M10_0182,M10,Local,Matured Families,Saitama,51,Female,5,TRUE,9,Married,Under 3M,5,3,5,5,4,3,4,4,5,4,3,5,4,4,5,5,4
+M10_0183,M10,Local,Matured Families,Hokkaido,46,Female,3,TRUE,8,Single,7-10M,6,3,6,4,3,3,5,6,6,7,5,7,4,5,5,5,5
+M10_0184,M10,Local,Matured Families,Hokkaido,52,Female,3,TRUE,10,Married,Under 3M,5,6,4,4,2,5,4,4,5,4,5,4,3,5,4,3,3
+M10_0185,M10,Local,Matured Families,Kanagawa,52,Female,5,TRUE,11,Married,Under 3M,6,4,6,6,4,2,9,5,5,5,5,5,4,4,3,5,5
+M10_0186,M10,Local,Matured Families,Hokkaido,46,Female,3,TRUE,17,Married,3-5M,7,6,4,4,2,3,5,6,7,7,5,5,3,4,5,5,4
+M10_0187,M10,Local,Matured Families,Hokkaido,55,Male,4,TRUE,9,Single,5-7M,5,5,6,5,4,4,4,4,7,6,5,6,5,5,5,6,6
+M10_0188,M10,Local,Matured Families,Aichi,41,Male,4,TRUE,11,Married,5-7M,6,7,2,4,4,3,3,6,4,4,4,7,5,3,1,3,2
+M10_0189,M10,Local,Matured Families,Tokyo,36,Female,4,TRUE,8,Partnered,7-10M,5,3,4,3,4,3,4,4,4,5,5,5,5,5,4,4,4
+M10_0190,M10,Local,Matured Families,Hokkaido,42,Male,4,TRUE,8,Partnered,5-7M,4,4,6,5,4,2,5,3,5,4,6,3,5,4,4,5,4
+M10_0191,M10,Local,Matured Families,Tokyo,50,Male,3,TRUE,16,Married,Under 3M,5,3,4,4,5,3,7,4,4,5,2,6,4,4,4,3,3
+M10_0192,M10,Local,Matured Families,Hokkaido,36,Male,3,TRUE,16,Married,3-5M,6,4,4,5,4,5,6,5,5,5,4,4,4,6,5,4,5
+M10_0193,M10,Local,Matured Families,Saitama,51,Female,3,TRUE,8,Married,5-7M,6,6,5,4,3,4,5,4,3,3,5,3,4,3,4,5,3
+M10_0194,M10,Local,Matured Families,Tokyo,42,Female,4,TRUE,11,Married,5-7M,4,4,4,7,5,6,9,5,6,3,4,5,4,4,5,6,4
+M10_0195,M10,Local,Matured Families,Osaka,42,Female,4,TRUE,8,Married,7-10M,4,2,4,3,2,1,5,6,5,5,5,4,5,6,6,5,6
+M10_0196,M10,Local,Matured Families,Osaka,44,Male,4,TRUE,8,Married,5-7M,7,5,4,5,6,3,9,5,3,3,3,3,4,4,4,4,3
+M10_0197,M10,Local,Matured Families,Osaka,53,Female,4,TRUE,14,Married,5-7M,5,4,3,4,1,4,6,4,3,3,3,3,4,4,3,4,5
+M10_0198,M10,Local,Matured Families,Osaka,46,Female,3,TRUE,8,Married,3-5M,7,4,6,5,3,4,8,5,4,5,4,5,6,6,4,4,6
+M10_0199,M10,Local,Matured Families,Saitama,45,Female,5,TRUE,13,Partnered,7-10M,7,4,5,4,2,4,7,4,7,7,6,6,7,7,6,7,7
+M10_0200,M10,Local,Matured Families,Tokyo,43,Male,3,TRUE,17,Single,3-5M,6,4,6,5,5,4,7,3,4,2,5,5,4,4,2,5,4
+M10_0201,M10,Local,Young Adults,Osaka,20,Female,1,FALSE,NA,Single,Under 3M,5,4,4,4,4,2,6,5,5,5,4,2,5,3,4,4,5
+M10_0202,M10,Local,Young Adults,Hokkaido,33,Male,1,FALSE,NA,Single,5-7M,5,4,3,3,4,3,6,5,4,6,4,4,4,4,4,3,6
+M10_0203,M10,Local,Young Adults,Osaka,29,Male,1,FALSE,NA,Single,7-10M,5,3,4,5,3,3,5,3,5,5,5,5,5,5,5,6,5
+M10_0204,M10,Local,Young Adults,Aichi,21,Male,1,FALSE,NA,Single,3-5M,5,4,5,2,2,3,4,4,5,3,5,4,7,7,5,5,6
+M10_0205,M10,Local,Young Adults,Aichi,23,Male,2,FALSE,NA,Single,5-7M,2,4,5,4,4,3,6,4,5,4,6,3,5,3,4,4,4
+M10_0206,M10,Local,Young Adults,Saitama,25,Female,1,FALSE,NA,Single,3-5M,4,3,4,5,3,2,5,7,6,5,7,4,5,3,5,5,5
+M10_0207,M10,Local,Young Adults,Saitama,18,Female,1,FALSE,NA,Single,5-7M,4,3,4,2,4,6,4,4,3,4,5,5,5,6,3,4,5
+M10_0208,M10,Local,Young Adults,Fukuoka,31,Female,1,FALSE,NA,Single,Under 3M,6,5,3,2,2,2,2,3,4,2,3,1,3,2,2,2,4
+M10_0209,M10,Local,Young Adults,Fukuoka,22,Female,1,FALSE,NA,Single,3-5M,4,4,5,5,4,4,7,4,4,4,4,4,3,4,4,4,1
+M10_0210,M10,Local,Young Adults,Saitama,29,Female,2,FALSE,NA,Single,7-10M,5,4,6,5,6,4,7,4,3,3,4,4,5,3,5,6,5
+M10_0211,M10,Local,Young Adults,Tokyo,32,Female,1,FALSE,NA,Single,3-5M,2,2,2,4,4,2,5,4,6,4,5,3,4,3,4,2,5
+M10_0212,M10,Local,Young Adults,Aichi,19,Male,2,FALSE,NA,Single,3-5M,4,3,3,4,1,2,3,4,5,2,3,3,6,7,5,6,6
+M10_0213,M10,Local,Young Adults,Osaka,28,Other/Prefer not to say,1,FALSE,NA,Single,5-7M,5,5,5,6,4,4,6,6,5,4,5,5,5,3,4,6,5
+M10_0214,M10,Local,Young Adults,Saitama,28,Female,1,FALSE,NA,Single,5-7M,5,5,4,4,2,2,3,5,4,3,5,3,5,4,3,3,2
+M10_0215,M10,Local,Young Adults,Fukuoka,26,Female,1,FALSE,NA,Single,Over 10M,5,4,3,4,4,2,5,4,3,4,4,2,4,6,3,4,5
+M10_0216,M10,Local,Young Adults,Saitama,30,Female,1,FALSE,NA,Single,5-7M,6,6,5,4,5,2,7,4,5,3,5,5,4,4,4,5,7
+M10_0217,M10,Local,Young Adults,Fukuoka,26,Male,1,FALSE,NA,Single,3-5M,5,6,5,3,3,5,4,5,5,5,5,4,6,7,4,4,6
+M10_0218,M10,Local,Young Adults,Aichi,23,Other/Prefer not to say,1,FALSE,NA,Single,Under 3M,5,5,5,5,3,5,5,7,7,4,5,6,4,4,5,4,5
+M10_0219,M10,Local,Young Adults,Tokyo,25,Male,1,FALSE,NA,Single,Under 3M,5,6,3,5,3,2,6,4,5,4,4,5,6,3,4,3,4
+M10_0220,M10,Local,Young Adults,Hokkaido,34,Female,1,FALSE,NA,Single,7-10M,5,5,4,5,5,3,7,4,3,5,5,5,4,3,4,4,5
+M10_0221,M10,Local,Young Adults,Osaka,19,Male,1,FALSE,NA,Single,7-10M,3,2,4,4,2,3,3,5,5,4,3,5,4,4,4,5,4
+M10_0222,M10,Local,Young Adults,Aichi,29,Female,1,FALSE,NA,Single,5-7M,5,2,2,4,5,4,7,3,4,3,5,2,4,2,2,3,3
+M10_0223,M10,Local,Young Adults,Chiba,33,Male,1,FALSE,NA,Single,7-10M,5,3,5,2,4,5,5,5,5,3,5,3,7,4,4,6,5
+M10_0224,M10,Local,Young Adults,Kanagawa,34,Male,1,FALSE,NA,Single,3-5M,4,4,5,3,3,3,6,6,4,4,5,5,5,5,5,5,5
+M10_0225,M10,Local,Young Adults,Hokkaido,26,Female,1,FALSE,NA,Single,3-5M,3,4,4,7,6,4,4,5,4,3,4,3,4,5,2,4,4
+M10_0226,M10,Local,Young Adults,Osaka,22,Male,2,FALSE,NA,Single,5-7M,4,3,3,5,3,2,5,5,5,5,6,5,7,7,6,7,4
+M10_0227,M10,Local,Young Adults,Osaka,21,Female,1,FALSE,NA,Single,5-7M,4,4,5,5,5,4,6,6,5,4,4,2,5,3,3,3,3
+M10_0228,M10,Local,Young Adults,Osaka,29,Female,2,FALSE,NA,Single,3-5M,5,4,6,4,4,4,7,5,7,7,6,7,6,6,6,5,7
+M10_0229,M10,Local,Young Adults,Fukuoka,33,Female,1,FALSE,NA,Single,3-5M,4,4,4,3,2,4,3,3,3,4,5,3,4,4,4,4,3
+M10_0230,M10,Local,Young Adults,Aichi,29,Female,1,FALSE,NA,Single,3-5M,5,3,5,4,3,4,3,6,7,5,6,6,6,5,6,5,6
+M10_0231,M10,Local,Young Adults,Kanagawa,25,Male,1,FALSE,NA,Single,3-5M,4,5,4,5,3,4,7,4,5,4,5,5,3,5,6,5,4
+M10_0232,M10,Local,Young Adults,Saitama,28,Female,1,FALSE,NA,Single,7-10M,5,5,4,5,6,4,6,5,7,4,3,3,4,6,4,3,5
+M10_0233,M10,Local,Young Adults,Tokyo,25,Male,1,FALSE,NA,Single,3-5M,6,6,5,4,4,4,7,4,4,4,6,4,5,5,3,4,5
+M10_0234,M10,Local,Young Adults,Osaka,22,Female,1,FALSE,NA,Single,5-7M,6,5,6,5,5,4,3,5,6,5,5,4,6,4,5,4,4
+M10_0235,M10,Local,Young Adults,Fukuoka,23,Male,1,FALSE,NA,Single,3-5M,5,3,2,4,3,2,7,5,5,4,7,4,4,4,6,5,3
+M10_0236,M10,Local,Young Adults,Tokyo,23,Female,1,FALSE,NA,Single,5-7M,5,5,4,3,5,2,5,3,4,3,2,3,3,6,3,4,4
+M10_0237,M10,Local,Young Adults,Fukuoka,34,Other/Prefer not to say,2,FALSE,NA,Single,7-10M,4,4,5,4,5,5,8,6,7,5,6,4,6,7,6,5,6
+M10_0238,M10,Local,Young Adults,Tokyo,18,Male,1,FALSE,NA,Single,7-10M,5,3,5,2,3,4,6,5,5,3,4,4,6,4,3,5,5
+M10_0239,M10,Local,Young Adults,Kanagawa,33,Male,1,FALSE,NA,Single,5-7M,4,5,4,5,4,2,4,4,4,3,2,3,5,4,4,4,3
+M10_0240,M10,Local,Young Adults,Hokkaido,23,Female,1,FALSE,NA,Single,3-5M,6,4,4,3,5,3,7,4,4,4,4,4,3,4,3,5,3
+M10_0241,M10,Local,Young Adults,Saitama,29,Male,2,FALSE,NA,Single,Under 3M,6,6,4,6,3,6,7,4,4,4,4,2,5,5,4,5,4
+M10_0242,M10,Local,Young Adults,Hokkaido,19,Male,1,FALSE,NA,Single,Under 3M,5,4,4,5,4,6,7,3,7,4,4,4,4,5,3,4,5
+M10_0243,M10,Local,Young Adults,Chiba,25,Male,1,FALSE,NA,Single,5-7M,5,5,5,3,5,4,6,5,6,6,5,4,5,5,5,6,6
+M10_0244,M10,Local,Young Adults,Aichi,31,Male,2,FALSE,NA,Single,3-5M,4,4,3,5,5,5,4,4,4,4,5,3,4,5,4,3,5
+M10_0245,M10,Local,Young Adults,Aichi,31,Female,1,FALSE,NA,Single,3-5M,6,3,5,5,5,3,6,5,5,5,5,5,5,5,6,4,5
+M10_0246,M10,Local,Young Adults,Kanagawa,20,Male,1,FALSE,NA,Single,Over 10M,5,4,2,5,4,4,6,4,6,5,6,6,5,2,4,7,5
+M10_0247,M10,Local,Young Adults,Kanagawa,21,Female,1,FALSE,NA,Single,Under 3M,4,3,4,4,2,2,4,5,5,6,5,5,5,5,5,5,4
+M10_0248,M10,Local,Young Adults,Osaka,22,Male,1,FALSE,NA,Single,5-7M,4,6,4,5,5,4,2,4,5,5,5,5,4,3,6,5,5
+M10_0249,M10,Local,Young Adults,Chiba,33,Female,2,FALSE,NA,Single,5-7M,5,6,6,5,6,6,8,4,5,6,7,3,5,5,5,6,6
+M10_0250,M10,Local,Young Adults,Osaka,18,Male,2,FALSE,NA,Single,3-5M,4,5,7,5,3,2,3,4,7,5,6,7,7,7,7,7,7
+M10_0251,M10,Local,Young Adults,Fukuoka,32,Female,1,FALSE,NA,Single,Over 10M,6,2,4,4,2,1,6,4,5,4,6,6,3,4,4,5,5
+M10_0252,M10,Local,Young Adults,Chiba,25,Female,1,FALSE,NA,Single,5-7M,7,7,5,4,5,4,6,5,6,4,4,5,6,5,5,6,6
+M10_0253,M10,Local,Young Adults,Osaka,29,Male,2,FALSE,NA,Single,Under 3M,4,3,3,4,3,3,3,4,3,3,5,2,4,5,3,3,4
+M10_0254,M10,Local,Young Adults,Fukuoka,28,Male,2,FALSE,NA,Single,3-5M,5,3,3,3,3,4,1,3,5,5,4,4,4,5,6,5,4
+M10_0255,M10,Local,Young Adults,Chiba,26,Male,1,FALSE,NA,Single,3-5M,4,5,6,4,5,4,8,3,4,4,4,3,3,5,4,5,5
+M10_0256,M10,Local,Young Adults,Fukuoka,21,Female,1,FALSE,NA,Single,7-10M,7,5,6,4,2,3,5,5,4,4,5,4,4,5,5,5,4
+M10_0257,M10,Local,Young Adults,Chiba,25,Female,2,FALSE,NA,Single,7-10M,5,6,5,4,4,4,6,5,5,5,5,4,3,6,5,5,6
+M10_0258,M10,Local,Young Adults,Hokkaido,22,Male,1,FALSE,NA,Single,5-7M,4,4,6,5,5,4,7,4,6,5,5,4,7,5,4,5,5
+M10_0259,M10,Local,Young Adults,Aichi,19,Female,2,FALSE,NA,Single,3-5M,4,2,4,4,3,4,5,3,7,5,4,4,4,4,4,5,4
+M10_0260,M10,Local,Young Adults,Fukuoka,29,Female,2,FALSE,NA,Single,Over 10M,6,5,7,4,6,5,7,4,6,3,6,5,6,4,6,5,6
+M10_0261,M10,Local,Young Adults,Osaka,28,Male,1,FALSE,NA,Single,Under 3M,4,3,5,5,3,4,7,3,3,4,4,4,7,6,5,4,6
+M10_0262,M10,Local,Young Adults,Osaka,26,Male,1,FALSE,NA,Single,5-7M,3,4,4,3,3,3,2,5,3,4,5,4,4,5,6,5,4
+M10_0263,M10,Local,Young Adults,Kanagawa,24,Male,1,FALSE,NA,Single,3-5M,6,6,2,5,5,3,5,4,4,3,4,2,4,5,5,4,4
+M10_0264,M10,Local,Young Adults,Aichi,33,Female,1,FALSE,NA,Single,Over 10M,5,2,3,3,5,3,6,6,7,4,6,6,3,3,4,4,3
+M10_0265,M10,Local,Young Adults,Aichi,20,Female,1,FALSE,NA,Single,7-10M,3,3,3,3,2,1,3,3,5,4,6,2,4,4,3,3,4
+M10_0266,M10,Local,Young Adults,Tokyo,25,Female,2,FALSE,NA,Single,3-5M,3,4,6,5,4,4,5,5,6,5,5,5,5,5,5,6,5
+M10_0267,M10,Local,Young Adults,Kanagawa,19,Female,2,FALSE,NA,Single,3-5M,5,3,4,6,4,4,8,6,5,5,3,6,5,4,6,7,7
+M10_0268,M10,Local,Young Adults,Osaka,31,Male,1,FALSE,NA,Single,3-5M,5,4,3,5,3,2,5,4,5,4,4,4,5,4,5,4,3
+M10_0269,M10,Local,Young Adults,Chiba,32,Female,1,FALSE,NA,Single,5-7M,7,7,3,5,6,5,6,6,6,5,6,6,6,5,4,6,6
+M10_0270,M10,Local,Young Adults,Fukuoka,29,Female,1,FALSE,NA,Single,3-5M,4,3,6,4,2,2,5,5,5,5,5,3,7,3,3,7,5
+M10_0271,M10,Local,Young Adults,Kanagawa,21,Female,1,FALSE,NA,Single,3-5M,5,6,2,3,4,3,4,3,5,4,4,2,3,2,3,3,2
+M10_0272,M10,Local,Young Adults,Chiba,19,Male,1,FALSE,NA,Single,5-7M,4,5,4,4,3,4,4,3,5,4,3,4,4,6,4,6,4
+M10_0273,M10,Local,Young Adults,Aichi,33,Female,1,FALSE,NA,Single,5-7M,6,3,5,3,5,5,7,4,4,6,6,5,3,4,5,3,5
+M10_0274,M10,Local,Young Adults,Kanagawa,32,Male,1,FALSE,NA,Single,5-7M,5,4,5,4,4,4,5,7,5,5,7,6,7,5,5,5,7
+M10_0275,M10,Local,Young Adults,Kanagawa,31,Female,1,FALSE,NA,Single,5-7M,3,4,1,3,2,2,5,4,6,4,3,4,3,4,4,6,4
+M10_0276,M10,Local,Young Adults,Fukuoka,21,Male,1,FALSE,NA,Single,5-7M,4,4,4,4,6,1,6,4,6,5,7,5,5,3,3,5,3
+M10_0277,M10,Local,Young Adults,Osaka,20,Male,2,FALSE,NA,Single,3-5M,3,3,5,4,2,3,7,3,2,3,5,4,5,6,5,4,5
+M10_0278,M10,Local,Young Adults,Fukuoka,21,Male,2,FALSE,NA,Single,Under 3M,5,3,5,5,4,4,5,5,6,4,6,4,6,4,5,5,6
+M10_0279,M10,Local,Young Adults,Tokyo,26,Female,1,FALSE,NA,Single,3-5M,5,4,4,5,6,5,5,5,3,3,6,5,5,5,6,5,5
+M10_0280,M10,Local,Young Adults,Fukuoka,21,Male,1,FALSE,NA,Single,3-5M,4,5,4,3,2,4,7,6,5,5,6,5,5,4,5,7,5
+M10_0281,M10,Local,Young Adults,Osaka,34,Female,2,FALSE,NA,Single,Under 3M,5,3,5,5,2,1,8,4,4,5,6,5,5,3,5,4,6
+M10_0282,M10,Local,Young Adults,Osaka,29,Female,2,FALSE,NA,Single,Under 3M,4,4,4,3,4,3,5,5,5,4,5,7,5,4,4,5,6
+M10_0283,M10,Local,Young Adults,Saitama,18,Male,1,FALSE,NA,Single,5-7M,4,5,4,2,3,3,3,3,4,5,4,3,6,5,6,5,5
+M10_0284,M10,Local,Young Adults,Kanagawa,18,Female,2,FALSE,NA,Single,3-5M,6,6,5,5,3,6,6,2,5,3,3,5,4,4,4,5,5
+M10_0285,M10,Local,Young Adults,Osaka,23,Male,1,FALSE,NA,Single,Under 3M,6,5,3,4,6,6,7,6,4,5,5,4,4,4,6,3,4
+M10_0286,M10,Local,Young Adults,Saitama,34,Male,2,FALSE,NA,Single,7-10M,5,6,4,3,5,2,4,5,7,5,6,6,6,5,4,5,6
+M10_0287,M10,Local,Young Adults,Fukuoka,19,Female,2,FALSE,NA,Single,7-10M,4,4,3,3,4,4,5,5,4,4,5,4,7,5,6,6,7
+M10_0288,M10,Local,Young Adults,Hokkaido,27,Male,2,FALSE,NA,Single,Under 3M,4,4,4,2,3,2,4,5,2,2,3,2,4,5,6,5,6
+M10_0289,M10,Local,Young Adults,Tokyo,20,Male,2,FALSE,NA,Single,7-10M,4,3,4,4,3,4,8,3,4,2,3,3,3,4,4,5,4
+M10_0290,M10,Local,Young Adults,Osaka,20,Male,1,FALSE,NA,Single,5-7M,5,3,4,2,4,4,4,6,5,4,4,4,6,5,6,7,7
+M10_0291,M10,Local,Young Adults,Kanagawa,23,Male,2,FALSE,NA,Single,5-7M,4,5,5,5,4,4,7,6,5,3,5,4,7,6,4,4,4
+M10_0292,M10,Local,Young Adults,Fukuoka,26,Female,1,FALSE,NA,Single,3-5M,7,5,5,5,6,4,7,4,5,5,5,5,5,4,5,5,5
+M10_0293,M10,Local,Young Adults,Kanagawa,30,Male,2,FALSE,NA,Single,5-7M,5,4,4,3,3,3,7,5,5,4,4,3,5,5,4,3,4
+M10_0294,M10,Local,Young Adults,Hokkaido,18,Male,1,FALSE,NA,Single,5-7M,4,4,4,4,3,3,5,3,6,4,4,3,5,2,4,4,5
+M10_0295,M10,Local,Young Adults,Chiba,21,Female,1,FALSE,NA,Single,5-7M,4,3,5,3,4,3,6,5,6,4,6,5,6,5,6,6,6
+M10_0296,M10,Local,Young Adults,Fukuoka,34,Male,1,FALSE,NA,Single,Over 10M,4,4,5,3,4,4,5,4,4,4,5,4,5,6,4,4,3
+M10_0297,M10,Local,Young Adults,Tokyo,26,Female,2,FALSE,NA,Single,5-7M,4,4,2,2,3,4,4,4,5,3,4,4,4,5,6,4,3
+M10_0298,M10,Local,Young Adults,Hokkaido,27,Male,1,FALSE,NA,Single,5-7M,4,5,5,3,4,4,6,5,5,4,4,3,4,4,4,4,3
+M10_0299,M10,Local,Young Adults,Tokyo,24,Female,2,FALSE,NA,Single,Under 3M,5,5,5,5,6,4,8,3,5,3,5,6,4,4,4,6,4
+M10_0300,M10,Local,Young Adults,Fukuoka,30,Female,2,FALSE,NA,Single,3-5M,5,3,4,5,5,4,6,4,4,3,4,3,4,5,3,2,3
+M10_0301,M10,Local,Young Couples,Saitama,29,Other/Prefer not to say,2,FALSE,NA,Partnered,Under 3M,5,5,6,4,4,3,8,4,5,6,6,5,7,6,5,7,5
+M10_0302,M10,Local,Young Couples,Kanagawa,26,Other/Prefer not to say,2,FALSE,NA,Partnered,3-5M,6,4,4,3,1,2,3,6,5,6,6,5,6,7,7,7,5
+M10_0303,M10,Local,Young Couples,Osaka,27,Other/Prefer not to say,2,FALSE,NA,Partnered,5-7M,2,4,3,2,3,2,4,4,3,5,4,4,3,4,5,4,3
+M10_0304,M10,Local,Young Couples,Aichi,19,Female,2,FALSE,NA,Married,Under 3M,3,5,5,3,3,3,6,6,4,5,4,7,5,4,6,6,6
+M10_0305,M10,Local,Young Couples,Fukuoka,20,Other/Prefer not to say,2,FALSE,NA,Married,7-10M,5,5,4,5,2,3,5,4,5,5,6,4,5,6,7,5,5
+M10_0306,M10,Local,Young Couples,Aichi,34,Male,2,FALSE,NA,Partnered,5-7M,4,5,4,5,2,5,8,5,7,6,6,4,6,7,6,5,6
+M10_0307,M10,Local,Young Couples,Tokyo,20,Male,2,FALSE,NA,Partnered,Over 10M,7,6,5,4,5,4,6,5,4,4,4,3,6,3,5,4,7
+M10_0308,M10,Local,Young Couples,Chiba,31,Male,2,FALSE,NA,Married,5-7M,3,4,5,3,5,4,7,6,5,6,4,5,6,4,5,5,4
+M10_0309,M10,Local,Young Couples,Chiba,27,Male,2,FALSE,NA,Married,3-5M,6,4,3,3,4,3,5,5,4,7,7,5,3,3,3,3,4
+M10_0310,M10,Local,Young Couples,Aichi,30,Male,2,FALSE,NA,Married,5-7M,5,4,4,5,5,4,7,2,4,3,4,3,4,3,4,3,4
+M10_0311,M10,Local,Young Couples,Chiba,29,Other/Prefer not to say,2,FALSE,NA,Partnered,3-5M,6,5,6,6,3,3,7,4,5,5,7,5,5,7,5,5,6
+M10_0312,M10,Local,Young Couples,Aichi,23,Female,2,FALSE,NA,Partnered,3-5M,3,5,4,5,3,3,6,4,5,1,5,3,5,5,4,5,5
+M10_0313,M10,Local,Young Couples,Hokkaido,30,Female,2,FALSE,NA,Married,7-10M,6,5,4,4,2,2,3,4,5,4,4,2,6,6,6,7,5
+M10_0314,M10,Local,Young Couples,Chiba,32,Female,2,FALSE,NA,Partnered,3-5M,5,5,5,5,5,4,7,3,3,3,2,4,5,3,6,4,4
+M10_0315,M10,Local,Young Couples,Chiba,33,Female,2,FALSE,NA,Married,3-5M,7,3,5,4,5,4,7,4,4,6,4,5,5,5,6,6,5
+M10_0316,M10,Local,Young Couples,Osaka,19,Other/Prefer not to say,2,FALSE,NA,Married,3-5M,5,5,4,5,2,4,4,5,6,5,4,6,6,6,6,4,5
+M10_0317,M10,Local,Young Couples,Kanagawa,20,Female,2,FALSE,NA,Married,5-7M,5,6,5,5,2,3,7,5,5,5,5,4,4,5,4,5,6
+M10_0318,M10,Local,Young Couples,Kanagawa,23,Male,2,FALSE,NA,Married,3-5M,6,5,4,5,4,3,6,5,5,5,6,4,7,5,5,5,6
+M10_0319,M10,Local,Young Couples,Kanagawa,20,Male,2,FALSE,NA,Partnered,5-7M,5,5,7,5,5,4,9,7,7,5,7,6,5,7,5,6,6
+M10_0320,M10,Local,Young Couples,Hokkaido,18,Female,2,FALSE,NA,Partnered,Over 10M,4,3,3,4,3,3,5,5,6,2,4,3,5,6,6,5,5
+M10_0321,M10,Local,Young Couples,Kanagawa,20,Male,2,FALSE,NA,Partnered,7-10M,4,3,6,5,4,3,3,6,6,4,5,5,6,4,3,5,5
+M10_0322,M10,Local,Young Couples,Chiba,27,Male,2,FALSE,NA,Married,7-10M,4,5,6,3,4,5,8,7,5,7,6,6,6,5,6,4,5
+M10_0323,M10,Local,Young Couples,Kanagawa,27,Male,2,FALSE,NA,Married,3-5M,6,5,5,5,4,5,4,2,6,3,5,4,4,4,3,6,4
+M10_0324,M10,Local,Young Couples,Kanagawa,33,Female,2,FALSE,NA,Partnered,7-10M,5,5,4,3,3,2,6,4,5,4,4,5,2,4,4,4,5
+M10_0325,M10,Local,Young Couples,Saitama,28,Female,2,FALSE,NA,Partnered,Under 3M,5,4,4,5,6,4,7,4,5,4,5,3,5,5,5,3,3
+M10_0326,M10,Local,Young Couples,Saitama,25,Female,2,FALSE,NA,Married,5-7M,3,5,4,5,3,4,6,3,6,6,5,3,3,4,6,4,4
+M10_0327,M10,Local,Young Couples,Chiba,32,Male,2,FALSE,NA,Partnered,5-7M,6,6,5,7,4,3,6,5,4,3,5,6,5,5,6,6,6
+M10_0328,M10,Local,Young Couples,Kanagawa,32,Male,2,FALSE,NA,Partnered,7-10M,5,6,4,5,6,5,7,3,3,3,2,4,6,4,5,6,5
+M10_0329,M10,Local,Young Couples,Hokkaido,23,Male,2,FALSE,NA,Partnered,5-7M,5,6,5,4,6,6,8,5,5,4,4,4,4,3,4,3,3
+M10_0330,M10,Local,Young Couples,Aichi,22,Female,2,FALSE,NA,Partnered,Under 3M,4,3,4,5,4,3,4,3,6,5,4,6,4,5,6,4,6
+M10_0331,M10,Local,Young Couples,Chiba,32,Other/Prefer not to say,2,FALSE,NA,Married,3-5M,4,3,4,3,4,2,5,4,4,3,3,4,6,5,5,5,6
+M10_0332,M10,Local,Young Couples,Aichi,23,Male,2,FALSE,NA,Married,5-7M,3,3,3,3,4,4,3,4,4,4,4,4,2,3,2,2,4
+M10_0333,M10,Local,Young Couples,Aichi,28,Female,2,FALSE,NA,Partnered,Under 3M,5,5,4,1,3,3,6,7,5,7,7,7,5,4,6,7,5
+M10_0334,M10,Local,Young Couples,Saitama,26,Male,2,FALSE,NA,Partnered,3-5M,4,5,6,6,4,3,7,4,4,3,5,4,4,3,4,4,6
+M10_0335,M10,Local,Young Couples,Osaka,28,Female,2,FALSE,NA,Married,3-5M,5,3,4,4,3,3,4,4,4,5,7,5,3,5,5,5,5
+M10_0336,M10,Local,Young Couples,Kanagawa,34,Female,2,FALSE,NA,Partnered,3-5M,5,4,5,3,5,5,3,6,7,6,6,4,4,6,5,4,4
+M10_0337,M10,Local,Young Couples,Osaka,34,Female,2,FALSE,NA,Married,5-7M,6,5,5,4,5,5,3,5,5,5,5,6,4,3,5,4,4
+M10_0338,M10,Local,Young Couples,Aichi,22,Male,2,FALSE,NA,Partnered,3-5M,5,6,3,4,3,4,7,4,5,4,5,5,5,5,5,5,5
+M10_0339,M10,Local,Young Couples,Hokkaido,34,Female,2,FALSE,NA,Married,3-5M,4,4,4,4,5,4,9,3,3,5,5,4,6,3,5,5,6
+M10_0340,M10,Local,Young Couples,Chiba,26,Male,2,FALSE,NA,Married,Under 3M,5,5,6,3,4,5,6,4,5,3,4,4,7,2,6,6,4
+M10_0341,M10,Local,Young Couples,Osaka,23,Male,2,FALSE,NA,Partnered,3-5M,6,3,4,3,4,4,7,5,4,5,3,5,4,4,7,4,5
+M10_0342,M10,Local,Young Couples,Aichi,28,Female,2,FALSE,NA,Married,7-10M,6,5,4,6,4,4,5,4,3,5,5,5,4,3,3,3,4
+M10_0343,M10,Local,Young Couples,Saitama,33,Male,2,FALSE,NA,Partnered,Under 3M,5,4,4,4,3,3,7,5,4,6,6,5,2,4,4,4,5
+M10_0344,M10,Local,Young Couples,Hokkaido,28,Female,2,FALSE,NA,Partnered,7-10M,4,4,4,4,3,3,5,5,5,5,3,5,4,3,6,5,5
+M10_0345,M10,Local,Young Couples,Saitama,25,Male,2,FALSE,NA,Married,3-5M,6,6,4,4,4,3,3,4,4,6,6,4,4,5,4,3,5
+M10_0346,M10,Local,Young Couples,Kanagawa,20,Female,2,FALSE,NA,Married,5-7M,4,5,6,4,3,2,6,4,6,6,5,5,6,6,6,3,5
+M10_0347,M10,Local,Young Couples,Tokyo,20,Female,2,FALSE,NA,Married,5-7M,7,3,5,4,7,5,8,4,4,4,5,4,4,5,3,5,4
+M10_0348,M10,Local,Young Couples,Kanagawa,19,Male,2,FALSE,NA,Married,Over 10M,3,3,4,5,3,4,6,4,4,4,6,5,5,4,6,3,5
+M10_0349,M10,Local,Young Couples,Hokkaido,28,Male,2,FALSE,NA,Partnered,5-7M,4,3,4,4,5,4,7,5,5,4,6,6,4,4,6,2,4
+M10_0350,M10,Local,Young Couples,Fukuoka,19,Male,2,FALSE,NA,Partnered,Under 3M,4,3,3,3,6,3,4,5,6,4,6,5,5,6,5,5,4
+M10_0351,M10,Local,Young Couples,Tokyo,27,Male,2,FALSE,NA,Partnered,5-7M,3,2,3,3,4,3,5,4,5,4,4,4,4,4,4,4,5
+M10_0352,M10,Local,Young Couples,Chiba,19,Female,2,FALSE,NA,Married,3-5M,6,6,5,4,3,4,6,4,5,5,5,3,3,6,4,6,5
+M10_0353,M10,Local,Young Couples,Tokyo,22,Male,2,FALSE,NA,Partnered,3-5M,5,5,5,5,4,4,5,6,5,5,5,6,5,5,7,7,6
+M10_0354,M10,Local,Young Couples,Hokkaido,29,Male,2,FALSE,NA,Partnered,3-5M,4,4,4,3,3,4,5,5,4,6,7,6,3,2,3,4,3
+M10_0355,M10,Local,Young Couples,Hokkaido,30,Male,2,FALSE,NA,Partnered,Over 10M,6,6,3,4,4,4,4,5,4,5,5,3,4,3,5,6,4
+M10_0356,M10,Local,Young Couples,Chiba,33,Male,2,FALSE,NA,Married,Over 10M,6,5,7,5,5,5,9,4,5,6,4,5,4,4,5,5,6
+M10_0357,M10,Local,Young Couples,Tokyo,20,Female,2,FALSE,NA,Partnered,5-7M,5,5,5,3,2,4,6,5,5,6,5,4,4,6,6,4,5
+M10_0358,M10,Local,Young Couples,Kanagawa,19,Male,2,FALSE,NA,Married,3-5M,5,3,5,3,3,4,8,6,4,5,6,4,5,5,4,5,4
+M10_0359,M10,Local,Young Couples,Tokyo,19,Other/Prefer not to say,2,FALSE,NA,Partnered,5-7M,7,7,6,5,6,6,8,5,5,5,4,6,4,4,4,3,4
+M10_0360,M10,Local,Young Couples,Kanagawa,34,Male,2,FALSE,NA,Partnered,7-10M,5,3,3,2,1,3,6,4,5,3,4,5,5,5,4,5,4
+M10_0361,M10,Local,Young Couples,Tokyo,24,Female,2,FALSE,NA,Married,3-5M,7,4,6,5,3,2,6,6,4,4,4,5,3,4,4,5,4
+M10_0362,M10,Local,Young Couples,Saitama,29,Male,2,FALSE,NA,Partnered,5-7M,5,6,4,4,4,4,5,6,4,4,4,5,4,4,4,5,4
+M10_0363,M10,Local,Young Couples,Hokkaido,31,Female,2,FALSE,NA,Married,7-10M,6,4,4,4,4,4,3,4,6,6,5,4,5,6,6,4,7
+M10_0364,M10,Local,Young Couples,Kanagawa,33,Female,2,FALSE,NA,Married,5-7M,6,4,5,4,4,6,6,5,5,5,6,7,3,6,4,5,4
+M10_0365,M10,Local,Young Couples,Aichi,31,Male,2,FALSE,NA,Married,5-7M,3,4,4,2,4,4,5,3,5,3,5,5,5,4,5,4,4
+M10_0366,M10,Local,Young Couples,Osaka,31,Female,2,FALSE,NA,Married,7-10M,5,4,5,5,4,4,6,4,3,4,5,5,3,6,7,6,5
+M10_0367,M10,Local,Young Couples,Osaka,27,Male,2,FALSE,NA,Married,5-7M,4,5,4,4,3,4,7,4,4,6,7,5,7,5,5,6,5
+M10_0368,M10,Local,Young Couples,Tokyo,23,Female,2,FALSE,NA,Partnered,7-10M,6,5,2,4,4,2,8,4,3,4,7,5,4,3,4,6,5
+M10_0369,M10,Local,Young Couples,Hokkaido,33,Female,2,FALSE,NA,Partnered,Under 3M,6,6,3,5,4,4,5,7,7,6,5,5,7,5,5,6,5
+M10_0370,M10,Local,Young Couples,Saitama,25,Female,2,FALSE,NA,Partnered,Under 3M,4,6,5,4,2,4,5,6,6,5,5,6,3,5,5,6,6
+M10_0371,M10,Local,Young Couples,Saitama,23,Female,2,FALSE,NA,Partnered,7-10M,6,5,5,5,4,3,4,3,6,5,6,5,3,4,5,3,3
+M10_0372,M10,Local,Young Couples,Osaka,32,Male,2,FALSE,NA,Partnered,Over 10M,4,5,2,2,2,3,4,5,2,4,4,4,5,4,5,5,4
+M10_0373,M10,Local,Young Couples,Chiba,33,Female,2,FALSE,NA,Partnered,7-10M,5,4,6,3,3,3,6,6,6,5,4,7,7,5,4,6,6
+M10_0374,M10,Local,Young Couples,Chiba,33,Female,2,FALSE,NA,Married,3-5M,4,3,4,5,4,3,6,2,4,3,4,3,5,6,3,5,5
+M10_0375,M10,Local,Young Couples,Tokyo,28,Male,2,FALSE,NA,Married,3-5M,5,6,6,5,5,4,7,6,4,5,7,7,4,5,3,5,3
+M10_0376,M10,Local,Young Couples,Hokkaido,25,Male,2,FALSE,NA,Married,5-7M,4,4,5,4,5,4,8,1,2,2,3,5,4,5,5,4,3
+M10_0377,M10,Local,Young Couples,Fukuoka,21,Female,2,FALSE,NA,Partnered,Under 3M,6,4,6,4,3,4,4,6,6,6,7,5,7,6,7,6,5
+M10_0378,M10,Local,Young Couples,Kanagawa,34,Female,2,FALSE,NA,Partnered,Under 3M,4,3,6,6,4,6,5,5,5,5,5,4,6,6,6,6,6
+M10_0379,M10,Local,Young Couples,Osaka,32,Male,2,FALSE,NA,Partnered,7-10M,5,6,6,5,2,5,6,4,5,4,5,6,5,6,4,4,7
+M10_0380,M10,Local,Young Couples,Aichi,31,Male,2,FALSE,NA,Married,7-10M,5,4,5,4,4,5,6,3,5,4,5,5,4,5,3,3,3
+M10_0381,M10,Local,Young Couples,Chiba,25,Female,2,FALSE,NA,Partnered,Under 3M,6,4,6,4,4,4,6,5,5,6,5,5,6,5,5,5,5
+M10_0382,M10,Local,Young Couples,Saitama,18,Female,2,FALSE,NA,Partnered,5-7M,3,3,4,3,2,2,3,5,3,2,3,4,4,6,4,5,4
+M10_0383,M10,Local,Young Couples,Osaka,33,Male,2,FALSE,NA,Married,5-7M,6,5,6,6,5,5,5,5,6,3,6,4,5,7,7,5,6
+M10_0384,M10,Local,Young Couples,Osaka,28,Male,2,FALSE,NA,Partnered,5-7M,5,6,5,4,4,2,6,4,4,4,5,3,5,4,3,5,4
+M10_0385,M10,Local,Young Couples,Tokyo,32,Female,2,FALSE,NA,Partnered,7-10M,4,6,4,3,2,2,5,4,6,5,5,4,5,4,4,4,4
+M10_0386,M10,Local,Young Couples,Osaka,34,Male,2,FALSE,NA,Married,3-5M,4,3,3,3,4,3,3,3,5,5,4,4,3,3,5,3,3
+M10_0387,M10,Local,Young Couples,Osaka,21,Male,2,FALSE,NA,Partnered,Under 3M,6,4,2,5,4,3,6,6,4,4,5,5,5,4,5,4,3
+M10_0388,M10,Local,Young Couples,Fukuoka,27,Male,2,FALSE,NA,Partnered,Under 3M,5,3,5,4,3,4,4,6,5,5,6,3,5,5,5,5,5
+M10_0389,M10,Local,Young Couples,Aichi,19,Male,2,FALSE,NA,Partnered,5-7M,6,5,3,3,5,4,8,5,4,2,4,1,3,3,5,4,5
+M10_0390,M10,Local,Young Couples,Kanagawa,34,Female,2,FALSE,NA,Partnered,7-10M,6,2,6,4,5,4,7,6,5,5,5,5,6,5,4,5,5
+M10_0391,M10,Local,Young Couples,Kanagawa,20,Male,2,FALSE,NA,Partnered,5-7M,5,5,4,5,4,3,5,4,4,4,4,6,5,4,4,5,4
+M10_0392,M10,Local,Young Couples,Tokyo,22,Male,2,FALSE,NA,Partnered,3-5M,3,5,3,3,6,5,6,6,4,5,6,3,5,4,5,3,6
+M10_0393,M10,Local,Young Couples,Hokkaido,19,Male,2,FALSE,NA,Partnered,3-5M,4,3,5,2,2,3,5,3,4,5,3,5,6,5,5,7,6
+M10_0394,M10,Local,Young Couples,Osaka,30,Male,2,FALSE,NA,Partnered,7-10M,3,3,3,1,4,2,7,6,4,5,5,3,5,6,5,5,6
+M10_0395,M10,Local,Young Couples,Tokyo,29,Male,2,FALSE,NA,Married,Under 3M,5,5,5,4,3,5,7,6,5,4,6,6,3,6,4,5,5
+M10_0396,M10,Local,Young Couples,Tokyo,27,Male,2,FALSE,NA,Married,3-5M,5,5,4,5,4,4,7,5,5,6,4,6,7,6,7,7,7
+M10_0397,M10,Local,Young Couples,Saitama,33,Male,2,FALSE,NA,Partnered,3-5M,5,6,3,3,4,5,6,3,3,4,1,2,2,3,3,1,5
+M10_0398,M10,Local,Young Couples,Fukuoka,18,Male,2,FALSE,NA,Married,3-5M,5,3,3,4,3,5,6,3,4,3,2,3,4,3,5,3,4
+M10_0399,M10,Local,Young Couples,Hokkaido,23,Female,2,FALSE,NA,Partnered,Under 3M,7,7,5,5,5,5,9,4,4,5,5,3,6,7,5,7,5
+M10_0400,M10,Local,Young Couples,Osaka,26,Female,2,FALSE,NA,Married,5-7M,7,5,5,3,3,3,3,4,4,4,5,7,4,4,5,4,6
+M10_0401,M10,Local,Matured Adults 35+,Tokyo,56,Female,2,FALSE,NA,Married,Under 3M,6,6,6,5,6,6,7,5,5,6,5,5,5,6,6,7,5
+M10_0402,M10,Local,Matured Adults 35+,Saitama,68,Male,2,FALSE,NA,Partnered,3-5M,6,7,5,5,3,2,6,6,4,7,7,5,3,6,6,5,4
+M10_0403,M10,Local,Matured Adults 35+,Aichi,55,Female,3,FALSE,NA,Partnered,Under 3M,5,2,4,6,4,3,7,4,4,4,5,4,4,5,5,4,6
+M10_0404,M10,Local,Matured Adults 35+,Tokyo,67,Female,1,FALSE,NA,Single,Under 3M,5,5,4,4,3,3,3,6,6,6,6,5,5,4,3,4,5
+M10_0405,M10,Local,Matured Adults 35+,Tokyo,64,Male,1,FALSE,NA,Married,5-7M,5,5,6,5,4,5,6,6,5,6,6,5,5,6,6,5,5
+M10_0406,M10,Local,Matured Adults 35+,Fukuoka,37,Female,1,FALSE,NA,Single,7-10M,5,5,5,4,5,4,4,6,5,6,5,5,6,7,4,7,4
+M10_0407,M10,Local,Matured Adults 35+,Tokyo,50,Female,2,FALSE,NA,Married,7-10M,5,4,3,4,5,4,4,4,5,5,5,5,6,4,4,5,3
+M10_0408,M10,Local,Matured Adults 35+,Hokkaido,65,Female,2,FALSE,NA,Partnered,3-5M,6,4,5,5,4,5,5,5,6,5,5,5,5,5,6,2,4
+M10_0409,M10,Local,Matured Adults 35+,Aichi,66,Male,1,FALSE,NA,Divorced/Widowed,Over 10M,5,5,3,4,3,4,6,3,4,3,3,4,2,4,4,4,5
+M10_0410,M10,Local,Matured Adults 35+,Tokyo,52,Female,2,FALSE,NA,Married,Over 10M,4,2,4,4,3,1,5,5,5,6,6,3,3,4,5,5,5
+M10_0411,M10,Local,Matured Adults 35+,Hokkaido,50,Male,1,FALSE,NA,Single,5-7M,5,5,3,1,4,5,5,7,6,6,5,6,4,5,5,5,5
+M10_0412,M10,Local,Matured Adults 35+,Hokkaido,57,Female,2,FALSE,NA,Single,3-5M,4,3,5,4,2,1,6,5,4,4,3,6,5,5,5,7,6
+M10_0413,M10,Local,Matured Adults 35+,Hokkaido,67,Female,1,FALSE,NA,Partnered,3-5M,6,6,3,4,4,4,8,4,4,5,6,4,4,4,5,6,5
+M10_0414,M10,Local,Matured Adults 35+,Saitama,45,Female,2,FALSE,NA,Divorced/Widowed,7-10M,5,5,2,2,3,4,5,4,3,2,3,5,4,3,2,3,3
+M10_0415,M10,Local,Matured Adults 35+,Chiba,63,Male,1,FALSE,NA,Single,5-7M,5,5,3,4,5,4,4,5,4,4,3,4,5,5,5,4,5
+M10_0416,M10,Local,Matured Adults 35+,Fukuoka,57,Male,2,FALSE,NA,Single,Over 10M,6,5,3,4,3,4,2,4,4,4,4,5,4,7,4,3,4
+M10_0417,M10,Local,Matured Adults 35+,Tokyo,40,Female,2,FALSE,NA,Married,5-7M,4,4,3,3,4,3,2,2,3,4,4,2,4,5,5,4,5
+M10_0418,M10,Local,Matured Adults 35+,Tokyo,68,Male,1,FALSE,NA,Single,Under 3M,5,3,3,4,3,4,4,4,4,3,3,4,3,5,5,5,5
+M10_0419,M10,Local,Matured Adults 35+,Kanagawa,52,Other/Prefer not to say,1,FALSE,NA,Partnered,Over 10M,3,3,5,4,2,4,6,4,4,6,5,6,4,6,3,4,4
+M10_0420,M10,Local,Matured Adults 35+,Saitama,49,Female,2,FALSE,NA,Single,5-7M,5,3,6,6,4,4,5,3,4,3,5,4,5,5,6,7,7
+M10_0421,M10,Local,Matured Adults 35+,Kanagawa,51,Male,2,FALSE,NA,Partnered,Under 3M,6,6,4,4,6,5,7,5,7,7,5,5,6,6,7,6,6
+M10_0422,M10,Local,Matured Adults 35+,Osaka,57,Male,2,FALSE,NA,Married,3-5M,2,4,4,4,4,3,4,4,3,4,6,5,4,6,6,4,5
+M10_0423,M10,Local,Matured Adults 35+,Tokyo,66,Male,2,FALSE,NA,Married,5-7M,5,4,5,5,3,1,3,2,5,5,6,7,5,5,4,5,5
+M10_0424,M10,Local,Matured Adults 35+,Aichi,65,Male,1,FALSE,NA,Married,Over 10M,5,3,5,3,4,3,8,6,6,5,4,4,4,5,3,5,5
+M10_0425,M10,Local,Matured Adults 35+,Chiba,47,Male,1,FALSE,NA,Married,5-7M,4,4,4,4,4,5,7,5,3,3,5,5,5,4,4,4,3
+M10_0426,M10,Local,Matured Adults 35+,Osaka,59,Female,1,FALSE,NA,Single,5-7M,4,3,5,5,5,3,5,3,4,2,4,4,4,6,5,5,4
+M10_0427,M10,Local,Matured Adults 35+,Fukuoka,46,Male,2,FALSE,NA,Partnered,7-10M,4,4,4,3,4,4,8,3,5,4,4,4,5,4,4,4,3
+M10_0428,M10,Local,Matured Adults 35+,Fukuoka,47,Female,2,FALSE,NA,Single,3-5M,5,4,5,5,3,3,7,3,3,4,3,4,4,5,4,3,4
+M10_0429,M10,Local,Matured Adults 35+,Tokyo,48,Female,1,FALSE,NA,Single,3-5M,4,3,6,4,2,5,3,3,4,4,3,3,4,3,4,4,5
+M10_0430,M10,Local,Matured Adults 35+,Osaka,61,Male,1,FALSE,NA,Married,Under 3M,5,5,4,5,3,4,6,4,3,4,4,5,3,3,5,4,3
+M10_0431,M10,Local,Matured Adults 35+,Osaka,57,Male,1,FALSE,NA,Single,3-5M,4,3,2,3,3,2,4,4,4,7,5,6,3,3,4,3,4
+M10_0432,M10,Local,Matured Adults 35+,Hokkaido,54,Female,1,FALSE,NA,Married,3-5M,6,6,3,4,5,5,5,4,5,5,4,5,4,6,4,4,6
+M10_0433,M10,Local,Matured Adults 35+,Tokyo,67,Female,2,FALSE,NA,Married,5-7M,5,3,6,3,4,3,5,5,5,4,5,7,3,5,6,4,6
+M10_0434,M10,Local,Matured Adults 35+,Saitama,60,Female,2,FALSE,NA,Married,7-10M,5,5,2,4,2,5,5,4,5,5,4,7,4,4,3,4,6
+M10_0435,M10,Local,Matured Adults 35+,Tokyo,61,Male,1,FALSE,NA,Single,3-5M,4,5,4,3,4,4,6,4,4,6,4,5,2,4,5,5,4
+M10_0436,M10,Local,Matured Adults 35+,Tokyo,53,Female,1,FALSE,NA,Partnered,5-7M,7,6,2,4,4,4,4,5,4,5,5,6,3,4,4,4,4
+M10_0437,M10,Local,Matured Adults 35+,Tokyo,59,Female,1,FALSE,NA,Married,7-10M,5,4,6,6,4,3,9,5,4,6,5,5,7,5,7,6,6
+M10_0438,M10,Local,Matured Adults 35+,Saitama,38,Female,2,FALSE,NA,Divorced/Widowed,3-5M,5,5,2,4,3,5,5,5,6,6,5,5,6,3,5,6,5
+M10_0439,M10,Local,Matured Adults 35+,Chiba,50,Female,1,FALSE,NA,Single,Under 3M,5,4,4,6,3,4,8,5,4,5,3,3,3,6,5,3,4
+M10_0440,M10,Local,Matured Adults 35+,Tokyo,51,Female,2,FALSE,NA,Married,5-7M,4,3,4,3,2,3,4,4,3,4,5,5,4,4,4,6,6
+M10_0441,M10,Local,Matured Adults 35+,Aichi,69,Female,2,FALSE,NA,Married,5-7M,5,3,6,3,3,2,4,3,5,5,4,4,6,5,7,6,5
+M10_0442,M10,Local,Matured Adults 35+,Tokyo,68,Male,2,FALSE,NA,Married,7-10M,3,3,3,4,2,1,6,4,5,6,5,5,3,4,4,3,3
+M10_0443,M10,Local,Matured Adults 35+,Kanagawa,66,Male,2,FALSE,NA,Single,3-5M,4,4,3,2,2,1,5,3,6,4,5,3,3,5,4,2,2
+M10_0444,M10,Local,Matured Adults 35+,Osaka,48,Female,3,FALSE,NA,Single,7-10M,4,4,4,3,4,4,6,5,5,6,5,5,4,5,6,6,5
+M10_0445,M10,Local,Matured Adults 35+,Saitama,45,Male,3,FALSE,NA,Divorced/Widowed,7-10M,7,4,6,4,5,3,7,5,4,3,5,5,5,5,7,6,7
+M10_0446,M10,Local,Matured Adults 35+,Chiba,48,Other/Prefer not to say,3,FALSE,NA,Married,Under 3M,3,3,5,3,3,4,4,4,4,5,3,4,5,7,7,4,6
+M10_0447,M10,Local,Matured Adults 35+,Fukuoka,35,Female,2,FALSE,NA,Married,5-7M,4,1,3,2,4,3,5,5,3,4,5,4,4,2,5,5,2
+M10_0448,M10,Local,Matured Adults 35+,Fukuoka,59,Male,2,FALSE,NA,Single,3-5M,7,4,5,4,4,5,7,4,4,5,3,3,4,6,5,4,5
+M10_0449,M10,Local,Matured Adults 35+,Fukuoka,55,Female,2,FALSE,NA,Married,Under 3M,6,5,5,3,5,6,5,6,5,7,6,7,4,4,3,3,5
+M10_0450,M10,Local,Matured Adults 35+,Hokkaido,36,Male,1,FALSE,NA,Partnered,Over 10M,5,5,5,6,4,4,7,4,5,4,6,5,4,5,6,5,6
+M10_0451,M10,Local,Matured Adults 35+,Osaka,60,Male,1,FALSE,NA,Married,3-5M,5,6,4,3,4,3,4,6,5,5,7,5,5,6,3,5,4
+M10_0452,M10,Local,Matured Adults 35+,Chiba,48,Male,3,FALSE,NA,Divorced/Widowed,5-7M,4,6,4,3,4,3,4,6,4,5,4,5,5,6,6,3,3
+M10_0453,M10,Local,Matured Adults 35+,Kanagawa,45,Male,1,FALSE,NA,Married,7-10M,6,4,3,2,2,1,5,4,3,6,4,5,3,3,4,3,4
+M10_0454,M10,Local,Matured Adults 35+,Saitama,46,Male,3,FALSE,NA,Married,5-7M,3,2,3,3,3,3,4,4,3,3,4,4,5,6,6,5,6
+M10_0455,M10,Local,Matured Adults 35+,Chiba,49,Female,1,FALSE,NA,Married,Under 3M,4,5,3,3,4,2,6,5,5,6,5,5,4,6,6,7,5
+M10_0456,M10,Local,Matured Adults 35+,Kanagawa,48,Female,2,FALSE,NA,Single,7-10M,7,6,6,6,3,3,6,4,4,5,5,4,5,5,4,5,5
+M10_0457,M10,Local,Matured Adults 35+,Chiba,43,Male,1,FALSE,NA,Single,7-10M,5,3,6,6,2,4,6,5,3,5,5,4,4,7,4,3,4
+M10_0458,M10,Local,Matured Adults 35+,Chiba,57,Female,2,FALSE,NA,Married,Under 3M,6,5,5,5,2,3,4,6,4,4,4,5,6,6,6,6,5
+M10_0459,M10,Local,Matured Adults 35+,Aichi,67,Male,1,FALSE,NA,Divorced/Widowed,5-7M,5,5,5,6,3,2,4,4,4,5,5,5,5,5,6,6,5
+M10_0460,M10,Local,Matured Adults 35+,Hokkaido,54,Male,2,FALSE,NA,Single,Over 10M,5,5,3,2,3,1,4,3,2,3,3,3,5,4,3,3,5
+M10_0461,M10,Local,Matured Adults 35+,Chiba,61,Female,1,FALSE,NA,Divorced/Widowed,Under 3M,5,2,6,5,5,4,6,5,5,5,4,7,6,7,6,7,4
+M10_0462,M10,Local,Matured Adults 35+,Aichi,36,Female,2,FALSE,NA,Married,7-10M,5,5,7,4,4,4,6,5,3,3,4,2,5,5,5,5,4
+M10_0463,M10,Local,Matured Adults 35+,Kanagawa,48,Male,3,FALSE,NA,Married,3-5M,5,5,6,4,3,4,6,6,7,7,5,5,4,4,4,5,5
+M10_0464,M10,Local,Matured Adults 35+,Kanagawa,55,Male,2,FALSE,NA,Single,3-5M,6,6,6,4,5,3,7,4,6,4,4,5,5,5,2,4,3
+M10_0465,M10,Local,Matured Adults 35+,Osaka,46,Male,1,FALSE,NA,Partnered,5-7M,6,4,2,4,5,4,7,3,5,4,6,4,1,4,3,3,3
+M10_0466,M10,Local,Matured Adults 35+,Hokkaido,35,Male,3,FALSE,NA,Single,3-5M,4,5,5,4,4,3,7,6,5,6,4,4,5,5,6,5,5
+M10_0467,M10,Local,Matured Adults 35+,Kanagawa,52,Female,2,FALSE,NA,Single,5-7M,3,3,3,4,2,3,7,6,3,3,5,5,3,5,3,4,5
+M10_0468,M10,Local,Matured Adults 35+,Kanagawa,59,Male,3,FALSE,NA,Married,5-7M,7,5,4,3,3,4,4,4,2,2,4,4,4,4,2,5,4
+M10_0469,M10,Local,Matured Adults 35+,Tokyo,39,Male,1,FALSE,NA,Single,7-10M,5,4,4,3,4,3,6,4,4,3,3,4,5,4,3,3,3
+M10_0470,M10,Local,Matured Adults 35+,Fukuoka,43,Female,3,FALSE,NA,Single,7-10M,7,5,3,5,3,3,6,3,4,5,5,5,4,5,6,4,4
+M10_0471,M10,Local,Matured Adults 35+,Kanagawa,67,Male,1,FALSE,NA,Partnered,3-5M,4,3,4,4,2,3,4,6,4,5,4,5,3,3,5,5,5
+M10_0472,M10,Local,Matured Adults 35+,Fukuoka,44,Female,2,FALSE,NA,Married,3-5M,6,2,5,5,4,5,8,2,4,4,3,4,3,4,4,3,3
+M10_0473,M10,Local,Matured Adults 35+,Kanagawa,66,Female,2,FALSE,NA,Single,3-5M,4,6,6,4,5,2,5,6,5,5,6,5,5,3,6,6,5
+M10_0474,M10,Local,Matured Adults 35+,Kanagawa,36,Female,1,FALSE,NA,Married,Over 10M,5,4,5,6,4,3,10,4,3,5,5,4,2,6,7,5,6
+M10_0475,M10,Local,Matured Adults 35+,Saitama,45,Female,2,FALSE,NA,Divorced/Widowed,5-7M,6,6,5,4,3,5,7,3,3,5,5,4,5,5,4,6,5
+M10_0476,M10,Local,Matured Adults 35+,Fukuoka,37,Female,2,FALSE,NA,Partnered,7-10M,4,5,4,4,5,5,6,3,5,3,5,3,5,5,5,6,5
+M10_0477,M10,Local,Matured Adults 35+,Tokyo,65,Female,1,FALSE,NA,Divorced/Widowed,7-10M,4,3,3,3,4,2,5,5,4,6,5,4,6,5,4,5,4
+M10_0478,M10,Local,Matured Adults 35+,Hokkaido,64,Female,1,FALSE,NA,Single,7-10M,5,4,4,3,1,4,6,5,4,4,3,4,4,4,3,4,4
+M10_0479,M10,Local,Matured Adults 35+,Hokkaido,44,Female,3,FALSE,NA,Partnered,5-7M,5,7,4,2,4,4,5,6,4,5,6,6,4,6,5,4,5
+M10_0480,M10,Local,Matured Adults 35+,Fukuoka,58,Male,2,FALSE,NA,Partnered,5-7M,6,3,3,4,5,3,5,3,5,5,4,5,4,4,3,4,4
+M10_0481,M10,Local,Matured Adults 35+,Chiba,56,Male,2,FALSE,NA,Partnered,3-5M,3,4,4,6,5,3,7,5,5,4,3,4,5,4,3,5,5
+M10_0482,M10,Local,Matured Adults 35+,Saitama,68,Male,1,FALSE,NA,Married,5-7M,4,3,4,2,4,2,3,5,5,7,6,6,4,4,3,3,4
+M10_0483,M10,Local,Matured Adults 35+,Saitama,59,Male,2,FALSE,NA,Married,Over 10M,4,1,3,3,4,4,5,4,5,3,5,4,4,3,4,4,4
+M10_0484,M10,Local,Matured Adults 35+,Osaka,47,Male,2,FALSE,NA,Partnered,7-10M,4,4,5,5,6,3,8,4,5,3,2,3,4,4,3,4,4
+M10_0485,M10,Local,Matured Adults 35+,Tokyo,35,Male,2,FALSE,NA,Married,Over 10M,2,3,3,5,4,3,3,4,6,6,6,5,5,7,5,4,7
+M10_0486,M10,Local,Matured Adults 35+,Fukuoka,43,Female,2,FALSE,NA,Married,7-10M,2,3,3,2,2,2,4,4,5,4,4,4,6,6,5,6,4
+M10_0487,M10,Local,Matured Adults 35+,Chiba,43,Other/Prefer not to say,1,FALSE,NA,Married,3-5M,5,6,4,3,3,4,4,4,4,4,5,7,5,5,5,5,5
+M10_0488,M10,Local,Matured Adults 35+,Osaka,69,Male,1,FALSE,NA,Single,7-10M,3,6,3,4,2,1,3,5,6,5,5,5,5,3,4,3,3
+M10_0489,M10,Local,Matured Adults 35+,Saitama,40,Female,1,FALSE,NA,Divorced/Widowed,5-7M,3,3,3,5,2,1,4,5,6,5,6,6,5,4,4,3,1
+M10_0490,M10,Local,Matured Adults 35+,Aichi,69,Female,2,FALSE,NA,Married,3-5M,4,4,4,3,3,4,3,2,4,2,3,3,5,4,6,3,5
+M10_0491,M10,Local,Matured Adults 35+,Osaka,47,Other/Prefer not to say,2,FALSE,NA,Single,3-5M,4,3,3,4,5,5,2,3,3,5,5,4,4,4,4,4,3
+M10_0492,M10,Local,Matured Adults 35+,Kanagawa,61,Female,1,FALSE,NA,Divorced/Widowed,7-10M,6,5,3,4,4,4,9,6,5,4,3,3,4,6,6,7,4
+M10_0493,M10,Local,Matured Adults 35+,Osaka,67,Female,1,FALSE,NA,Married,5-7M,5,6,5,5,4,3,5,3,5,5,6,5,4,5,4,5,4
+M10_0494,M10,Local,Matured Adults 35+,Tokyo,49,Male,2,FALSE,NA,Married,7-10M,4,2,4,2,3,4,7,4,3,4,5,4,3,4,3,5,3
+M10_0495,M10,Local,Matured Adults 35+,Kanagawa,70,Male,1,FALSE,NA,Partnered,Over 10M,4,4,6,6,3,4,4,4,4,5,4,5,4,6,6,6,6
+M10_0496,M10,Local,Matured Adults 35+,Fukuoka,66,Male,2,FALSE,NA,Divorced/Widowed,5-7M,4,4,3,3,4,3,1,4,4,6,4,5,4,3,4,4,3
+M10_0497,M10,Local,Matured Adults 35+,Tokyo,70,Male,3,FALSE,NA,Single,3-5M,6,4,5,3,3,3,5,6,6,6,4,6,3,4,4,4,4
+M10_0498,M10,Local,Matured Adults 35+,Hokkaido,40,Male,1,FALSE,NA,Single,7-10M,6,5,7,6,4,5,6,5,4,5,4,5,4,4,4,5,5
+M10_0499,M10,Local,Matured Adults 35+,Chiba,38,Male,1,FALSE,NA,Married,5-7M,3,1,3,4,4,3,8,4,4,5,4,4,4,6,3,4,5
+M10_0500,M10,Local,Matured Adults 35+,Tokyo,40,Female,1,FALSE,NA,Married,Over 10M,4,4,3,3,4,4,7,4,6,5,3,5,5,4,5,5,6
+M10_0501,M10,Domestic,Young Families,Yamaguchi,27,Male,3,TRUE,1,Married,5-7M,5,4,6,5,3,4,3,4,3,3,3,3,7,3,5,5,5
+M10_0502,M10,Domestic,Young Families,Hyogo,37,Female,3,TRUE,5,Partnered,5-7M,5,4,3,3,4,4,2,5,5,4,6,4,5,3,4,4,7
+M10_0503,M10,Domestic,Young Families,Nara,30,Other/Prefer not to say,4,TRUE,2,Married,3-5M,4,2,5,5,4,4,6,4,4,3,5,3,6,6,4,3,5
+M10_0504,M10,Domestic,Young Families,Okinawa,33,Female,4,TRUE,4,Married,7-10M,6,4,5,3,3,4,4,2,4,3,2,5,3,4,4,2,4
+M10_0505,M10,Domestic,Young Families,Niigata,40,Male,3,TRUE,2,Married,7-10M,5,4,5,4,6,5,7,3,3,3,4,3,3,3,3,3,4
+M10_0506,M10,Domestic,Young Families,Shimane,25,Male,3,TRUE,5,Partnered,Under 3M,4,6,3,4,5,3,6,6,6,5,4,6,5,4,6,5,4
+M10_0507,M10,Domestic,Young Families,Yamanashi,34,Male,3,TRUE,1,Married,3-5M,4,4,5,2,2,3,3,5,2,4,2,3,4,3,6,6,4
+M10_0508,M10,Domestic,Young Families,Niigata,32,Female,3,TRUE,2,Married,3-5M,4,3,2,3,3,5,2,5,6,4,6,5,5,4,5,5,5
+M10_0509,M10,Domestic,Young Families,Tokushima,35,Female,3,TRUE,0,Married,Over 10M,5,4,2,3,4,4,4,6,4,3,5,4,1,2,2,3,3
+M10_0510,M10,Domestic,Young Families,Ehime,27,Male,3,TRUE,5,Partnered,3-5M,5,3,3,3,5,5,8,7,4,5,4,6,6,4,4,6,4
+M10_0511,M10,Domestic,Young Families,Kochi,28,Female,3,TRUE,1,Married,Under 3M,4,3,4,3,3,2,5,4,5,6,4,5,4,3,4,2,4
+M10_0512,M10,Domestic,Young Families,Oita,40,Female,4,TRUE,0,Married,3-5M,7,5,6,5,5,3,6,5,6,6,6,5,5,5,6,5,5
+M10_0513,M10,Domestic,Young Families,Tokushima,42,Female,5,TRUE,3,Partnered,5-7M,5,4,3,5,4,4,2,4,4,4,4,4,6,7,4,4,4
+M10_0514,M10,Domestic,Young Families,Okinawa,27,Female,3,TRUE,1,Married,3-5M,5,3,3,4,4,3,4,2,2,2,5,5,3,4,4,3,3
+M10_0515,M10,Domestic,Young Families,Kagawa,26,Male,5,TRUE,4,Married,3-5M,5,1,3,3,3,4,6,4,4,4,4,5,4,4,4,6,6
+M10_0516,M10,Domestic,Young Families,Wakayama,38,Male,3,TRUE,4,Partnered,7-10M,6,3,5,4,5,3,5,6,5,6,6,5,4,2,6,4,4
+M10_0517,M10,Domestic,Young Families,Ibaraki,45,Male,5,TRUE,5,Married,3-5M,5,5,4,5,7,6,6,6,5,5,5,5,5,3,5,4,5
+M10_0518,M10,Domestic,Young Families,Kumamoto,37,Female,4,TRUE,2,Married,3-5M,4,5,4,5,5,6,8,3,5,3,6,4,4,3,3,3,5
+M10_0519,M10,Domestic,Young Families,Yamanashi,33,Female,3,TRUE,2,Married,5-7M,4,2,2,2,3,3,5,5,4,3,5,5,3,4,3,2,5
+M10_0520,M10,Domestic,Young Families,Nagasaki,25,Female,4,TRUE,2,Married,3-5M,5,4,3,4,3,4,5,4,6,5,6,5,4,4,3,5,4
+M10_0521,M10,Domestic,Young Families,Shizuoka,43,Female,5,TRUE,3,Married,7-10M,4,3,4,4,4,5,4,4,6,5,5,5,5,5,4,4,5
+M10_0522,M10,Domestic,Young Families,Shizuoka,41,Female,4,TRUE,3,Married,7-10M,6,5,5,3,4,4,4,5,6,4,5,6,4,4,6,4,5
+M10_0523,M10,Domestic,Young Families,Shimane,42,Male,5,TRUE,3,Married,Over 10M,5,4,5,5,4,4,4,6,4,4,5,3,2,5,5,4,3
+M10_0524,M10,Domestic,Young Families,Niigata,39,Female,3,TRUE,4,Married,5-7M,4,2,3,3,2,2,3,5,3,4,4,4,5,4,4,4,4
+M10_0525,M10,Domestic,Young Families,Okinawa,34,Male,3,TRUE,3,Married,Under 3M,5,4,2,3,3,3,7,5,5,5,4,5,4,5,5,6,4
+M10_0526,M10,Domestic,Young Families,Shizuoka,41,Male,3,TRUE,4,Married,Over 10M,5,5,3,3,4,3,4,5,5,4,5,5,6,4,5,4,5
+M10_0527,M10,Domestic,Young Families,Shizuoka,30,Female,3,TRUE,4,Married,5-7M,6,4,4,2,3,3,4,4,4,4,5,4,6,3,5,6,5
+M10_0528,M10,Domestic,Young Families,Ishikawa,30,Male,4,TRUE,4,Married,5-7M,6,4,5,5,6,6,9,4,5,3,4,4,3,5,4,3,3
+M10_0529,M10,Domestic,Young Families,Nagasaki,29,Male,4,TRUE,4,Married,7-10M,5,4,5,6,3,4,7,5,5,4,6,6,4,5,5,4,5
+M10_0530,M10,Domestic,Young Families,Tokushima,33,Female,5,TRUE,1,Married,5-7M,3,3,3,3,2,2,2,4,2,3,4,4,5,4,3,4,4
+M10_0531,M10,Domestic,Young Families,Kagoshima,26,Female,3,TRUE,3,Partnered,Over 10M,5,4,5,4,2,2,3,4,4,5,5,6,4,6,6,6,6
+M10_0532,M10,Domestic,Young Families,Shizuoka,30,Female,4,TRUE,4,Married,Under 3M,5,3,3,5,4,2,2,4,3,4,5,4,4,4,7,5,6
+M10_0533,M10,Domestic,Young Families,Kochi,37,Female,4,TRUE,2,Married,7-10M,5,5,3,4,2,1,6,3,1,2,1,4,3,4,3,2,4
+M10_0534,M10,Domestic,Young Families,Gifu,31,Female,3,TRUE,2,Married,Under 3M,5,5,4,4,5,5,6,4,5,5,4,5,4,3,5,3,4
+M10_0535,M10,Domestic,Young Families,Mie,38,Female,3,TRUE,4,Married,Over 10M,5,4,4,4,4,2,7,5,5,2,4,4,4,4,5,6,3
+M10_0536,M10,Domestic,Young Families,Tottori,38,Female,4,TRUE,5,Partnered,Over 10M,4,3,5,5,3,2,4,5,5,3,6,6,7,7,7,7,7
+M10_0537,M10,Domestic,Young Families,Shimane,27,Female,4,TRUE,5,Partnered,3-5M,4,3,4,4,2,3,3,3,4,3,5,4,2,4,3,2,2
+M10_0538,M10,Domestic,Young Families,Shiga,39,Female,5,TRUE,3,Partnered,3-5M,6,5,5,5,5,4,4,4,4,5,5,5,3,6,6,4,7
+M10_0539,M10,Domestic,Young Families,Nagano,31,Other/Prefer not to say,4,TRUE,2,Married,5-7M,4,4,5,3,4,3,3,6,3,4,3,3,5,5,5,4,5
+M10_0540,M10,Domestic,Young Families,Nara,43,Female,3,TRUE,5,Married,Under 3M,5,5,4,4,6,5,3,4,4,2,6,4,5,5,3,3,4
+M10_0541,M10,Domestic,Young Families,Tokushima,31,Male,3,TRUE,3,Partnered,7-10M,3,3,6,6,2,2,7,5,6,6,5,5,5,4,5,5,5
+M10_0542,M10,Domestic,Young Families,Kumamoto,39,Female,5,TRUE,5,Partnered,5-7M,6,3,5,5,5,4,6,5,4,4,4,3,6,6,5,5,6
+M10_0543,M10,Domestic,Young Families,Okinawa,32,Male,3,TRUE,5,Married,7-10M,7,6,6,6,4,4,7,3,5,4,5,4,5,4,4,5,6
+M10_0544,M10,Domestic,Young Families,Kochi,43,Female,3,TRUE,1,Married,Over 10M,3,2,4,4,4,4,5,6,4,4,4,4,5,4,3,4,4
+M10_0545,M10,Domestic,Young Families,Tochigi,26,Female,3,TRUE,1,Married,Under 3M,6,3,4,4,1,2,5,4,5,4,3,5,4,4,6,3,5
+M10_0546,M10,Domestic,Young Families,Tokushima,43,Male,4,TRUE,4,Married,7-10M,3,3,5,4,2,4,7,5,5,5,4,5,5,7,5,6,4
+M10_0547,M10,Domestic,Young Families,Kagoshima,35,Other/Prefer not to say,3,TRUE,3,Married,Over 10M,5,2,5,2,1,2,5,3,2,4,5,5,5,4,4,6,3
+M10_0548,M10,Domestic,Young Families,Yamanashi,30,Male,4,TRUE,3,Married,7-10M,4,4,4,2,4,2,6,4,4,5,5,5,4,5,4,3,4
+M10_0549,M10,Domestic,Young Families,Kochi,34,Female,4,TRUE,4,Married,5-7M,3,2,2,5,3,2,5,3,6,5,6,5,5,6,5,4,5
+M10_0550,M10,Domestic,Young Families,Ishikawa,36,Male,4,TRUE,4,Married,5-7M,4,5,5,3,4,4,4,5,5,6,4,5,4,4,5,5,4
+M10_0551,M10,Domestic,Young Families,Nara,45,Female,4,TRUE,1,Married,5-7M,5,4,5,4,4,1,5,5,5,4,4,4,5,3,6,5,5
+M10_0552,M10,Domestic,Young Families,Hiroshima,43,Male,4,TRUE,4,Married,3-5M,6,6,6,4,7,4,6,5,4,4,4,5,5,5,4,4,5
+M10_0553,M10,Domestic,Young Families,Ibaraki,34,Female,3,TRUE,1,Partnered,Under 3M,4,5,4,5,5,4,5,5,4,3,5,2,5,5,5,6,5
+M10_0554,M10,Domestic,Young Families,Kochi,40,Other/Prefer not to say,5,TRUE,5,Married,5-7M,6,4,3,4,2,2,6,4,3,5,3,4,3,3,2,3,4
+M10_0555,M10,Domestic,Young Families,Yamaguchi,32,Male,4,TRUE,2,Married,5-7M,4,4,4,1,4,2,4,6,4,6,5,6,4,6,5,3,3
+M10_0556,M10,Domestic,Young Families,Niigata,33,Other/Prefer not to say,3,TRUE,4,Married,7-10M,6,4,6,4,3,3,5,6,4,4,5,5,7,7,5,4,6
+M10_0557,M10,Domestic,Young Families,Kagoshima,37,Male,3,TRUE,3,Partnered,7-10M,5,6,4,4,3,2,4,4,5,5,4,4,4,3,4,4,5
+M10_0558,M10,Domestic,Young Families,Miyagi,45,Female,4,TRUE,3,Partnered,3-5M,4,3,5,1,2,1,3,5,5,4,5,6,6,6,6,6,5
+M10_0559,M10,Domestic,Young Families,Ehime,44,Female,3,TRUE,3,Married,7-10M,5,5,5,4,3,2,3,5,6,6,4,6,6,6,5,5,4
+M10_0560,M10,Domestic,Young Families,Mie,29,Male,3,TRUE,1,Married,5-7M,5,4,5,4,2,4,2,7,6,5,5,6,5,4,5,3,3
+M10_0561,M10,Domestic,Young Families,Okayama,26,Female,3,TRUE,2,Married,3-5M,5,4,3,2,3,4,8,3,2,3,3,3,6,4,3,3,5
+M10_0562,M10,Domestic,Young Families,Tochigi,26,Male,3,TRUE,1,Partnered,5-7M,5,3,3,4,3,3,6,5,4,4,4,3,2,4,2,3,3
+M10_0563,M10,Domestic,Young Families,Miyazaki,34,Male,3,TRUE,0,Married,5-7M,5,5,5,3,2,1,5,3,4,3,3,4,5,3,4,5,4
+M10_0564,M10,Domestic,Young Families,Oita,41,Female,4,TRUE,0,Married,3-5M,6,6,6,5,4,4,5,5,6,5,5,5,3,4,4,4,3
+M10_0565,M10,Domestic,Young Families,Kyoto,26,Male,4,TRUE,3,Partnered,3-5M,5,3,7,3,3,4,5,5,6,5,7,5,5,5,5,5,5
+M10_0566,M10,Domestic,Young Families,Hyogo,43,Male,4,TRUE,2,Married,5-7M,4,4,6,4,5,4,7,6,6,5,5,5,4,5,5,4,5
+M10_0567,M10,Domestic,Young Families,Tottori,39,Male,4,TRUE,2,Married,7-10M,5,4,3,4,3,4,6,3,4,5,4,3,3,5,4,5,4
+M10_0568,M10,Domestic,Young Families,Nagasaki,45,Female,3,TRUE,2,Married,7-10M,2,2,2,3,3,2,5,3,6,3,4,4,3,1,3,2,3
+M10_0569,M10,Domestic,Young Families,Tochigi,27,Female,3,TRUE,4,Married,Under 3M,5,4,4,6,4,3,4,3,3,2,3,3,3,5,4,4,4
+M10_0570,M10,Domestic,Young Families,Yamanashi,43,Female,3,TRUE,4,Married,7-10M,6,4,3,6,4,3,5,5,3,6,3,4,3,6,5,5,6
+M10_0571,M10,Domestic,Young Families,Ibaraki,37,Female,3,TRUE,3,Married,3-5M,5,5,4,5,3,4,7,6,6,4,4,5,5,4,5,3,4
+M10_0572,M10,Domestic,Young Families,Tochigi,39,Female,3,TRUE,3,Married,3-5M,5,5,4,5,4,4,6,5,5,7,6,5,5,4,5,5,6
+M10_0573,M10,Domestic,Young Families,Gunma,42,Female,3,TRUE,4,Married,Over 10M,5,2,5,4,5,4,8,6,5,4,5,5,6,4,5,5,6
+M10_0574,M10,Domestic,Young Families,Oita,27,Female,3,TRUE,2,Married,Under 3M,4,4,3,3,3,3,4,6,5,4,4,5,7,3,5,6,6
+M10_0575,M10,Domestic,Young Families,Shimane,26,Male,3,TRUE,2,Partnered,7-10M,4,5,3,6,2,3,3,5,3,4,4,4,6,4,5,5,5
+M10_0576,M10,Domestic,Young Families,Hiroshima,45,Male,3,TRUE,2,Married,Under 3M,4,3,4,4,5,1,6,5,3,4,5,3,3,4,3,3,5
+M10_0577,M10,Domestic,Young Families,Mie,37,Male,3,TRUE,1,Married,5-7M,4,3,6,6,3,4,5,5,4,5,4,5,4,4,6,5,3
+M10_0578,M10,Domestic,Young Families,Yamaguchi,41,Male,3,TRUE,4,Married,7-10M,5,4,3,3,4,2,3,5,7,5,4,4,6,4,4,5,4
+M10_0579,M10,Domestic,Young Families,Okayama,35,Male,4,TRUE,0,Married,Under 3M,4,5,5,5,5,4,7,4,3,4,4,4,4,4,4,5,5
+M10_0580,M10,Domestic,Young Families,Kyoto,39,Female,5,TRUE,4,Married,3-5M,3,3,5,4,4,3,5,4,4,3,4,4,4,6,5,5,5
+M10_0581,M10,Domestic,Young Families,Yamanashi,33,Female,3,TRUE,1,Married,3-5M,4,5,5,4,3,4,6,4,5,3,4,5,4,5,5,6,4
+M10_0582,M10,Domestic,Young Families,Ehime,28,Female,3,TRUE,2,Married,5-7M,5,4,4,5,4,4,5,4,3,5,3,5,3,3,3,2,2
+M10_0583,M10,Domestic,Young Families,Oita,44,Male,3,TRUE,5,Married,7-10M,6,7,3,4,4,5,6,5,2,4,4,3,4,5,3,5,4
+M10_0584,M10,Domestic,Young Families,Miyagi,30,Female,5,TRUE,3,Married,7-10M,5,3,5,3,6,7,7,3,3,2,3,4,3,2,3,4,4
+M10_0585,M10,Domestic,Young Families,Oita,45,Female,4,TRUE,5,Married,7-10M,5,5,5,4,4,3,3,5,4,4,6,3,5,5,5,3,5
+M10_0586,M10,Domestic,Young Families,Hiroshima,42,Female,3,TRUE,4,Married,5-7M,5,4,4,4,4,3,2,4,4,5,4,5,4,5,3,4,5
+M10_0587,M10,Domestic,Young Families,Okayama,41,Other/Prefer not to say,5,TRUE,3,Married,5-7M,5,4,4,4,3,2,5,5,4,4,4,5,3,5,5,4,5
+M10_0588,M10,Domestic,Young Families,Shiga,32,Male,4,TRUE,0,Partnered,7-10M,3,2,2,3,4,3,7,5,5,5,4,7,4,3,4,4,4
+M10_0589,M10,Domestic,Young Families,Ibaraki,30,Female,4,TRUE,0,Married,3-5M,6,4,5,4,5,5,5,5,6,6,3,5,6,6,6,6,6
+M10_0590,M10,Domestic,Young Families,Tochigi,45,Male,3,TRUE,1,Partnered,7-10M,4,4,4,3,6,5,6,6,5,4,4,4,4,5,4,5,5
+M10_0591,M10,Domestic,Young Families,Kagawa,27,Female,3,TRUE,3,Married,3-5M,4,5,5,4,4,3,5,6,5,5,4,4,7,7,6,6,5
+M10_0592,M10,Domestic,Young Families,Shimane,30,Male,4,TRUE,1,Married,3-5M,5,4,4,3,3,3,4,3,4,4,4,2,4,5,5,4,2
+M10_0593,M10,Domestic,Young Families,Oita,31,Male,5,TRUE,3,Married,7-10M,5,3,3,4,5,3,7,5,6,4,5,4,3,2,4,3,5
+M10_0594,M10,Domestic,Young Families,Miyagi,26,Female,3,TRUE,1,Partnered,Under 3M,4,2,4,3,2,4,6,4,6,4,6,5,4,4,5,3,4
+M10_0595,M10,Domestic,Young Families,Miyagi,36,Female,4,TRUE,1,Partnered,Over 10M,6,5,5,3,4,5,4,6,5,5,5,6,4,6,4,5,4
+M10_0596,M10,Domestic,Young Families,Tochigi,28,Male,3,TRUE,5,Partnered,5-7M,4,4,4,4,5,4,7,6,4,4,5,4,3,3,5,4,2
+M10_0597,M10,Domestic,Young Families,Wakayama,33,Male,3,TRUE,0,Partnered,3-5M,6,5,4,5,4,2,8,3,4,4,3,3,3,4,5,5,4
+M10_0598,M10,Domestic,Young Families,Mie,33,Male,3,TRUE,5,Partnered,3-5M,3,6,4,4,3,3,4,5,5,4,5,4,3,5,3,5,4
+M10_0599,M10,Domestic,Young Families,Nagasaki,32,Female,3,TRUE,2,Partnered,3-5M,4,5,5,5,4,4,5,3,3,4,3,4,5,4,4,3,5
+M10_0600,M10,Domestic,Young Families,Gifu,35,Male,3,TRUE,4,Married,Under 3M,3,4,3,3,3,4,5,5,4,6,3,5,3,4,5,3,4
+M10_0601,M10,Domestic,Matured Families,Okinawa,49,Female,5,TRUE,17,Married,3-5M,5,4,6,6,3,1,7,2,4,5,5,3,5,5,4,5,6
+M10_0602,M10,Domestic,Matured Families,Niigata,43,Female,3,TRUE,10,Married,7-10M,4,4,5,4,5,3,8,5,4,3,4,5,5,5,6,5,7
+M10_0603,M10,Domestic,Matured Families,Hiroshima,43,Female,4,TRUE,9,Married,5-7M,5,4,5,5,3,3,3,6,5,6,5,6,3,4,6,4,3
+M10_0604,M10,Domestic,Matured Families,Hyogo,41,Female,4,TRUE,12,Married,5-7M,4,3,2,5,2,2,5,4,4,2,4,3,5,5,6,3,4
+M10_0605,M10,Domestic,Matured Families,Okayama,50,Male,3,TRUE,16,Married,7-10M,3,5,4,2,4,2,5,5,4,3,3,5,4,4,5,3,4
+M10_0606,M10,Domestic,Matured Families,Niigata,54,Male,5,TRUE,17,Single,5-7M,3,2,3,4,4,3,7,4,4,5,4,4,4,4,3,3,3
+M10_0607,M10,Domestic,Matured Families,Shimane,44,Female,4,TRUE,14,Married,Over 10M,4,4,4,5,3,3,4,4,3,4,5,4,4,3,2,2,3
+M10_0608,M10,Domestic,Matured Families,Okinawa,42,Female,4,TRUE,8,Married,7-10M,5,4,5,6,5,5,7,4,5,5,4,5,3,7,6,5,6
+M10_0609,M10,Domestic,Matured Families,Shiga,50,Male,5,TRUE,17,Single,5-7M,4,1,4,5,3,2,6,4,5,5,6,6,5,4,4,5,5
+M10_0610,M10,Domestic,Matured Families,Gunma,48,Male,5,TRUE,16,Married,3-5M,3,4,4,2,4,4,6,5,5,6,5,5,5,6,4,5,5
+M10_0611,M10,Domestic,Matured Families,Tokushima,46,Male,3,TRUE,14,Partnered,7-10M,3,2,4,3,4,5,3,6,5,5,5,3,7,6,5,6,4
+M10_0612,M10,Domestic,Matured Families,Gunma,48,Female,5,TRUE,13,Married,7-10M,6,3,4,4,2,2,4,6,5,5,5,3,4,3,4,3,5
+M10_0613,M10,Domestic,Matured Families,Hiroshima,46,Female,3,TRUE,8,Married,3-5M,4,4,3,4,5,4,5,3,4,4,3,3,4,4,2,3,3
+M10_0614,M10,Domestic,Matured Families,Gunma,49,Male,5,TRUE,7,Married,3-5M,4,5,6,3,4,5,5,4,5,3,4,3,4,3,4,6,4
+M10_0615,M10,Domestic,Matured Families,Kochi,44,Female,4,TRUE,10,Married,5-7M,5,4,5,4,5,3,4,5,4,5,4,4,3,5,6,5,3
+M10_0616,M10,Domestic,Matured Families,Kumamoto,46,Female,3,TRUE,17,Married,5-7M,5,5,7,6,5,6,7,7,5,5,5,6,6,6,7,4,6
+M10_0617,M10,Domestic,Matured Families,Shimane,53,Other/Prefer not to say,4,TRUE,16,Partnered,Over 10M,4,5,3,4,3,3,5,3,4,3,4,4,6,6,7,6,7
+M10_0618,M10,Domestic,Matured Families,Tottori,42,Female,4,TRUE,8,Married,Under 3M,3,2,5,4,5,4,7,5,5,5,6,5,5,6,5,6,5
+M10_0619,M10,Domestic,Matured Families,Ibaraki,41,Female,3,TRUE,14,Married,7-10M,3,3,4,3,2,1,3,4,3,5,3,5,5,4,5,4,5
+M10_0620,M10,Domestic,Matured Families,Gifu,47,Female,5,TRUE,8,Partnered,Under 3M,6,6,3,2,4,3,5,6,5,5,6,5,4,4,5,4,5
+M10_0621,M10,Domestic,Matured Families,Yamanashi,39,Male,4,TRUE,13,Partnered,7-10M,4,4,4,3,3,5,1,1,4,3,3,3,5,4,4,5,4
+M10_0622,M10,Domestic,Matured Families,Hiroshima,50,Male,4,TRUE,10,Married,3-5M,5,5,4,4,3,2,3,3,3,6,5,5,5,3,5,4,5
+M10_0623,M10,Domestic,Matured Families,Nara,49,Female,3,TRUE,16,Married,5-7M,5,4,4,2,4,4,4,5,5,5,5,6,5,7,5,5,5
+M10_0624,M10,Domestic,Matured Families,Kagoshima,47,Male,4,TRUE,11,Partnered,5-7M,4,4,4,3,4,5,7,4,4,5,5,4,5,6,5,6,6
+M10_0625,M10,Domestic,Matured Families,Ehime,48,Male,4,TRUE,15,Married,5-7M,5,5,5,5,5,5,8,3,3,2,4,3,5,4,2,4,5
+M10_0626,M10,Domestic,Matured Families,Okayama,42,Male,3,TRUE,8,Married,3-5M,3,2,4,3,5,4,5,6,5,6,6,6,7,6,6,6,6
+M10_0627,M10,Domestic,Matured Families,Shimane,51,Other/Prefer not to say,3,TRUE,16,Married,Over 10M,4,4,4,3,3,4,7,3,2,3,4,6,4,3,3,3,3
+M10_0628,M10,Domestic,Matured Families,Nara,40,Male,3,TRUE,9,Married,5-7M,5,3,4,3,4,3,4,3,3,3,4,3,3,3,3,5,5
+M10_0629,M10,Domestic,Matured Families,Shimane,46,Male,3,TRUE,13,Married,7-10M,4,4,4,4,4,5,8,5,5,5,5,6,6,6,5,6,5
+M10_0630,M10,Domestic,Matured Families,Shizuoka,52,Female,3,TRUE,14,Single,3-5M,6,5,3,3,5,5,6,4,6,3,6,3,3,4,4,3,4
+M10_0631,M10,Domestic,Matured Families,Tottori,40,Female,3,TRUE,10,Married,5-7M,5,4,3,3,3,4,5,5,4,4,5,6,3,5,4,5,4
+M10_0632,M10,Domestic,Matured Families,Ehime,53,Male,3,TRUE,17,Partnered,7-10M,5,4,2,4,2,2,6,3,2,2,3,1,4,4,2,1,3
+M10_0633,M10,Domestic,Matured Families,Mie,47,Male,3,TRUE,17,Single,5-7M,1,1,5,4,2,2,8,3,4,4,4,5,3,5,5,3,5
+M10_0634,M10,Domestic,Matured Families,Okinawa,35,Male,4,TRUE,14,Partnered,5-7M,4,5,3,2,4,3,4,5,3,5,4,6,3,6,6,5,5
+M10_0635,M10,Domestic,Matured Families,Gifu,53,Female,3,TRUE,13,Married,Over 10M,5,3,5,4,2,2,5,4,1,4,5,2,5,5,3,4,3
+M10_0636,M10,Domestic,Matured Families,Shizuoka,42,Female,3,TRUE,11,Partnered,7-10M,4,5,5,5,3,3,4,3,5,2,3,4,5,2,3,4,3
+M10_0637,M10,Domestic,Matured Families,Wakayama,51,Male,4,TRUE,12,Married,Under 3M,6,2,4,3,6,5,6,5,3,3,6,4,5,6,5,7,5
+M10_0638,M10,Domestic,Matured Families,Tottori,53,Female,3,TRUE,7,Married,7-10M,4,5,5,3,4,5,4,4,6,5,6,7,6,3,6,5,5
+M10_0639,M10,Domestic,Matured Families,Tochigi,35,Male,3,TRUE,7,Married,7-10M,4,3,3,5,4,3,7,4,4,5,5,5,3,4,4,4,5
+M10_0640,M10,Domestic,Matured Families,Shimane,46,Female,3,TRUE,16,Married,3-5M,3,3,2,3,4,4,8,6,7,5,5,5,5,5,4,4,4
+M10_0641,M10,Domestic,Matured Families,Nagano,50,Male,3,TRUE,8,Married,3-5M,6,5,5,4,4,5,5,7,6,6,4,5,4,5,5,6,5
+M10_0642,M10,Domestic,Matured Families,Tokushima,55,Male,3,TRUE,8,Single,Under 3M,5,4,6,4,3,3,6,5,5,4,4,3,5,4,5,4,6
+M10_0643,M10,Domestic,Matured Families,Tokushima,48,Male,4,TRUE,17,Partnered,7-10M,6,4,3,6,3,4,7,5,2,5,4,2,4,4,5,5,5
+M10_0644,M10,Domestic,Matured Families,Ehime,35,Female,5,TRUE,12,Married,5-7M,3,4,3,1,2,4,3,3,3,4,5,4,5,4,4,3,3
+M10_0645,M10,Domestic,Matured Families,Tochigi,46,Male,4,TRUE,16,Partnered,7-10M,6,4,3,3,1,2,7,4,5,4,4,3,4,5,2,5,4
+M10_0646,M10,Domestic,Matured Families,Wakayama,38,Male,4,TRUE,10,Married,5-7M,5,3,5,5,4,3,6,5,4,3,4,3,4,5,4,5,4
+M10_0647,M10,Domestic,Matured Families,Wakayama,45,Male,5,TRUE,7,Married,3-5M,6,4,4,3,4,3,5,4,4,3,5,2,5,5,5,5,5
+M10_0648,M10,Domestic,Matured Families,Tottori,43,Male,5,TRUE,11,Partnered,7-10M,5,4,5,3,3,3,4,4,3,4,5,3,6,5,5,5,5
+M10_0649,M10,Domestic,Matured Families,Hiroshima,36,Male,3,TRUE,8,Married,7-10M,5,5,3,5,5,3,5,3,3,6,5,5,5,2,3,3,3
+M10_0650,M10,Domestic,Matured Families,Niigata,36,Female,3,TRUE,11,Married,7-10M,5,2,3,2,5,5,8,4,4,3,4,2,3,3,3,4,5
+M10_0651,M10,Domestic,Matured Families,Kochi,42,Female,4,TRUE,12,Partnered,5-7M,3,4,3,4,6,4,7,6,6,5,4,6,7,6,7,4,5
+M10_0652,M10,Domestic,Matured Families,Gifu,55,Female,3,TRUE,11,Married,7-10M,5,3,2,4,5,4,5,5,5,4,2,4,4,5,7,5,6
+M10_0653,M10,Domestic,Matured Families,Yamaguchi,50,Male,3,TRUE,16,Married,3-5M,3,4,2,3,4,5,5,3,4,3,3,3,3,3,4,3,5
+M10_0654,M10,Domestic,Matured Families,Nagasaki,47,Male,3,TRUE,12,Married,Under 3M,7,4,5,4,5,4,7,4,4,3,4,4,5,6,5,3,4
+M10_0655,M10,Domestic,Matured Families,Shiga,53,Female,3,TRUE,14,Married,Under 3M,5,4,4,4,5,4,5,3,4,3,3,3,4,4,5,4,6
+M10_0656,M10,Domestic,Matured Families,Okinawa,52,Female,4,TRUE,9,Married,3-5M,3,1,2,2,2,2,2,5,4,3,5,4,2,4,3,3,4
+M10_0657,M10,Domestic,Matured Families,Niigata,39,Male,4,TRUE,14,Single,5-7M,5,4,3,4,4,3,5,4,2,2,4,4,2,3,4,3,2
+M10_0658,M10,Domestic,Matured Families,Kagoshima,35,Female,4,TRUE,12,Married,5-7M,2,6,4,4,5,2,7,5,4,4,3,4,5,5,5,5,5
+M10_0659,M10,Domestic,Matured Families,Ehime,36,Female,5,TRUE,13,Partnered,Under 3M,7,5,4,4,3,3,6,4,5,4,6,5,4,5,4,2,3
+M10_0660,M10,Domestic,Matured Families,Shiga,46,Female,4,TRUE,7,Married,3-5M,5,5,5,6,4,2,5,6,6,7,7,7,5,4,4,5,5
+M10_0661,M10,Domestic,Matured Families,Tottori,37,Female,5,TRUE,8,Partnered,3-5M,4,2,4,4,5,3,6,3,2,4,1,4,4,4,5,6,5
+M10_0662,M10,Domestic,Matured Families,Hyogo,43,Female,4,TRUE,10,Single,Under 3M,5,5,5,5,1,2,3,4,5,4,5,4,4,3,5,3,5
+M10_0663,M10,Domestic,Matured Families,Tokushima,51,Female,3,TRUE,7,Partnered,Over 10M,4,3,4,5,3,2,3,4,3,5,5,4,4,5,3,4,3
+M10_0664,M10,Domestic,Matured Families,Shiga,41,Male,3,TRUE,11,Married,3-5M,6,6,6,4,4,4,3,6,5,3,5,4,6,6,6,5,5
+M10_0665,M10,Domestic,Matured Families,Ibaraki,41,Male,3,TRUE,13,Married,Over 10M,6,6,5,4,5,4,5,5,4,5,4,4,4,5,5,3,2
+M10_0666,M10,Domestic,Matured Families,Shimane,44,Male,4,TRUE,12,Single,5-7M,5,3,4,4,3,3,4,4,4,2,3,4,2,5,4,2,4
+M10_0667,M10,Domestic,Matured Families,Nara,47,Female,4,TRUE,9,Married,3-5M,4,4,4,3,4,2,5,4,4,5,4,4,4,6,4,5,4
+M10_0668,M10,Domestic,Matured Families,Niigata,47,Male,5,TRUE,13,Married,5-7M,7,5,5,4,4,5,7,6,6,5,3,5,3,3,4,3,4
+M10_0669,M10,Domestic,Matured Families,Hiroshima,53,Male,4,TRUE,9,Married,7-10M,5,3,4,2,5,5,4,4,2,4,6,2,2,3,4,5,2
+M10_0670,M10,Domestic,Matured Families,Tokushima,47,Male,3,TRUE,7,Married,5-7M,5,4,6,4,4,3,3,3,4,4,3,5,4,4,4,4,3
+M10_0671,M10,Domestic,Matured Families,Miyazaki,49,Female,4,TRUE,14,Married,3-5M,4,3,5,4,3,3,6,7,5,6,5,5,6,6,5,6,5
+M10_0672,M10,Domestic,Matured Families,Gunma,36,Female,5,TRUE,16,Partnered,5-7M,3,4,6,2,2,1,7,4,4,5,4,5,6,6,6,4,7
+M10_0673,M10,Domestic,Matured Families,Tokushima,44,Female,4,TRUE,8,Married,Over 10M,4,2,3,5,3,2,4,3,3,3,5,3,4,3,4,5,3
+M10_0674,M10,Domestic,Matured Families,Mie,41,Female,3,TRUE,7,Married,3-5M,3,2,3,2,1,4,4,3,6,6,5,5,5,3,6,5,6
+M10_0675,M10,Domestic,Matured Families,Okinawa,50,Male,3,TRUE,17,Married,7-10M,4,5,1,4,4,3,4,5,6,5,3,4,5,5,5,4,4
+M10_0676,M10,Domestic,Matured Families,Hiroshima,55,Male,4,TRUE,14,Married,7-10M,7,5,6,6,5,4,9,7,6,7,6,7,5,6,5,6,5
+M10_0677,M10,Domestic,Matured Families,Gunma,51,Male,4,TRUE,12,Married,Under 3M,5,6,5,4,3,3,4,4,7,4,6,5,4,6,5,6,5
+M10_0678,M10,Domestic,Matured Families,Okinawa,36,Male,3,TRUE,8,Married,7-10M,6,3,3,4,3,3,4,2,2,3,3,2,5,3,4,4,3
+M10_0679,M10,Domestic,Matured Families,Kyoto,51,Male,5,TRUE,9,Married,7-10M,5,7,5,6,4,3,4,4,4,5,6,4,4,4,5,6,4
+M10_0680,M10,Domestic,Matured Families,Kyoto,55,Female,4,TRUE,7,Married,5-7M,5,4,2,3,2,2,5,4,5,4,5,4,3,4,4,4,3
+M10_0681,M10,Domestic,Matured Families,Okayama,35,Other/Prefer not to say,4,TRUE,17,Married,7-10M,6,5,4,3,3,4,6,3,3,3,4,5,5,5,5,5,6
+M10_0682,M10,Domestic,Matured Families,Mie,41,Male,5,TRUE,17,Married,7-10M,6,5,2,3,3,3,6,5,5,5,3,3,3,3,3,5,5
+M10_0683,M10,Domestic,Matured Families,Nagasaki,53,Female,3,TRUE,11,Married,5-7M,5,6,5,4,4,2,7,6,5,4,6,5,6,5,6,5,4
+M10_0684,M10,Domestic,Matured Families,Miyazaki,38,Female,5,TRUE,7,Married,5-7M,6,6,5,4,4,4,4,5,4,5,6,4,4,5,5,5,4
+M10_0685,M10,Domestic,Matured Families,Nagasaki,39,Male,4,TRUE,10,Married,5-7M,4,4,5,4,4,4,7,4,5,5,3,1,3,1,2,4,3
+M10_0686,M10,Domestic,Matured Families,Wakayama,42,Female,3,TRUE,16,Married,5-7M,6,4,4,3,4,3,5,5,5,6,3,6,5,4,5,6,7
+M10_0687,M10,Domestic,Matured Families,Ehime,45,Female,3,TRUE,12,Single,7-10M,5,4,2,1,3,4,8,3,3,4,4,4,3,3,3,4,4
+M10_0688,M10,Domestic,Matured Families,Hiroshima,39,Male,3,TRUE,10,Married,5-7M,6,6,3,2,4,4,7,6,5,4,6,5,4,2,3,5,4
+M10_0689,M10,Domestic,Matured Families,Nagasaki,44,Male,4,TRUE,11,Married,3-5M,5,4,3,2,5,5,4,5,5,6,5,5,5,4,5,4,5
+M10_0690,M10,Domestic,Matured Families,Gifu,50,Female,4,TRUE,10,Partnered,5-7M,5,6,6,4,3,4,5,4,6,4,4,4,4,4,5,4,4
+M10_0691,M10,Domestic,Matured Families,Okayama,47,Male,3,TRUE,17,Married,3-5M,5,4,4,3,2,3,1,3,5,5,4,4,5,6,4,5,7
+M10_0692,M10,Domestic,Matured Families,Kagoshima,54,Male,4,TRUE,9,Married,7-10M,5,3,2,3,3,2,4,3,4,5,5,5,4,5,4,4,5
+M10_0693,M10,Domestic,Matured Families,Yamanashi,40,Female,3,TRUE,8,Married,3-5M,3,3,5,4,3,4,4,6,3,3,4,5,4,3,4,3,4
+M10_0694,M10,Domestic,Matured Families,Nagasaki,37,Male,3,TRUE,8,Married,3-5M,7,5,5,5,4,4,5,5,5,6,7,5,6,5,4,5,3
+M10_0695,M10,Domestic,Matured Families,Miyagi,54,Male,4,TRUE,8,Married,Over 10M,6,3,4,4,5,5,6,3,3,3,4,3,5,3,3,3,3
+M10_0696,M10,Domestic,Matured Families,Okayama,42,Female,4,TRUE,14,Married,Over 10M,5,4,3,4,4,3,7,5,3,6,3,6,4,4,4,6,5
+M10_0697,M10,Domestic,Matured Families,Kochi,36,Male,4,TRUE,12,Married,5-7M,5,3,3,3,2,1,4,4,2,4,5,5,4,5,3,4,3
+M10_0698,M10,Domestic,Matured Families,Tokushima,44,Female,3,TRUE,12,Married,Over 10M,3,3,4,5,5,5,9,3,5,5,4,4,4,7,6,4,4
+M10_0699,M10,Domestic,Matured Families,Mie,40,Male,3,TRUE,17,Married,Under 3M,5,5,4,4,4,3,7,4,5,6,6,5,5,4,6,4,6
+M10_0700,M10,Domestic,Matured Families,Kyoto,49,Female,5,TRUE,7,Married,3-5M,4,4,2,3,5,5,5,4,4,3,4,4,3,4,3,2,2
+M10_0701,M10,Domestic,Young Adults,Tochigi,32,Female,2,FALSE,NA,Single,7-10M,4,3,4,2,3,2,2,4,4,4,4,4,6,4,6,4,5
+M10_0702,M10,Domestic,Young Adults,Yamaguchi,25,Male,1,FALSE,NA,Single,Under 3M,4,5,5,4,2,4,3,5,4,6,6,3,5,2,2,5,2
+M10_0703,M10,Domestic,Young Adults,Wakayama,18,Female,1,FALSE,NA,Single,Under 3M,6,6,4,3,5,2,5,2,4,4,4,4,3,5,4,6,4
+M10_0704,M10,Domestic,Young Adults,Kagoshima,32,Male,1,FALSE,NA,Single,7-10M,3,2,3,2,3,3,1,5,4,3,4,2,5,4,5,6,4
+M10_0705,M10,Domestic,Young Adults,Kagawa,27,Female,2,FALSE,NA,Single,Under 3M,2,2,4,4,4,4,8,4,2,3,3,2,4,4,5,4,4
+M10_0706,M10,Domestic,Young Adults,Hyogo,28,Female,2,FALSE,NA,Single,Under 3M,6,6,4,5,6,2,3,4,5,4,5,4,5,6,6,4,5
+M10_0707,M10,Domestic,Young Adults,Shiga,33,Male,2,FALSE,NA,Single,Over 10M,5,5,5,5,3,4,5,4,7,5,6,5,4,3,3,5,4
+M10_0708,M10,Domestic,Young Adults,Nagasaki,28,Male,1,FALSE,NA,Single,3-5M,5,5,3,2,5,6,7,2,4,3,4,5,1,2,2,1,1
+M10_0709,M10,Domestic,Young Adults,Tottori,22,Female,1,FALSE,NA,Single,3-5M,5,4,4,3,3,3,4,3,5,3,5,4,4,4,4,5,3
+M10_0710,M10,Domestic,Young Adults,Hyogo,26,Male,1,FALSE,NA,Single,Under 3M,3,5,3,5,3,2,5,5,4,3,5,4,4,4,6,3,5
+M10_0711,M10,Domestic,Young Adults,Tokushima,20,Other/Prefer not to say,1,FALSE,NA,Single,7-10M,4,3,4,5,4,5,6,4,3,5,4,3,3,3,4,5,4
+M10_0712,M10,Domestic,Young Adults,Miyagi,26,Male,1,FALSE,NA,Single,3-5M,6,5,4,5,4,4,4,4,5,3,5,4,5,2,4,4,3
+M10_0713,M10,Domestic,Young Adults,Miyagi,34,Female,2,FALSE,NA,Single,7-10M,4,5,3,3,1,3,2,3,5,4,4,4,3,4,4,3,5
+M10_0714,M10,Domestic,Young Adults,Hyogo,25,Female,1,FALSE,NA,Single,3-5M,4,4,4,5,4,4,5,5,5,7,5,4,5,5,5,5,4
+M10_0715,M10,Domestic,Young Adults,Kyoto,31,Female,2,FALSE,NA,Single,3-5M,5,4,3,2,2,1,2,4,3,5,5,2,4,4,5,4,5
+M10_0716,M10,Domestic,Young Adults,Okayama,29,Female,2,FALSE,NA,Single,Under 3M,3,3,5,4,4,4,4,5,4,4,5,5,4,4,5,6,7
+M10_0717,M10,Domestic,Young Adults,Kagoshima,29,Male,1,FALSE,NA,Single,3-5M,4,2,5,5,3,4,7,3,3,4,4,4,5,5,4,5,3
+M10_0718,M10,Domestic,Young Adults,Kochi,19,Female,1,FALSE,NA,Single,3-5M,4,6,4,5,4,4,5,3,4,5,4,3,3,3,2,3,3
+M10_0719,M10,Domestic,Young Adults,Nagasaki,25,Female,2,FALSE,NA,Single,3-5M,4,3,5,3,3,2,5,3,4,4,4,4,4,3,3,3,4
+M10_0720,M10,Domestic,Young Adults,Hiroshima,32,Female,1,FALSE,NA,Single,Over 10M,3,4,2,4,3,2,5,5,5,4,6,4,4,4,2,4,3
+M10_0721,M10,Domestic,Young Adults,Okayama,30,Female,1,FALSE,NA,Single,5-7M,5,4,6,4,3,5,5,3,4,4,5,4,5,6,6,5,6
+M10_0722,M10,Domestic,Young Adults,Hiroshima,24,Male,1,FALSE,NA,Single,3-5M,3,4,5,4,3,3,5,6,4,3,5,5,5,5,3,4,5
+M10_0723,M10,Domestic,Young Adults,Wakayama,25,Male,1,FALSE,NA,Single,Under 3M,6,4,5,3,4,4,6,4,6,5,4,6,4,3,3,4,5
+M10_0724,M10,Domestic,Young Adults,Nagasaki,30,Male,2,FALSE,NA,Single,7-10M,3,4,2,2,3,3,3,3,6,6,4,4,4,5,4,4,4
+M10_0725,M10,Domestic,Young Adults,Nagasaki,21,Female,1,FALSE,NA,Single,Under 3M,5,5,5,4,5,4,4,4,4,4,3,5,6,4,5,6,4
+M10_0726,M10,Domestic,Young Adults,Gifu,28,Male,1,FALSE,NA,Single,3-5M,2,3,3,5,3,2,5,4,4,3,2,2,6,4,5,4,4
+M10_0727,M10,Domestic,Young Adults,Kochi,24,Female,1,FALSE,NA,Single,5-7M,5,6,3,2,3,3,4,6,5,6,4,5,5,5,4,3,4
+M10_0728,M10,Domestic,Young Adults,Kagawa,32,Female,1,FALSE,NA,Single,7-10M,6,5,6,7,4,3,4,5,6,4,4,4,6,6,5,5,6
+M10_0729,M10,Domestic,Young Adults,Yamanashi,21,Female,1,FALSE,NA,Single,7-10M,4,6,5,4,3,4,6,4,5,3,6,3,4,5,3,5,4
+M10_0730,M10,Domestic,Young Adults,Kagawa,19,Female,2,FALSE,NA,Single,Under 3M,2,2,6,5,5,4,4,7,6,5,6,4,5,6,6,5,4
+M10_0731,M10,Domestic,Young Adults,Gifu,25,Male,2,FALSE,NA,Single,3-5M,5,3,3,6,2,3,4,4,5,2,4,4,4,3,4,3,3
+M10_0732,M10,Domestic,Young Adults,Nara,26,Male,1,FALSE,NA,Single,5-7M,2,3,5,3,2,3,3,4,4,3,4,3,5,4,4,4,4
+M10_0733,M10,Domestic,Young Adults,Niigata,20,Female,2,FALSE,NA,Single,Under 3M,5,5,4,3,4,3,6,6,4,2,4,4,5,6,7,7,6
+M10_0734,M10,Domestic,Young Adults,Oita,28,Male,1,FALSE,NA,Single,3-5M,5,5,5,4,5,4,8,3,4,2,5,2,5,5,4,3,3
+M10_0735,M10,Domestic,Young Adults,Tottori,34,Male,1,FALSE,NA,Single,3-5M,4,4,3,3,3,2,4,5,4,5,4,5,3,4,3,4,4
+M10_0736,M10,Domestic,Young Adults,Tottori,29,Male,1,FALSE,NA,Single,Under 3M,4,4,4,3,4,2,5,3,3,4,5,2,5,4,4,4,4
+M10_0737,M10,Domestic,Young Adults,Yamaguchi,32,Other/Prefer not to say,1,FALSE,NA,Single,Under 3M,5,4,4,5,3,2,6,4,5,2,3,3,5,4,4,4,5
+M10_0738,M10,Domestic,Young Adults,Miyazaki,23,Other/Prefer not to say,1,FALSE,NA,Single,3-5M,3,2,4,3,3,2,4,5,5,5,4,5,4,6,3,6,5
+M10_0739,M10,Domestic,Young Adults,Tottori,18,Female,1,FALSE,NA,Single,5-7M,5,4,5,4,5,4,3,5,3,4,4,3,4,4,4,3,5
+M10_0740,M10,Domestic,Young Adults,Mie,32,Female,2,FALSE,NA,Single,5-7M,5,2,4,3,2,3,4,4,5,5,4,5,5,6,5,4,5
+M10_0741,M10,Domestic,Young Adults,Wakayama,34,Male,1,FALSE,NA,Single,5-7M,4,2,1,5,4,4,6,2,4,3,4,5,2,2,5,3,1
+M10_0742,M10,Domestic,Young Adults,Shiga,23,Female,1,FALSE,NA,Single,3-5M,3,4,4,3,4,3,5,4,4,5,4,3,5,2,4,3,4
+M10_0743,M10,Domestic,Young Adults,Miyagi,21,Male,2,FALSE,NA,Single,7-10M,6,7,5,5,5,3,6,7,5,4,5,5,5,4,4,4,5
+M10_0744,M10,Domestic,Young Adults,Kumamoto,20,Male,1,FALSE,NA,Single,Over 10M,5,3,3,3,3,3,1,3,6,4,2,4,5,5,2,4,5
+M10_0745,M10,Domestic,Young Adults,Hiroshima,30,Male,2,FALSE,NA,Single,Under 3M,6,4,4,4,4,3,4,4,4,4,3,5,6,5,4,4,5
+M10_0746,M10,Domestic,Young Adults,Hyogo,18,Male,1,FALSE,NA,Single,5-7M,5,4,6,7,4,5,6,4,5,3,3,4,7,5,5,5,5
+M10_0747,M10,Domestic,Young Adults,Shimane,26,Male,1,FALSE,NA,Single,Under 3M,5,4,4,3,2,2,6,4,6,5,7,4,5,4,6,5,4
+M10_0748,M10,Domestic,Young Adults,Shimane,20,Female,2,FALSE,NA,Single,3-5M,6,5,4,5,2,4,7,4,5,6,6,4,5,4,4,4,5
+M10_0749,M10,Domestic,Young Adults,Miyazaki,21,Male,1,FALSE,NA,Single,Under 3M,5,3,4,4,2,3,4,4,4,4,4,5,6,4,4,5,4
+M10_0750,M10,Domestic,Young Adults,Yamanashi,30,Female,2,FALSE,NA,Single,7-10M,3,4,2,3,4,5,4,4,5,4,5,3,4,5,3,3,5
+M10_0751,M10,Domestic,Young Adults,Nagasaki,20,Male,2,FALSE,NA,Single,Under 3M,4,5,3,3,5,3,-0,5,5,4,6,6,4,5,4,4,6
+M10_0752,M10,Domestic,Young Adults,Kagawa,23,Male,1,FALSE,NA,Single,Under 3M,3,3,4,5,4,4,3,5,5,4,5,4,5,3,4,5,5
+M10_0753,M10,Domestic,Young Adults,Okinawa,26,Male,1,FALSE,NA,Single,7-10M,4,4,4,4,5,3,6,4,2,3,4,4,5,5,6,6,4
+M10_0754,M10,Domestic,Young Adults,Wakayama,26,Female,1,FALSE,NA,Single,7-10M,3,4,5,5,4,4,5,6,2,5,4,3,5,3,5,6,6
+M10_0755,M10,Domestic,Young Adults,Ishikawa,23,Female,2,FALSE,NA,Single,3-5M,5,5,5,3,6,5,8,5,5,5,7,4,5,3,5,4,5
+M10_0756,M10,Domestic,Young Adults,Ehime,33,Male,1,FALSE,NA,Single,5-7M,4,4,3,4,4,2,3,5,7,4,4,3,5,6,4,6,5
+M10_0757,M10,Domestic,Young Adults,Shimane,30,Other/Prefer not to say,1,FALSE,NA,Single,3-5M,3,3,4,3,4,2,5,7,4,4,5,6,6,4,3,4,4
+M10_0758,M10,Domestic,Young Adults,Saga,32,Male,1,FALSE,NA,Single,Over 10M,4,5,2,3,4,1,7,6,5,4,6,5,7,5,3,6,4
+M10_0759,M10,Domestic,Young Adults,Ibaraki,27,Male,1,FALSE,NA,Single,Under 3M,3,4,3,3,4,4,7,3,2,4,5,2,5,3,5,4,4
+M10_0760,M10,Domestic,Young Adults,Tottori,33,Female,1,FALSE,NA,Single,5-7M,5,4,3,5,6,4,6,4,3,3,5,4,2,4,2,4,3
+M10_0761,M10,Domestic,Young Adults,Kyoto,30,Male,1,FALSE,NA,Single,5-7M,4,2,3,3,4,2,4,5,5,3,5,4,4,3,3,5,6
+M10_0762,M10,Domestic,Young Adults,Tokushima,29,Female,1,FALSE,NA,Single,5-7M,3,3,3,4,3,2,4,4,4,3,3,3,3,2,4,3,3
+M10_0763,M10,Domestic,Young Adults,Niigata,20,Female,1,FALSE,NA,Single,7-10M,4,5,3,3,4,3,4,5,5,3,5,2,4,5,4,4,3
+M10_0764,M10,Domestic,Young Adults,Kyoto,19,Male,1,FALSE,NA,Single,3-5M,4,3,4,3,4,5,7,4,5,4,5,4,5,4,3,4,4
+M10_0765,M10,Domestic,Young Adults,Ishikawa,24,Female,1,FALSE,NA,Single,Under 3M,4,3,3,3,2,2,7,2,4,3,4,3,5,4,5,6,5
+M10_0766,M10,Domestic,Young Adults,Ibaraki,23,Female,1,FALSE,NA,Single,Over 10M,5,5,4,3,3,2,5,6,6,5,5,4,6,4,5,5,3
+M10_0767,M10,Domestic,Young Adults,Kyoto,33,Female,1,FALSE,NA,Single,Under 3M,3,3,7,5,5,7,5,3,4,2,4,3,5,4,3,6,5
+M10_0768,M10,Domestic,Young Adults,Okinawa,22,Female,1,FALSE,NA,Single,7-10M,5,4,4,5,4,3,3,4,5,3,4,4,4,3,2,4,5
+M10_0769,M10,Domestic,Young Adults,Shimane,30,Female,2,FALSE,NA,Single,3-5M,3,3,5,4,3,5,6,4,3,5,5,6,7,3,5,3,5
+M10_0770,M10,Domestic,Young Adults,Nagasaki,33,Female,2,FALSE,NA,Single,7-10M,5,4,2,3,4,4,3,3,5,4,4,4,4,3,3,2,4
+M10_0771,M10,Domestic,Young Adults,Ibaraki,20,Male,2,FALSE,NA,Single,5-7M,6,6,4,5,2,2,4,3,4,5,4,3,4,5,5,5,4
+M10_0772,M10,Domestic,Young Adults,Yamaguchi,34,Female,2,FALSE,NA,Single,7-10M,3,3,5,3,3,4,7,5,4,4,4,2,6,6,6,6,7
+M10_0773,M10,Domestic,Young Adults,Shizuoka,18,Male,2,FALSE,NA,Single,5-7M,5,1,3,5,4,3,5,5,3,3,4,4,4,4,2,5,4
+M10_0774,M10,Domestic,Young Adults,Yamaguchi,34,Female,1,FALSE,NA,Single,3-5M,5,6,4,2,2,4,4,6,6,6,3,4,5,4,4,6,6
+M10_0775,M10,Domestic,Young Adults,Nara,34,Female,2,FALSE,NA,Single,5-7M,4,5,5,4,5,5,7,4,4,4,5,2,6,4,4,3,5
+M10_0776,M10,Domestic,Young Adults,Hiroshima,31,Male,2,FALSE,NA,Single,7-10M,3,3,3,5,3,5,5,4,6,4,4,5,3,4,3,3,3
+M10_0777,M10,Domestic,Young Adults,Kochi,32,Male,2,FALSE,NA,Single,Over 10M,4,3,5,4,4,1,5,5,5,5,4,4,6,4,5,4,5
+M10_0778,M10,Domestic,Young Adults,Gifu,30,Other/Prefer not to say,1,FALSE,NA,Single,5-7M,5,3,5,6,4,3,7,4,3,3,4,4,6,4,6,5,4
+M10_0779,M10,Domestic,Young Adults,Niigata,33,Male,1,FALSE,NA,Single,7-10M,5,4,3,4,4,3,6,4,3,4,2,3,5,3,3,4,3
+M10_0780,M10,Domestic,Young Adults,Kumamoto,27,Male,2,FALSE,NA,Single,7-10M,4,1,3,2,2,2,2,2,5,2,5,3,5,4,4,4,4
+M10_0781,M10,Domestic,Young Adults,Ishikawa,30,Male,1,FALSE,NA,Single,7-10M,6,4,3,4,3,4,6,3,4,5,4,6,5,5,5,5,6
+M10_0782,M10,Domestic,Young Adults,Mie,20,Female,1,FALSE,NA,Single,3-5M,4,4,3,4,3,3,5,3,3,4,4,3,4,4,3,2,4
+M10_0783,M10,Domestic,Young Adults,Kochi,30,Female,1,FALSE,NA,Single,3-5M,5,4,4,4,2,2,3,5,5,3,4,4,4,4,4,6,5
+M10_0784,M10,Domestic,Young Adults,Kochi,25,Female,1,FALSE,NA,Single,Under 3M,4,4,4,4,3,2,4,5,4,5,6,4,4,2,4,4,3
+M10_0785,M10,Domestic,Young Adults,Okayama,32,Female,1,FALSE,NA,Single,3-5M,3,3,3,1,5,2,1,3,5,3,3,3,3,4,3,3,5
+M10_0786,M10,Domestic,Young Adults,Tottori,25,Male,1,FALSE,NA,Single,Over 10M,5,4,5,4,3,3,5,6,5,3,4,3,5,4,6,6,5
+M10_0787,M10,Domestic,Young Adults,Tokushima,28,Other/Prefer not to say,1,FALSE,NA,Single,5-7M,5,4,4,3,3,3,7,4,6,7,5,3,6,4,5,4,3
+M10_0788,M10,Domestic,Young Adults,Tottori,30,Male,1,FALSE,NA,Single,5-7M,3,3,4,3,3,2,7,5,5,5,4,5,6,6,4,6,4
+M10_0789,M10,Domestic,Young Adults,Nara,34,Female,1,FALSE,NA,Single,Under 3M,4,3,5,6,4,2,6,6,5,5,4,5,6,4,4,6,4
+M10_0790,M10,Domestic,Young Adults,Tochigi,27,Female,2,FALSE,NA,Single,7-10M,6,4,6,5,4,6,1,4,5,5,4,4,5,4,4,5,6
+M10_0791,M10,Domestic,Young Adults,Gunma,26,Male,2,FALSE,NA,Single,3-5M,5,5,5,4,3,4,3,5,6,5,5,5,6,3,4,7,6
+M10_0792,M10,Domestic,Young Adults,Ibaraki,19,Male,1,FALSE,NA,Single,5-7M,6,5,4,5,4,4,5,5,5,5,5,5,5,5,5,5,4
+M10_0793,M10,Domestic,Young Adults,Shiga,27,Female,1,FALSE,NA,Single,Under 3M,2,3,4,5,4,5,5,3,4,5,4,2,3,3,3,5,3
+M10_0794,M10,Domestic,Young Adults,Yamaguchi,22,Female,2,FALSE,NA,Single,Under 3M,5,4,6,5,2,3,6,4,6,4,6,5,5,7,5,7,4
+M10_0795,M10,Domestic,Young Adults,Okinawa,21,Male,1,FALSE,NA,Single,3-5M,4,3,5,5,3,1,7,5,6,3,4,4,3,2,4,3,4
+M10_0796,M10,Domestic,Young Adults,Yamanashi,27,Male,2,FALSE,NA,Single,5-7M,4,3,3,2,3,3,5,4,3,4,4,3,4,3,3,5,4
+M10_0797,M10,Domestic,Young Adults,Shizuoka,26,Female,1,FALSE,NA,Single,3-5M,4,2,4,4,3,2,5,4,4,5,6,4,4,4,6,5,4
+M10_0798,M10,Domestic,Young Adults,Kochi,20,Male,1,FALSE,NA,Single,7-10M,6,5,7,5,4,5,7,5,6,4,6,7,5,4,3,4,6
+M10_0799,M10,Domestic,Young Adults,Hyogo,29,Male,1,FALSE,NA,Single,3-5M,3,4,4,3,3,2,7,5,5,4,5,6,4,2,3,6,6
+M10_0800,M10,Domestic,Young Adults,Kagoshima,26,Male,1,FALSE,NA,Single,Under 3M,4,3,4,4,3,3,4,4,5,4,3,4,4,2,4,4,3
+M10_0801,M10,Domestic,Young Couples,Niigata,29,Male,2,FALSE,NA,Partnered,Under 3M,4,3,6,4,4,5,6,3,5,3,5,3,4,3,5,4,2
+M10_0802,M10,Domestic,Young Couples,Hyogo,21,Male,2,FALSE,NA,Married,5-7M,4,5,4,5,2,4,3,5,4,4,3,4,6,5,3,2,4
+M10_0803,M10,Domestic,Young Couples,Kochi,28,Female,2,FALSE,NA,Partnered,5-7M,5,6,4,4,5,3,6,2,3,3,2,2,3,3,3,3,1
+M10_0804,M10,Domestic,Young Couples,Ehime,34,Male,2,FALSE,NA,Partnered,Over 10M,5,5,3,2,2,3,5,4,3,6,5,5,4,3,4,4,4
+M10_0805,M10,Domestic,Young Couples,Nara,23,Male,2,FALSE,NA,Partnered,Under 3M,4,3,5,5,4,3,6,3,3,5,4,5,3,4,4,7,5
+M10_0806,M10,Domestic,Young Couples,Tokushima,33,Male,2,FALSE,NA,Partnered,3-5M,3,4,2,3,3,3,4,3,5,5,5,4,5,4,5,4,3
+M10_0807,M10,Domestic,Young Couples,Yamaguchi,22,Male,2,FALSE,NA,Partnered,7-10M,6,4,2,1,2,3,3,6,7,5,5,6,5,4,4,4,3
+M10_0808,M10,Domestic,Young Couples,Yamaguchi,26,Male,2,FALSE,NA,Married,3-5M,4,4,4,3,5,4,5,4,5,5,5,5,5,6,6,5,6
+M10_0809,M10,Domestic,Young Couples,Shiga,25,Female,2,FALSE,NA,Partnered,3-5M,4,4,4,2,3,3,9,3,4,6,3,4,4,3,4,4,5
+M10_0810,M10,Domestic,Young Couples,Miyagi,25,Male,2,FALSE,NA,Married,5-7M,5,4,3,4,3,3,6,5,4,4,5,4,6,7,5,6,6
+M10_0811,M10,Domestic,Young Couples,Kyoto,27,Male,2,FALSE,NA,Partnered,3-5M,4,4,3,4,2,2,6,5,4,6,4,6,4,3,4,2,3
+M10_0812,M10,Domestic,Young Couples,Kagawa,27,Female,2,FALSE,NA,Married,3-5M,4,4,4,4,3,3,5,3,4,4,3,5,6,5,6,4,6
+M10_0813,M10,Domestic,Young Couples,Hyogo,33,Other/Prefer not to say,2,FALSE,NA,Partnered,7-10M,4,5,4,4,4,3,9,6,5,3,3,4,4,4,6,6,4
+M10_0814,M10,Domestic,Young Couples,Hiroshima,21,Male,2,FALSE,NA,Married,5-7M,4,5,3,5,3,2,4,5,4,5,4,3,5,5,4,4,5
+M10_0815,M10,Domestic,Young Couples,Okayama,28,Male,2,FALSE,NA,Partnered,3-5M,5,5,4,5,5,6,8,4,3,3,4,4,4,6,5,5,6
+M10_0816,M10,Domestic,Young Couples,Wakayama,34,Male,2,FALSE,NA,Married,5-7M,4,4,4,4,2,5,4,7,7,7,7,7,5,3,6,3,5
+M10_0817,M10,Domestic,Young Couples,Shimane,24,Male,2,FALSE,NA,Partnered,3-5M,6,5,3,3,5,5,8,3,3,3,4,4,3,4,4,4,4
+M10_0818,M10,Domestic,Young Couples,Miyazaki,31,Female,2,FALSE,NA,Partnered,7-10M,5,4,5,4,4,3,5,6,5,6,4,5,6,5,7,7,7
+M10_0819,M10,Domestic,Young Couples,Wakayama,34,Female,2,FALSE,NA,Partnered,7-10M,4,5,3,5,2,3,6,6,5,5,6,6,6,5,6,6,6
+M10_0820,M10,Domestic,Young Couples,Okayama,28,Male,2,FALSE,NA,Married,7-10M,4,4,2,4,4,4,6,3,5,5,4,4,2,3,5,3,4
+M10_0821,M10,Domestic,Young Couples,Tochigi,25,Male,2,FALSE,NA,Partnered,3-5M,6,4,1,3,3,3,6,5,5,5,4,5,5,4,5,4,4
+M10_0822,M10,Domestic,Young Couples,Wakayama,19,Male,2,FALSE,NA,Partnered,7-10M,6,6,3,3,1,4,5,4,5,4,5,5,6,5,6,5,5
+M10_0823,M10,Domestic,Young Couples,Saga,24,Male,2,FALSE,NA,Partnered,Under 3M,4,3,6,6,3,4,8,5,6,5,5,5,6,3,4,4,5
+M10_0824,M10,Domestic,Young Couples,Miyazaki,32,Male,2,FALSE,NA,Partnered,5-7M,6,5,3,4,5,5,6,3,4,4,4,5,5,6,4,3,4
+M10_0825,M10,Domestic,Young Couples,Tochigi,29,Male,2,FALSE,NA,Married,3-5M,4,4,2,2,3,3,3,4,4,4,3,3,5,3,4,4,6
+M10_0826,M10,Domestic,Young Couples,Kumamoto,31,Female,2,FALSE,NA,Partnered,5-7M,3,4,7,5,6,4,6,6,6,5,6,3,6,5,5,3,4
+M10_0827,M10,Domestic,Young Couples,Niigata,26,Male,2,FALSE,NA,Married,Under 3M,5,2,3,3,5,4,7,5,4,2,4,5,7,6,5,6,6
+M10_0828,M10,Domestic,Young Couples,Gifu,26,Male,2,FALSE,NA,Married,Under 3M,5,3,5,4,2,3,2,5,5,3,5,5,6,6,5,5,6
+M10_0829,M10,Domestic,Young Couples,Ibaraki,22,Male,2,FALSE,NA,Married,7-10M,5,5,4,6,3,4,7,5,3,1,5,3,4,3,3,4,4
+M10_0830,M10,Domestic,Young Couples,Ishikawa,34,Male,2,FALSE,NA,Partnered,3-5M,4,2,5,5,4,3,6,5,5,5,3,5,5,6,5,5,4
+M10_0831,M10,Domestic,Young Couples,Kyoto,26,Female,2,FALSE,NA,Married,7-10M,5,2,6,4,2,2,2,4,4,5,5,5,4,4,3,5,5
+M10_0832,M10,Domestic,Young Couples,Ishikawa,24,Male,2,FALSE,NA,Partnered,Over 10M,4,4,6,5,4,5,8,5,5,5,2,5,5,4,4,6,5
+M10_0833,M10,Domestic,Young Couples,Nara,22,Female,2,FALSE,NA,Married,3-5M,4,2,3,3,3,1,3,4,3,3,3,3,3,5,3,3,3
+M10_0834,M10,Domestic,Young Couples,Miyagi,28,Male,2,FALSE,NA,Partnered,5-7M,4,3,6,4,4,3,5,4,3,3,5,4,5,5,5,4,6
+M10_0835,M10,Domestic,Young Couples,Tottori,34,Male,2,FALSE,NA,Partnered,3-5M,6,4,5,5,4,2,8,2,5,5,4,4,5,3,3,4,5
+M10_0836,M10,Domestic,Young Couples,Mie,25,Female,2,FALSE,NA,Partnered,5-7M,4,4,4,4,4,2,4,4,4,4,4,2,6,5,5,4,5
+M10_0837,M10,Domestic,Young Couples,Gifu,24,Female,2,FALSE,NA,Married,Under 3M,4,3,2,3,3,3,6,5,4,4,5,4,3,3,6,5,4
+M10_0838,M10,Domestic,Young Couples,Miyazaki,22,Female,2,FALSE,NA,Partnered,7-10M,5,4,4,4,4,5,6,6,5,6,4,5,6,5,5,7,6
+M10_0839,M10,Domestic,Young Couples,Saga,29,Female,2,FALSE,NA,Partnered,Under 3M,5,5,4,4,5,5,10,3,5,4,5,3,4,4,3,3,3
+M10_0840,M10,Domestic,Young Couples,Kochi,30,Male,2,FALSE,NA,Married,7-10M,4,4,4,4,3,4,3,4,4,3,2,4,3,3,3,3,4
+M10_0841,M10,Domestic,Young Couples,Okinawa,32,Male,2,FALSE,NA,Married,Over 10M,3,3,4,3,5,5,3,5,6,5,6,7,5,5,6,4,5
+M10_0842,M10,Domestic,Young Couples,Kyoto,30,Female,2,FALSE,NA,Partnered,5-7M,4,5,4,3,3,3,1,5,5,4,5,3,5,6,4,4,5
+M10_0843,M10,Domestic,Young Couples,Miyazaki,23,Female,2,FALSE,NA,Partnered,5-7M,4,2,3,3,1,1,2,5,4,4,3,3,6,4,3,5,4
+M10_0844,M10,Domestic,Young Couples,Tokushima,23,Female,2,FALSE,NA,Married,7-10M,3,5,3,5,2,2,5,4,2,3,4,2,7,4,7,6,6
+M10_0845,M10,Domestic,Young Couples,Shiga,28,Male,2,FALSE,NA,Partnered,Under 3M,4,4,5,5,2,4,3,6,5,3,4,5,5,6,5,4,5
+M10_0846,M10,Domestic,Young Couples,Ibaraki,34,Male,2,FALSE,NA,Married,5-7M,5,4,6,6,3,3,6,6,7,5,4,5,5,6,5,4,5
+M10_0847,M10,Domestic,Young Couples,Wakayama,26,Male,2,FALSE,NA,Partnered,5-7M,7,3,2,3,4,4,6,4,4,4,5,3,2,2,3,2,2
+M10_0848,M10,Domestic,Young Couples,Yamaguchi,32,Female,2,FALSE,NA,Married,5-7M,5,4,3,6,2,3,6,4,5,4,3,4,5,4,5,6,6
+M10_0849,M10,Domestic,Young Couples,Kochi,24,Female,2,FALSE,NA,Partnered,5-7M,4,3,3,4,2,3,2,3,3,4,4,5,5,4,6,4,7
+M10_0850,M10,Domestic,Young Couples,Tottori,23,Male,2,FALSE,NA,Partnered,5-7M,5,5,6,4,6,4,6,6,6,5,3,5,5,5,5,3,3
+M10_0851,M10,Domestic,Young Couples,Ishikawa,21,Male,2,FALSE,NA,Partnered,3-5M,5,5,4,3,5,4,7,4,4,5,4,4,5,5,4,4,5
+M10_0852,M10,Domestic,Young Couples,Tokushima,34,Male,2,FALSE,NA,Partnered,5-7M,5,4,5,5,5,5,7,3,4,3,6,4,5,5,5,3,4
+M10_0853,M10,Domestic,Young Couples,Miyagi,23,Male,2,FALSE,NA,Married,Under 3M,6,4,5,3,3,3,5,3,5,4,3,4,5,4,4,4,5
+M10_0854,M10,Domestic,Young Couples,Hyogo,22,Female,2,FALSE,NA,Partnered,3-5M,4,3,5,4,4,5,8,3,3,4,5,5,3,4,3,4,4
+M10_0855,M10,Domestic,Young Couples,Hiroshima,32,Other/Prefer not to say,2,FALSE,NA,Partnered,5-7M,6,5,4,5,5,4,7,4,3,2,4,4,4,2,2,1,4
+M10_0856,M10,Domestic,Young Couples,Shiga,21,Male,2,FALSE,NA,Partnered,Under 3M,5,4,3,4,6,5,6,4,2,5,4,3,5,4,4,3,3
+M10_0857,M10,Domestic,Young Couples,Niigata,27,Female,2,FALSE,NA,Partnered,5-7M,5,5,5,3,4,4,6,2,4,4,3,3,2,6,3,2,3
+M10_0858,M10,Domestic,Young Couples,Gifu,21,Female,2,FALSE,NA,Married,7-10M,4,4,2,4,3,3,6,4,3,4,5,5,2,4,3,3,3
+M10_0859,M10,Domestic,Young Couples,Kyoto,19,Other/Prefer not to say,2,FALSE,NA,Partnered,5-7M,5,3,4,4,3,3,5,5,5,5,4,5,7,5,4,6,5
+M10_0860,M10,Domestic,Young Couples,Niigata,21,Female,2,FALSE,NA,Partnered,Under 3M,4,4,5,4,3,5,5,5,4,5,5,2,4,4,5,3,6
+M10_0861,M10,Domestic,Young Couples,Shimane,25,Female,2,FALSE,NA,Married,Under 3M,3,3,2,2,2,3,4,3,5,5,5,5,6,4,3,3,3
+M10_0862,M10,Domestic,Young Couples,Nagasaki,26,Female,2,FALSE,NA,Married,5-7M,4,3,4,4,2,3,2,4,6,5,6,7,6,6,5,5,7
+M10_0863,M10,Domestic,Young Couples,Hiroshima,33,Male,2,FALSE,NA,Partnered,3-5M,3,3,5,4,5,5,7,5,5,5,4,3,3,2,3,3,4
+M10_0864,M10,Domestic,Young Couples,Shimane,26,Male,2,FALSE,NA,Partnered,Under 3M,5,7,3,5,2,3,4,2,3,5,4,4,5,6,4,4,5
+M10_0865,M10,Domestic,Young Couples,Hyogo,20,Male,2,FALSE,NA,Partnered,3-5M,5,4,3,3,2,4,7,5,4,6,4,4,5,4,5,6,6
+M10_0866,M10,Domestic,Young Couples,Kochi,19,Female,2,FALSE,NA,Partnered,3-5M,4,3,6,3,4,4,5,5,7,4,4,6,5,6,5,5,6
+M10_0867,M10,Domestic,Young Couples,Nagano,31,Male,2,FALSE,NA,Married,3-5M,5,5,6,4,3,3,4,4,6,4,5,5,4,3,4,3,4
+M10_0868,M10,Domestic,Young Couples,Wakayama,26,Female,2,FALSE,NA,Married,Under 3M,6,5,5,5,4,4,5,3,3,3,3,4,4,3,4,5,6
+M10_0869,M10,Domestic,Young Couples,Tochigi,33,Female,2,FALSE,NA,Partnered,5-7M,5,6,4,3,5,5,9,6,5,4,6,5,6,4,4,6,4
+M10_0870,M10,Domestic,Young Couples,Gifu,29,Female,2,FALSE,NA,Married,Under 3M,5,4,3,5,4,4,5,3,4,4,5,5,5,6,4,5,5
+M10_0871,M10,Domestic,Young Couples,Kagoshima,31,Male,2,FALSE,NA,Partnered,5-7M,5,4,2,5,4,2,4,5,6,6,5,5,5,5,5,6,5
+M10_0872,M10,Domestic,Young Couples,Niigata,33,Male,2,FALSE,NA,Married,7-10M,4,4,3,1,3,2,5,3,2,3,3,3,6,2,5,5,5
+M10_0873,M10,Domestic,Young Couples,Okinawa,32,Male,2,FALSE,NA,Partnered,7-10M,3,5,5,2,3,3,2,3,4,4,4,4,4,4,4,3,6
+M10_0874,M10,Domestic,Young Couples,Shimane,29,Male,2,FALSE,NA,Married,3-5M,5,3,3,2,4,2,2,4,5,2,5,3,4,4,4,4,4
+M10_0875,M10,Domestic,Young Couples,Tochigi,19,Male,2,FALSE,NA,Partnered,3-5M,4,3,5,3,2,3,2,4,5,4,4,4,3,2,4,3,5
+M10_0876,M10,Domestic,Young Couples,Tokushima,22,Male,2,FALSE,NA,Partnered,3-5M,5,5,5,3,5,3,7,3,1,4,3,2,5,3,4,3,5
+M10_0877,M10,Domestic,Young Couples,Kumamoto,25,Male,2,FALSE,NA,Partnered,7-10M,5,4,5,5,3,4,5,6,5,4,3,4,5,4,5,6,5
+M10_0878,M10,Domestic,Young Couples,Nagano,20,Female,2,FALSE,NA,Married,5-7M,5,3,3,6,4,4,5,2,1,2,4,1,2,2,4,3,3
+M10_0879,M10,Domestic,Young Couples,Wakayama,32,Male,2,FALSE,NA,Partnered,3-5M,3,5,3,2,5,2,3,4,5,5,5,5,3,3,4,3,5
+M10_0880,M10,Domestic,Young Couples,Gifu,25,Male,2,FALSE,NA,Married,Under 3M,2,3,3,1,3,2,6,4,5,5,6,5,4,5,4,5,4
+M10_0881,M10,Domestic,Young Couples,Shizuoka,25,Male,2,FALSE,NA,Partnered,5-7M,4,3,4,4,4,2,4,5,6,5,6,5,3,6,4,6,5
+M10_0882,M10,Domestic,Young Couples,Kagoshima,18,Female,2,FALSE,NA,Married,3-5M,3,3,2,3,2,4,4,5,5,4,5,5,4,5,5,3,4
+M10_0883,M10,Domestic,Young Couples,Shizuoka,22,Male,2,FALSE,NA,Partnered,5-7M,4,4,5,4,4,4,3,4,5,5,4,5,5,5,4,4,5
+M10_0884,M10,Domestic,Young Couples,Gunma,20,Female,2,FALSE,NA,Partnered,Under 3M,4,1,3,1,2,1,6,4,4,5,6,3,5,4,4,5,5
+M10_0885,M10,Domestic,Young Couples,Nara,28,Male,2,FALSE,NA,Partnered,5-7M,5,4,3,5,4,3,8,3,4,4,2,5,5,5,5,6,4
+M10_0886,M10,Domestic,Young Couples,Mie,27,Male,2,FALSE,NA,Partnered,5-7M,4,3,3,4,4,2,5,4,5,4,3,4,6,5,5,4,6
+M10_0887,M10,Domestic,Young Couples,Okayama,22,Male,2,FALSE,NA,Married,Under 3M,5,2,5,4,3,3,4,5,4,5,4,6,4,4,3,6,5
+M10_0888,M10,Domestic,Young Couples,Gifu,18,Male,2,FALSE,NA,Partnered,3-5M,4,3,5,4,4,2,4,5,4,5,3,4,6,4,6,4,5
+M10_0889,M10,Domestic,Young Couples,Ehime,21,Female,2,FALSE,NA,Married,3-5M,5,5,5,4,4,3,4,4,3,4,4,4,5,4,5,2,6
+M10_0890,M10,Domestic,Young Couples,Nara,23,Female,2,FALSE,NA,Partnered,5-7M,5,4,4,4,4,4,5,3,5,4,4,3,3,4,4,3,4
+M10_0891,M10,Domestic,Young Couples,Okinawa,22,Male,2,FALSE,NA,Married,3-5M,4,6,6,3,4,2,3,4,4,4,4,6,2,5,5,5,4
+M10_0892,M10,Domestic,Young Couples,Gunma,32,Female,2,FALSE,NA,Married,5-7M,5,4,5,3,3,4,7,3,4,5,4,4,3,5,5,5,5
+M10_0893,M10,Domestic,Young Couples,Niigata,27,Female,2,FALSE,NA,Partnered,5-7M,5,4,3,3,3,4,6,3,2,3,5,1,3,1,4,4,4
+M10_0894,M10,Domestic,Young Couples,Shimane,34,Male,2,FALSE,NA,Married,7-10M,5,3,5,3,3,3,5,6,5,4,4,2,4,3,5,4,5
+M10_0895,M10,Domestic,Young Couples,Nagasaki,19,Female,2,FALSE,NA,Married,5-7M,5,3,4,4,5,4,7,4,5,6,7,5,4,4,4,6,4
+M10_0896,M10,Domestic,Young Couples,Shizuoka,26,Female,2,FALSE,NA,Married,3-5M,6,4,3,3,3,2,5,4,4,4,5,4,4,3,3,3,4
+M10_0897,M10,Domestic,Young Couples,Wakayama,21,Female,2,FALSE,NA,Married,5-7M,4,4,5,4,2,4,4,3,5,4,4,4,5,3,4,4,4
+M10_0898,M10,Domestic,Young Couples,Kagoshima,34,Male,2,FALSE,NA,Partnered,Over 10M,5,6,5,4,3,4,7,7,5,4,4,5,6,5,7,5,5
+M10_0899,M10,Domestic,Young Couples,Yamanashi,31,Male,2,FALSE,NA,Partnered,Over 10M,6,4,4,4,4,3,4,4,4,4,5,5,4,4,4,4,4
+M10_0900,M10,Domestic,Young Couples,Shizuoka,33,Female,2,FALSE,NA,Partnered,7-10M,5,3,4,2,4,4,4,6,5,7,2,4,4,7,4,4,5
+M10_0901,M10,Domestic,Matured Adults 35+,Tottori,43,Male,2,FALSE,NA,Married,5-7M,4,3,3,4,4,3,6,4,3,5,4,5,5,2,4,5,4
+M10_0902,M10,Domestic,Matured Adults 35+,Miyagi,49,Female,2,FALSE,NA,Married,Under 3M,4,4,3,3,4,3,3,4,2,1,4,4,2,4,4,3,2
+M10_0903,M10,Domestic,Matured Adults 35+,Kagawa,68,Female,2,FALSE,NA,Single,3-5M,3,2,3,4,2,2,4,4,4,3,6,4,5,4,5,4,6
+M10_0904,M10,Domestic,Matured Adults 35+,Niigata,48,Female,2,FALSE,NA,Married,5-7M,6,7,5,4,5,4,9,4,3,3,3,4,5,2,2,3,4
+M10_0905,M10,Domestic,Matured Adults 35+,Yamaguchi,55,Male,1,FALSE,NA,Single,Over 10M,4,5,4,5,5,3,5,4,4,6,6,7,5,6,5,6,6
+M10_0906,M10,Domestic,Matured Adults 35+,Miyagi,67,Female,3,FALSE,NA,Married,3-5M,3,4,4,5,5,5,2,4,4,4,5,6,4,2,3,5,4
+M10_0907,M10,Domestic,Matured Adults 35+,Hiroshima,52,Male,1,FALSE,NA,Divorced/Widowed,Over 10M,4,4,4,3,4,3,2,6,4,4,2,5,5,5,5,6,6
+M10_0908,M10,Domestic,Matured Adults 35+,Yamaguchi,42,Female,3,FALSE,NA,Single,5-7M,4,4,4,5,2,5,4,4,4,4,4,3,3,5,3,4,5
+M10_0909,M10,Domestic,Matured Adults 35+,Gifu,54,Male,1,FALSE,NA,Married,Over 10M,5,5,4,3,3,2,4,3,4,5,3,4,3,4,2,4,3
+M10_0910,M10,Domestic,Matured Adults 35+,Miyagi,60,Female,1,FALSE,NA,Single,5-7M,2,3,2,3,2,1,0,4,5,4,4,4,4,3,4,5,3
+M10_0911,M10,Domestic,Matured Adults 35+,Kyoto,63,Female,3,FALSE,NA,Married,3-5M,4,3,3,3,2,3,5,4,3,4,2,3,2,4,3,3,2
+M10_0912,M10,Domestic,Matured Adults 35+,Okinawa,66,Male,1,FALSE,NA,Single,5-7M,4,3,3,3,3,1,3,3,4,3,3,4,3,2,3,3,3
+M10_0913,M10,Domestic,Matured Adults 35+,Yamanashi,50,Female,1,FALSE,NA,Married,5-7M,4,4,5,5,5,4,3,5,3,5,5,4,4,5,5,5,6
+M10_0914,M10,Domestic,Matured Adults 35+,Wakayama,54,Female,2,FALSE,NA,Married,5-7M,5,3,3,1,3,3,4,4,4,3,4,4,3,6,4,5,4
+M10_0915,M10,Domestic,Matured Adults 35+,Kagoshima,44,Female,2,FALSE,NA,Partnered,5-7M,6,6,5,5,4,6,4,5,4,3,3,4,3,5,5,5,4
+M10_0916,M10,Domestic,Matured Adults 35+,Tokushima,64,Female,3,FALSE,NA,Married,Under 3M,3,4,5,5,2,3,3,2,4,3,4,3,4,6,4,4,3
+M10_0917,M10,Domestic,Matured Adults 35+,Mie,43,Female,1,FALSE,NA,Single,7-10M,4,4,3,5,3,4,5,3,4,5,4,5,2,3,3,3,3
+M10_0918,M10,Domestic,Matured Adults 35+,Hyogo,69,Female,1,FALSE,NA,Single,5-7M,5,5,5,3,4,3,4,5,6,5,5,6,5,4,4,5,4
+M10_0919,M10,Domestic,Matured Adults 35+,Hiroshima,70,Female,1,FALSE,NA,Married,3-5M,4,1,2,3,3,3,4,4,4,4,5,5,5,5,4,6,4
+M10_0920,M10,Domestic,Matured Adults 35+,Nagasaki,58,Female,1,FALSE,NA,Married,7-10M,5,2,5,3,3,3,6,5,4,6,3,3,4,3,4,4,4
+M10_0921,M10,Domestic,Matured Adults 35+,Wakayama,43,Male,2,FALSE,NA,Married,3-5M,4,2,4,3,3,1,5,3,6,4,4,3,5,5,6,5,6
+M10_0922,M10,Domestic,Matured Adults 35+,Hyogo,61,Male,2,FALSE,NA,Married,Under 3M,4,3,5,3,3,2,5,5,4,5,5,4,3,5,4,3,3
+M10_0923,M10,Domestic,Matured Adults 35+,Yamaguchi,57,Female,2,FALSE,NA,Single,5-7M,3,2,3,4,2,3,5,3,4,4,3,4,5,6,6,5,7
+M10_0924,M10,Domestic,Matured Adults 35+,Nagano,65,Male,1,FALSE,NA,Single,7-10M,7,4,4,4,2,1,4,3,4,4,4,4,2,3,6,6,4
+M10_0925,M10,Domestic,Matured Adults 35+,Nagasaki,49,Male,3,FALSE,NA,Partnered,5-7M,6,4,6,4,5,5,8,7,5,5,4,5,5,6,6,6,4
+M10_0926,M10,Domestic,Matured Adults 35+,Miyagi,43,Female,1,FALSE,NA,Married,5-7M,5,2,4,5,1,3,3,5,6,5,4,6,5,5,3,6,4
+M10_0927,M10,Domestic,Matured Adults 35+,Kochi,44,Male,3,FALSE,NA,Divorced/Widowed,3-5M,4,4,3,3,3,2,3,3,2,5,4,5,6,3,5,4,5
+M10_0928,M10,Domestic,Matured Adults 35+,Miyagi,44,Male,1,FALSE,NA,Married,Under 3M,4,6,3,3,2,3,3,3,3,4,2,3,4,4,4,5,3
+M10_0929,M10,Domestic,Matured Adults 35+,Okinawa,61,Male,1,FALSE,NA,Partnered,Over 10M,3,2,4,4,4,3,1,5,4,5,3,3,3,4,3,3,4
+M10_0930,M10,Domestic,Matured Adults 35+,Nagano,45,Male,1,FALSE,NA,Divorced/Widowed,7-10M,3,5,5,6,4,5,6,6,4,4,4,6,4,3,1,4,3
+M10_0931,M10,Domestic,Matured Adults 35+,Tokushima,64,Female,3,FALSE,NA,Divorced/Widowed,Over 10M,4,3,5,3,4,2,3,6,7,6,7,6,5,4,5,5,5
+M10_0932,M10,Domestic,Matured Adults 35+,Kagoshima,49,Female,1,FALSE,NA,Partnered,7-10M,3,4,2,3,3,3,6,5,3,4,5,5,4,5,4,5,3
+M10_0933,M10,Domestic,Matured Adults 35+,Yamanashi,43,Female,3,FALSE,NA,Single,5-7M,5,4,3,3,3,2,5,4,4,5,5,3,5,3,5,4,4
+M10_0934,M10,Domestic,Matured Adults 35+,Wakayama,63,Female,3,FALSE,NA,Married,5-7M,5,4,4,4,2,3,5,4,6,4,5,5,5,5,5,5,5
+M10_0935,M10,Domestic,Matured Adults 35+,Yamaguchi,55,Female,3,FALSE,NA,Divorced/Widowed,Over 10M,5,4,6,4,1,3,6,7,6,4,4,5,4,5,4,3,5
+M10_0936,M10,Domestic,Matured Adults 35+,Miyazaki,43,Male,3,FALSE,NA,Married,Under 3M,4,3,6,4,4,3,6,5,6,6,7,5,4,6,5,6,5
+M10_0937,M10,Domestic,Matured Adults 35+,Hiroshima,66,Other/Prefer not to say,1,FALSE,NA,Partnered,5-7M,5,4,4,5,4,4,6,6,6,5,6,6,5,6,5,5,6
+M10_0938,M10,Domestic,Matured Adults 35+,Kumamoto,58,Female,3,FALSE,NA,Married,Under 3M,5,5,5,4,1,3,3,4,3,4,3,5,5,5,5,5,4
+M10_0939,M10,Domestic,Matured Adults 35+,Tochigi,54,Other/Prefer not to say,2,FALSE,NA,Married,Over 10M,6,4,4,3,3,4,3,5,4,3,4,6,2,3,3,4,5
+M10_0940,M10,Domestic,Matured Adults 35+,Tottori,43,Male,2,FALSE,NA,Single,3-5M,5,4,4,5,4,5,6,4,3,4,4,5,5,3,4,4,4
+M10_0941,M10,Domestic,Matured Adults 35+,Kagoshima,56,Female,2,FALSE,NA,Divorced/Widowed,5-7M,5,4,5,5,3,3,4,6,6,7,6,7,3,5,5,4,4
+M10_0942,M10,Domestic,Matured Adults 35+,Ishikawa,56,Male,3,FALSE,NA,Married,Under 3M,4,4,3,3,3,3,1,4,5,4,5,6,4,5,4,6,6
+M10_0943,M10,Domestic,Matured Adults 35+,Shiga,58,Female,1,FALSE,NA,Single,3-5M,5,4,4,5,3,4,4,6,6,5,5,3,3,5,6,4,2
+M10_0944,M10,Domestic,Matured Adults 35+,Niigata,63,Male,2,FALSE,NA,Single,7-10M,4,4,4,5,3,3,5,4,5,4,4,3,4,4,5,4,3
+M10_0945,M10,Domestic,Matured Adults 35+,Shizuoka,45,Female,2,FALSE,NA,Married,5-7M,4,5,3,3,2,4,3,4,4,3,3,5,3,5,6,6,4
+M10_0946,M10,Domestic,Matured Adults 35+,Ibaraki,60,Male,2,FALSE,NA,Divorced/Widowed,3-5M,3,4,4,3,2,3,5,6,4,4,6,3,4,5,5,5,5
+M10_0947,M10,Domestic,Matured Adults 35+,Yamaguchi,48,Female,2,FALSE,NA,Married,3-5M,5,5,5,5,5,3,5,4,3,2,2,4,4,5,4,4,3
+M10_0948,M10,Domestic,Matured Adults 35+,Ibaraki,51,Male,1,FALSE,NA,Single,Over 10M,4,3,4,3,3,4,5,5,5,6,5,5,3,6,4,6,4
+M10_0949,M10,Domestic,Matured Adults 35+,Okayama,39,Female,2,FALSE,NA,Married,5-7M,4,2,4,3,2,4,5,5,5,6,5,5,3,6,4,6,6
+M10_0950,M10,Domestic,Matured Adults 35+,Niigata,64,Female,3,FALSE,NA,Partnered,3-5M,4,4,4,4,2,3,3,4,5,4,3,6,5,6,4,6,5
+M10_0951,M10,Domestic,Matured Adults 35+,Kagawa,60,Male,2,FALSE,NA,Partnered,7-10M,6,2,4,3,3,3,6,4,4,4,6,5,7,5,4,6,4
+M10_0952,M10,Domestic,Matured Adults 35+,Yamanashi,49,Male,2,FALSE,NA,Married,7-10M,3,3,3,1,3,3,6,4,4,3,4,3,4,6,6,7,5
+M10_0953,M10,Domestic,Matured Adults 35+,Kochi,60,Female,1,FALSE,NA,Married,7-10M,5,4,2,4,3,3,4,4,6,6,4,6,2,3,2,3,3
+M10_0954,M10,Domestic,Matured Adults 35+,Kumamoto,70,Male,2,FALSE,NA,Partnered,7-10M,5,4,3,5,3,2,1,6,3,3,5,5,4,4,5,5,4
+M10_0955,M10,Domestic,Matured Adults 35+,Saga,42,Male,2,FALSE,NA,Married,Over 10M,5,5,3,5,6,4,3,2,5,4,4,5,3,3,3,6,3
+M10_0956,M10,Domestic,Matured Adults 35+,Yamaguchi,43,Female,3,FALSE,NA,Single,5-7M,4,2,4,4,3,3,4,6,5,5,6,6,5,5,5,6,5
+M10_0957,M10,Domestic,Matured Adults 35+,Kagawa,55,Female,2,FALSE,NA,Single,5-7M,4,3,6,5,5,5,8,4,2,4,4,4,6,5,6,6,5
+M10_0958,M10,Domestic,Matured Adults 35+,Shizuoka,64,Male,1,FALSE,NA,Married,Over 10M,4,3,5,4,3,5,6,5,3,5,6,5,5,6,3,5,5
+M10_0959,M10,Domestic,Matured Adults 35+,Hyogo,69,Female,1,FALSE,NA,Married,5-7M,6,5,4,3,5,3,7,4,3,4,4,4,4,5,5,3,5
+M10_0960,M10,Domestic,Matured Adults 35+,Kyoto,69,Female,2,FALSE,NA,Married,7-10M,5,4,5,5,4,2,5,5,5,6,6,6,4,5,5,5,5
+M10_0961,M10,Domestic,Matured Adults 35+,Miyazaki,65,Female,2,FALSE,NA,Partnered,7-10M,6,4,4,5,4,3,5,4,4,5,4,3,5,5,5,3,5
+M10_0962,M10,Domestic,Matured Adults 35+,Oita,42,Male,3,FALSE,NA,Partnered,7-10M,5,3,3,3,5,1,4,5,6,5,5,5,3,6,4,5,5
+M10_0963,M10,Domestic,Matured Adults 35+,Gifu,38,Male,2,FALSE,NA,Married,Under 3M,5,4,3,4,3,3,7,2,2,2,3,2,3,3,3,3,4
+M10_0964,M10,Domestic,Matured Adults 35+,Yamaguchi,53,Male,2,FALSE,NA,Married,7-10M,5,5,4,3,5,4,4,4,5,7,4,6,4,4,5,6,4
+M10_0965,M10,Domestic,Matured Adults 35+,Kyoto,41,Male,2,FALSE,NA,Married,Under 3M,4,5,5,5,3,3,6,4,5,3,5,5,6,5,7,3,5
+M10_0966,M10,Domestic,Matured Adults 35+,Kagoshima,43,Male,2,FALSE,NA,Divorced/Widowed,7-10M,5,5,5,5,4,5,6,5,4,6,4,4,5,4,6,5,5
+M10_0967,M10,Domestic,Matured Adults 35+,Okinawa,41,Female,1,FALSE,NA,Partnered,Under 3M,6,7,3,3,4,4,7,4,5,5,5,5,3,5,5,5,6
+M10_0968,M10,Domestic,Matured Adults 35+,Nagasaki,64,Male,1,FALSE,NA,Single,5-7M,4,3,4,4,3,5,4,4,5,6,4,4,6,4,5,5,3
+M10_0969,M10,Domestic,Matured Adults 35+,Miyazaki,56,Male,1,FALSE,NA,Married,5-7M,3,1,3,3,3,2,5,4,5,5,3,5,6,6,4,5,4
+M10_0970,M10,Domestic,Matured Adults 35+,Miyagi,62,Female,2,FALSE,NA,Married,7-10M,4,3,6,4,3,1,4,3,4,5,5,5,5,5,5,5,5
+M10_0971,M10,Domestic,Matured Adults 35+,Nagasaki,44,Female,2,FALSE,NA,Married,Under 3M,3,4,3,5,5,4,5,6,5,5,3,5,5,6,4,6,5
+M10_0972,M10,Domestic,Matured Adults 35+,Nara,43,Female,2,FALSE,NA,Single,7-10M,5,4,5,6,3,3,8,5,4,5,6,5,3,4,3,5,3
+M10_0973,M10,Domestic,Matured Adults 35+,Nara,70,Other/Prefer not to say,1,FALSE,NA,Single,Under 3M,5,6,3,4,4,3,5,5,4,5,5,4,4,4,3,6,3
+M10_0974,M10,Domestic,Matured Adults 35+,Ibaraki,35,Male,1,FALSE,NA,Married,5-7M,4,3,4,3,4,2,4,5,4,6,5,6,5,5,5,5,5
+M10_0975,M10,Domestic,Matured Adults 35+,Ehime,61,Other/Prefer not to say,1,FALSE,NA,Single,3-5M,2,2,3,3,3,2,4,4,3,5,4,4,3,5,3,3,3
+M10_0976,M10,Domestic,Matured Adults 35+,Hiroshima,43,Female,2,FALSE,NA,Single,7-10M,4,4,4,3,5,4,4,4,4,5,4,5,4,4,5,6,4
+M10_0977,M10,Domestic,Matured Adults 35+,Mie,60,Female,3,FALSE,NA,Married,Over 10M,4,4,4,4,5,5,5,5,3,3,2,4,4,3,2,3,4
+M10_0978,M10,Domestic,Matured Adults 35+,Nagano,42,Male,1,FALSE,NA,Married,5-7M,6,4,7,6,5,5,5,4,5,4,5,3,6,5,5,4,5
+M10_0979,M10,Domestic,Matured Adults 35+,Wakayama,47,Male,2,FALSE,NA,Partnered,Over 10M,5,5,4,4,3,3,6,4,5,5,4,5,5,4,5,6,6
+M10_0980,M10,Domestic,Matured Adults 35+,Shizuoka,38,Male,2,FALSE,NA,Married,5-7M,4,5,6,6,5,5,5,6,6,6,3,4,5,6,5,4,5
+M10_0981,M10,Domestic,Matured Adults 35+,Okinawa,59,Male,1,FALSE,NA,Single,Under 3M,5,4,4,2,2,2,4,5,5,3,4,4,4,3,2,4,4
+M10_0982,M10,Domestic,Matured Adults 35+,Saga,55,Female,2,FALSE,NA,Divorced/Widowed,Over 10M,3,2,6,5,2,3,3,4,6,6,6,5,3,4,3,5,5
+M10_0983,M10,Domestic,Matured Adults 35+,Gunma,70,Female,2,FALSE,NA,Single,5-7M,5,4,4,3,3,2,4,4,3,4,4,5,5,6,5,6,5
+M10_0984,M10,Domestic,Matured Adults 35+,Nagano,48,Male,2,FALSE,NA,Married,5-7M,6,5,3,3,3,2,5,4,4,3,3,2,3,2,2,1,3
+M10_0985,M10,Domestic,Matured Adults 35+,Kagawa,35,Female,2,FALSE,NA,Partnered,3-5M,4,4,4,2,2,2,3,4,3,4,3,4,5,5,4,5,3
+M10_0986,M10,Domestic,Matured Adults 35+,Kochi,35,Female,2,FALSE,NA,Partnered,7-10M,4,3,4,4,5,4,7,5,5,5,7,5,2,3,3,4,5
+M10_0987,M10,Domestic,Matured Adults 35+,Wakayama,40,Male,2,FALSE,NA,Married,3-5M,4,5,3,3,3,4,3,5,3,3,4,3,7,5,3,3,3
+M10_0988,M10,Domestic,Matured Adults 35+,Okinawa,38,Female,2,FALSE,NA,Divorced/Widowed,Over 10M,5,5,3,4,3,2,4,3,4,3,6,3,4,4,3,4,4
+M10_0989,M10,Domestic,Matured Adults 35+,Ibaraki,35,Female,2,FALSE,NA,Divorced/Widowed,3-5M,4,2,4,4,3,3,5,4,6,5,5,6,3,6,5,5,4
+M10_0990,M10,Domestic,Matured Adults 35+,Ibaraki,40,Male,2,FALSE,NA,Single,5-7M,2,2,4,3,2,2,3,6,7,4,6,5,2,4,4,4,4
+M10_0991,M10,Domestic,Matured Adults 35+,Kagawa,35,Female,2,FALSE,NA,Married,5-7M,3,3,3,3,3,2,4,6,3,5,4,6,4,5,4,5,4
+M10_0992,M10,Domestic,Matured Adults 35+,Saga,35,Female,2,FALSE,NA,Partnered,7-10M,6,5,4,4,4,4,7,5,4,4,4,6,5,3,6,3,5
+M10_0993,M10,Domestic,Matured Adults 35+,Kyoto,56,Male,3,FALSE,NA,Married,5-7M,4,3,4,4,4,4,5,6,3,4,2,4,5,6,3,5,4
+M10_0994,M10,Domestic,Matured Adults 35+,Shiga,67,Female,2,FALSE,NA,Married,5-7M,5,3,5,4,4,4,3,5,5,5,6,3,5,4,5,7,5
+M10_0995,M10,Domestic,Matured Adults 35+,Wakayama,70,Male,1,FALSE,NA,Married,5-7M,4,3,5,4,5,4,5,4,2,3,3,6,4,4,3,6,2
+M10_0996,M10,Domestic,Matured Adults 35+,Kochi,52,Female,2,FALSE,NA,Single,7-10M,5,6,5,4,5,6,4,6,3,5,4,4,4,4,4,4,4
+M10_0997,M10,Domestic,Matured Adults 35+,Shimane,35,Female,1,FALSE,NA,Married,3-5M,4,4,5,6,4,3,3,5,4,4,4,4,1,4,2,3,5
+M10_0998,M10,Domestic,Matured Adults 35+,Nagasaki,53,Male,1,FALSE,NA,Partnered,5-7M,5,4,6,6,4,2,4,6,6,4,6,6,5,5,4,5,3
+M10_0999,M10,Domestic,Matured Adults 35+,Niigata,51,Male,1,FALSE,NA,Married,3-5M,4,2,4,4,4,4,4,4,3,3,5,6,4,3,4,4,4
+M10_1000,M10,Domestic,Matured Adults 35+,Ibaraki,41,Female,2,FALSE,NA,Single,3-5M,5,6,6,5,4,4,2,5,4,5,4,4,4,3,5,5,5

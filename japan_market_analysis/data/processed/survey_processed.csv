@@ -1,0 +1,501 @@
+respondent_id,month,segment,region,prefecture,gender,age,household_size,has_children,relationship_status,income_bracket,awareness,familiarity,opinion,consideration,likelihood,intent,nps,func_convenience,func_value,func_quality,func_variety,func_reliability,emot_excitement,emot_relaxation,emot_connection,emot_authenticity,emot_memorable
+R00001,M11,Young Families,Local,14,Male,37,2,True,Unknown,Unknown,4.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,4.75,4.0,5.5,4.0,5.0,4.0,3.0,5.5
+R00002,M11,Young Families,Local,13,Male,44,2,True,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.0,5.875,4.0,5.5,5.5,4.375,5.5,4.0,4.0,4.0
+R00003,M11,Young Families,Local,13,Male,47,2,True,Unknown,Unknown,1.0,1.0,4.0,1.0,8.0,4.5,8.333333333333334,2.0,3.625,1.0,1.0,1.0,1.0,4.0,3.25,1.0,4.0
+R00004,M11,Young Families,Local,11,Male,39,2,True,Unknown,Unknown,2.5,2.5,2.5,1.0,7.0,4.0,6.25,2.0,4.0,2.5,4.0,4.0,4.0,5.0,3.25,4.0,4.0
+R00005,M11,Young Families,Local,14,Male,30,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,4.0,4.0,4.0,4.0,4.0,5.0,4.0,4.0,4.0
+R00006,M11,Young Families,Local,12,Male,39,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,4.75,5.5,5.5,3.25,5.0,5.5,5.5,5.5
+R00007,M11,Young Families,Local,14,Male,56,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,7.0,7.0,10.0,4.0,5.5,6.25,5.5,5.5,4.75,5.5,5.5,6.0,5.5
+R00008,M11,Young Families,Local,13,Male,42,2,True,Unknown,Unknown,4.0,5.5,5.5,4.0,7.0,5.5,8.75,2.5,6.625,4.75,4.0,5.5,4.375,6.0,5.5,5.0,5.5
+R00009,M11,Young Families,Local,13,Male,31,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,6.0,6.5,9.166666666666668,4.0,5.5,4.75,5.5,5.5,5.125,6.0,5.875,5.0,4.0
+R00010,M11,Young Families,Local,11,Male,50,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,2.0,5.5,5.5,7.0,5.5,4.375,6.0,5.5,5.0,5.5
+R00011,M11,Young Families,Local,11,Male,49,2,True,Unknown,Unknown,4.0,4.0,4.0,2.5,8.0,5.25,8.333333333333334,2.0,4.75,4.75,5.5,4.0,2.875,4.5,4.375,3.5,4.0
+R00012,M11,Young Families,Local,13,Male,43,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,3.0,5.5,4.0,4.0,4.0,3.25,5.0,5.5,4.0,5.5
+R00013,M11,Young Families,Local,11,Male,43,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,2.5,4.375,4.0,4.0,4.0,4.0,5.0,4.0,4.0,4.0
+R00014,M11,Young Families,Local,13,Male,38,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,4.0,4.75,6.25,4.0,5.5,5.5,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00015,M11,Young Families,Local,12,Male,44,2,True,Unknown,Unknown,4.0,5.5,5.5,7.0,1.0,4.0,3.75,3.5,6.25,4.75,4.0,4.0,4.375,6.0,5.125,5.0,5.5
+R00016,M11,Young Families,Local,11,Male,35,2,True,Unknown,Unknown,5.5,4.0,4.0,5.5,6.0,5.75,6.666666666666667,3.0,4.0,4.0,4.0,4.0,4.75,6.0,4.75,4.5,4.0
+R00017,M11,Young Families,Local,12,Male,37,2,True,Unknown,Unknown,7.0,7.0,5.5,7.0,1.0,4.0,3.75,,,,,,,,,,
+R00018,M11,Young Families,Local,13,Male,34,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00019,M11,Young Families,Domestic,19,Male,33,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00020,M11,Young Families,Domestic,8,Male,40,2,True,Unknown,Unknown,2.5,2.5,2.5,2.5,8.0,5.25,7.083333333333334,,,,,,,,,,
+R00021,M11,Young Families,Local,14,Male,35,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,6.0,5.75,7.916666666666667,,,,,,,,,,
+R00022,M11,Young Families,Local,13,Male,28,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,,,,,,,,,,
+R00023,M11,Young Families,Local,12,Male,37,2,True,Unknown,Unknown,5.5,7.0,7.0,5.5,8.0,6.75,10.833333333333334,,,,,,,,,,
+R00024,M11,Young Families,Local,14,Male,37,2,True,Unknown,Unknown,5.5,5.5,5.5,2.5,8.0,5.25,9.583333333333334,,,,,,,,,,
+R00025,M11,Young Families,Local,13,Male,31,2,True,Unknown,Unknown,1.0,2.5,2.5,2.5,8.0,5.25,7.083333333333334,,,,,,,,,,
+R00026,M11,Young Families,Domestic,8,Female,37,2,True,Unknown,Unknown,5.5,7.0,7.0,4.0,8.0,6.0,10.833333333333334,3.5,7.0,5.5,7.0,7.0,5.875,6.0,6.25,7.0,7.0
+R00027,M11,Young Families,Local,11,Female,34,2,True,Unknown,Unknown,7.0,5.5,7.0,7.0,2.5,4.75,6.25,3.0,7.0,7.0,7.0,7.0,2.125,5.5,5.5,7.0,5.5
+R00028,M11,Young Families,Local,14,Female,41,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,5.5,6.25,8.75,2.5,5.125,5.5,5.5,5.5,4.75,4.5,4.75,5.5,4.0
+R00029,M11,Young Families,Local,13,Female,50,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.5,6.625,5.5,5.5,5.5,4.375,5.0,5.5,5.0,5.5
+R00030,M11,Young Families,Domestic,9,Female,26,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,3.25,4.75,7.0,7.0,4.0,5.0,5.875,4.5,2.5
+R00031,M11,Young Families,Local,13,Female,36,2,True,Unknown,Unknown,5.5,5.5,7.0,5.5,8.0,6.75,10.833333333333334,2.5,6.25,5.5,7.0,5.5,4.75,5.0,6.25,6.0,7.0
+R00032,M11,Young Families,Domestic,9,Female,30,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,5.5,5.5,5.5,5.5,6.5,5.875,5.5,5.5
+R00033,M11,Young Families,Local,11,Female,40,2,True,Unknown,Unknown,5.5,4.0,4.0,1.0,7.0,4.0,7.5,3.0,4.0,4.0,4.0,4.0,4.0,5.0,4.375,4.0,4.0
+R00034,M11,Young Families,Local,11,Female,36,2,True,Unknown,Unknown,4.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,1.5,4.75,3.25,4.0,4.0,3.25,5.0,4.375,4.0,4.0
+R00035,M11,Young Families,Domestic,8,Female,38,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,2.5,7.0,6.25,7.0,7.0,5.5,6.5,6.625,6.5,7.0
+R00036,M11,Young Families,Local,13,Female,33,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,4.0,6.25,4.75,7.0,5.5,4.75,6.0,5.875,6.0,5.5
+R00037,M11,Young Families,Local,13,Female,41,2,True,Unknown,Unknown,5.5,4.0,2.5,2.5,7.0,4.75,6.25,2.0,6.25,4.75,7.0,5.5,4.0,5.0,5.875,5.5,5.5
+R00038,M11,Young Families,Local,13,Female,40,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.0,4.375,3.25,4.0,4.0,2.5,5.5,4.375,3.5,4.0
+R00039,M11,Young Families,Local,14,Female,36,2,True,Unknown,Unknown,2.5,4.0,4.0,4.0,8.0,6.0,8.333333333333334,2.0,4.0,1.0,4.0,2.5,3.625,4.0,2.875,3.5,2.5
+R00040,M11,Young Families,Local,13,Female,39,2,True,Unknown,Unknown,7.0,7.0,7.0,4.0,7.0,5.5,10.0,2.5,7.0,5.5,5.5,7.0,4.375,6.5,5.875,5.5,1.0
+R00041,M11,Young Families,Local,14,Female,34,2,True,Unknown,Unknown,4.0,5.5,5.5,2.5,7.0,4.75,8.75,2.0,5.5,4.0,5.5,5.5,3.25,4.5,4.75,4.0,5.5
+R00042,M11,Young Families,Local,13,Female,36,2,True,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,,,,,,,,,,
+R00043,M11,Young Families,Local,14,Female,40,2,True,Unknown,Unknown,7.0,5.5,7.0,7.0,7.0,7.0,10.0,,,,,,,,,,
+R00044,M11,Young Families,Local,14,Female,26,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,,,,,,,,,,
+R00045,M11,Young Families,Local,14,Female,33,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,,,,,,,,,,
+R00046,M11,Young Families,Local,14,Female,33,2,True,Unknown,Unknown,2.5,4.0,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00047,M11,Young Families,Local,13,Female,42,2,True,Unknown,Unknown,4.0,5.5,2.5,4.0,8.0,6.0,7.083333333333334,,,,,,,,,,
+R00048,M11,Young Families,Local,13,Female,37,2,True,Unknown,Unknown,2.5,2.5,4.0,2.5,7.0,4.75,7.5,,,,,,,,,,
+R00049,M11,Young Families,Local,13,Female,36,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00050,M11,Young Families,Local,13,Female,44,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00051,M11,Young Families,Local,23,Male,29,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,4.0,7.0,7.0,7.0,7.0,6.625,6.5,6.625,7.0,7.0
+R00052,M11,Young Families,Domestic,22,Male,38,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,3.5,4.75,4.75,5.5,5.5,4.0,5.0,4.375,5.0,5.5
+R00053,M11,Young Families,Domestic,16,Male,42,2,True,Unknown,Unknown,5.5,5.5,5.5,7.0,7.0,7.0,8.75,3.0,4.375,4.0,5.5,4.0,3.625,5.0,4.375,4.0,5.5
+R00054,M11,Young Families,Domestic,22,Male,37,2,True,Unknown,Unknown,1.0,1.0,4.0,1.0,8.0,4.5,8.333333333333334,2.5,4.75,4.0,5.5,4.0,3.25,5.5,4.75,4.0,5.5
+R00055,M11,Young Families,Local,23,Male,26,2,True,Unknown,Unknown,4.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.0,7.0,6.25,7.0,7.0,5.875,7.0,6.625,6.5,7.0
+R00056,M11,Young Families,Domestic,22,Male,52,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,4.0,4.0,7.0,4.75,6.5,6.625,6.5,7.0
+R00057,M11,Young Families,Local,23,Male,39,2,True,Unknown,Unknown,2.5,4.0,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00058,M11,Young Families,Domestic,15,Male,51,2,True,Unknown,Unknown,5.5,7.0,4.0,7.0,7.0,7.0,7.5,,,,,,,,,,
+R00059,M11,Young Families,Domestic,21,Female,34,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,6.625,7.0,7.0,7.0,4.75,7.0,7.0,7.0,7.0
+R00060,M11,Young Families,Local,23,Female,39,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,4.75,4.75,4.0,4.0,3.625,5.5,4.75,4.5,4.0
+R00061,M11,Young Families,Domestic,16,Female,30,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,1.5,7.0,7.0,7.0,7.0,5.125,7.0,6.625,7.0,7.0
+R00062,M11,Young Families,Domestic,22,Female,34,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.875,5.5,4.0,2.5,4.375,6.5,5.875,4.0,5.5
+R00063,M11,Young Families,Domestic,22,Female,45,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,5.875,5.5,5.5,5.0,5.5
+R00064,M11,Young Families,Domestic,15,Female,36,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,8.0,7.5,10.833333333333334,3.0,7.0,6.25,5.5,7.0,4.75,5.5,5.5,6.0,4.0
+R00065,M11,Young Families,Domestic,18,Female,47,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00066,M11,Young Families,Domestic,17,Female,37,2,True,Unknown,Unknown,5.5,5.5,4.0,4.0,7.0,5.5,7.5,,,,,,,,,,
+R00067,M11,Young Families,Local,27,Male,37,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,7.0,6.25,8.75,3.0,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.0,5.5
+R00068,M11,Young Families,Local,27,Male,39,2,True,Unknown,Unknown,2.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.0,5.875,3.25,7.0,5.5,3.625,5.5,5.125,5.5,7.0
+R00069,M11,Young Families,Domestic,25,Male,35,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,2.0,5.5,5.5,4.0,4.0,3.25,5.0,5.5,4.0,5.5
+R00070,M11,Young Families,Local,27,Male,34,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,3.0,6.625,7.0,7.0,7.0,5.125,7.0,6.25,7.0,7.0
+R00071,M11,Young Families,Domestic,26,Male,36,2,True,Unknown,Unknown,5.5,,4.0,2.5,8.0,5.25,8.333333333333334,1.5,4.75,4.75,7.0,5.5,4.375,5.0,4.75,3.0,5.5
+R00072,M11,Young Families,Local,27,Male,33,2,True,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00073,M11,Young Families,Local,27,Male,45,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00074,M11,Young Families,Domestic,28,Male,31,2,True,Unknown,Unknown,4.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00075,M11,Young Families,Domestic,24,Female,31,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,3.0,7.0,6.25,7.0,7.0,5.125,6.5,7.0,7.0,7.0
+R00076,M11,Young Families,Domestic,26,Female,29,2,True,Unknown,Unknown,7.0,7.0,5.5,5.5,7.0,6.25,8.75,4.0,5.5,5.5,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00077,M11,Young Families,Local,27,Female,33,2,True,Unknown,Unknown,7.0,7.0,7.0,5.5,4.0,4.75,7.5,4.5,6.625,5.5,5.5,5.5,4.75,7.0,5.5,6.0,5.5
+R00078,M11,Young Families,Domestic,28,Female,38,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,5.5,5.5,5.5,4.0,5.5,5.875,5.5,5.5
+R00079,M11,Young Families,Local,27,Female,34,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.5,6.25,6.25,7.0,5.5,4.0,6.5,5.875,5.5,5.5
+R00080,M11,Young Families,Local,27,Female,32,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00081,M11,Young Families,Local,27,Female,37,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00082,M11,Young Families,Domestic,28,Female,30,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00083,M11,Young Families,Domestic,4,Male,37,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,2.5,7.0,6.25,5.5,7.0,5.125,6.5,5.5,5.5,5.5
+R00084,M11,Young Families,Domestic,2,Male,39,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.0,5.5,3.25,5.5,5.5,3.25,6.0,5.125,5.5,5.5
+R00085,M11,Young Families,Domestic,6,Male,46,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,3.0,5.5,7.0,7.0,7.0,4.0,5.5,6.25,5.0,4.0
+R00086,M11,Young Families,Domestic,7,Male,38,2,True,Unknown,Unknown,1.0,4.0,2.5,1.0,8.0,4.5,7.083333333333334,2.0,4.0,4.0,4.0,4.0,3.25,5.0,4.0,4.0,4.0
+R00087,M11,Young Families,Local,1,Male,33,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,,,,,,,,,,
+R00088,M11,Young Families,Domestic,4,Female,38,2,True,Unknown,Unknown,1.0,5.5,1.0,1.0,8.0,4.5,5.833333333333334,2.5,4.375,3.25,5.5,4.0,4.0,4.0,3.625,1.5,4.0
+R00089,M11,Young Families,Domestic,7,Female,39,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,2.5,6.625,6.25,7.0,5.5,5.125,4.5,6.625,5.0,7.0
+R00090,M11,Young Families,Local,1,Female,36,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,1.5,5.875,3.25,7.0,5.5,3.25,5.0,4.75,4.5,5.5
+R00091,M11,Young Families,Domestic,4,Female,29,2,True,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00092,M11,Young Families,Domestic,4,Female,54,2,True,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00093,M11,Young Families,Domestic,32,Male,35,2,True,Unknown,Unknown,4.0,5.5,7.0,4.0,8.0,6.0,10.833333333333334,2.0,5.5,4.0,4.0,5.5,3.25,5.5,4.375,5.0,4.0
+R00094,M11,Young Families,Domestic,37,Male,37,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.0,6.625,7.0,7.0,7.0,4.75,7.0,6.625,6.5,7.0
+R00095,M11,Young Families,Local,40,Male,35,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00096,M11,Young Families,Domestic,34,Male,38,2,True,Unknown,Unknown,4.0,5.5,4.0,5.5,7.0,6.25,7.5,,,,,,,,,,
+R00097,M11,Young Families,Local,40,Female,36,2,True,Unknown,Unknown,1.0,7.0,5.5,7.0,7.0,7.0,8.75,2.0,6.625,4.75,5.5,7.0,3.625,6.0,6.25,6.5,7.0
+R00098,M11,Young Families,Local,40,Female,40,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,7.0,4.75,5.5,5.5,4.0,5.5,4.75,5.5,4.0
+R00099,M11,Young Families,Domestic,43,Female,45,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,7.0,7.0,10.0,3.5,6.625,6.25,7.0,7.0,5.125,6.5,5.875,6.0,7.0
+R00100,M11,Young Families,Domestic,37,Female,40,2,True,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,,,,,,,,,,
+R00101,M11,Matured Families,Local,13,Male,47,2,True,Unknown,Unknown,4.0,1.0,1.0,1.0,7.0,4.0,5.0,1.0,3.625,1.0,1.0,1.0,1.0,3.0,2.125,1.0,1.0
+R00102,M11,Matured Families,Local,12,Male,54,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,4.5,6.25,5.5,5.5,7.0,5.5,6.5,5.875,6.0,5.5
+R00103,M11,Matured Families,Local,13,Male,45,2,True,Unknown,Unknown,4.0,5.5,4.0,2.5,7.0,4.75,7.5,2.5,4.0,4.0,5.5,4.0,3.25,4.5,4.0,3.0,4.0
+R00104,M11,Matured Families,Local,14,Male,46,2,True,Unknown,Unknown,7.0,7.0,5.5,5.5,7.0,6.25,8.75,4.5,6.25,5.5,4.0,4.0,6.625,6.5,6.25,6.5,2.5
+R00105,M11,Matured Families,Domestic,10,Male,43,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,6.0,5.75,7.916666666666667,2.5,5.5,5.5,5.5,5.5,3.625,5.0,5.125,4.5,5.5
+R00106,M11,Matured Families,Local,11,Male,48,2,True,Unknown,Unknown,5.5,4.0,4.0,4.0,8.0,6.0,8.333333333333334,2.5,5.125,5.5,4.0,2.5,3.625,5.5,3.625,4.5,4.0
+R00107,M11,Matured Families,Local,11,Male,41,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,4.75,5.5,4.0,4.375,6.0,5.125,5.0,5.5
+R00108,M11,Matured Families,Local,13,Male,45,2,True,Unknown,Unknown,4.0,5.5,5.5,4.0,7.0,5.5,8.75,2.5,5.125,5.5,5.5,5.5,4.375,6.0,5.125,5.5,5.5
+R00109,M11,Matured Families,Local,13,Male,51,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,3.0,4.0,4.0,4.0,4.0,3.25,5.0,4.375,4.0,4.0
+R00110,M11,Matured Families,Local,14,Male,53,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,7.0,6.25,8.75,2.5,5.125,4.0,5.5,5.5,4.0,5.5,5.125,4.5,4.0
+R00111,M11,Matured Families,Local,11,Male,49,2,True,Unknown,Unknown,5.5,4.0,4.0,5.5,8.0,6.75,8.333333333333334,4.0,4.75,5.5,5.5,4.0,4.75,5.0,5.5,5.5,4.0
+R00112,M11,Matured Families,Local,13,Male,51,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,2.0,5.875,4.75,7.0,5.5,2.875,6.5,5.5,6.0,7.0
+R00113,M11,Matured Families,Local,14,Male,43,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.5,6.25,5.5,5.5,5.5,4.375,5.5,4.75,5.5,5.5
+R00114,M11,Matured Families,Domestic,8,Male,48,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.0,5.5,5.5,5.5,5.5,3.625,6.0,5.125,5.5,4.0
+R00115,M11,Matured Families,Local,13,Male,48,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,3.0,7.0,6.25,7.0,7.0,6.25,7.0,6.25,7.0,7.0
+R00116,M11,Matured Families,Local,13,Male,54,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,1.0,5.125,3.25,5.5,4.0,2.875,4.5,4.0,4.5,4.0
+R00117,M11,Matured Families,Local,13,Male,58,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,3.5,6.25,4.75,5.5,7.0,5.875,6.0,5.5,6.0,4.0
+R00118,M11,Matured Families,Domestic,19,Male,43,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00119,M11,Matured Families,Local,11,Male,51,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,,,,,,,,,,
+R00120,M11,Matured Families,Local,14,Male,52,2,True,Unknown,Unknown,7.0,5.5,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00121,M11,Matured Families,Local,11,Male,48,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,,,,,,,,,,
+R00122,M11,Matured Families,Local,13,Male,45,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00123,M11,Matured Families,Local,12,Male,37,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00124,M11,Matured Families,Local,11,Male,48,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00125,M11,Matured Families,Local,13,Male,37,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00126,M11,Matured Families,Local,13,Female,41,2,True,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,2.0,6.625,5.5,5.5,7.0,2.5,5.0,5.5,6.0,4.0
+R00127,M11,Matured Families,Local,13,Female,44,2,True,Unknown,Unknown,5.5,5.5,4.0,2.5,8.0,5.25,8.333333333333334,1.5,4.75,1.75,1.0,4.0,1.0,3.5,2.125,3.5,2.5
+R00128,M11,Matured Families,Local,11,Female,51,2,True,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,4.75,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00129,M11,Matured Families,Domestic,9,Female,54,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,5.5,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00130,M11,Matured Families,Local,12,Female,46,2,True,Unknown,Unknown,2.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.125,4.0,7.0,5.5,4.375,5.5,4.375,5.0,4.0
+R00131,M11,Matured Families,Local,13,Female,40,2,True,Unknown,Unknown,5.5,4.0,5.5,5.5,7.0,6.25,8.75,2.0,7.0,4.75,4.0,7.0,3.25,6.5,5.5,7.0,5.5
+R00132,M11,Matured Families,Local,13,Female,36,2,True,Unknown,Unknown,7.0,7.0,7.0,5.5,7.0,6.25,10.0,3.5,6.25,4.0,7.0,5.5,4.75,6.0,5.875,5.5,5.5
+R00133,M11,Matured Families,Local,13,Female,47,2,True,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,1.0,7.0,6.25,7.0,7.0,4.375,6.5,7.0,6.5,7.0
+R00134,M11,Matured Families,Local,14,Female,47,2,True,Unknown,Unknown,1.0,2.5,4.0,1.0,7.0,4.0,7.5,2.5,1.375,1.0,1.0,2.5,1.75,3.0,2.875,1.0,1.0
+R00135,M11,Matured Families,Local,12,Female,42,2,True,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,3.0,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00136,M11,Matured Families,Local,13,Female,46,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,3.0,7.0,6.25,7.0,7.0,4.0,7.0,6.25,6.0,7.0
+R00137,M11,Matured Families,Local,14,Female,43,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.0,7.0,7.0,7.0,7.0,4.375,6.5,6.625,7.0,7.0
+R00138,M11,Matured Families,Local,12,Female,49,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,3.5,7.0,7.0,7.0,7.0,5.125,6.0,6.625,6.0,7.0
+R00139,M11,Matured Families,Local,14,Female,47,2,True,Unknown,Unknown,7.0,5.5,7.0,7.0,8.0,7.5,10.833333333333334,3.0,4.75,7.0,7.0,5.5,5.125,7.0,5.5,5.0,7.0
+R00140,M11,Matured Families,Local,13,Female,43,2,True,Unknown,Unknown,5.5,5.5,7.0,4.0,8.0,6.0,10.833333333333334,2.5,7.0,5.5,7.0,7.0,4.75,6.0,6.625,6.0,7.0
+R00141,M11,Matured Families,Local,13,Female,38,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,3.0,5.5,5.5,5.5,5.5,4.375,5.5,5.5,5.0,5.5
+R00142,M11,Matured Families,Local,14,Female,41,2,True,Unknown,Unknown,2.5,4.0,4.0,4.0,7.0,5.5,7.5,3.0,5.5,3.25,5.5,5.5,2.875,5.5,4.75,5.0,5.5
+R00143,M11,Matured Families,Local,14,Female,48,2,True,Unknown,Unknown,5.5,7.0,7.0,5.5,8.0,6.75,10.833333333333334,,,,,,,,,,
+R00144,M11,Matured Families,Local,13,Female,43,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00145,M11,Matured Families,Local,12,Female,42,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,1.0,3.25,3.75,,,,,,,,,,
+R00146,M11,Matured Families,Local,13,Female,43,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00147,M11,Matured Families,Local,13,Female,39,2,True,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,,,,,,,,,,
+R00148,M11,Matured Families,Local,13,Female,54,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00149,M11,Matured Families,Local,14,Female,39,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00150,M11,Matured Families,Local,13,Female,47,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,,,,,,,,,,
+R00151,M11,Matured Families,Local,23,Male,62,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,5.875,7.0,7.0,7.0,7.0
+R00152,M11,Matured Families,Domestic,22,Male,49,2,True,Unknown,Unknown,2.5,2.5,2.5,2.5,7.0,4.75,6.25,2.0,4.375,4.0,4.0,4.0,3.25,4.5,4.375,4.0,4.0
+R00153,M11,Matured Families,Domestic,15,Male,54,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,4.5,6.25,6.25,5.5,7.0,5.5,7.0,5.875,6.0,7.0
+R00154,M11,Matured Families,Local,23,Male,42,2,True,Unknown,Unknown,5.5,7.0,5.5,7.0,7.0,7.0,8.75,2.5,5.875,5.5,5.5,5.5,4.75,6.0,4.75,5.5,5.5
+R00155,M11,Matured Families,Local,23,Male,38,2,True,Unknown,Unknown,5.5,7.0,7.0,7.0,7.0,7.0,10.0,2.5,7.0,7.0,7.0,7.0,4.0,6.0,6.25,7.0,5.5
+R00156,M11,Matured Families,Domestic,21,Male,46,2,True,Unknown,Unknown,5.5,7.0,5.5,4.0,2.5,3.25,5.0,,,,,,,,,,
+R00157,M11,Matured Families,Domestic,22,Male,52,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00158,M11,Matured Families,Domestic,22,Male,60,2,True,Unknown,Unknown,4.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00159,M11,Matured Families,Local,23,Female,49,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,4.375,4.75,4.0,2.5,2.875,4.5,4.0,3.5,4.0
+R00160,M11,Matured Families,Domestic,21,Female,45,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,5.5,5.5,5.5,5.5,5.5,5.125,5.5,5.5
+R00161,M11,Matured Families,Domestic,22,Female,32,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.5,7.0,6.25,7.0,7.0,5.875,7.0,6.625,7.0,7.0
+R00162,M11,Matured Families,Domestic,15,Female,41,2,True,Unknown,Unknown,5.5,7.0,7.0,5.5,8.0,6.75,10.833333333333334,4.5,5.5,6.25,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00163,M11,Matured Families,Domestic,21,Female,35,2,True,Unknown,Unknown,7.0,5.5,7.0,7.0,5.5,6.25,8.75,4.5,5.5,6.25,7.0,5.5,6.625,6.0,5.875,5.0,5.5
+R00164,M11,Matured Families,Domestic,15,Female,47,2,True,Unknown,Unknown,4.0,5.5,1.0,4.0,8.0,6.0,5.833333333333334,,,,,,,,,,
+R00165,M11,Matured Families,Domestic,20,Female,37,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00166,M11,Matured Families,Local,23,Female,53,2,True,Unknown,Unknown,7.0,7.0,7.0,4.0,7.0,5.5,10.0,,,,,,,,,,
+R00167,M11,Matured Families,Local,27,Male,38,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,5.0,4.75,5.5,5.5,5.5,4.0,5.5,4.75,4.5,5.5
+R00168,M11,Matured Families,Domestic,28,Male,47,2,True,Unknown,Unknown,1.0,,4.0,4.0,7.0,5.5,7.5,1.0,2.5,2.5,4.0,1.0,1.375,3.0,2.5,2.0,4.0
+R00169,M11,Matured Families,Domestic,28,Male,52,2,True,Unknown,Unknown,1.0,7.0,7.0,4.0,8.0,6.0,10.833333333333334,2.5,6.25,6.25,7.0,7.0,4.75,6.5,6.25,5.5,5.5
+R00170,M11,Matured Families,Local,27,Male,60,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,5.0,7.0,7.0,7.0,7.0,5.5,7.0,6.25,7.0,7.0
+R00171,M11,Matured Families,Domestic,28,Male,51,2,True,Unknown,Unknown,1.0,1.0,1.0,1.0,8.0,4.5,5.833333333333334,1.0,4.0,1.0,1.0,1.0,1.0,3.0,2.5,1.0,1.0
+R00172,M11,Matured Families,Domestic,28,Male,54,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.5,5.125,3.25,4.0,5.5,4.0,6.0,5.5,5.0,5.5
+R00173,M11,Matured Families,Local,27,Male,38,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,4.0,4.75,6.25,,,,,,,,,,
+R00174,M11,Matured Families,Domestic,29,Male,48,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00175,M11,Matured Families,Domestic,28,Female,37,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.0,7.0,5.5,5.5,5.5,4.75,5.5,5.875,7.0,5.5
+R00176,M11,Matured Families,Domestic,28,Female,49,2,True,Unknown,Unknown,4.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00177,M11,Matured Families,Local,27,Female,57,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.0,5.125,5.5,5.5,5.5,4.0,6.0,5.875,4.5,5.5
+R00178,M11,Matured Families,Domestic,25,Female,50,2,True,Unknown,Unknown,2.5,4.0,2.5,2.5,7.0,4.75,6.25,2.0,4.75,4.0,5.5,4.0,3.625,4.5,5.125,4.0,4.0
+R00179,M11,Matured Families,Domestic,28,Female,56,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,5.0,7.0,7.0,7.0,7.0,6.25,7.0,7.0,7.0,7.0
+R00180,M11,Matured Families,Local,27,Female,53,2,True,Unknown,Unknown,4.0,4.0,2.5,4.0,7.0,5.5,6.25,2.5,5.125,4.0,4.0,4.0,3.625,5.0,4.75,4.0,4.0
+R00181,M11,Matured Families,Domestic,28,Female,45,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00182,M11,Matured Families,Local,27,Female,38,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00183,M11,Matured Families,Domestic,6,Male,51,2,True,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,4.0,6.25,7.0,7.0,7.0,5.125,5.5,6.625,7.0,7.0
+R00184,M11,Matured Families,Domestic,5,Male,41,2,True,Unknown,Unknown,2.5,7.0,7.0,4.0,7.0,5.5,10.0,3.5,6.625,6.25,5.5,7.0,5.125,6.5,6.625,6.0,7.0
+R00185,M11,Matured Families,Domestic,6,Male,35,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,5.0,6.625,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
+R00186,M11,Matured Families,Domestic,6,Male,36,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00187,M11,Matured Families,Local,1,Male,57,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00188,M11,Matured Families,Local,1,Female,48,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.5,5.5,4.0,5.5,5.5,4.75,5.5,4.75,4.5,5.5
+R00189,M11,Matured Families,Domestic,4,Female,38,2,True,Unknown,Unknown,5.5,5.5,7.0,7.0,7.0,7.0,10.0,3.0,6.625,7.0,5.5,5.5,5.125,6.5,6.625,6.0,7.0
+R00190,M11,Matured Families,Local,1,Female,38,2,True,Unknown,Unknown,4.0,5.5,5.5,5.5,7.0,6.25,8.75,2.5,5.5,4.75,5.5,5.5,3.625,5.5,5.125,5.5,5.5
+R00191,M11,Matured Families,Domestic,4,Female,44,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00192,M11,Matured Families,Local,1,Female,35,2,True,Unknown,Unknown,4.0,5.5,4.0,2.5,8.0,5.25,8.333333333333334,,,,,,,,,,
+R00193,M11,Matured Families,Domestic,47,Male,53,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.0,7.0,3.25,7.0,5.5,4.375,5.5,5.875,6.0,4.0
+R00194,M11,Matured Families,Domestic,43,Male,38,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,5.5,5.5,5.5,4.375,6.0,5.5,5.5,5.5
+R00195,M11,Matured Families,Domestic,35,Male,39,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,2.5,7.0,6.25,7.0,7.0,5.875,6.5,6.25,7.0,7.0
+R00196,M11,Matured Families,Domestic,44,Male,34,2,True,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00197,M11,Matured Families,Domestic,32,Female,41,2,True,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.0,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00198,M11,Matured Families,Local,40,Female,42,2,True,Unknown,Unknown,5.5,7.0,5.5,5.5,7.0,6.25,8.75,5.0,7.0,6.25,7.0,7.0,5.5,5.5,7.0,7.0,7.0
+R00199,M11,Matured Families,Domestic,44,Female,47,2,True,Unknown,Unknown,5.5,7.0,5.5,7.0,8.0,7.5,9.583333333333334,4.0,7.0,7.0,7.0,7.0,5.875,7.0,7.0,7.0,7.0
+R00200,M11,Matured Families,Domestic,34,Female,40,2,True,Unknown,Unknown,5.5,7.0,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00201,M11,Young Adults,Local,11,Male,25,2,False,Unknown,Unknown,5.5,7.0,5.5,2.5,8.0,5.25,9.583333333333334,2.5,6.625,4.0,7.0,7.0,4.0,6.0,5.125,5.5,7.0
+R00202,M11,Young Adults,Local,13,Male,24,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,1.0,3.25,5.0,4.5,6.25,6.25,5.5,7.0,6.625,6.0,6.625,6.0,7.0
+R00203,M11,Young Adults,Local,11,Male,34,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.0,6.25,4.75,5.5,5.5,4.375,6.0,4.75,5.5,5.5
+R00204,M11,Young Adults,Local,13,Male,18,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,5.0,6.625,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
+R00205,M11,Young Adults,Local,13,Male,25,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.5,5.5,4.75,5.5,5.5,3.625,6.0,5.125,5.0,5.5
+R00206,M11,Young Adults,Local,11,Male,19,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,5.5,5.5,7.5,4.0,5.5,5.5,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00207,M11,Young Adults,Local,12,Male,33,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,7.0,6.25,10.0,3.0,6.25,6.25,7.0,7.0,2.875,4.5,5.5,5.0,4.0
+R00208,M11,Young Adults,Local,14,Male,30,2,False,Unknown,Unknown,4.0,5.5,7.0,4.0,8.0,6.0,10.833333333333334,3.5,5.875,4.75,5.5,5.5,3.25,6.0,4.75,5.5,5.5
+R00209,M11,Young Adults,Local,14,Male,29,2,False,Unknown,Unknown,7.0,5.5,5.5,5.5,7.0,6.25,8.75,3.0,5.5,4.0,7.0,4.0,4.375,5.0,5.5,4.5,4.0
+R00210,M11,Young Adults,Local,13,Male,29,2,False,Unknown,Unknown,4.0,4.0,4.0,2.5,7.0,4.75,7.5,2.5,5.125,4.0,4.0,4.0,4.0,5.0,4.75,4.0,4.0
+R00211,M11,Young Adults,Local,13,Male,29,2,False,Unknown,Unknown,1.0,,4.0,2.5,7.0,4.75,7.5,1.5,5.125,4.0,7.0,4.0,4.0,5.0,3.625,4.0,4.0
+R00212,M11,Young Adults,Local,13,Male,20,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.5,5.875,7.0,7.0,5.5,6.25,7.0,6.625,6.5,7.0
+R00213,M11,Young Adults,Domestic,8,Male,19,2,False,Unknown,Unknown,5.5,5.5,2.5,4.0,8.0,6.0,7.083333333333334,4.0,6.625,4.75,7.0,7.0,4.375,6.0,5.125,5.5,7.0
+R00214,M11,Young Adults,Local,13,Male,30,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,2.5,2.875,4.0,4.0,4.0,3.625,4.5,5.5,4.5,2.5
+R00215,M11,Young Adults,Local,13,Male,30,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,2.0,4.375,4.75,5.5,4.0,4.375,5.0,4.375,4.0,4.0
+R00216,M11,Young Adults,Local,12,Male,33,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,1.0,6.25,5.5,5.5,7.0,4.0,5.5,5.5,5.5,5.5
+R00217,M11,Young Adults,Domestic,10,Male,32,2,False,Unknown,Unknown,4.0,4.0,2.5,2.5,8.0,5.25,7.083333333333334,2.5,5.5,4.0,4.0,4.0,3.25,5.0,4.375,4.5,4.0
+R00218,M11,Young Adults,Local,13,Male,28,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00219,M11,Young Adults,Local,13,Male,18,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00220,M11,Young Adults,Local,14,Male,34,2,False,Unknown,Unknown,4.0,1.0,1.0,4.0,5.5,4.75,3.75,,,,,,,,,,
+R00221,M11,Young Adults,Local,12,Male,28,2,False,Unknown,Unknown,4.0,7.0,4.0,7.0,8.0,7.5,8.333333333333334,,,,,,,,,,
+R00222,M11,Young Adults,Local,14,Male,26,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00223,M11,Young Adults,Local,13,Male,30,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00224,M11,Young Adults,Local,13,Male,27,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,2.5,4.0,5.0,,,,,,,,,,
+R00225,M11,Young Adults,Local,14,Male,23,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00226,M11,Young Adults,Local,12,Female,29,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,5.125,4.0,4.0,5.5,4.0,6.5,5.125,5.0,4.0
+R00227,M11,Young Adults,Local,14,Female,26,2,False,Unknown,Unknown,5.5,7.0,5.5,7.0,8.0,7.5,9.583333333333334,1.0,6.25,5.5,7.0,7.0,4.75,4.0,5.5,5.0,4.0
+R00228,M11,Young Adults,Local,12,Female,31,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,6.0,5.75,7.916666666666667,2.0,6.25,4.75,5.5,7.0,4.75,5.5,5.5,6.0,5.5
+R00229,M11,Young Adults,Local,13,Female,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00230,M11,Young Adults,Local,13,Female,31,2,False,Unknown,Unknown,5.5,7.0,4.0,4.0,7.0,5.5,7.5,3.0,7.0,4.75,7.0,7.0,3.625,5.0,5.125,6.0,4.0
+R00231,M11,Young Adults,Local,14,Female,27,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,1.0,2.5,3.75,3.5,4.0,4.75,5.5,5.5,5.125,5.5,4.75,5.0,5.5
+R00232,M11,Young Adults,Local,13,Female,23,2,False,Unknown,Unknown,4.0,5.5,7.0,7.0,7.0,7.0,10.0,3.5,7.0,5.5,5.5,7.0,4.75,6.0,5.875,6.0,5.5
+R00233,M11,Young Adults,Local,14,Female,28,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,2.5,4.0,4.75,4.0,4.0,3.625,5.0,4.75,4.0,4.0
+R00234,M11,Young Adults,Local,11,Female,22,2,False,Unknown,Unknown,5.5,4.0,4.0,4.0,7.0,5.5,7.5,3.5,4.375,4.75,5.5,5.5,4.75,5.5,4.375,4.5,5.5
+R00235,M11,Young Adults,Domestic,10,Female,26,2,False,Unknown,Unknown,4.0,5.5,4.0,5.5,7.0,6.25,7.5,3.0,5.125,5.5,5.5,4.0,4.0,5.0,4.75,4.0,5.5
+R00236,M11,Young Adults,Local,11,Female,19,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,7.0,7.0,10.0,5.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,5.5
+R00237,M11,Young Adults,Local,11,Female,33,2,False,Unknown,Unknown,4.0,7.0,5.5,7.0,8.0,7.5,9.583333333333334,3.0,7.0,6.25,7.0,7.0,5.125,6.5,5.875,6.0,7.0
+R00238,M11,Young Adults,Local,11,Female,24,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,6.625,4.0,7.0,7.0,5.125,7.0,7.0,6.5,2.5
+R00239,M11,Young Adults,Local,13,Female,28,2,False,Unknown,Unknown,7.0,7.0,5.5,7.0,2.5,4.75,5.0,4.0,5.5,5.5,5.5,5.5,5.5,5.5,5.5,5.0,5.5
+R00240,M11,Young Adults,Local,14,Female,22,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,3.0,7.0,3.25,5.5,7.0,4.375,5.0,5.5,6.5,4.0
+R00241,M11,Young Adults,Local,11,Female,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,5.5,4.75,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00242,M11,Young Adults,Local,11,Female,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.125,5.5,4.0,5.5,4.75,6.0,5.5,5.5,5.5
+R00243,M11,Young Adults,Local,13,Female,20,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00244,M11,Young Adults,Local,11,Female,22,2,False,Unknown,Unknown,4.0,5.5,4.0,2.5,8.0,5.25,8.333333333333334,,,,,,,,,,
+R00245,M11,Young Adults,Local,13,Female,30,2,False,Unknown,Unknown,5.5,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00246,M11,Young Adults,Local,13,Female,26,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,5.5,5.5,7.5,,,,,,,,,,
+R00247,M11,Young Adults,Local,14,Female,20,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,4.0,4.75,6.25,,,,,,,,,,
+R00248,M11,Young Adults,Local,13,Female,31,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00249,M11,Young Adults,Local,11,Female,32,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00250,M11,Young Adults,Local,13,Female,27,2,False,Unknown,Unknown,5.5,5.5,7.0,7.0,7.0,7.0,10.0,,,,,,,,,,
+R00251,M11,Young Adults,Domestic,15,Male,32,2,False,Unknown,Unknown,2.5,5.5,4.0,2.5,7.0,4.75,7.5,4.0,5.125,5.5,5.5,4.0,4.75,5.5,4.75,5.5,7.0
+R00252,M11,Young Adults,Domestic,22,Male,27,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,7.0,6.25,8.75,3.5,5.875,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00253,M11,Young Adults,Local,23,Male,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,2.5,4.0,5.0,3.0,3.625,2.5,4.0,5.5,4.75,5.5,4.375,3.0,1.0
+R00254,M11,Young Adults,Local,23,Male,24,2,False,Unknown,Unknown,5.5,5.5,2.5,4.0,8.0,6.0,7.083333333333334,3.0,5.875,4.75,7.0,4.0,5.5,5.5,5.125,5.0,5.5
+R00255,M11,Young Adults,Domestic,20,Male,18,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,4.0,7.0,5.5,7.0,7.0,6.25,6.5,5.5,6.0,5.5
+R00256,M11,Young Adults,Domestic,15,Male,26,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,7.0,6.25,10.0,,,,,,,,,,
+R00257,M11,Young Adults,Domestic,15,Male,33,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00258,M11,Young Adults,Local,23,Male,30,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00259,M11,Young Adults,Domestic,15,Female,22,2,False,Unknown,Unknown,5.5,5.5,5.5,7.0,6.0,6.5,7.916666666666667,4.0,5.875,5.5,5.5,5.5,5.5,6.0,5.5,5.0,5.5
+R00260,M11,Young Adults,Local,23,Female,32,2,False,Unknown,Unknown,5.5,7.0,4.0,4.0,7.0,5.5,7.5,3.0,6.25,5.5,7.0,5.5,4.375,5.0,5.875,5.5,4.0
+R00261,M11,Young Adults,Local,23,Female,28,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,1.0,4.0,5.0,4.5,5.5,6.25,5.5,5.5,5.875,6.0,5.875,5.5,5.5
+R00262,M11,Young Adults,Domestic,18,Female,31,2,False,Unknown,Unknown,5.5,7.0,5.5,7.0,4.0,5.5,6.25,3.0,4.375,5.5,5.5,4.0,4.0,5.5,5.125,4.0,5.5
+R00263,M11,Young Adults,Local,23,Female,29,2,False,Unknown,Unknown,2.5,4.0,4.0,4.0,7.0,5.5,7.5,1.5,6.25,1.75,5.5,5.5,4.75,4.5,4.75,4.5,5.5
+R00264,M11,Young Adults,Domestic,22,Female,34,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00265,M11,Young Adults,Domestic,18,Female,25,2,False,Unknown,Unknown,5.5,7.0,5.5,7.0,7.0,7.0,8.75,,,,,,,,,,
+R00266,M11,Young Adults,Local,23,Female,27,2,False,Unknown,Unknown,5.5,5.5,7.0,4.0,7.0,5.5,10.0,,,,,,,,,,
+R00267,M11,Young Adults,Local,27,Male,26,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,4.0,5.5,4.75,5.5,5.5,5.125,6.0,5.5,5.5,5.5
+R00268,M11,Young Adults,Domestic,26,Male,33,2,False,Unknown,Unknown,1.0,,4.0,1.0,8.0,4.5,8.333333333333334,2.5,4.75,4.0,5.5,4.0,4.0,5.0,4.375,4.0,4.0
+R00269,M11,Young Adults,Local,27,Male,22,2,False,Unknown,Unknown,5.5,1.0,1.0,1.0,7.0,4.0,5.0,1.0,1.75,1.0,4.0,1.0,3.25,3.0,2.875,2.0,4.0
+R00270,M11,Young Adults,Local,27,Male,24,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.5,7.0,7.0,7.0,7.0,5.875,7.0,7.0,7.0,7.0
+R00271,M11,Young Adults,Domestic,28,Male,20,2,False,Unknown,Unknown,2.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,5.5,5.5,4.0,5.875,6.0,5.5,5.5,5.5
+R00272,M11,Young Adults,Domestic,28,Male,25,2,False,Unknown,Unknown,4.0,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00273,M11,Young Adults,Domestic,25,Male,24,2,False,Unknown,Unknown,2.5,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00274,M11,Young Adults,Domestic,26,Male,30,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00275,M11,Young Adults,Local,27,Female,29,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,7.0,5.5,7.5,2.5,5.125,4.75,5.5,4.0,4.0,5.0,4.375,4.0,4.0
+R00276,M11,Young Adults,Local,27,Female,32,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,5.5,7.0,6.625,7.0,7.0
+R00277,M11,Young Adults,Local,27,Female,23,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,5.0,6.625,6.25,5.5,5.5,5.875,6.0,5.5,5.5,7.0
+R00278,M11,Young Adults,Local,27,Female,34,2,False,Unknown,Unknown,2.5,4.0,4.0,2.5,7.0,4.75,7.5,2.0,4.375,2.5,5.5,4.0,3.625,4.5,3.25,4.0,4.0
+R00279,M11,Young Adults,Domestic,25,Female,25,2,False,Unknown,Unknown,4.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,3.5,6.625,6.25,5.5,5.5,4.375,6.5,5.125,6.0,5.5
+R00280,M11,Young Adults,Local,27,Female,24,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00281,M11,Young Adults,Local,27,Female,33,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00282,M11,Young Adults,Local,27,Female,24,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00283,M11,Young Adults,Domestic,3,Male,30,2,False,Unknown,Unknown,4.0,7.0,2.5,2.5,7.0,4.75,6.25,3.5,6.625,4.0,5.5,5.5,4.0,6.0,5.5,5.5,5.5
+R00284,M11,Young Adults,Local,1,Male,31,2,False,Unknown,Unknown,5.5,5.5,4.0,7.0,8.0,7.5,8.333333333333334,3.5,5.5,5.5,7.0,4.0,5.5,6.0,5.875,6.5,5.5
+R00285,M11,Young Adults,Local,1,Male,26,2,False,Unknown,Unknown,7.0,7.0,5.5,2.5,8.0,5.25,9.583333333333334,2.5,6.25,4.0,7.0,5.5,4.375,4.5,5.875,5.5,5.5
+R00286,M11,Young Adults,Domestic,6,Male,20,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00287,M11,Young Adults,Local,1,Male,27,2,False,Unknown,Unknown,7.0,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00288,M11,Young Adults,Domestic,6,Female,20,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,7.0,7.0,10.0,3.0,6.25,7.0,5.5,7.0,4.375,6.0,5.875,5.5,7.0
+R00289,M11,Young Adults,Domestic,6,Female,33,2,False,Unknown,Unknown,5.5,5.5,7.0,7.0,8.0,7.5,10.833333333333334,3.5,4.375,4.0,5.5,5.5,5.125,5.0,3.25,3.5,5.5
+R00290,M11,Young Adults,Domestic,7,Female,29,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,3.0,7.0,6.25,5.5,7.0,4.0,6.0,6.25,6.5,5.5
+R00291,M11,Young Adults,Local,1,Female,32,2,False,Unknown,Unknown,5.5,4.0,5.5,4.0,7.0,5.5,8.75,3.5,4.0,4.75,2.5,2.5,2.875,5.0,2.875,4.5,4.0
+R00292,M11,Young Adults,Domestic,7,Female,27,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00293,M11,Young Adults,Domestic,42,Male,22,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,3.5,7.0,4.75,5.5,7.0,5.125,6.0,5.875,6.0,5.5
+R00294,M11,Young Adults,Domestic,36,Male,28,2,False,Unknown,Unknown,5.5,7.0,7.0,5.5,8.0,6.75,10.833333333333334,3.5,6.25,4.0,7.0,5.5,5.5,7.0,7.0,5.5,5.5
+R00295,M11,Young Adults,Local,40,Male,22,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,3.5,4.75,4.75,7.0,4.0,5.5,6.0,4.75,5.0,5.5
+R00296,M11,Young Adults,Domestic,38,Male,22,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00297,M11,Young Adults,Domestic,33,Female,28,2,False,Unknown,Unknown,7.0,7.0,5.5,7.0,7.0,7.0,8.75,4.5,5.5,5.5,5.5,5.5,6.25,7.0,5.5,5.5,7.0
+R00298,M11,Young Adults,Domestic,34,Female,32,2,False,Unknown,Unknown,4.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,5.125,6.5,6.25,6.5,5.5
+R00299,M11,Young Adults,Local,40,Female,19,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00300,M11,Young Adults,Domestic,42,Female,24,2,False,Unknown,Unknown,7.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00301,M11,Young Couples,Local,13,Male,34,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,3.0,6.625,5.5,5.5,7.0,4.375,5.5,6.25,6.0,5.5
+R00302,M11,Young Couples,Local,13,Male,33,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.0,6.25,5.5,5.5,5.5,5.125,6.0,5.875,5.5,5.5
+R00303,M11,Young Couples,Domestic,10,Male,25,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,5.125,4.75,5.5,4.0,3.25,5.0,4.375,4.5,5.5
+R00304,M11,Young Couples,Local,14,Male,27,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,4.75,5.5,6.25,5.5,7.0
+R00305,M11,Young Couples,Local,11,Male,26,2,False,Unknown,Unknown,5.5,5.5,7.0,5.5,8.0,6.75,10.833333333333334,3.0,6.25,4.0,5.5,5.5,4.375,5.0,4.75,5.5,5.5
+R00306,M11,Young Couples,Local,13,Male,27,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,2.0,4.375,3.25,4.0,4.0,3.625,5.0,4.75,4.0,2.5
+R00307,M11,Young Couples,Local,12,Male,28,2,False,Unknown,Unknown,4.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,4.375,4.0,5.5,2.5,3.625,5.0,4.0,3.0,5.5
+R00308,M11,Young Couples,Local,14,Male,25,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,2.5,6.25,3.25,5.5,5.5,3.25,5.5,6.25,5.0,5.5
+R00309,M11,Young Couples,Local,12,Male,34,2,False,Unknown,Unknown,2.5,5.5,4.0,4.0,7.0,5.5,7.5,1.5,5.125,4.75,5.5,2.5,4.375,4.0,4.75,4.0,5.5
+R00310,M11,Young Couples,Local,13,Male,27,2,False,Unknown,Unknown,5.5,5.5,7.0,7.0,2.5,4.75,6.25,3.5,4.375,4.0,4.0,5.5,3.625,5.0,4.0,4.0,4.0
+R00311,M11,Young Couples,Local,13,Male,31,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,4.0,6.625,5.5,7.0,5.5,5.5,6.0,6.25,5.5,5.5
+R00312,M11,Young Couples,Local,11,Male,31,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,4.5,7.0,6.25,7.0,7.0,5.5,6.0,5.875,6.5,5.5
+R00313,M11,Young Couples,Local,13,Male,33,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,2.5,4.375,4.0,4.0,4.0,3.625,5.0,4.0,4.0,5.5
+R00314,M11,Young Couples,Local,13,Male,27,2,False,Unknown,Unknown,5.5,7.0,5.5,5.5,1.0,3.25,3.75,4.0,5.5,4.75,5.5,5.5,4.75,6.5,5.875,6.0,5.5
+R00315,M11,Young Couples,Local,14,Male,29,2,False,Unknown,Unknown,4.0,4.0,2.5,4.0,8.0,6.0,7.083333333333334,2.5,3.25,3.25,5.5,4.0,3.625,4.5,3.25,3.5,2.5
+R00316,M11,Young Couples,Local,13,Male,34,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.0,6.625,4.0,5.5,5.5,3.25,4.5,5.125,4.5,2.5
+R00317,M11,Young Couples,Local,13,Male,33,2,False,Unknown,Unknown,5.5,7.0,5.5,4.0,4.0,4.0,6.25,,,,,,,,,,
+R00318,M11,Young Couples,Local,13,Male,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,5.5,5.5,7.5,,,,,,,,,,
+R00319,M11,Young Couples,Local,14,Male,30,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00320,M11,Young Couples,Local,13,Male,27,2,False,Unknown,Unknown,5.5,5.5,7.0,5.5,2.5,4.0,6.25,,,,,,,,,,
+R00321,M11,Young Couples,Local,13,Male,31,2,False,Unknown,Unknown,1.0,4.0,2.5,2.5,8.0,5.25,7.083333333333334,,,,,,,,,,
+R00322,M11,Young Couples,Local,13,Male,31,2,False,Unknown,Unknown,7.0,5.5,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00323,M11,Young Couples,Local,14,Male,34,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,,,,,,,,,,
+R00324,M11,Young Couples,Local,12,Male,27,2,False,Unknown,Unknown,7.0,5.5,7.0,7.0,5.5,6.25,8.75,,,,,,,,,,
+R00325,M11,Young Couples,Local,11,Male,28,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00326,M11,Young Couples,Domestic,9,Female,22,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,5.5,4.75,6.25,3.0,4.375,4.0,4.0,4.0,3.25,4.5,3.625,3.5,2.5
+R00327,M11,Young Couples,Local,12,Female,31,2,False,Unknown,Unknown,4.0,5.5,5.5,4.0,8.0,6.0,9.583333333333334,2.0,3.625,4.0,5.5,5.5,2.875,4.0,5.125,3.5,5.5
+R00328,M11,Young Couples,Local,14,Female,27,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.5,5.5,5.5,5.5,5.5,6.0,5.5,5.5,5.5
+R00329,M11,Young Couples,Local,11,Female,28,2,False,Unknown,Unknown,7.0,5.5,4.0,5.5,8.0,6.75,8.333333333333334,4.0,5.875,5.5,5.5,7.0,5.5,6.5,5.5,4.5,5.5
+R00330,M11,Young Couples,Local,13,Female,25,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,7.0,6.25,10.0,1.5,6.25,4.0,5.5,7.0,2.125,5.5,4.75,6.5,5.5
+R00331,M11,Young Couples,Local,11,Female,33,2,False,Unknown,Unknown,4.0,,4.0,4.0,8.0,6.0,8.333333333333334,3.0,6.625,4.0,5.5,5.5,4.375,6.0,5.875,5.5,5.5
+R00332,M11,Young Couples,Local,11,Female,34,2,False,Unknown,Unknown,4.0,5.5,4.0,5.5,7.0,6.25,7.5,2.5,5.5,4.75,7.0,4.0,4.0,3.5,4.375,3.0,1.0
+R00333,M11,Young Couples,Local,13,Female,34,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,6.25,5.5,5.5,5.5,4.375,6.0,5.5,5.5,5.5
+R00334,M11,Young Couples,Local,13,Female,31,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,4.5,7.0,6.25,5.5,7.0,5.5,6.0,6.25,6.0,5.5
+R00335,M11,Young Couples,Local,13,Female,33,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,5.5,5.5,7.5,2.5,5.5,4.75,5.5,5.5,2.875,6.0,5.5,5.5,5.5
+R00336,M11,Young Couples,Local,14,Female,25,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,6.25,5.5,5.5,5.5,4.75,6.5,5.875,5.5,7.0
+R00337,M11,Young Couples,Local,11,Female,26,2,False,Unknown,Unknown,5.5,7.0,7.0,5.5,8.0,6.75,10.833333333333334,1.5,5.5,4.75,5.5,5.5,2.5,6.0,5.5,4.5,5.5
+R00338,M11,Young Couples,Local,13,Female,27,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,2.0,6.625,7.0,7.0,7.0,5.125,7.0,5.5,6.5,7.0
+R00339,M11,Young Couples,Local,14,Female,25,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.0,6.625,2.5,2.5,4.0,3.25,6.0,5.5,5.5,5.5
+R00340,M11,Young Couples,Local,13,Female,25,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,1.5,6.625,6.25,7.0,7.0,4.75,7.0,6.625,7.0,7.0
+R00341,M11,Young Couples,Local,13,Female,27,2,False,Unknown,Unknown,5.5,5.5,7.0,7.0,8.0,7.5,10.833333333333334,4.0,7.0,6.25,7.0,7.0,4.75,5.0,5.5,7.0,4.0
+R00342,M11,Young Couples,Local,13,Female,26,2,False,Unknown,Unknown,7.0,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00343,M11,Young Couples,Local,13,Female,29,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,5.5,5.5,7.5,,,,,,,,,,
+R00344,M11,Young Couples,Local,14,Female,28,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,6.0,6.5,9.166666666666668,,,,,,,,,,
+R00345,M11,Young Couples,Local,13,Female,33,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00346,M11,Young Couples,Local,13,Female,32,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,,,,,,,,,,
+R00347,M11,Young Couples,Local,13,Female,31,2,False,Unknown,Unknown,5.5,7.0,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00348,M11,Young Couples,Local,13,Female,29,2,False,Unknown,Unknown,5.5,7.0,5.5,5.5,7.0,6.25,8.75,,,,,,,,,,
+R00349,M11,Young Couples,Local,13,Female,33,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,7.0,5.5,7.5,,,,,,,,,,
+R00350,M11,Young Couples,Local,11,Female,24,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,6.0,5.75,7.916666666666667,,,,,,,,,,
+R00351,M11,Young Couples,Local,23,Male,31,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.125,5.5,5.5,4.0,5.125,6.0,4.75,5.5,4.0
+R00352,M11,Young Couples,Domestic,16,Male,23,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,1.0,5.125,4.0,4.0,5.5,5.125,6.5,4.75,6.0,5.5
+R00353,M11,Young Couples,Local,23,Male,26,2,False,Unknown,Unknown,1.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,1.5,5.125,6.25,7.0,5.5,4.375,6.0,5.875,5.5,5.5
+R00354,M11,Young Couples,Local,23,Male,25,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.0,4.375,4.0,4.0,4.0,4.0,5.0,4.0,4.5,4.0
+R00355,M11,Young Couples,Domestic,21,Male,32,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,5.5,5.5,7.5,4.0,5.875,6.25,5.5,5.5,7.0,6.5,5.875,6.5,5.5
+R00356,M11,Young Couples,Domestic,22,Male,34,2,False,Unknown,Unknown,5.5,5.5,4.0,5.5,7.0,6.25,7.5,4.0,4.0,5.5,4.0,5.5,5.125,5.5,4.375,4.5,4.0
+R00357,M11,Young Couples,Local,23,Male,28,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00358,M11,Young Couples,Local,23,Male,28,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00359,M11,Young Couples,Domestic,22,Female,27,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,3.0,7.0,4.75,5.5,7.0,4.75,6.0,5.5,5.5,7.0
+R00360,M11,Young Couples,Domestic,18,Female,29,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,7.0,7.0,7.0,4.375,7.0,6.25,7.0,7.0
+R00361,M11,Young Couples,Local,23,Female,26,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,5.0,7.0,7.0,7.0,7.0,6.625,7.0,7.0,7.0,7.0
+R00362,M11,Young Couples,Domestic,15,Female,27,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,7.0,7.0,10.0,2.5,7.0,7.0,5.5,7.0,5.875,5.5,6.625,7.0,7.0
+R00363,M11,Young Couples,Domestic,15,Female,25,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,1.0,4.75,3.25,4.0,4.0,4.0,5.5,4.75,4.5,5.5
+R00364,M11,Young Couples,Local,23,Female,28,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,3.25,4.0,2.5,4.0,3.625,5.0,3.25,3.5,4.0
+R00365,M11,Young Couples,Domestic,15,Female,26,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00366,M11,Young Couples,Local,23,Female,31,2,False,Unknown,Unknown,5.5,7.0,7.0,5.5,2.5,4.0,6.25,,,,,,,,,,
+R00367,M11,Young Couples,Domestic,28,Male,31,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,3.5,7.0,7.0,7.0,7.0,5.5,7.0,7.0,7.0,7.0
+R00368,M11,Young Couples,Domestic,28,Male,27,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,5.125,5.5,5.5,5.5,4.375,5.5,5.125,5.5,5.5
+R00369,M11,Young Couples,Local,27,Male,28,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.5,4.75,4.0,7.0,5.5,3.625,4.5,4.0,3.0,2.5
+R00370,M11,Young Couples,Domestic,29,Male,29,2,False,Unknown,Unknown,4.0,7.0,5.5,7.0,7.0,7.0,8.75,1.0,6.25,6.25,7.0,7.0,5.5,5.0,6.25,4.5,7.0
+R00371,M11,Young Couples,Domestic,24,Male,25,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,5.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
+R00372,M11,Young Couples,Local,27,Male,28,2,False,Unknown,Unknown,4.0,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00373,M11,Young Couples,Local,27,Male,34,2,False,Unknown,Unknown,5.5,7.0,7.0,5.5,2.5,4.0,6.25,,,,,,,,,,
+R00374,M11,Young Couples,Domestic,29,Male,31,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,4.0,4.75,7.5,,,,,,,,,,
+R00375,M11,Young Couples,Local,27,Female,29,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,6.25,7.0,7.0,5.5,5.5,6.625,7.0,5.5
+R00376,M11,Young Couples,Domestic,24,Female,32,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,5.875,6.25,7.0,5.5,4.75,6.0,6.25,5.5,7.0
+R00377,M11,Young Couples,Domestic,24,Female,34,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,7.0,5.5,7.0,7.0,7.0,7.0,6.625,6.5,7.0
+R00378,M11,Young Couples,Domestic,28,Female,29,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.5,5.875,5.5,5.5,5.5,5.875,6.0,5.875,5.5,5.5
+R00379,M11,Young Couples,Local,27,Female,31,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,3.0,6.25,4.75,5.5,5.5,4.75,5.5,5.125,6.0,5.5
+R00380,M11,Young Couples,Local,27,Female,32,2,False,Unknown,Unknown,2.5,,1.0,1.0,7.0,4.0,5.0,,,,,,,,,,
+R00381,M11,Young Couples,Domestic,28,Female,29,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00382,M11,Young Couples,Domestic,25,Female,32,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,4.0,4.75,6.25,,,,,,,,,,
+R00383,M11,Young Couples,Local,1,Male,27,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,4.0,7.0,6.25,7.0,7.0,5.125,7.0,6.25,6.5,5.5
+R00384,M11,Young Couples,Domestic,4,Male,26,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,8.0,6.75,10.833333333333334,3.0,7.0,7.0,7.0,7.0,5.5,6.5,7.0,7.0,7.0
+R00385,M11,Young Couples,Domestic,6,Male,30,2,False,Unknown,Unknown,2.5,5.5,4.0,2.5,7.0,4.75,7.5,2.5,5.875,3.25,5.5,4.0,4.0,4.0,4.75,3.5,5.5
+R00386,M11,Young Couples,Local,1,Male,30,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,6.625,4.75,5.5,5.5,4.375,6.0,5.875,5.5,5.5
+R00387,M11,Young Couples,Domestic,4,Male,33,2,False,Unknown,Unknown,2.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00388,M11,Young Couples,Domestic,4,Female,28,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,4.0,5.5,7.5,3.0,7.0,5.5,7.0,7.0,5.5,6.0,7.0,7.0,5.5
+R00389,M11,Young Couples,Domestic,3,Female,27,2,False,Unknown,Unknown,1.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,3.0,6.25,4.75,7.0,5.5,3.625,6.0,4.75,5.0,5.5
+R00390,M11,Young Couples,Domestic,3,Female,28,2,False,Unknown,Unknown,1.0,1.0,2.5,2.5,7.0,4.75,6.25,1.0,5.125,2.5,5.5,7.0,4.375,3.5,3.25,2.5,5.5
+R00391,M11,Young Couples,Local,1,Female,31,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00392,M11,Young Couples,Local,1,Female,28,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00393,M11,Young Couples,Domestic,34,Male,26,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,4.0,6.25,5.5,5.5,7.0,5.5,6.0,6.625,5.5,5.5
+R00394,M11,Young Couples,Domestic,37,Male,31,2,False,Unknown,Unknown,1.0,4.0,4.0,1.0,7.0,4.0,7.5,1.5,5.125,1.0,5.5,2.5,3.25,3.5,2.5,3.0,2.5
+R00395,M11,Young Couples,Domestic,46,Male,27,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,,,,,,,,,,
+R00396,M11,Young Couples,Domestic,34,Male,28,2,False,Unknown,Unknown,5.5,4.0,5.5,7.0,7.0,7.0,8.75,,,,,,,,,,
+R00397,M11,Young Couples,Local,40,Female,24,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,7.0,7.0,7.0,7.0,5.5,7.0,7.0,7.0,7.0
+R00398,M11,Young Couples,Domestic,44,Female,25,2,False,Unknown,Unknown,4.0,4.0,2.5,2.5,8.0,5.25,7.083333333333334,3.5,6.625,5.5,7.0,7.0,4.75,5.5,5.125,5.0,4.0
+R00399,M11,Young Couples,Domestic,38,Female,26,2,False,Unknown,Unknown,7.0,5.5,7.0,5.5,8.0,6.75,10.833333333333334,5.0,6.25,7.0,7.0,7.0,7.0,7.0,5.5,6.0,7.0
+R00400,M11,Young Couples,Domestic,31,Female,26,2,False,Unknown,Unknown,2.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00401,M11,Matured Adults 35+,Local,13,Male,50,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,2.5,5.125,4.0,5.5,5.5,4.0,5.5,5.125,4.0,5.5
+R00402,M11,Matured Adults 35+,Local,13,Male,58,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,3.0,4.0,4.0,4.0,4.0,4.0,5.0,4.0,4.0,4.0
+R00403,M11,Matured Adults 35+,Local,12,Male,54,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,1.0,5.5,4.0,4.0,4.0,4.0,5.0,4.375,4.5,4.0
+R00404,M11,Matured Adults 35+,Domestic,8,Male,38,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.0,7.0,5.5,7.0,7.0,5.5,7.0,6.25,7.0,7.0
+R00405,M11,Matured Adults 35+,Local,12,Male,46,2,False,Unknown,Unknown,5.5,7.0,5.5,4.0,8.0,6.0,9.583333333333334,4.5,6.25,5.5,7.0,7.0,5.875,6.5,7.0,5.5,7.0
+R00406,M11,Matured Adults 35+,Local,13,Male,72,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00407,M11,Matured Adults 35+,Local,12,Male,49,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,8.0,6.0,8.333333333333334,2.5,4.375,4.0,4.0,4.0,3.625,4.5,5.125,5.0,4.0
+R00408,M11,Matured Adults 35+,Local,11,Male,76,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,3.0,4.0,4.0,5.5,4.0,5.125,5.0,4.375,4.0,5.5
+R00409,M11,Matured Adults 35+,Local,11,Male,65,2,False,Unknown,Unknown,7.0,5.5,5.5,5.5,7.0,6.25,8.75,2.0,5.5,4.75,5.5,5.5,4.0,5.5,5.5,5.0,5.5
+R00410,M11,Matured Adults 35+,Local,12,Male,38,2,False,Unknown,Unknown,7.0,4.0,5.5,5.5,8.0,6.75,9.583333333333334,2.0,5.5,4.75,5.5,5.5,3.625,5.0,4.375,5.5,5.5
+R00411,M11,Matured Adults 35+,Local,14,Male,52,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,7.0,6.25,8.75,3.0,4.0,4.0,4.0,5.5,4.0,5.5,4.0,4.5,4.0
+R00412,M11,Matured Adults 35+,Local,13,Male,72,2,False,Unknown,Unknown,5.5,7.0,5.5,4.0,8.0,6.0,9.583333333333334,3.0,4.75,4.0,4.0,5.5,4.0,5.5,4.0,4.5,4.0
+R00413,M11,Matured Adults 35+,Local,14,Male,59,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,2.5,5.5,5.5,5.5,5.5,4.75,5.5,5.125,5.0,5.5
+R00414,M11,Matured Adults 35+,Local,13,Male,47,2,False,Unknown,Unknown,4.0,4.0,4.0,1.0,8.0,4.5,8.333333333333334,3.0,4.0,4.0,4.0,4.0,4.0,5.0,4.0,4.0,4.0
+R00415,M11,Matured Adults 35+,Local,11,Male,65,2,False,Unknown,Unknown,4.0,4.0,4.0,4.0,7.0,5.5,7.5,2.0,4.0,4.0,4.0,4.0,3.25,4.0,4.0,3.5,4.0
+R00416,M11,Matured Adults 35+,Domestic,9,Male,58,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,1.5,4.75,4.75,5.5,5.5,3.25,5.0,5.125,4.5,4.0
+R00417,M11,Matured Adults 35+,Local,13,Male,45,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,2.5,4.75,6.25,4.0,6.25,5.5,5.5,7.0,5.875,6.0,5.875,5.5,5.5
+R00418,M11,Matured Adults 35+,Local,13,Male,55,2,False,Unknown,Unknown,2.5,4.0,2.5,2.5,8.0,5.25,7.083333333333334,,,,,,,,,,
+R00419,M11,Matured Adults 35+,Local,13,Male,73,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00420,M11,Matured Adults 35+,Local,14,Male,64,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00421,M11,Matured Adults 35+,Local,13,Male,63,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00422,M11,Matured Adults 35+,Domestic,10,Male,55,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00423,M11,Matured Adults 35+,Local,12,Male,73,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00424,M11,Matured Adults 35+,Local,14,Male,41,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,,,,,,,,,,
+R00425,M11,Matured Adults 35+,Local,13,Male,71,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00426,M11,Matured Adults 35+,Local,13,Female,37,2,False,Unknown,Unknown,5.5,4.0,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,5.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00427,M11,Matured Adults 35+,Local,13,Female,63,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,2.5,6.625,6.25,7.0,7.0,5.5,6.0,5.875,6.5,7.0
+R00428,M11,Matured Adults 35+,Local,13,Female,76,2,False,Unknown,Unknown,5.5,5.5,2.5,2.5,7.0,4.75,6.25,3.0,4.375,3.25,5.5,5.5,3.25,5.5,4.0,4.0,2.5
+R00429,M11,Matured Adults 35+,Local,14,Female,79,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.875,5.5,5.5,5.5,4.75,6.5,6.25,5.0,5.5
+R00430,M11,Matured Adults 35+,Local,14,Female,62,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,7.0,6.25,8.75,3.5,5.875,5.5,5.5,5.5,4.0,5.5,5.875,5.5,4.0
+R00431,M11,Matured Adults 35+,Local,11,Female,41,2,False,Unknown,Unknown,7.0,7.0,5.5,4.0,8.0,6.0,9.583333333333334,4.5,6.25,7.0,7.0,5.5,5.5,5.0,5.875,4.0,5.5
+R00432,M11,Matured Adults 35+,Local,14,Female,55,2,False,Unknown,Unknown,5.5,5.5,4.0,5.5,7.0,6.25,7.5,2.0,6.625,4.75,5.5,5.5,4.375,6.0,6.25,6.5,5.5
+R00433,M11,Matured Adults 35+,Local,13,Female,35,2,False,Unknown,Unknown,4.0,5.5,5.5,4.0,8.0,6.0,9.583333333333334,3.0,5.875,5.5,5.5,5.5,4.0,6.0,5.125,4.5,5.5
+R00434,M11,Matured Adults 35+,Local,13,Female,59,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,2.0,5.875,4.0,5.5,5.5,4.0,5.5,5.5,5.5,5.5
+R00435,M11,Matured Adults 35+,Local,13,Female,58,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.5,7.0,5.5,7.0,7.0,5.5,6.5,6.625,7.0,5.5
+R00436,M11,Matured Adults 35+,Local,14,Female,63,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,7.0,6.25,8.75,3.0,6.25,5.5,5.5,5.5,2.875,6.0,5.125,6.0,5.5
+R00437,M11,Matured Adults 35+,Local,14,Female,64,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.5,5.5,4.75,5.5,5.5,4.75,5.5,5.5,4.5,5.5
+R00438,M11,Matured Adults 35+,Local,14,Female,70,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,6.625,4.75,7.0,7.0,5.5,7.0,5.125,7.0,5.5
+R00439,M11,Matured Adults 35+,Local,11,Female,64,2,False,Unknown,Unknown,5.5,5.5,4.0,5.5,7.0,6.25,7.5,4.0,4.0,5.5,4.0,4.0,4.375,5.5,4.0,4.5,4.0
+R00440,M11,Matured Adults 35+,Local,13,Female,35,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,2.5,7.0,5.5,5.5,5.5,4.75,6.0,5.5,6.5,5.5
+R00441,M11,Matured Adults 35+,Local,11,Female,73,2,False,Unknown,Unknown,5.5,5.5,2.5,2.5,7.0,4.75,6.25,3.0,4.0,4.0,4.0,2.5,4.0,5.0,4.0,4.0,4.0
+R00442,M11,Matured Adults 35+,Local,13,Female,55,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.875,4.75,7.0,5.5,4.0,5.5,5.125,6.0,4.0
+R00443,M11,Matured Adults 35+,Local,11,Female,79,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,,,,,,,,,,
+R00444,M11,Matured Adults 35+,Local,13,Female,70,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00445,M11,Matured Adults 35+,Local,11,Female,36,2,False,Unknown,Unknown,1.0,,1.0,1.0,7.0,4.0,5.0,,,,,,,,,,
+R00446,M11,Matured Adults 35+,Local,13,Female,51,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00447,M11,Matured Adults 35+,Domestic,8,Female,73,2,False,Unknown,Unknown,7.0,7.0,5.5,4.0,7.0,5.5,8.75,,,,,,,,,,
+R00448,M11,Matured Adults 35+,Local,13,Female,62,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00449,M11,Matured Adults 35+,Local,13,Female,60,2,False,Unknown,Unknown,5.5,4.0,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00450,M11,Matured Adults 35+,Local,13,Female,72,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,,,,,,,,,,
+R00451,M11,Matured Adults 35+,Domestic,20,Male,71,2,False,Unknown,Unknown,7.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,6.25,5.5,5.5,3.25,5.5,4.75,5.5,5.5
+R00452,M11,Matured Adults 35+,Domestic,16,Male,77,2,False,Unknown,Unknown,5.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,3.0,4.75,4.75,4.0,5.5,3.625,5.5,4.75,5.0,4.0
+R00453,M11,Matured Adults 35+,Domestic,18,Male,41,2,False,Unknown,Unknown,5.5,7.0,5.5,5.5,8.0,6.75,9.583333333333334,1.0,5.875,4.0,5.5,4.0,4.375,3.5,5.125,3.5,4.0
+R00454,M11,Matured Adults 35+,Domestic,22,Male,64,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,7.0,5.5,8.75,2.5,5.5,5.5,4.0,5.5,3.625,5.5,4.75,4.5,4.0
+R00455,M11,Matured Adults 35+,Local,23,Male,39,2,False,Unknown,Unknown,5.5,7.0,5.5,5.5,8.0,6.75,9.583333333333334,3.5,4.0,4.75,5.5,4.0,5.875,5.0,4.375,4.0,4.0
+R00456,M11,Matured Adults 35+,Domestic,17,Male,46,2,False,Unknown,Unknown,5.5,5.5,5.5,2.5,7.0,4.75,8.75,,,,,,,,,,
+R00457,M11,Matured Adults 35+,Domestic,22,Male,52,2,False,Unknown,Unknown,5.5,5.5,5.5,7.0,8.0,7.5,9.583333333333334,,,,,,,,,,
+R00458,M11,Matured Adults 35+,Domestic,15,Male,48,2,False,Unknown,Unknown,1.0,4.0,2.5,2.5,7.0,4.75,6.25,,,,,,,,,,
+R00459,M11,Matured Adults 35+,Domestic,15,Female,35,2,False,Unknown,Unknown,7.0,7.0,7.0,5.5,7.0,6.25,10.0,2.0,7.0,5.5,5.5,7.0,4.375,6.0,5.5,7.0,5.5
+R00460,M11,Matured Adults 35+,Local,23,Female,52,2,False,Unknown,Unknown,4.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,1.5,7.0,6.25,5.5,7.0,3.625,6.0,5.5,7.0,5.5
+R00461,M11,Matured Adults 35+,Local,23,Female,75,2,False,Unknown,Unknown,4.0,5.5,2.5,2.5,8.0,5.25,7.083333333333334,3.0,5.125,4.75,4.0,4.0,4.75,5.0,4.75,4.0,5.5
+R00462,M11,Matured Adults 35+,Local,23,Female,55,2,False,Unknown,Unknown,2.5,4.0,4.0,4.0,7.0,5.5,7.5,3.5,5.875,5.5,5.5,4.0,3.625,5.5,5.125,4.5,4.0
+R00463,M11,Matured Adults 35+,Domestic,22,Female,71,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,2.0,5.125,6.25,7.0,7.0,4.375,5.0,5.125,5.0,4.0
+R00464,M11,Matured Adults 35+,Local,23,Female,51,2,False,Unknown,Unknown,5.5,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00465,M11,Matured Adults 35+,Domestic,17,Female,76,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00466,M11,Matured Adults 35+,Domestic,16,Female,47,2,False,Unknown,Unknown,2.5,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00467,M11,Matured Adults 35+,Domestic,28,Male,53,2,False,Unknown,Unknown,2.5,1.0,2.5,1.0,8.0,4.5,7.083333333333334,1.0,1.0,1.0,1.0,1.0,1.0,3.0,1.0,1.0,1.0
+R00468,M11,Matured Adults 35+,Domestic,24,Male,67,2,False,Unknown,Unknown,5.5,5.5,2.5,2.5,7.0,4.75,6.25,3.0,5.5,4.0,5.5,5.5,4.375,6.0,4.375,5.5,4.0
+R00469,M11,Matured Adults 35+,Domestic,26,Male,75,2,False,Unknown,Unknown,5.5,5.5,4.0,2.5,7.0,4.75,7.5,3.5,5.5,4.75,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00470,M11,Matured Adults 35+,Domestic,24,Male,68,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,6.25,4.0,7.0,5.5,5.125,6.5,6.25,5.5,7.0
+R00471,M11,Matured Adults 35+,Domestic,24,Male,74,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.0,5.125,4.75,5.5,5.5,4.75,5.5,4.75,5.0,4.0
+R00472,M11,Matured Adults 35+,Domestic,28,Male,55,2,False,Unknown,Unknown,4.0,,4.0,4.0,7.0,5.5,7.5,3.0,5.5,4.75,5.5,5.5,5.125,5.5,4.375,4.5,5.5
+R00473,M11,Matured Adults 35+,Domestic,28,Male,47,2,False,Unknown,Unknown,1.0,1.0,1.0,1.0,8.0,4.5,5.833333333333334,,,,,,,,,,
+R00474,M11,Matured Adults 35+,Local,27,Male,44,2,False,Unknown,Unknown,2.5,7.0,2.5,1.0,8.0,4.5,7.083333333333334,,,,,,,,,,
+R00475,M11,Matured Adults 35+,Local,27,Female,46,2,False,Unknown,Unknown,7.0,7.0,5.5,7.0,8.0,7.5,9.583333333333334,3.0,6.25,5.5,5.5,5.5,4.375,6.0,5.5,5.5,5.5
+R00476,M11,Matured Adults 35+,Domestic,26,Female,61,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,2.5,5.5,5.5,5.5,5.5,4.375,6.0,5.5,5.5,5.5
+R00477,M11,Matured Adults 35+,Domestic,28,Female,36,2,False,Unknown,Unknown,4.0,7.0,5.5,5.5,8.0,6.75,9.583333333333334,2.0,5.125,5.5,5.5,5.5,3.25,4.5,5.5,5.5,5.5
+R00478,M11,Matured Adults 35+,Local,27,Female,62,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,3.0,5.125,4.75,5.5,5.5,5.125,5.5,4.75,5.0,5.5
+R00479,M11,Matured Adults 35+,Domestic,24,Female,47,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,7.0,5.5,7.5,2.0,5.5,2.5,5.5,5.5,4.75,6.0,5.5,5.5,5.5
+R00480,M11,Matured Adults 35+,Local,27,Female,46,2,False,Unknown,Unknown,4.0,5.5,7.0,7.0,6.0,6.5,9.166666666666668,3.0,5.5,5.5,5.5,5.5,4.375,6.0,5.125,5.5,5.5
+R00481,M11,Matured Adults 35+,Local,27,Female,46,2,False,Unknown,Unknown,4.0,5.5,4.0,4.0,8.0,6.0,8.333333333333334,,,,,,,,,,
+R00482,M11,Matured Adults 35+,Domestic,28,Female,64,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00483,M11,Matured Adults 35+,Domestic,2,Male,37,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,4.5,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0
+R00484,M11,Matured Adults 35+,Local,1,Male,57,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,8.0,6.75,9.583333333333334,3.0,6.625,6.25,7.0,5.5,4.75,6.0,5.875,5.5,5.5
+R00485,M11,Matured Adults 35+,Domestic,7,Male,63,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,3.0,6.625,6.25,7.0,5.5,4.375,5.5,5.5,6.0,5.5
+R00486,M11,Matured Adults 35+,Local,1,Male,78,2,False,Unknown,Unknown,7.0,7.0,7.0,4.0,8.0,6.0,10.833333333333334,,,,,,,,,,
+R00487,M11,Matured Adults 35+,Domestic,2,Male,49,2,False,Unknown,Unknown,4.0,5.5,5.5,4.0,8.0,6.0,9.583333333333334,,,,,,,,,,
+R00488,M11,Matured Adults 35+,Domestic,2,Female,52,2,False,Unknown,Unknown,5.5,4.0,5.5,5.5,8.0,6.75,9.583333333333334,3.0,5.125,5.5,5.5,5.5,4.0,6.0,4.375,5.5,4.0
+R00489,M11,Matured Adults 35+,Local,1,Female,56,2,False,Unknown,Unknown,5.5,7.0,7.0,7.0,8.0,7.5,10.833333333333334,2.0,5.5,2.5,4.0,5.5,3.25,6.5,5.125,4.5,5.5
+R00490,M11,Matured Adults 35+,Domestic,2,Female,70,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,1.0,4.0,5.0,3.5,6.25,6.25,4.0,5.5,4.75,6.0,5.5,5.5,7.0
+R00491,M11,Matured Adults 35+,Local,1,Female,47,2,False,Unknown,Unknown,2.5,2.5,2.5,2.5,8.0,5.25,7.083333333333334,,,,,,,,,,
+R00492,M11,Matured Adults 35+,Domestic,4,Female,38,2,False,Unknown,Unknown,4.0,5.5,5.5,5.5,8.0,6.75,9.583333333333334,,,,,,,,,,
+R00493,M11,Matured Adults 35+,Domestic,38,Male,53,2,False,Unknown,Unknown,2.5,2.5,2.5,2.5,8.0,5.25,7.083333333333334,3.0,4.375,3.25,4.0,5.5,3.625,5.0,3.625,4.0,4.0
+R00494,M11,Matured Adults 35+,Domestic,47,Male,37,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,7.0,7.0,10.0,3.5,7.0,4.75,7.0,7.0,4.75,5.0,5.5,6.0,7.0
+R00495,M11,Matured Adults 35+,Domestic,36,Male,66,2,False,Unknown,Unknown,4.0,4.0,4.0,2.5,8.0,5.25,8.333333333333334,1.0,4.375,3.25,2.5,2.5,2.125,4.5,3.25,4.0,4.0
+R00496,M11,Matured Adults 35+,Domestic,33,Male,56,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,8.0,7.5,10.833333333333334,,,,,,,,,,
+R00497,M11,Matured Adults 35+,Local,40,Female,64,2,False,Unknown,Unknown,7.0,7.0,7.0,4.0,7.0,5.5,10.0,2.0,6.25,5.5,7.0,7.0,3.25,6.0,6.25,5.5,4.0
+R00498,M11,Matured Adults 35+,Domestic,34,Female,59,2,False,Unknown,Unknown,5.5,5.5,5.5,5.5,7.0,6.25,8.75,3.5,5.5,4.75,5.5,5.5,4.75,6.0,5.5,5.5,4.0
+R00499,M11,Matured Adults 35+,Local,40,Female,43,2,False,Unknown,Unknown,7.0,7.0,7.0,7.0,5.5,6.25,8.75,1.0,5.125,4.0,4.0,4.0,3.25,4.5,3.625,3.5,5.5
+R00500,M11,Matured Adults 35+,Local,40,Female,54,2,False,Unknown,Unknown,5.5,7.0,7.0,5.5,7.0,6.25,10.0,,,,,,,,,,

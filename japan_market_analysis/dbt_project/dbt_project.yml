@@ -1,0 +1,24 @@
+name: 'japan_theme_park_analysis'
+version: '1.0.0'
+config-version: 2
+
+profile: 'japan_theme_park'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  # Focus analysis on Tokyo Disneyland by default
+  primary_park: 'TDL'
+  
+seeds:
+  japan_theme_park_analysis:
+    +schema: raw
+    survey_responses:
+      +column_types:
+        respondent_id: varchar
