@@ -45,14 +45,14 @@ This study addresses four key research objectives:
 |-------------|-------|---------------------|------------------|
 | Unaided Awareness | Open-ended recall | Descriptive | Top-of-mind brand salience |
 | Aided Awareness | Yes/No recognition | Descriptive | Brand recognition after prompt |
-| Familiarity | 1-5 Likert | 1, 4 | Upper funnel predictor |
-| Opinion | 1-5 Likert | 1, 4 | Upper-middle funnel predictor |
-| Consideration to Visit | 1-5 Likert | 1, 3, 4 | Key mediator in funnel |
-| Likelihood to Visit | 1-5 Likert | 1, 2, 3, 4 | Primary outcome variable |
-| Future Visitation Intent | Time-based response | 1 | Visit timing indicator |
-| Net Promoter Score (NPS) | 0-10 scale | Descriptive | Loyalty/advocacy measure |
-| Functional Benefits | 1-5 Likert (26 items) | 2 | Rational brand perceptions |
-| Emotional Benefits | 1-5 Likert (10 items) | 2 | Affective brand perceptions |
+| Familiarity | 1-5 Likert | 1, 2, 3, 4 | Upper funnel predictor; starting point of path model |
+| Opinion | 1-5 Likert | 1, 2, 3, 4 | Upper-middle funnel; key driver of consideration |
+| Consideration to Visit | 1-5 Likert | 1, 2, 3, 4 | Middle funnel; primary mediator between opinion and likelihood |
+| Likelihood to Visit | 1-5 Likert | 1, 2, 3, 4 | Lower funnel; primary outcome variable in all SEM models |
+| Future Visitation Intent | Time-based response | Descriptive | Behavioral intent timing indicator |
+| Net Promoter Score (NPS) | 0-10 scale | 3 | Loyalty/advocacy measure; compared across segments |
+| Functional Benefits | 1-5 Likert (26 items) | 2 | Rational brand perceptions; tested as predictors of likelihood |
+| Emotional Benefits | 1-5 Likert (10 items) | 2 | Affective brand perceptions; tested as predictors of likelihood |
 
 ---
 
