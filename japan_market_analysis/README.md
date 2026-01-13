@@ -345,6 +345,54 @@ Familiarity ────────────────────► Like
 
 ---
 
+## ⚠️ Sample Size Limitations
+
+### Overview of Sample Sizes
+
+| Analysis Level | n | Adequacy |
+|----------------|---|----------|
+| Total survey responses | 541 | ✅ Adequate for descriptive statistics |
+| Complete cases for SEM | 177 | ⚠️ Borderline (33% of total sample) |
+| Per segment (SEM models) | 30-40 | 🔴 Small for separate path models |
+
+### Key Concerns
+
+**1. High Rate of Incomplete Data (67%)**
+- Only 177 of 541 respondents have complete data for all SEM variables
+- Brand attribute questions (Functional/Emotional Benefits) were only asked of a subset
+- **Risk**: Complete cases may not be representative of full sample
+- **Recommendation**: Compare demographics of complete vs. incomplete cases
+
+**2. Segment-Level Models Are Underpowered**
+- Segment sample sizes range from n=30 (Adults 18-34) to n=40 (Older Families)
+- Rule of thumb for SEM: 10-20 cases per estimated parameter
+- With 4-5 paths estimated, minimum would be 40-100 per segment
+- **Risk**: Segment-level path coefficients (Objective 3) may be unstable
+- **Recommendation**: Interpret segment differences directionally, not as precise estimates
+
+**3. Statistical Power Limitations**
+- With n=177, power to detect small effects (β < 0.15) is limited
+- The non-significant Emotional Benefits finding (β = -0.02) could reflect:
+  - A true null effect, OR
+  - Insufficient power to detect a small effect
+- **Recommendation**: Replicate with larger sample before concluding emotional benefits don't matter
+
+**4. Model Sensitivity**
+- Small samples are more sensitive to outliers and influential cases
+- Results could shift with different samples
+- **Recommendation**: Report confidence intervals; consider bootstrapped standard errors
+
+### Sample Size Guidelines for Future Waves
+
+| Analysis Type | Minimum Recommended | Ideal |
+|--------------|---------------------|-------|
+| Overall SEM model | 200 | 300+ |
+| Per segment (if running separate models) | 100 | 150+ |
+| Per segment (if comparing path coefficients) | 75 | 100+ |
+| For mediation testing | 200 | 300+ |
+
+---
+
 ## 💡 Strategic Recommendations
 
 Based on the SEM analysis:
