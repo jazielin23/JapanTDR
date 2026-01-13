@@ -196,7 +196,7 @@ This study addresses four key research objectives:
 
 ## 📊 Results by Objective
 
-### Objective 1: Marketing Funnel Analysis
+### Objective 1: Marketing Funnel Analysis (n=535)
 
 **Research Question**: How do funnel KPIs drive intent to visit?
 
@@ -204,28 +204,28 @@ This study addresses four key research objectives:
 
 | Path | Standardized β | p-value | Significance |
 |------|---------------|---------|--------------|
-| Familiarity → Opinion | **0.658** | < 0.001 | *** |
-| Opinion → Consideration | **0.382** | < 0.001 | *** |
-| Familiarity → Consideration (direct) | 0.425 | < 0.001 | *** |
-| Consideration → Likelihood | **0.573** | < 0.001 | *** |
-| Opinion → Likelihood (direct) | 0.239 | < 0.001 | *** |
-| Familiarity → Likelihood (direct) | 0.053 | 0.440 | ns |
+| Familiarity → Opinion | **0.637** | < 0.001 | *** |
+| Opinion → Consideration | **0.418** | < 0.001 | *** |
+| Familiarity → Consideration (direct) | 0.407 | < 0.001 | *** |
+| Consideration → Likelihood | **0.584** | < 0.001 | *** |
+| Opinion → Likelihood (direct) | 0.198 | < 0.001 | *** |
+| Familiarity → Likelihood (direct) | 0.091 | 0.015 | * |
 
-**Model Fit**: R² = 0.627 (62.7% of variance in Likelihood explained)
+**Model Fit**: R² = 0.640 (64.0% of variance in Likelihood explained)
 
 **Path Diagram**:
 ```
-Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration ──(0.57)──► Likelihood
+Familiarity ──(0.64)──► Opinion ──(0.42)──► Consideration ──(0.58)──► Likelihood
      │                      │                                            ▲
-     │                      └─────────(0.24)─────────────────────────────┘
-     └────────────────────(ns)────────────────────────────────────────────┘
+     │                      └─────────(0.20)─────────────────────────────┘
+     └────────────────────(0.09*)─────────────────────────────────────────┘
 ```
 
-**Key Finding**: Consideration is the strongest direct predictor of Likelihood (β = 0.573). The funnel flows sequentially, with each stage significantly predicting the next. Familiarity's effect on Likelihood is fully mediated through Opinion and Consideration.
+**Key Finding**: Consideration is the strongest direct predictor of Likelihood (β = 0.584). The funnel flows sequentially, with each stage significantly predicting the next. With the larger sample (n=535), even the small direct effect of Familiarity → Likelihood reaches significance (β = 0.091, p = 0.015).
 
 ---
 
-### Objective 2: Brand Benefits Analysis
+### Objective 2: Brand Benefits Analysis (n=177)
 
 **Research Question**: Do functional and emotional brand perceptions influence visit intent?
 
@@ -238,6 +238,12 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 | Opinion | 0.113 | 0.122 | ns |
 | Familiarity | 0.054 | 0.410 | ns |
 | **Emotional Benefits** | -0.022 | 0.817 | ns |
+
+**Model Comparison** (on n=177 subset):
+| Model | R² | Δ R² |
+|-------|-----|------|
+| Funnel Only | 0.627 | — |
+| Funnel + Benefits | 0.663 | +0.036 |
 
 **Full Model Fit**: R² = 0.663 (66.3% of variance in Likelihood explained)
 
@@ -266,7 +272,7 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 
 ---
 
-### Objective 3: Segment Comparison
+### Objective 3: Segment Comparison (n=535)
 
 **Research Question**: Does the Consideration → Likelihood relationship vary by segment?
 
@@ -274,11 +280,11 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 
 | Segment | n | β | p-value | R² |
 |---------|---|---|---------|---|
-| A. Young Families | 38 | **0.869** | < 0.001 | 0.443 |
-| D. Couples 18-34 | 32 | 0.857 | < 0.001 | 0.779 |
-| C. Adults 18-34 | 30 | 0.852 | < 0.001 | 0.646 |
-| E. Adults 35+ | 37 | 0.792 | < 0.001 | 0.761 |
-| B. Older Families | 40 | **0.559** | < 0.001 | 0.304 |
+| E. Adults 35+ | 118 | **0.861** | < 0.001 | 0.737 |
+| A. Young Families | 109 | 0.790 | < 0.001 | 0.506 |
+| C. Adults 18-34 | 99 | 0.759 | < 0.001 | 0.659 |
+| D. Couples 18-34 | 91 | 0.758 | < 0.001 | 0.665 |
+| B. Older Families | 118 | **0.676** | < 0.001 | 0.451 |
 
 **Funnel Metrics by Segment (Mean Scores)**:
 
@@ -286,19 +292,19 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 |---------|-------------|---------|---------------|------------|-----|
 | A. Young Families | 3.92 | 4.29 | 4.17 | 3.99 | 8.81 |
 | B. Older Families | 3.69 | 4.13 | 3.87 | 3.80 | 8.11 |
-| C. Adults 18-34 | 3.88 | 4.33 | 4.03 | 4.03 | 8.53 |
-| D. Couples 18-34 | 4.11 | 4.32 | 4.22 | 4.22 | 8.82 |
-| E. Adults 35+ | 3.83 | 4.16 | 3.65 | 3.55 | 7.88 |
+| C. Adults 18-34 | 3.97 | 4.37 | 4.03 | 4.10 | 8.70 |
+| D. Couples 18-34 | 4.20 | 4.42 | 4.22 | 4.31 | 9.01 |
+| E. Adults 35+ | 3.84 | 4.16 | 3.65 | 3.56 | 7.90 |
 
 **Key Findings**:
-- **Strongest effect**: Young Families (β = 0.869) - When this segment considers visiting, they're very likely to follow through
-- **Weakest effect**: Older Families (β = 0.559) - Consideration doesn't convert as strongly to intent; other barriers may exist (e.g., scheduling, competing activities for older children)
-- **Highest overall intent**: Couples 18-34 (Likelihood = 4.22, NPS = 8.82)
-- **Lowest overall intent**: Adults 35+ (Likelihood = 3.55, NPS = 7.88)
+- **Strongest effect**: Adults 35+ (β = 0.861) - When this segment considers visiting, they're very likely to follow through (but they have the lowest baseline consideration)
+- **Weakest effect**: Older Families (β = 0.676) - Consideration doesn't convert as strongly to intent; other barriers may exist (e.g., scheduling, competing activities for older children)
+- **Highest overall intent**: Couples 18-34 (Likelihood = 4.31, NPS = 9.01)
+- **Lowest overall intent**: Adults 35+ (Likelihood = 3.56, NPS = 7.90)
 
 ---
 
-### Objective 4: Mediation Testing
+### Objective 4: Mediation Testing (n=535)
 
 **Research Question**: Is the effect of funnel stages on Likelihood mediated through Consideration?
 
@@ -306,22 +312,23 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 
 | Component | Value |
 |-----------|-------|
-| Path a (Opinion → Consideration) | 0.661 |
-| Path b (Consideration → Likelihood) | 0.596 |
-| Direct Effect c' (Opinion → Likelihood) | 0.259 |
-| Indirect Effect (a × b) | **0.394** |
-| Sobel z | 7.431 |
+| Path a (Opinion → Consideration) | 0.677 |
+| Path b (Consideration → Likelihood) | 0.625 |
+| Total Effect c (Opinion → Likelihood) | 0.652 |
+| Direct Effect c' (Opinion → Likelihood) | 0.229 |
+| Indirect Effect (a × b) | **0.423** |
+| Sobel z | 13.546 |
 | p-value | < 0.001 |
-| **% Mediated** | **60.3%** |
+| **% Mediated** | **64.9%** |
 
-**Result**: Significant **partial mediation**. 60.3% of Opinion's effect on Likelihood flows through Consideration. Both direct and indirect paths are significant.
+**Result**: Significant **partial mediation**. 64.9% of Opinion's effect on Likelihood flows through Consideration. Both direct and indirect paths are significant.
 
 #### Test 2: Does Opinion Mediate Familiarity → Likelihood?
 
 | Component | Value |
 |-----------|-------|
-| Indirect Effect (Familiarity → Opinion → Likelihood) | **0.301** |
-| Sobel z | 5.523 |
+| Indirect Effect (Familiarity → Opinion → Likelihood) | **0.282** |
+| Sobel z | 9.530 |
 | p-value | < 0.001 |
 
 **Result**: Significant mediation. Opinion mediates Familiarity's effect on Likelihood.
@@ -330,18 +337,18 @@ Familiarity ──(0.66)──► Opinion ──(0.38)──► Consideration �
 ```
                     Opinion
                    ↗       ↘
-               (0.66)    (0.26 direct)
+               (0.64)    (0.23 direct)
               ↗               ↘
 Familiarity ────────────────────► Likelihood
-                     (ns)              ▲
+                  (0.09*)              ▲
                                        │
-         Consideration ─────(0.60)─────┘
+         Consideration ─────(0.63)─────┘
               ▲
               │
-    Opinion ──┘ (0.66)
+    Opinion ──┘ (0.68)
 ```
 
-**Strategic Implication**: Building favorable **Opinion** is the most effective upper-funnel strategy because it has both direct effects on Likelihood AND substantial indirect effects through Consideration. Marketing efforts should focus on shaping positive brand perceptions, which will naturally move consumers into the consideration set.
+**Strategic Implication**: Building favorable **Opinion** is the most effective upper-funnel strategy because it has both direct effects on Likelihood AND substantial indirect effects through Consideration (64.9% mediated). Marketing efforts should focus on shaping positive brand perceptions, which will naturally move consumers into the consideration set.
 
 ---
 
@@ -351,9 +358,10 @@ Familiarity ────────────────────► Like
 
 | Analysis Level | n | Adequacy |
 |----------------|---|----------|
-| Total survey responses | 541 | ✅ Adequate for funnel analysis |
-| With Brand Attribute data | 177 | ⚠️ Required only for Objective 2 |
-| Per segment (SEM models) | 30-40 | 🔴 Small for separate path models |
+| Total survey responses | 541 | ✅ Adequate for descriptives |
+| Funnel analysis (Obj 1, 3, 4) | 535 | ✅ Good statistical power |
+| Brand benefits (Obj 2) | 177 | ⚠️ Adequate but limited power |
+| Per segment (full sample) | 91-118 | ✅ Adequate for segment comparison |
 
 ### Why Sample Drops from 541 to 177
 
@@ -369,38 +377,36 @@ The **Functional Benefits (26 items) and Emotional Benefits (10 items)** were as
 
 **Key implication**: The 177 respondents with attribute data are **representative** of the full 541 sample (evenly distributed across segments, familiarity levels, and visit history). There is no systematic selection bias - the limitation is purely statistical power.
 
-### Which Sample to Use for Each Objective
+### Which Sample Used for Each Objective
 
-| Objective | Variables Needed | Can Use n=541? | Current Analysis |
-|-----------|------------------|----------------|------------------|
-| 1. Marketing Funnel | Familiarity, Opinion, Consideration, Likelihood | ✅ Yes | Uses 177 |
-| 2. Brand Benefits | Functional, Emotional Benefits | ❌ No (only 177 have data) | Uses 177 |
-| 3. Segment Comparison | Funnel metrics, NPS | ✅ Yes | Uses 177 |
-| 4. Mediation Testing | Funnel metrics | ✅ Yes | Uses 177 |
+| Objective | Variables Needed | Sample Used | Rationale |
+|-----------|------------------|-------------|-----------|
+| 1. Marketing Funnel | Familiarity, Opinion, Consideration, Likelihood | **n=535** | Full sample for best statistical power |
+| 2. Brand Benefits | Functional, Emotional Benefits | **n=177** | Only subset has brand attribute data |
+| 3. Segment Comparison | Funnel metrics, NPS | **n=535** | Full sample for stable segment estimates |
+| 4. Mediation Testing | Funnel metrics | **n=535** | Full sample for robust mediation tests |
 
-**Why the current analysis uses n=177 throughout**: To enable direct comparison of results across objectives (e.g., "adding brand benefits increases R² from 0.627 to 0.663" uses the same sample). However, Objectives 1, 3, and 4 could be re-run with the full n=541 sample for greater statistical power if comparability with Objective 2 is not required.
+**Current approach**: Objectives 1, 3, and 4 use the full sample (n=535) for maximum statistical power. Objective 2 uses the subset with brand attributes (n=177). For Objective 2, we compare the funnel-only model (R²=0.627) to the full model with benefits (R²=0.663) on the same n=177 sample to enable direct comparison.
 
 ### Key Concerns
 
-**1. Segment-Level Models Are Underpowered**
-- Segment sample sizes range from n=30 (Adults 18-34) to n=40 (Older Families)
-- Rule of thumb for SEM: 10-20 cases per estimated parameter
-- With 4-5 paths estimated, minimum would be 40-100 per segment
-- **Risk**: Segment-level path coefficients (Objective 3) may be unstable
-- **Recommendation**: Interpret segment differences directionally, not as precise estimates
-
-**2. Statistical Power Limitations (for Objective 2)**
-- With n=177, power to detect small effects (β < 0.15) is limited
+**1. Statistical Power Limitations (for Objective 2 only)**
+- With n=177 for brand benefits analysis, power to detect small effects (β < 0.15) is limited
 - The non-significant Emotional Benefits finding (β = -0.02) could reflect:
   - A true null effect, OR
   - Insufficient power to detect a small effect
 - **Recommendation**: Replicate with larger sample before concluding emotional benefits don't matter
-- **Note**: Objectives 1, 3, and 4 could use n=541 for better power if run separately
+
+**2. Segment-Level Stability**
+- With full sample, segment sizes are now adequate (n=91-118 per segment)
+- This is a significant improvement over the previous n=30-40 per segment
+- Path coefficients are more stable and confidence intervals are narrower
+- **Note**: Segment differences are now more reliably estimated
 
 **3. Model Sensitivity**
-- Small samples are more sensitive to outliers and influential cases
-- Results could shift with different samples
-- **Recommendation**: Report confidence intervals; consider bootstrapped standard errors
+- Results are more robust with the larger sample (n=535)
+- Standard errors are smaller, providing more precise estimates
+- **Recommendation**: For Objective 2, consider bootstrapped confidence intervals given smaller sample
 
 ### Sample Size Guidelines for Future Waves
 
