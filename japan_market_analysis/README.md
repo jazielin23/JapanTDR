@@ -43,16 +43,18 @@ This study addresses four key research objectives:
 
 | Measurement | Scale | Objective(s) Used In | Role in Analysis |
 |-------------|-------|---------------------|------------------|
-| Unaided Awareness | Open-ended recall | Descriptive | Top-of-mind brand salience |
-| Aided Awareness | Yes/No recognition | Descriptive | Brand recognition after prompt |
-| Familiarity | 1-5 Likert | 1, 2, 3, 4 | Upper funnel predictor; starting point of path model |
+| Unaided Awareness | Open-ended text | Descriptive | Top-of-mind brand salience; binary (mentioned/not mentioned) |
+| Aided Awareness | Binary (Yes/No) | Descriptive | Brand recognition; binary limits use in SEM path models |
+| Familiarity | 1-5 Likert | 1, 2, 3, 4 | Upper funnel predictor; starting point of SEM path model |
 | Opinion | 1-5 Likert | 1, 2, 3, 4 | Upper-middle funnel; key driver of consideration |
 | Consideration to Visit | 1-5 Likert | 1, 2, 3, 4 | Middle funnel; primary mediator between opinion and likelihood |
 | Likelihood to Visit | 1-5 Likert | 1, 2, 3, 4 | Lower funnel; primary outcome variable in all SEM models |
-| Future Visitation Intent | Time-based response | Descriptive | Behavioral intent timing indicator |
+| Future Visitation Intent | Time-based categories | Descriptive | Visit timing indicator; recoded to binary for validation |
 | Net Promoter Score (NPS) | 0-10 scale | 3 | Loyalty/advocacy measure; compared across segments |
 | Functional Benefits | 1-5 Likert (26 items) | 2 | Rational brand perceptions; tested as predictors of likelihood |
 | Emotional Benefits | 1-5 Likert (10 items) | 2 | Affective brand perceptions; tested as predictors of likelihood |
+
+> **Note on Awareness**: This survey measures awareness as binary (Unaided = open-ended recall, Aided = yes/no recognition) rather than a Likert scale. Because nearly all respondents are aware of TDL (a famous Japanese brand), there is minimal variance in awareness. The SEM path model therefore begins at **Familiarity**, which captures the *depth* of brand knowledge on a continuous scale and provides meaningful variance for analysis.
 
 ---
 
@@ -61,14 +63,16 @@ This study addresses four key research objectives:
 #### Marketing Funnel Metrics
 
 **Unaided Awareness**
-- **Question**: "What theme parks come to mind when you think of Japan?" (open-ended, up to 5 responses)
-- **Calculation**: Binary indicator (1 = TDL/TDR mentioned, 0 = not mentioned)
+- **Question**: "What theme parks come to mind?" (open-ended, up to 5 responses)
+- **Scale**: Text responses converted to binary (1 = TDL/TDR mentioned, 0 = not mentioned)
+- **Limitation**: Not a Likert scale; cannot be used as continuous variable in SEM
 - **Use**: Measures spontaneous top-of-mind awareness without prompting
 
 **Aided Awareness**
-- **Question**: "Are you aware of the following theme parks?" (checklist including TDL, TDS, USJ, etc.)
-- **Calculation**: Binary indicator (1 = TDL selected, 0 = not selected)
-- **Use**: Measures recognition when brand name is provided
+- **Question**: "Are you aware of the following theme parks?" (checklist including TDL, TDS, USJ, Fuji-Q Highland, Ghibli Park, LEGOLAND, Nagashima Spaland)
+- **Scale**: Binary (1 = Yes aware, 0 = Not aware)
+- **Limitation**: Binary variable limits use in path models; for TDL, near-ceiling effect (most respondents aware)
+- **Use**: Measures recognition when brand name is provided; used as filter/descriptive
 
 **Familiarity**
 - **Question**: "How familiar are you with [TDL]?"
