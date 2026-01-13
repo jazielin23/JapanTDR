@@ -351,33 +351,53 @@ Familiarity ────────────────────► Like
 
 | Analysis Level | n | Adequacy |
 |----------------|---|----------|
-| Total survey responses | 541 | ✅ Adequate for descriptive statistics |
-| Complete cases for SEM | 177 | ⚠️ Borderline (33% of total sample) |
+| Total survey responses | 541 | ✅ Adequate for funnel analysis |
+| With Brand Attribute data | 177 | ⚠️ Required only for Objective 2 |
 | Per segment (SEM models) | 30-40 | 🔴 Small for separate path models |
+
+### Why Sample Drops from 541 to 177
+
+The **Functional Benefits (26 items) and Emotional Benefits (10 items)** were asked of only ~1/3 of respondents using a **random subset design**. This is a deliberate survey design choice to reduce respondent fatigue, NOT a data quality issue.
+
+| Segment | Has Attribute Data | Missing | % Complete |
+|---------|-------------------|---------|------------|
+| A. Young Families | 38 | 71 | 34% |
+| B. Older Families | 40 | 78 | 33% |
+| C. Adults 18-34 | 30 | 72 | 29% |
+| D. Couples 18-34 | 32 | 61 | 34% |
+| E. Adults 35+ | 37 | 82 | 31% |
+
+**Key implication**: The 177 respondents with attribute data are **representative** of the full 541 sample (evenly distributed across segments, familiarity levels, and visit history). There is no systematic selection bias - the limitation is purely statistical power.
+
+### Which Sample to Use for Each Objective
+
+| Objective | Variables Needed | Can Use n=541? | Current Analysis |
+|-----------|------------------|----------------|------------------|
+| 1. Marketing Funnel | Familiarity, Opinion, Consideration, Likelihood | ✅ Yes | Uses 177 |
+| 2. Brand Benefits | Functional, Emotional Benefits | ❌ No (only 177 have data) | Uses 177 |
+| 3. Segment Comparison | Funnel metrics, NPS | ✅ Yes | Uses 177 |
+| 4. Mediation Testing | Funnel metrics | ✅ Yes | Uses 177 |
+
+**Why the current analysis uses n=177 throughout**: To enable direct comparison of results across objectives (e.g., "adding brand benefits increases R² from 0.627 to 0.663" uses the same sample). However, Objectives 1, 3, and 4 could be re-run with the full n=541 sample for greater statistical power if comparability with Objective 2 is not required.
 
 ### Key Concerns
 
-**1. High Rate of Incomplete Data (67%)**
-- Only 177 of 541 respondents have complete data for all SEM variables
-- Brand attribute questions (Functional/Emotional Benefits) were only asked of a subset
-- **Risk**: Complete cases may not be representative of full sample
-- **Recommendation**: Compare demographics of complete vs. incomplete cases
-
-**2. Segment-Level Models Are Underpowered**
+**1. Segment-Level Models Are Underpowered**
 - Segment sample sizes range from n=30 (Adults 18-34) to n=40 (Older Families)
 - Rule of thumb for SEM: 10-20 cases per estimated parameter
 - With 4-5 paths estimated, minimum would be 40-100 per segment
 - **Risk**: Segment-level path coefficients (Objective 3) may be unstable
 - **Recommendation**: Interpret segment differences directionally, not as precise estimates
 
-**3. Statistical Power Limitations**
+**2. Statistical Power Limitations (for Objective 2)**
 - With n=177, power to detect small effects (β < 0.15) is limited
 - The non-significant Emotional Benefits finding (β = -0.02) could reflect:
   - A true null effect, OR
   - Insufficient power to detect a small effect
 - **Recommendation**: Replicate with larger sample before concluding emotional benefits don't matter
+- **Note**: Objectives 1, 3, and 4 could use n=541 for better power if run separately
 
-**4. Model Sensitivity**
+**3. Model Sensitivity**
 - Small samples are more sensitive to outliers and influential cases
 - Results could shift with different samples
 - **Recommendation**: Report confidence intervals; consider bootstrapped standard errors
