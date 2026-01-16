@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-TDL Real Data Analysis
-Using validated Likert scale mappings from Relabeled Raw Data.csv
+TDL Real Data Analysis - 6 Wave Dataset
+Using validated Likert scale mappings from Final Data for 6 waves.csv
+Includes time series analysis for February-July (Waves 1-6)
 """
 
 import pandas as pd
@@ -11,7 +12,8 @@ import warnings
 warnings.filterwarnings('ignore')
 
 print("=" * 70)
-print("  TDL REAL DATA ANALYSIS")
+print("  TDL REAL DATA ANALYSIS - 6 WAVE CONSOLIDATED")
+print("  February - July (Waves 1-6)")
 print("=" * 70)
 print()
 
@@ -60,10 +62,20 @@ analysis['segment'] = analysis['audience']
 analysis['gender'] = analysis['gender'].map({'1': 'Male', '2': 'Female'})
 analysis['age'] = pd.to_numeric(analysis['age'], errors='coerce')
 
+# Wave information
+analysis['wave'] = pd.to_numeric(analysis['wave'], errors='coerce')
+
 # Valid responses for funnel analysis
 funnel_valid = analysis[analysis['familiarity_tdl'].notna() & 
                         analysis['likelihood_visit_tdl'].notna()].copy()
 print(f"Analysis sample: {len(funnel_valid)} respondents")
+
+# Wave distribution
+print("\nWave Distribution:")
+wave_counts = funnel_valid['wave'].value_counts().sort_index()
+for wave, count in wave_counts.items():
+    month = funnel_valid[funnel_valid['wave'] == wave]['month'].iloc[0] if 'month' in funnel_valid.columns else f"Wave {int(wave)}"
+    print(f"  Wave {int(wave)} ({month}): n = {count}")
 
 # ============================================================================
 # Descriptive Statistics
@@ -250,6 +262,50 @@ print("\nFunnel Comparison:")
 print(gap_analysis.round(2))
 
 # ============================================================================
+# Time Series Analysis (NEW - 6 Wave Analysis)
+# ============================================================================
+
+print("\n" + "-" * 50)
+print("TIME SERIES ANALYSIS (6 WAVES)")
+print("-" * 50)
+
+# Wave-level funnel metrics
+wave_funnel = funnel_valid.groupby('wave').agg({
+    'familiarity_tdl': 'mean',
+    'opinion_tdl': 'mean',
+    'consideration_tdl': 'mean',
+    'likelihood_visit_tdl': 'mean',
+    'nps_tdl': 'mean'
+}).round(2)
+
+wave_to_month = {1: 'Feb', 2: 'Mar', 3: 'Apr', 4: 'May', 5: 'Jun', 6: 'Jul'}
+wave_funnel['month'] = wave_funnel.index.map(wave_to_month)
+wave_funnel['n'] = funnel_valid.groupby('wave').size()
+
+print("\nFunnel Metrics by Wave:")
+print(wave_funnel[['month', 'n', 'familiarity_tdl', 'opinion_tdl', 'consideration_tdl', 'likelihood_visit_tdl']])
+
+# Calculate wave-over-wave changes
+print("\nWave-over-Wave Changes (Likelihood):")
+likelihood_by_wave = funnel_valid.groupby('wave')['likelihood_visit_tdl'].mean()
+for wave in range(2, 7):
+    if wave in likelihood_by_wave.index and (wave-1) in likelihood_by_wave.index:
+        change = likelihood_by_wave[wave] - likelihood_by_wave[wave-1]
+        direction = "↑" if change > 0 else "↓" if change < 0 else "→"
+        print(f"  Wave {wave-1} → {wave}: {change:+.3f} {direction}")
+
+# Trend analysis
+print("\nOverall Trends (Wave 1 to Wave 6):")
+for col, label in [('familiarity_tdl', 'Familiarity'), ('opinion_tdl', 'Opinion'), 
+                   ('consideration_tdl', 'Consideration'), ('likelihood_visit_tdl', 'Likelihood')]:
+    start = funnel_valid[funnel_valid['wave'] == 1][col].mean()
+    end = funnel_valid[funnel_valid['wave'] == 6][col].mean()
+    change = end - start
+    pct_change = (change / start * 100) if start > 0 else 0
+    direction = "↑" if change > 0 else "↓" if change < 0 else "→"
+    print(f"  {label}: {start:.2f} → {end:.2f} ({change:+.2f}, {pct_change:+.1f}%) {direction}")
+
+# ============================================================================
 # Generate Output Files
 # ============================================================================
 
@@ -269,6 +325,9 @@ gap_analysis.to_csv(output_dir / "tdl_competitor_gaps.csv")
 func_means.to_csv(output_dir / "tdl_functional_attributes.csv")
 emot_means.to_csv(output_dir / "tdl_emotional_attributes.csv")
 
+# Save time series data (NEW)
+wave_funnel.to_csv(output_dir / "tdl_wave_metrics.csv")
+
 print(f"Saved reports to {output_dir}/")
 
 # ============================================================================
@@ -276,10 +335,10 @@ print(f"Saved reports to {output_dir}/")
 # ============================================================================
 
 print("\n" + "=" * 70)
-print("  TDL ANALYSIS - EXECUTIVE SUMMARY")
+print("  TDL ANALYSIS - EXECUTIVE SUMMARY (6 WAVES)")
 print("=" * 70)
 
-print(f"\n1. SAMPLE: {len(funnel_valid)} respondents")
+print(f"\n1. SAMPLE: {len(funnel_valid)} respondents across 6 waves (Feb-Jul)")
 
 print("\n2. OVERALL FUNNEL (Scale 1-5, 5=Best):")
 print(f"   Familiarity:   {overall['familiarity_tdl']:.2f}")
@@ -303,6 +362,16 @@ if gap_analysis.loc['Likelihood', 'TDL_vs_USJ'] > 0:
     print(f"   TDL outperforms USJ on Likelihood (+{gap_analysis.loc['Likelihood', 'TDL_vs_USJ']:.2f})")
 else:
     print(f"   USJ outperforms TDL on Likelihood ({gap_analysis.loc['Likelihood', 'TDL_vs_USJ']:.2f})")
+
+print("\n7. TIME TRENDS (Feb → Jul):")
+start_lik = funnel_valid[funnel_valid['wave'] == 1]['likelihood_visit_tdl'].mean()
+end_lik = funnel_valid[funnel_valid['wave'] == 6]['likelihood_visit_tdl'].mean()
+lik_change = end_lik - start_lik
+if abs(lik_change) > 0.1:
+    direction = "increasing" if lik_change > 0 else "decreasing"
+    print(f"   Likelihood is {direction}: {start_lik:.2f} → {end_lik:.2f} ({lik_change:+.2f})")
+else:
+    print(f"   Likelihood is stable: {start_lik:.2f} → {end_lik:.2f} ({lik_change:+.2f})")
 
 print("\n" + "=" * 70)
 print("  ANALYSIS COMPLETE")
