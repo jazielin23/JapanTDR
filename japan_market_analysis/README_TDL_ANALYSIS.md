@@ -34,6 +34,34 @@ This analysis uses **real survey data** from the Japan Theme Park Brand Tracking
 
 ---
 
+## 🔍 How to Read This Analysis: A Plain-Language Guide
+
+### Understanding Path Coefficients (Beta/β)
+
+**Path coefficients** tell you how strongly one variable influences another. Here's a quick reference:
+
+| Beta Value | Strength | What It Means |
+|------------|----------|---------------|
+| **0.60+** | Very strong | Major influence - priority focus area |
+| **0.40 - 0.59** | Strong | Meaningful relationship worth optimizing |
+| **0.20 - 0.39** | Moderate | Notable effect, actionable |
+| **0.10 - 0.19** | Small | Real but modest impact |
+| **< 0.10** | Weak | Limited practical significance |
+
+**Example interpretation**: Familiarity → Opinion (β = 0.68) means:
+> "For every 1-unit increase in Familiarity, Opinion increases by 0.68 units. This is a VERY STRONG relationship. Improving how well people know TDL substantially improves what they think of TDL."
+
+### What p-value Means
+
+| p-value | Meaning |
+|---------|---------|
+| **< 0.001 (\*\*\*)** | We are >99.9% confident this relationship is real |
+| **< 0.01 (\*\*)** | We are >99% confident |
+| **< 0.05 (\*)** | We are >95% confident |
+| **> 0.05 (ns)** | Cannot confirm the relationship is real |
+
+---
+
 ## SEM Results
 
 ### Objective 1: Marketing Funnel Analysis (n=3,260)
@@ -59,6 +87,28 @@ Familiarity --(0.68)--> Opinion --(0.48)--> Consideration --(0.61)--> Likelihood
      |                      +---------(0.19)-----------------------------+
      +-----------------(0.10)--------------------------------------------+
 ```
+
+#### 💡 What These Numbers Mean (Plain-Language Interpretation)
+
+**YES, your interpretation is correct!** Familiarity has a strong influence on Opinion and Consideration. Here's why this is a big learning:
+
+| Path | Beta | Interpretation |
+|------|------|----------------|
+| **Familiarity → Opinion** | **0.68** | **VERY STRONG.** When people become more familiar with TDL, their opinion of the brand improves dramatically. This is one of the strongest relationships in our entire model. |
+| **Familiarity → Consideration** | **0.34** | **STRONG.** Familiarity directly drives consideration to visit - people who know TDL better are more likely to consider going. |
+| **Opinion → Consideration** | **0.48** | **STRONG.** Better opinions lead to more consideration. Opinion is the "amplifier" that converts familiarity into intent. |
+| **Consideration → Likelihood** | **0.61** | **VERY STRONG.** Once someone considers TDL, they're very likely to intend to visit. This is the highest-converting stage. |
+| **Opinion → Likelihood (direct)** | **0.19** | **MODERATE.** Opinion has some direct effect on likelihood, but most of its power (67%) flows through Consideration. |
+| **Familiarity → Likelihood (direct)** | **0.10** | **SMALL.** Familiarity has a small direct effect, but its main power is through Opinion and Consideration. |
+
+**The Big Picture:**
+
+Familiarity is your **"starting lever"** - when you pull it:
+1. Opinion jumps significantly (β = 0.68)
+2. Consideration increases directly (β = 0.34) AND indirectly through Opinion
+3. This flows down to Likelihood
+
+**Actionable implication:** Campaigns that build familiarity (detailed park information, behind-the-scenes content, educational materials about TDL experiences) can move the ENTIRE funnel.
 
 ---
 
@@ -139,6 +189,33 @@ Familiarity --(0.68)--> Opinion --(0.48)--> Consideration --(0.61)--> Likelihood
 | p-value | < 0.001 |
 
 **Result:** Significant mediation. Opinion mediates Familiarity's effect on Likelihood.
+
+#### 💡 What Mediation Means (Plain-Language Interpretation)
+
+**Mediation answers: "HOW does one thing lead to another?"**
+
+Think of it like this:
+- You want to know: "Does having a good Opinion of TDL make people want to visit?"
+- Answer: YES, but through TWO routes:
+
+```
+Route 1 (33% of effect):    Opinion ──────────────────► Likelihood
+                            "I like TDL, so I want to visit"
+
+Route 2 (67% of effect):    Opinion ──► Consideration ──► Likelihood
+                            "I like TDL, so I'm considering visiting,
+                             and because I'm considering it, I want to go"
+```
+
+**Why 67% is important:**
+Most of Opinion's effect doesn't go directly to Likelihood - it first has to pass through Consideration. This means:
+
+1. **You can't skip the funnel stages** - improving Opinion without moving people to active Consideration loses 67% of the potential impact
+2. **Consideration is the critical "gateway"** - it's where opinions convert to intent
+3. **Call-to-actions matter** - even great brand perceptions need a push to "consider visiting now"
+
+**The same applies to Familiarity:**
+Familiarity → Opinion → Likelihood is a strong indirect path. Familiarity works primarily by improving Opinion first.
 
 ---
 
