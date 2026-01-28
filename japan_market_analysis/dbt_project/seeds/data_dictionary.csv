@@ -1,121 +1,123 @@
 column_name,original_column_index,category,scale_description,park
-segment_code,0,demographics,,all
-audience,1,demographics,,all
-gender,2,demographics,,all
-age,3,demographics,,all
-prefecture_code,4,demographics,,all
-geography,5,demographics,,all
-marital_status,6,demographics,,all
-living_alone,7,demographics,,all
-living_with_spouse,8,demographics,,all
-living_with_significant_other,9,demographics,,all
-living_with_children,10,demographics,,all
-living_with_parents,11,demographics,,all
-living_with_siblings,12,demographics,,all
-living_with_friend,13,demographics,,all
-living_with_other,14,demographics,,all
-has_children_separate,15,demographics,,all
-boys_under_17_in_hh,25,demographics,,all
-boys_in_hh,26,demographics,,all
-girls_under_17_in_hh,38,demographics,,all
-girls_in_hh,39,demographics,,all
-has_grandchildren,42,demographics,,all
-recent_visit_tdl,66,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",TDL
-been_to_tdl_past_3yr,67,behavior,,TDL
-recent_visit_tds,68,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",TDS
-been_to_tds_past_3yr,69,behavior,,TDS
-recent_visit_usj,70,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",USJ
-visit_count_tdl,71,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",TDL
-visit_count_tds,72,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",TDS
-visit_count_usj,73,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",USJ
-decision_maker,74,behavior,,all
-non_park_rejector,75,behavior,,all
-aided_awareness_tdl,76,behavior,,TDL
-aided_awareness_tds,77,behavior,,TDS
-aided_awareness_usj,78,behavior,,USJ
-familiarity_tdl,86,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",TDL
-familiarity_tds,87,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",TDS
-familiarity_usj,88,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",USJ
-opinion_tdl,94,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",TDL
-opinion_tds,95,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",TDS
-opinion_usj,96,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",USJ
-consideration_tdl,102,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",TDL
-consideration_tds,103,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",TDS
-consideration_usj,104,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",USJ
-likelihood_visit_tdl,110,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",TDL
-likelihood_visit_tds,111,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",TDS
-likelihood_visit_usj,112,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",USJ
-when_visit_tdl,118,perception,,TDL
-intent_visit_tdl_code,119,perception,,TDL
-intent_visit_tdl,120,perception,,TDL
-when_visit_tds,121,perception,,TDS
-intent_visit_tds_code,122,perception,,TDS
-intent_visit_tds_or_tdl,123,perception,,TDL
-intent_visit_tds,124,perception,,TDS
-nps_tdl,137,perception,,TDL
-nps_tds,138,perception,,TDS
-nps_usj,139,perception,,USJ
-funderful_disney_member,272,perception,,all
-disney_plus_subscriber,273,perception,,all
-disney_card_club_member,274,perception,,all
-disney_store_card_member,275,perception,,all
-disney_vacation_club_member,276,perception,,all
-no_disney_fandom,277,perception,,all
-disney_fandom,278,perception,,all
-annual_personal_income,279,perception,,all
-annual_household_income,280,perception,,all
-tdl_func_relaxing,145,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_enjoy_myself,146,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_lifelong_memories,147,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_bond_family_friends,148,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_great_for_kids_under_6,149,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_great_for_kids_7_17,150,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_great_for_adults,151,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_want_children_experience,152,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_expand_child_worldview,153,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_great_for_all_family,154,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_understands_what_i_like,155,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_feel_comfortable,156,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_keeping_up_with_times,157,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_variety_of_things,158,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_unique_experiences,159,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_repeat_experience,160,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_active_adventurous,161,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_thrilling,162,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_new_innovative,163,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_something_new,164,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_not_crowded,165,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_character_interaction,166,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_worth_short_vacation,167,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_worth_price,168,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_affordable,169,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_func_ticket_options,170,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_land_of_dreams,171,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_removed_from_reality,172,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_fantastical,173,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_heartwarming,174,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_soothing_healing,175,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_feeling_safe,176,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_longing_aspiring,177,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_sparkling,178,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_premium_feeling,179,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-tdl_emot_feel_good,180,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
-bipolar_fun,253,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_feeling_special,254,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_anticipation,255,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_excitement,256,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_playful_mind,257,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_relaxed_content,258,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_only_one,259,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_oshi,260,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_return_childhood,261,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_trending,262,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_realism,263,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_innovative,264,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_unpredictability,265,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_refreshing_look,266,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_edgy,267,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_feel_refreshed,268,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_heart_throbbing,269,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_be_merry,270,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
-bipolar_suspenseful,271,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+wave,0,survey_metadata,"1=February, 2=March, 3=April, 4=May, 5=June, 6=July",all
+month,0,survey_metadata,Month name derived from wave,all
+segment_code,1,demographics,,all
+audience,2,demographics,,all
+gender,3,demographics,,all
+age,4,demographics,,all
+prefecture_code,5,demographics,,all
+geography,6,demographics,,all
+marital_status,7,demographics,,all
+living_alone,8,demographics,,all
+living_with_spouse,9,demographics,,all
+living_with_significant_other,10,demographics,,all
+living_with_children,11,demographics,,all
+living_with_parents,12,demographics,,all
+living_with_siblings,13,demographics,,all
+living_with_friend,14,demographics,,all
+living_with_other,15,demographics,,all
+has_children_separate,16,demographics,,all
+boys_under_17_in_hh,26,demographics,,all
+boys_in_hh,27,demographics,,all
+girls_under_17_in_hh,39,demographics,,all
+girls_in_hh,40,demographics,,all
+has_grandchildren,43,behavior,,all
+recent_visit_tdl,67,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",TDL
+been_to_tdl_past_3yr,68,behavior,,TDL
+recent_visit_tds,69,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",TDS
+been_to_tds_past_3yr,70,behavior,,TDS
+recent_visit_usj,71,behavior,"1=last month, 2=2-3mo, 3=4-6mo, 4=7-12mo, 5=2yr, 6=3yr, 7=4-5yr, 8=6+yr, 9=never",USJ
+visit_count_tdl,72,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",TDL
+visit_count_tds,73,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",TDS
+visit_count_usj,74,behavior,"1=1x, 2=2x, 3=3x, 4=4x, 5=5x, 6=6-9x, 7=10x, 8=11-20x, 9=21-30x, 10=31+",USJ
+decision_maker,75,behavior,,all
+non_park_rejector,76,behavior,,all
+aided_awareness_tdl,77,behavior,,TDL
+aided_awareness_tds,78,behavior,,TDS
+aided_awareness_usj,79,behavior,,USJ
+familiarity_tdl,87,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",TDL
+familiarity_tds,88,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",TDS
+familiarity_usj,89,behavior,"5=very familiar, 4=familiar, 3=neutral, 2=not familiar, 1=not familiar at all",USJ
+opinion_tdl,95,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",TDL
+opinion_tds,96,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",TDS
+opinion_usj,97,behavior,"5=excellent, 4=good, 3=neutral, 2=bad, 1=very bad",USJ
+consideration_tdl,103,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",TDL
+consideration_tds,104,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",TDS
+consideration_usj,105,perception,"5=would definitely, 4=would, 3=might/might not, 2=would not, 1=would not at all",USJ
+likelihood_visit_tdl,111,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",TDL
+likelihood_visit_tds,112,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",TDS
+likelihood_visit_usj,113,perception,"5=definitely likely, 4=likely, 3=might/might not, 2=not likely, 1=definitely not",USJ
+when_visit_tdl,119,perception,,TDL
+intent_visit_tdl_code,120,perception,,TDL
+intent_visit_tdl,121,perception,,TDL
+when_visit_tds,122,perception,,TDS
+intent_visit_tds_code,123,perception,,TDS
+intent_visit_tds_or_tdl,124,perception,,TDL
+intent_visit_tds,125,perception,,TDS
+nps_tdl,138,perception,,TDL
+nps_tds,139,perception,,TDS
+nps_usj,140,perception,,USJ
+funderful_disney_member,273,perception,,all
+disney_plus_subscriber,274,perception,,all
+disney_card_club_member,275,perception,,all
+disney_store_card_member,276,perception,,all
+disney_vacation_club_member,277,perception,,all
+no_disney_fandom,278,perception,,all
+disney_fandom,279,perception,,all
+annual_personal_income,280,perception,,all
+annual_household_income,281,perception,,all
+tdl_func_relaxing,146,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_enjoy_myself,147,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_lifelong_memories,148,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_bond_family_friends,149,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_great_for_kids_under_6,150,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_great_for_kids_7_17,151,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_great_for_adults,152,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_want_children_experience,153,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_expand_child_worldview,154,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_great_for_all_family,155,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_understands_what_i_like,156,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_feel_comfortable,157,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_keeping_up_with_times,158,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_variety_of_things,159,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_unique_experiences,160,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_repeat_experience,161,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_active_adventurous,162,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_thrilling,163,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_new_innovative,164,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_something_new,165,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_not_crowded,166,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_character_interaction,167,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_worth_short_vacation,168,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_worth_price,169,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_affordable,170,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_func_ticket_options,171,functional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_land_of_dreams,172,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_removed_from_reality,173,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_fantastical,174,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_heartwarming,175,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_soothing_healing,176,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_feeling_safe,177,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_longing_aspiring,178,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_sparkling,179,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_premium_feeling,180,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+tdl_emot_feel_good,181,emotional_attribute,"5=strongly agree, 4=agree, 3=neutral, 2=disagree, 1=strongly disagree",TDL
+bipolar_fun,254,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_feeling_special,255,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_anticipation,256,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_excitement,257,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_playful_mind,258,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_relaxed_content,259,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_only_one,260,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_oshi,261,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_return_childhood,262,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_trending,263,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_realism,264,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_innovative,265,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_unpredictability,266,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_refreshing_look,267,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_edgy,268,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_feel_refreshed,269,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_heart_throbbing,270,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_be_merry,271,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ
+bipolar_suspenseful,272,bipolar_comparison,"1=Definitely TDR, 2-3=Lean TDR, 4=Neutral, 5-6=Lean USJ, 7=Definitely USJ",TDR_vs_USJ

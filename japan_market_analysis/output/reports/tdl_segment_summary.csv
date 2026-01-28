@@ -1,6 +1,6 @@
 segment,n,mean_age,pct_female,pct
-A. Young Families,109,36.0,0.0,20.1
-B. Older Families,117,46.3,0.0,21.6
-C. Adults 18-34 (no kids in HH),102,26.5,0.0,18.9
-D. Couples 18-34 (no kids in HH),93,29.7,0.0,17.2
-E. Adults 35+ (no kids in HH),119,57.2,0.0,22.0
+A. Young Families,660,37.0,0.0,20.0
+B. Older Families,659,46.6,0.0,20.0
+C. Adults 18-34 (no kids in HH),660,26.4,0.0,20.0
+D. Couples 18-34 (no kids in HH),660,29.2,0.0,20.0
+E. Adults 35+ (no kids in HH),660,57.5,0.0,20.0

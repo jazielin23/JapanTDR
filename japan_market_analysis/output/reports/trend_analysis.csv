@@ -1,0 +1,5 @@
+Metric,Slope,Direction,p_value,Significant
+Familiarity,0.01348697946745303,↑ increasing,0.19958958978343996,False
+Opinion,0.00874228664038168,↑ increasing,0.3264961919110757,False
+Consideration,0.004402762411016337,↑ increasing,0.6573285442409316,False
+Likelihood,0.013217955880654997,↑ increasing,0.23208362714356878,False
