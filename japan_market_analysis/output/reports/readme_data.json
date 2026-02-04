@@ -1,0 +1,131 @@
+{
+  "n_respondents": 1101,
+  "n_months": 6,
+  "months": [
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July"
+  ],
+  "n_clusters": 5,
+  "clusters": {
+    "Magic & Enchantment": {
+      "n_attributes": 13,
+      "std_coef": 0.02428904422466213,
+      "p_value": 0.5664831426715521,
+      "mean_score": 4.02731782295815,
+      "significant": false,
+      "top_attributes": [
+        {
+          "attribute": "Removed From Reality",
+          "mean_score": 4.326067211625794
+        },
+        {
+          "attribute": "Land Of Dreams",
+          "mean_score": 4.3060853769300635
+        },
+        {
+          "attribute": "Sparkling",
+          "mean_score": 4.136239782016348
+        },
+        {
+          "attribute": "Unique Experiences",
+          "mean_score": 4.108991825613079
+        },
+        {
+          "attribute": "Fantastical",
+          "mean_score": 4.056312443233424
+        }
+      ]
+    },
+    "Affordability": {
+      "n_attributes": 1,
+      "std_coef": 0.02534198179538869,
+      "p_value": 0.2734228118894257,
+      "mean_score": 2.309718437783833,
+      "significant": false,
+      "top_attributes": [
+        {
+          "attribute": "Affordable",
+          "mean_score": 2.309718437783833
+        }
+      ]
+    },
+    "Family & Kids Appeal": {
+      "n_attributes": 9,
+      "std_coef": 0.02259744519681358,
+      "p_value": 0.5510548691923048,
+      "mean_score": 3.965485921889192,
+      "significant": false,
+      "top_attributes": [
+        {
+          "attribute": "Great For Kids 7 17",
+          "mean_score": 4.058128973660309
+        },
+        {
+          "attribute": "Lifelong Memories",
+          "mean_score": 4.022706630336058
+        },
+        {
+          "attribute": "Want Children Experience",
+          "mean_score": 4.000908265213442
+        },
+        {
+          "attribute": "Expand Child Worldview",
+          "mean_score": 3.9990917347865578
+        },
+        {
+          "attribute": "Great For Adults",
+          "mean_score": 3.989100817438692
+        }
+      ]
+    },
+    "Experience & Innovation": {
+      "n_attributes": 12,
+      "std_coef": 0.11584414605655272,
+      "p_value": 0.0038259167304453387,
+      "mean_score": 3.6763548289433845,
+      "significant": true,
+      "top_attributes": [
+        {
+          "attribute": "Repeat Experience",
+          "mean_score": 3.8728428701180744
+        },
+        {
+          "attribute": "Something New",
+          "mean_score": 3.861035422343324
+        },
+        {
+          "attribute": "Active Adventurous",
+          "mean_score": 3.854677565849228
+        },
+        {
+          "attribute": "New Innovative",
+          "mean_score": 3.835603996366939
+        },
+        {
+          "attribute": "Keeping Up With Times",
+          "mean_score": 3.76566757493188
+        }
+      ]
+    },
+    "Crowd Management": {
+      "n_attributes": 1,
+      "std_coef": 0.003470837917791762,
+      "p_value": 0.8744184978617575,
+      "mean_score": 2.1153496821071753,
+      "significant": false,
+      "top_attributes": [
+        {
+          "attribute": "Not Crowded",
+          "mean_score": 2.1153496821071753
+        }
+      ]
+    }
+  },
+  "model_r_squared_funnel": 0.6589901870005468,
+  "model_r_squared_full": 0.6745621788674754,
+  "r_squared_improvement": 0.015571991866928592
+}
