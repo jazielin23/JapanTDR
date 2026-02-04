@@ -47,6 +47,15 @@ for col in ['familiarity_tdl', 'opinion_tdl', 'consideration_tdl', 'likelihood_v
 for col in all_benefit_cols:
     analysis_df[col] = pd.to_numeric(benefit_df[col], errors='coerce')
 
+# IMPORTANT: Clean funnel variables - remove invalid codes (0, 99, etc.)
+# These should be 1-5 Likert scales
+print("Cleaning funnel variables (removing invalid codes like 0, 99)...")
+for col in ['familiarity_tdl', 'opinion_tdl', 'consideration_tdl', 'likelihood_visit_tdl']:
+    invalid_count = len(analysis_df[(analysis_df[col] < 1) | (analysis_df[col] > 5)])
+    if invalid_count > 0:
+        print(f"  {col}: removing {invalid_count} invalid values")
+    analysis_df.loc[(analysis_df[col] < 1) | (analysis_df[col] > 5), col] = np.nan
+
 # Filter to complete cases with benefit data
 has_benefits = (analysis_df[all_benefit_cols] > 0).any(axis=1)
 analysis_complete = analysis_df[has_benefits].copy()

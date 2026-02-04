@@ -1,41 +1,41 @@
 factor_num,factor_name,attribute,loading,category
-1,Core TDL Experience,Feel Good,0.851729507432483,Emotional
-1,Core TDL Experience,Lifelong Memories,0.8278851164647204,Functional
-1,Core TDL Experience,Great For Adults,0.8223059723679714,Functional
-1,Core TDL Experience,Heartwarming,0.8204088277544843,Emotional
-1,Core TDL Experience,Great For All Family,0.8150767854335731,Functional
-1,Core TDL Experience,Repeat Experience,0.812281291615591,Functional
-1,Core TDL Experience,Premium Feeling,0.8091555603967293,Emotional
-1,Core TDL Experience,Enjoy Myself,0.8056821297398217,Functional
-1,Core TDL Experience,Bond Family Friends,0.7999020749354625,Functional
-1,Core TDL Experience,Longing Aspiring,0.7985844865117985,Emotional
-2,Value & Accessibility,Affordable,0.6241984382881197,Functional
-2,Value & Accessibility,Not Crowded,0.5889806597479774,Functional
-2,Value & Accessibility,Relaxing,0.34534093650399855,Functional
-2,Value & Accessibility,Removed From Reality,0.31571171187065683,Emotional
-2,Value & Accessibility,Understands What I Like,0.2929180096356584,Functional
-2,Value & Accessibility,Ticket Options,0.28776653533604357,Functional
-2,Value & Accessibility,Worth Price,0.27686078001441905,Functional
-2,Value & Accessibility,Thrilling,0.2743866512745353,Functional
-2,Value & Accessibility,Great For Kids 7 17,0.27219599666829486,Functional
-2,Value & Accessibility,Want Children Experience,0.2712945791689722,Functional
-3,Thrills & Innovation,Active Adventurous,0.25877806326248776,Functional
-3,Thrills & Innovation,Soothing Healing,0.25482904617925134,Emotional
-3,Thrills & Innovation,Heartwarming,0.24187490225837938,Emotional
-3,Thrills & Innovation,Longing Aspiring,0.22138857748936597,Emotional
-3,Thrills & Innovation,New Innovative,0.22067340304274902,Functional
-3,Thrills & Innovation,Feel Good,0.21148003131227952,Emotional
-3,Thrills & Innovation,Premium Feeling,0.21088941137615294,Emotional
-3,Thrills & Innovation,Keeping Up With Times,0.19932509676309598,Functional
-3,Thrills & Innovation,Something New,0.19525290128982564,Functional
-3,Thrills & Innovation,Feeling Safe,0.19243850355306966,Emotional
-4,Family & Kids Focus,Want Children Experience,0.28427372263843015,Functional
-4,Family & Kids Focus,Great For Kids Under 6,0.27105037602097665,Functional
-4,Family & Kids Focus,Relaxing,0.23742022180043607,Functional
-4,Family & Kids Focus,Affordable,0.23530683394551258,Functional
-4,Family & Kids Focus,Expand Child Worldview,0.22965002153262823,Functional
-4,Family & Kids Focus,Active Adventurous,0.2139222283902325,Functional
-4,Family & Kids Focus,Something New,0.20510890306579133,Functional
-4,Family & Kids Focus,Great For Kids 7 17,0.20488216530493034,Functional
-4,Family & Kids Focus,Not Crowded,0.19689859636922935,Functional
-4,Family & Kids Focus,New Innovative,0.17700147798204793,Functional
+1,Core TDL Experience,Feel Good,0.8513147606258749,Emotional
+1,Core TDL Experience,Lifelong Memories,0.8297835246161642,Functional
+1,Core TDL Experience,Great For Adults,0.8253794394137989,Functional
+1,Core TDL Experience,Heartwarming,0.8205417847467027,Emotional
+1,Core TDL Experience,Great For All Family,0.8155398371901076,Functional
+1,Core TDL Experience,Repeat Experience,0.8135135843011043,Functional
+1,Core TDL Experience,Premium Feeling,0.8084757072048318,Emotional
+1,Core TDL Experience,Enjoy Myself,0.8082762412079448,Functional
+1,Core TDL Experience,Bond Family Friends,0.8003417977560267,Functional
+1,Core TDL Experience,Longing Aspiring,0.7977852070101924,Emotional
+2,Value & Accessibility,Affordable,0.6277048139413962,Functional
+2,Value & Accessibility,Not Crowded,0.59148905420416,Functional
+2,Value & Accessibility,Relaxing,0.34195040454000625,Functional
+2,Value & Accessibility,Removed From Reality,0.31017310259339964,Emotional
+2,Value & Accessibility,Ticket Options,0.29009385253660436,Functional
+2,Value & Accessibility,Understands What I Like,0.2873796436144981,Functional
+2,Value & Accessibility,Want Children Experience,0.2751505197596168,Functional
+2,Value & Accessibility,Thrilling,0.27287165492627563,Functional
+2,Value & Accessibility,Worth Price,0.2715274737994792,Functional
+2,Value & Accessibility,Great For Kids 7 17,0.2684254047745333,Functional
+3,Thrills & Innovation,Soothing Healing,0.2538696678048527,Emotional
+3,Thrills & Innovation,Active Adventurous,0.25339391801258176,Functional
+3,Thrills & Innovation,Heartwarming,0.24327921922288312,Emotional
+3,Thrills & Innovation,Longing Aspiring,0.22257958641759698,Emotional
+3,Thrills & Innovation,New Innovative,0.21587716073752952,Functional
+3,Thrills & Innovation,Feel Good,0.2134827928737073,Emotional
+3,Thrills & Innovation,Premium Feeling,0.21212908739798,Emotional
+3,Thrills & Innovation,Something New,0.1957488805789417,Functional
+3,Thrills & Innovation,Keeping Up With Times,0.19532631646305035,Functional
+3,Thrills & Innovation,Feeling Safe,0.19200475303169726,Emotional
+4,Family & Kids Focus,Want Children Experience,0.28036245097979706,Functional
+4,Family & Kids Focus,Great For Kids Under 6,0.27184697374724137,Functional
+4,Family & Kids Focus,Relaxing,0.24201352552217387,Functional
+4,Family & Kids Focus,Affordable,0.23850628795836087,Functional
+4,Family & Kids Focus,Expand Child Worldview,0.22738011746348633,Functional
+4,Family & Kids Focus,Active Adventurous,0.21664204389633235,Functional
+4,Family & Kids Focus,Something New,0.21117703863811751,Functional
+4,Family & Kids Focus,Not Crowded,0.20151317922585313,Functional
+4,Family & Kids Focus,Great For Kids 7 17,0.20058733663186504,Functional
+4,Family & Kids Focus,New Innovative,0.17935808157940641,Functional
