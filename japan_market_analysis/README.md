@@ -1,26 +1,6 @@
-# TDL Brand Benefit Analysis: Factor-Based Approach
+# TDL Brand Benefit Analysis: Full SEM Model
 
-A data-driven analysis of Tokyo Disneyland (TDL) brand benefits using **Factor Analysis** on 6 months of survey data. Factor Analysis is used instead of clustering because brand perceptions are naturally correlated dimensions rather than distinct groups.
-
----
-
-## Why Factor Analysis Instead of Clustering?
-
-| Approach | Silhouette Score | Interpretation |
-|----------|------------------|----------------|
-| 2 Clusters | 0.692 | Good separation but only 2 groups (not actionable) |
-| 4 Clusters | 0.250 | Poor separation |
-| 5 Clusters | 0.164 | Poor separation (used in initial analysis) |
-| **Factor Analysis** | N/A | **Allows overlapping dimensions** |
-
-**Key Statistics Supporting Factor Analysis:**
-- **KMO = 0.985** (Excellent) - Data is highly suitable for factor analysis
-- **Bartlett's Test: p < 0.001** - Correlations are significant, not random
-
-Factor Analysis is more appropriate because:
-1. Brand perceptions are **correlated** - people who rate "Land of Dreams" high also rate "Fantastical" high
-2. Attributes can **load on multiple factors** - no forced hard assignments
-3. Explains **63.2% of variance** with 4 interpretable dimensions
+A comprehensive analysis combining the **Marketing Funnel** path model with **Brand Benefit Factors** to understand what drives visit intent for Tokyo Disneyland (TDL).
 
 ---
 
@@ -28,228 +8,227 @@ Factor Analysis is more appropriate because:
 
 | Metric | Value |
 |--------|-------|
-| **Sample Size** | 1,101 respondents with brand benefit data |
+| **Sample Size** | n = 1,101 respondents with complete data |
 | **Time Period** | 6 months (February - July) |
-| **Attributes Analyzed** | 36 brand benefit attributes |
-| **Factors Identified** | 4 data-driven dimensions |
-| **Total Variance Explained** | 63.2% |
+| **Funnel Metrics** | Familiarity, Opinion, Consideration, Likelihood |
+| **Benefit Attributes** | 36 (26 functional + 10 emotional) |
+| **Benefit Factors** | 4 data-driven dimensions |
 
 ---
 
-## The Four Brand Benefit Dimensions
+## Full SEM Model Results
 
-### Factor Summary
+### Model Architecture
 
-| Factor | Variance Explained | # Attributes | Impact on Visit Intent | Significance |
-|--------|-------------------|--------------|------------------------|--------------|
-| **Disney Magic** | 23.5% | 15 | β = 0.125 | *** Significant |
-| **Family Appeal** | 16.8% | 7 | β = 0.059 | *** Significant |
-| **Innovation & Thrills** | 15.2% | 10 | β = 0.093 | *** Significant |
-| Personal Comfort | 7.6% | 4 | β = 0.034 | Not significant |
-
-**Key Finding**: Three of four factors significantly predict likelihood to visit. **Disney Magic** has the strongest impact, followed by **Innovation & Thrills** and **Family Appeal**.
-
----
-
-## Detailed Factor Analysis
-
-### Factor 1: Disney Magic (Strongest Driver)
-
-**Impact**: β = 0.125*** - **Strongest predictor of visit intent**
-
-**Variance Explained**: 23.5%
-
-This factor captures the emotional, aspirational quality of the TDL brand:
-
-| Attribute | Loading | Mean Rating |
-|-----------|---------|-------------|
-| Feel Good | 0.72 | 4.04 |
-| Heartwarming | 0.70 | 3.94 |
-| Premium Feeling | 0.69 | 3.88 |
-| Longing Aspiring | 0.69 | 3.88 |
-| Sparkling | 0.69 | 4.14 |
-| Soothing Healing | 0.66 | 3.85 |
-| Fantastical | 0.62 | 4.06 |
-| Removed From Reality | 0.61 | 4.33 |
-| Land Of Dreams | 0.59 | 4.31 |
-| Feeling Safe | 0.59 | 3.86 |
-| Enjoy Myself | 0.56 | 3.89 |
-| Repeat Experience | 0.54 | 3.87 |
-| Great For Adults | 0.53 | 3.99 |
-| Character Interaction | 0.51 | 3.98 |
-| Worth Short Vacation | 0.37 | 3.69 |
-
-**Strategic Insight**: This is the largest and most impactful factor. It combines emotional benefits (heartwarming, feel good, premium) with experiential ones (repeat experience, character interaction). The high mean ratings (3.8-4.3) indicate TDL performs strongly here.
+```
+                    ┌─────────────────────────────────────────┐
+                    │        MARKETING FUNNEL                 │
+                    │                                          │
+                    │  Familiarity ──(0.65)──► Consideration   │
+                    │                               │          │
+                    │                         (0.62)           │
+                    │                               ▼          │
+                    │  Familiarity ──(0.11)──► LIKELIHOOD      │
+                    │                               ▲          │
+                    └───────────────────────────────┼──────────┘
+                                                    │
+                    ┌───────────────────────────────┼──────────┐
+                    │        BENEFIT FACTORS        │          │
+                    │                               │          │
+                    │  Family Bonding ──(0.17)──────┤          │
+                    │  Value & Access ──(0.07)──────┤          │
+                    │  Innovation ──(ns)────────────┤          │
+                    │  Affordability ──(ns)─────────┘          │
+                    │                                          │
+                    └──────────────────────────────────────────┘
+```
 
 ---
 
-### Factor 2: Innovation & Thrills
+## Marketing Funnel Path Coefficients
 
-**Impact**: β = 0.093*** - **Second strongest driver**
+Path analysis showing how funnel stages relate to each other:
 
-**Variance Explained**: 15.2%
+| Path | Standardized β | p-value | Significance |
+|------|----------------|---------|--------------|
+| Familiarity → Consideration | **0.647** | < 0.001 | *** |
+| Opinion → Consideration | 0.038 | 0.105 | ns |
 
-This factor represents excitement, novelty, and active experiences:
-
-| Attribute | Loading | Mean Rating |
-|-----------|---------|-------------|
-| Active Adventurous | 0.68 | 3.85 |
-| New Innovative | 0.67 | 3.84 |
-| Something New | 0.65 | 3.86 |
-| Keeping Up With Times | 0.60 | 3.77 |
-| Thrilling | 0.57 | 3.53 |
-| Variety Of Things | 0.57 | 3.99 |
-| Unique Experiences | 0.53 | 4.11 |
-| Understands What I Like | 0.48 | 3.62 |
-| Feel Comfortable | 0.46 | 3.70 |
-| Ticket Options | 0.37 | 3.45 |
-
-**Strategic Insight**: Innovation and novelty matter for visit decisions. Attributes like "New Innovative" and "Something New" drive interest. This aligns with the importance of new attractions and experiences.
+**Key Finding**: Familiarity has a very strong direct effect on Consideration (β = 0.647), while Opinion's effect is not significant in this sample. This suggests brand familiarity is the primary driver of getting TDL into consumers' consideration sets.
 
 ---
 
-### Factor 3: Family Appeal
+## Full Model: Funnel + Benefit Factors → Likelihood
 
-**Impact**: β = 0.059*** - **Significant but moderate driver**
+All predictors of Likelihood to Visit in a single model:
 
-**Variance Explained**: 16.8%
+| Predictor | Standardized β | p-value | Significance | Interpretation |
+|-----------|----------------|---------|--------------|----------------|
+| **Consideration** | **0.617** | < 0.001 | *** | Strongest funnel driver |
+| **Family Bonding** | **0.167** | < 0.001 | *** | Strongest benefit factor |
+| Familiarity | 0.106 | < 0.001 | *** | Direct effect on Likelihood |
+| **Value & Access** | **0.069** | < 0.001 | *** | Significant benefit factor |
+| Opinion | 0.027 | 0.119 | ns | Not significant when controlling for others |
+| Innovation & Thrills | -0.025 | 0.152 | ns | Not significant |
+| Affordability | 0.017 | 0.314 | ns | Not significant |
 
-This factor captures family and child-oriented benefits:
+### Interpretation
 
-| Attribute | Loading | Mean Rating |
-|-----------|---------|-------------|
-| Want Children Experience | 0.76 | 4.00 |
-| Expand Child Worldview | 0.70 | 4.00 |
-| Great For Kids 7-17 | 0.68 | 4.06 |
-| Great For All Family | 0.62 | 3.98 |
-| Great For Kids Under 6 | 0.60 | 3.85 |
-| Bond Family Friends | 0.58 | 3.90 |
-| Lifelong Memories | 0.55 | 4.02 |
+**Funnel Effects:**
+- **Consideration** (β = 0.617) is the strongest predictor overall - once someone is considering TDL, they're very likely to intend to visit
+- **Familiarity** (β = 0.106) has a significant direct effect beyond its influence through Consideration
 
-**Strategic Insight**: Family appeal matters for visit decisions, though less than Disney Magic or Innovation. The high mean ratings (3.9-4.1) indicate TDL performs well on these dimensions.
-
----
-
-### Factor 4: Personal Comfort
-
-**Impact**: β = 0.034 (Not significant)
-
-**Variance Explained**: 7.6%
-
-This factor groups value and accessibility concerns:
-
-| Attribute | Loading | Mean Rating |
-|-----------|---------|-------------|
-| Affordable | 0.69 | **2.31** |
-| Not Crowded | 0.62 | **2.12** |
-| Relaxing | 0.55 | 3.42 |
-| Worth Price | 0.45 | 3.51 |
-
-**Strategic Insight**: While these attributes have the **lowest ratings** (especially Affordability at 2.31 and Crowding at 2.12), this factor does not significantly predict visit intent when controlling for funnel metrics. This suggests:
-1. People are willing to visit despite knowing it's crowded/expensive
-2. OR these concerns may affect satisfaction more than initial visit decision
+**Benefit Factor Effects:**
+- **Family Bonding** (β = 0.167) is the strongest benefit factor - perceptions of family experience, memories, and bonding drive visit intent
+- **Value & Access** (β = 0.069) is also significant - perceptions of affordability and accessibility matter
+- Innovation & Thrills and standalone Affordability factors are not significant when controlling for funnel metrics
 
 ---
 
-## Segment Comparison
+## Model Fit & Comparison
 
-Factor scores by segment (standardized, 0 = average):
+| Metric | Funnel Only | Full Model (Funnel + Benefits) |
+|--------|-------------|--------------------------------|
+| **R²** | 0.659 | **0.677** |
+| **Adjusted R²** | 0.658 | **0.675** |
+| **AIC** | 2039.2 | **1987.4** (lower is better) |
+| **BIC** | 2059.2 | **2027.5** (lower is better) |
 
-| Segment | Disney Magic | Personal Comfort | Innovation & Thrills | Family Appeal |
-|---------|--------------|------------------|---------------------|---------------|
-| E. Adults 35+ | +0.19 | -0.16 | +0.12 | +0.04 |
-| B. Older Families | -0.09 | +0.04 | +0.06 | +0.04 |
-| A. Young Families | -0.03 | **+0.20** | +0.09 | -0.02 |
-| D. Couples 18-34 | -0.03 | -0.08 | -0.06 | -0.04 |
-| C. Adults 18-34 | -0.04 | 0.00 | **-0.21** | -0.01 |
-
-**Observations**:
-- **Adults 35+** rate Disney Magic highest (more emotionally connected to the brand)
-- **Young Families** rate Personal Comfort highest (most price/crowd sensitive)
-- **Adults 18-34 (no kids)** rate Innovation & Thrills lowest (may seek more thrilling alternatives?)
+**Model Improvement:**
+- R² improvement: **+0.018** (1.8 percentage points)
+- F-test: F(4, 1093) = 15.24, **p < 0.001**
+- **Conclusion**: Adding benefit factors significantly improves model fit
 
 ---
 
-## Model Performance
+## Segment Analysis
 
-| Model | R-squared | Interpretation |
-|-------|-----------|----------------|
-| Funnel Only (Familiarity, Opinion, Consideration) | 0.659 | Explains 65.9% of visit intent variance |
-| Funnel + Factor Scores | 0.677 | Explains 67.7% of variance |
-| **Improvement** | **+0.018** | Factors add 1.8% explanatory power |
+Path coefficients by demographic segment:
+
+| Segment | n | R² | Consideration → Likelihood |
+|---------|---|-----|---------------------------|
+| E. Adults 35+ (no kids in HH) | 221 | **0.760** | **0.685** |
+| D. Couples 18-34 (no kids in HH) | 220 | **0.700** | **0.645** |
+| A. Young Families | 220 | 0.690 | 0.613 |
+| C. Adults 18-34 (no kids in HH) | 220 | 0.651 | 0.476 |
+| B. Older Families | 220 | 0.624 | 0.582 |
+
+**Key Findings:**
+- **Adults 35+** has highest model R² (0.760) and strongest Consideration → Likelihood path (0.685)
+- **Adults 18-34 (no kids)** has weakest conversion from Consideration to Likelihood (0.476)
+- All segments show Consideration as a significant predictor
+
+---
+
+## Benefit Factor Details
+
+### Factor 1: Family Bonding (β = 0.167***)
+
+**The strongest benefit factor driving visit intent.**
+
+| Attribute | Factor Loading |
+|-----------|---------------|
+| Feel Good | High |
+| Lifelong Memories | High |
+| Great For Adults | High |
+| Bond Family Friends | High |
+| Enjoy Myself | High |
+
+This factor captures the core emotional experience of visiting TDL - creating memories, bonding with loved ones, and having a feel-good experience.
+
+### Factor 2: Value & Access (β = 0.069***)
+
+**Significant but moderate effect on visit intent.**
+
+| Attribute | Factor Loading |
+|-----------|---------------|
+| Affordable | High |
+| Not Crowded | High |
+| Relaxing | Moderate |
+
+This factor combines value perception with accessibility concerns. Despite low ratings on affordability (2.31/5) and crowding (2.12/5), improvements in these perceptions do increase visit intent.
+
+### Factor 3: Innovation & Thrills (β = -0.025, ns)
+
+| Attribute | Factor Loading |
+|-----------|---------------|
+| Active Adventurous | High |
+| Thrilling | High |
+| New Innovative | High |
+
+Not a significant predictor when controlling for funnel metrics and other factors.
+
+### Factor 4: Affordability (β = 0.017, ns)
+
+Contains kids experience and relaxation attributes. Not significant in the full model.
 
 ---
 
 ## Key Strategic Insights
 
-### 1. Disney Magic is the Primary Driver
+### 1. Consideration is the Critical Conversion Point
 
-The emotional/aspirational dimension (Feel Good, Heartwarming, Premium, Sparkling) has the **strongest impact** on visit intent. This suggests:
-- Emotional messaging DOES work for driving visits (contrary to initial clustering findings)
-- Focus on feelings of warmth, aspiration, and premium experience
+With β = 0.617, getting consumers to actively consider TDL is the most important factor. Focus on moving people from "aware" to "considering."
 
-### 2. Innovation & Novelty Matter
+### 2. Family Bonding Benefits Drive Decisions
 
-The second-strongest factor emphasizes newness and innovation:
-- "Always something new to see and do" messaging is effective
-- New attractions and experiences drive visitation
-- Keeping up with times is important
+The strongest benefit factor (β = 0.167) emphasizes:
+- Creating memories together
+- Bonding with family/friends
+- Feel-good experiences
+- Experiences adults enjoy too
 
-### 3. Family Benefits are Moderately Important
+**Implication**: Marketing should emphasize emotional connection and shared experiences, not just kid-focused messaging.
 
-Family-oriented messaging works, but is less impactful than emotional/innovation messaging:
-- Effective for family segments specifically
-- Should be part of the mix, not the primary focus
+### 3. Value Perceptions Matter (But Aren't Dealbreakers)
 
-### 4. Value/Crowding Doesn't Block Visits
-
-Despite low ratings on Affordability (2.31) and Crowding (2.12):
-- These factors don't significantly predict visit intent
+Value & Access (β = 0.069) is significant, but:
+- Current ratings are low (Affordable: 2.31, Not Crowded: 2.12)
+- Effect size is smaller than Family Bonding
 - People visit despite knowing it's expensive and crowded
-- May be more important for repeat visits and satisfaction
 
----
+**Implication**: Value messaging helps, but emotional benefits are more powerful drivers.
 
-## Recommendations
+### 4. Innovation/Thrills Don't Differentiate
 
-### For Marketing Communications
+Innovation & Thrills factor is not significant. This may mean:
+- TDL is not positioned as a thrill-seeking destination
+- Visitors come for the experience, not the rides
+- USJ may own this positioning more strongly
 
-1. **Lead with Emotional Magic** - "Feel good", "heartwarming", "premium", "sparkling" messaging resonates strongest
-2. **Emphasize What's New** - Innovation and novelty are significant drivers
-3. **Use Family Messaging as Secondary** - Important but not primary driver
+### 5. Segment-Specific Strategies
 
-### For Segment Targeting
-
-| Segment | Priority Message | Rationale |
-|---------|------------------|-----------|
-| Adults 35+ | Disney Magic | Highest emotional connection |
-| Young Families | Value + Family | Most price-sensitive |
-| Adults 18-34 | Innovation & New | Seeking novelty |
-| Couples 18-34 | Disney Magic | Romantic/aspirational |
-
-### For Operations
-
-- Affordability (2.31) and Crowding (2.12) are the weakest perceptions
-- However, they don't block visits - may affect NPS/satisfaction more
-- Consider addressing for repeat visitation strategy
+| Segment | Strategy Focus |
+|---------|---------------|
+| Adults 35+ | High conversion once considering - focus on getting them to consider |
+| Adults 18-34 | Weakest conversion - may need different value proposition |
+| Couples 18-34 | Strong performers - maintain relationship, upsell |
+| Young Families | Core segment - reinforce family messaging |
+| Older Families | Lower conversion - research specific barriers |
 
 ---
 
 ## Technical Details
 
-**Factor Analysis Method**: 
-- Sklearn FactorAnalysis with Varimax rotation
-- Kaiser criterion (eigenvalue > 1) identified 4 factors
-- Variance explained: 63.2%
+### Factor Analysis
 
-**Suitability Tests**:
-- KMO: 0.985 (Excellent)
-- Bartlett's Test: χ² = 32,895, p < 0.001
+- **Method**: Sklearn FactorAnalysis with varimax rotation
+- **Factors**: 4 (based on Kaiser criterion)
+- **KMO**: 0.985 (Excellent)
+- **Bartlett's Test**: χ² = 32,895, p < 0.001
 
-**Regression Model**:
-- OLS with standardized coefficients
-- Dependent variable: Likelihood to Visit (1-5 scale)
-- Controls: Familiarity, Opinion, Consideration
+### Why Factor Analysis over Clustering
+
+Initial clustering had silhouette score of 0.163 (poor cluster separation). Factor Analysis is more appropriate because:
+1. Brand perceptions are **correlated dimensions**, not distinct groups
+2. Attributes can load on **multiple factors**
+3. Better suited for Likert-scale perception data
+
+### Regression Model
+
+- **Method**: OLS with standardized coefficients
+- **Dependent Variable**: Likelihood to Visit (1-5 scale)
+- **Sample**: n = 1,101 with complete funnel and benefit data
 
 ---
 
@@ -257,10 +236,10 @@ Despite low ratings on Affordability (2.31) and Crowding (2.12):
 
 | File | Description |
 |------|-------------|
+| `output/reports/sem_full_model_results.csv` | Full model coefficients |
+| `output/reports/sem_model_comparison.csv` | Funnel vs Full model comparison |
+| `output/reports/sem_segment_results.csv` | Segment-level analysis |
 | `output/reports/factor_loadings.csv` | Factor loadings for all attributes |
-| `output/reports/factor_impact.csv` | Factor impact on visit intent |
-| `output/reports/segment_factor_scores.csv` | Factor scores by segment |
-| `output/reports/factor_regression_coefficients.csv` | Full regression results |
 
 ---
 
@@ -269,7 +248,10 @@ Despite low ratings on Affordability (2.31) and Crowding (2.12):
 ```bash
 cd japan_market_analysis
 
-# Run factor analysis (recommended)
+# Run full SEM model with benefits
+python3 src/full_sem_with_benefits.py
+
+# Run factor analysis only
 python3 src/brand_benefit_factor_analysis.py
 
 # Run clustering analysis (for comparison)
@@ -280,4 +262,4 @@ python3 src/brand_benefit_cluster_analysis.py
 
 ---
 
-*Analysis completed using 6 months of TDL Brand Tracking Survey data*
+*Analysis completed using 6 months of TDL Brand Tracking Survey data (n = 1,101)*
