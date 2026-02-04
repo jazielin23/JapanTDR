@@ -74,63 +74,66 @@ factor_scores_raw = fa.fit_transform(X_std)
 # Get loadings
 loadings = fa.components_.T
 
-# Determine factor names by examining top loading attributes
+# Analyze factor loadings and create detailed factor profiles
 factor_names = {}
-used_names = set()
+factor_details = {}
+clean_names = [col.replace('tdl_func_', '').replace('tdl_emot_', '').replace('_', ' ').title() 
+               for col in all_benefit_cols]
+
+# Predefined names based on content analysis
+factor_name_map = {
+    0: "Core TDL Experience",  # Dominant factor with emotional + experiential attributes
+    1: "Value & Accessibility",  # Affordability, crowding
+    2: "Thrills & Innovation",  # Active, adventurous, new
+    3: "Family & Kids Focus"  # Kids, children, family-specific
+}
 
 for i in range(4):
-    top_idx = np.argsort(np.abs(loadings[:, i]))[-5:][::-1]
-    top_attrs = [all_benefit_cols[j].replace('tdl_func_', '').replace('tdl_emot_', '') for j in top_idx]
+    # Get sorted indices by absolute loading
+    sorted_idx = np.argsort(np.abs(loadings[:, i]))[::-1]
     
-    # Name based on content
-    attrs_text = ' '.join(top_attrs)
-    if 'dreams' in attrs_text or 'fantastical' in attrs_text or 'sparkling' in attrs_text:
-        name = "Disney Magic"
-    elif 'affordable' in attrs_text and 'crowded' in attrs_text:
-        name = "Value & Access"
-    elif 'affordable' in attrs_text:
-        name = "Affordability"
-    elif 'crowded' in attrs_text:
-        name = "Crowd Concerns"
-    elif 'innovative' in attrs_text or 'adventurous' in attrs_text or 'thrilling' in attrs_text:
-        name = "Innovation & Thrills"
-    elif ('kids' in attrs_text or 'children' in attrs_text) and 'family' in attrs_text:
-        name = "Family & Kids"
-    elif 'kids' in attrs_text or 'children' in attrs_text:
-        name = "Kids Experience"
-    elif 'family' in attrs_text or 'bond' in attrs_text:
-        name = "Family Bonding"
-    elif 'feel_good' in attrs_text or 'memories' in attrs_text or 'enjoy' in attrs_text:
-        name = "Core Experience"
-    elif 'comfortable' in attrs_text or 'relaxing' in attrs_text:
-        name = "Comfort & Relaxation"
-    else:
-        name = f"Benefit Dimension {i+1}"
+    # Get top loading attributes
+    top_attrs = []
+    for idx in sorted_idx[:10]:
+        attr_name = clean_names[idx]
+        loading = loadings[idx, i]
+        orig_cat = 'Emotional' if 'emot' in all_benefit_cols[idx] else 'Functional'
+        top_attrs.append({
+            'attribute': attr_name,
+            'loading': abs(loading),  # Use absolute for ranking
+            'signed_loading': loading,
+            'category': orig_cat
+        })
     
-    # Ensure unique names
-    original_name = name
-    counter = 2
-    while name in used_names:
-        name = f"{original_name} {counter}"
-        counter += 1
-    used_names.add(name)
+    factor_names[i] = factor_name_map[i]
+    factor_details[i] = {
+        'name': factor_name_map[i],
+        'top_attributes': top_attrs,
+        'n_functional': sum(1 for a in top_attrs if a['category'] == 'Functional'),
+        'n_emotional': sum(1 for a in top_attrs if a['category'] == 'Emotional')
+    }
     
-    factor_names[i] = name
-    print(f"\nFactor {i+1}: {name}")
-    print(f"  Top attributes: {', '.join(top_attrs[:3])}")
+    print(f"\nFactor {i+1}: {factor_name_map[i]}")
+    print(f"  Composition: {factor_details[i]['n_functional']} functional, {factor_details[i]['n_emotional']} emotional")
+    print(f"  Top 5 attributes:")
+    for attr in top_attrs[:5]:
+        print(f"    {attr['loading']:.3f}  {attr['attribute']} ({attr['category']})")
 
-# Flip factor scores so higher = more of that attribute (for interpretability)
-# Check if majority of loadings are negative
+# Flip factor scores so higher = more positive perception (for interpretability)
+# Check if majority of top loadings are negative
 for i in range(4):
-    if np.mean(loadings[:, i]) < 0:
+    top_loadings = [a['signed_loading'] for a in factor_details[i]['top_attributes'][:5]]
+    if np.mean(top_loadings) < 0:
         factor_scores_raw[:, i] *= -1
-        loadings[:, i] *= -1
 
-# Add factor scores to dataframe
+# Add factor scores to dataframe with clean names
+factor_col_names = []
 for i in range(4):
-    analysis_complete[f'F{i+1}_{factor_names[i].replace(" & ", "_").replace(" ", "_")}'] = factor_scores_raw[:, i]
+    col_name = f'F{i+1}_{factor_names[i].replace(" & ", "_").replace(" ", "_")}'
+    analysis_complete[col_name] = factor_scores_raw[:, i]
+    factor_col_names.append(col_name)
 
-factor_cols = [col for col in analysis_complete.columns if col.startswith('F')]
+factor_cols = factor_col_names
 print(f"\nFactor columns: {factor_cols}")
 
 # ============================================================================
@@ -375,6 +378,39 @@ print(f"""
 **F-test**: F({df1}, {df2}) = {f_stat:.2f}, p = {f_pval:.4f}
 """)
 
+# ============================================================================
+# Full Factor Composition for README
+# ============================================================================
+
+print("\n" + "=" * 70)
+print("  FULL FACTOR COMPOSITION")
 print("=" * 70)
+
+for i in range(4):
+    details = factor_details[i]
+    print(f"\n### Factor {i+1}: {details['name']}")
+    print(f"Composition: {details['n_functional']} functional, {details['n_emotional']} emotional attributes")
+    print()
+    print("| Attribute | Loading | Type |")
+    print("|-----------|---------|------|")
+    for attr in details['top_attributes']:
+        print(f"| {attr['attribute']} | {attr['loading']:.3f} | {attr['category']} |")
+
+# Save factor details
+factor_details_list = []
+for i in range(4):
+    for attr in factor_details[i]['top_attributes']:
+        factor_details_list.append({
+            'factor_num': i + 1,
+            'factor_name': factor_names[i],
+            'attribute': attr['attribute'],
+            'loading': attr['loading'],
+            'category': attr['category']
+        })
+
+pd.DataFrame(factor_details_list).to_csv(f'{OUTPUT_DIR}/factor_attribute_details.csv', index=False)
+print(f"\n  Saved: factor_attribute_details.csv")
+
+print("\n" + "=" * 70)
 print("  ANALYSIS COMPLETE")
 print("=" * 70)
