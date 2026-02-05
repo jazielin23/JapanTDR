@@ -1,0 +1,37 @@
+attribute,cluster,original_category,attribute_clean,cluster_name
+tdl_func_relaxing,4,Functional,Relaxing,Experience & Innovation
+tdl_func_enjoy_myself,3,Functional,Enjoy Myself,Family & Kids Appeal
+tdl_func_lifelong_memories,3,Functional,Lifelong Memories,Family & Kids Appeal
+tdl_func_bond_family_friends,3,Functional,Bond Family Friends,Family & Kids Appeal
+tdl_func_great_for_kids_under_6,3,Functional,Great For Kids Under 6,Family & Kids Appeal
+tdl_func_great_for_kids_7_17,3,Functional,Great For Kids 7 17,Family & Kids Appeal
+tdl_func_great_for_adults,3,Functional,Great For Adults,Family & Kids Appeal
+tdl_func_want_children_experience,3,Functional,Want Children Experience,Family & Kids Appeal
+tdl_func_expand_child_worldview,3,Functional,Expand Child Worldview,Family & Kids Appeal
+tdl_func_great_for_all_family,3,Functional,Great For All Family,Family & Kids Appeal
+tdl_func_understands_what_i_like,4,Functional,Understands What I Like,Experience & Innovation
+tdl_func_feel_comfortable,4,Functional,Feel Comfortable,Experience & Innovation
+tdl_func_keeping_up_with_times,4,Functional,Keeping Up With Times,Experience & Innovation
+tdl_func_variety_of_things,1,Functional,Variety Of Things,Magic & Enchantment
+tdl_func_unique_experiences,1,Functional,Unique Experiences,Magic & Enchantment
+tdl_func_repeat_experience,4,Functional,Repeat Experience,Experience & Innovation
+tdl_func_active_adventurous,4,Functional,Active Adventurous,Experience & Innovation
+tdl_func_thrilling,4,Functional,Thrilling,Experience & Innovation
+tdl_func_new_innovative,4,Functional,New Innovative,Experience & Innovation
+tdl_func_something_new,4,Functional,Something New,Experience & Innovation
+tdl_func_not_crowded,5,Functional,Not Crowded,Crowd Management
+tdl_func_character_interaction,1,Functional,Character Interaction,Magic & Enchantment
+tdl_func_worth_short_vacation,4,Functional,Worth Short Vacation,Experience & Innovation
+tdl_func_worth_price,4,Functional,Worth Price,Experience & Innovation
+tdl_func_affordable,2,Functional,Affordable,Affordability
+tdl_func_ticket_options,4,Functional,Ticket Options,Experience & Innovation
+tdl_emot_land_of_dreams,1,Emotional,Land Of Dreams,Magic & Enchantment
+tdl_emot_removed_from_reality,1,Emotional,Removed From Reality,Magic & Enchantment
+tdl_emot_fantastical,1,Emotional,Fantastical,Magic & Enchantment
+tdl_emot_heartwarming,1,Emotional,Heartwarming,Magic & Enchantment
+tdl_emot_soothing_healing,1,Emotional,Soothing Healing,Magic & Enchantment
+tdl_emot_feeling_safe,1,Emotional,Feeling Safe,Magic & Enchantment
+tdl_emot_longing_aspiring,1,Emotional,Longing Aspiring,Magic & Enchantment
+tdl_emot_sparkling,1,Emotional,Sparkling,Magic & Enchantment
+tdl_emot_premium_feeling,1,Emotional,Premium Feeling,Magic & Enchantment
+tdl_emot_feel_good,1,Emotional,Feel Good,Magic & Enchantment
